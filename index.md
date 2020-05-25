@@ -43,5 +43,5 @@ Each week will focus on a different topic.  Whether you'd like to attend for jus
 ---------
 **Students** : Ask your parent for permission before signing up!
 
-**Parents**: Sign-up here!
+**Parents**: [Sign-up here](https://docs.google.com/forms/d/e/1FAIpQLScyE-0Maro-Jo61Q1a0F32paCvr_fVfJovozB_EH0isYBz7MA/viewform)!
 
