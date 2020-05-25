@@ -22,8 +22,9 @@ The camps will focus on four main topics:
 
 ### When
 ----------
-Camps will be held over Zoom from 10am - 12pm E.S.T on Mondays through Thursdays in 4-week sessions. The sessions will run:
-..* First Session: June 15th - July 9th, 2020
+Camps will be held over Zoom from 10am - 12pm E.S.T on Mondays through Thursdays in 4-week sessions.
 
-..* Second Session: July 20th - August 13th, 2020
+- First Session: June 15th - July 9th, 2020
+
+- Second Session: July 20th - August 13th, 2020
 
