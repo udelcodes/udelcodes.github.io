@@ -43,5 +43,5 @@ Each week will focus on a different topic.  Whether you'd like to attend for jus
 ---------
 **Students** : Ask your parent for permission before signing up!
 
-**Parents**: Contact Mel Jurist (form coming)
+**Parents**: (Sign up here)[https://docs.google.com/forms/d/e/1FAIpQLSc2u4xMOktBeiefPk1tug7gkMo06_aXrkWOhsBvyW0yKwhKaw/viewform]
 
