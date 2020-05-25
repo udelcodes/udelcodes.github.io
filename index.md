@@ -2,7 +2,7 @@
 
 # Summer of Cyber
 
-#### The Summer of Cyber is a *free* cyber themed summer camp aimed towards middle schoolers, with or without previous tech experience.
+#### The Summer of Cyber is a *free* cyber themed summer camp aimed towards middle schoolers, with or without previous tech experience. Using zoom, the web, and a little minecraft.
 
 ### Who 
 -------
@@ -22,8 +22,8 @@ The camps will focus on four main topics:
 
 ### When
 ----------
-Camps will be held over Zoom from 10am - 12pm E.S.T on Mondays through Thursdays in 4-week sessions.  
-Each week will focus on a different topic.  Whether you'd like to attend for just one week-long topic or an entire summer-camp cycle that's up to you.  If you'd like to schedule a one-day workshop with our group just reach out to us.
+Camps will be held over Zoom from 10am - 12pm E.S.T on Monday through Thursday over the course of 4 weeks.  
+Each week of the camp will focus on a different topic.  Whether you'd like to attend for just one topic or the entire summer-camp cycle that's up to you.  If you'd like to schedule a one-day workshop with our group just reach out to us.  We will run the same 4-week camp two times this summer.
 
 - First Session: June 15th - July 9th, 2020
 
@@ -31,7 +31,7 @@ Each week will focus on a different topic.  Whether you'd like to attend for jus
 
 #### By Topic: 
 
-- Learning to code: June 15th - June 18th and again July 20th - July 23rd
+- Learning to Code: June 15th - June 18th and again July 20th - July 23rd
 
 - Intro to Cybersecurity: June 22nd - June 25th and again July 27th - July 30th
 
