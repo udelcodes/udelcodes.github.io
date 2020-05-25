@@ -16,18 +16,28 @@ The camps will focus on four main topics:
 
 - Intro to Cybersecurity
 
-- Networks and the Internet
+- Networks and the Internet (using Minecraft)
 
 - Fun with Cryptography
 
 ### When
 ----------
-Camps will be held over Zoom from 10am - 12pm E.S.T on Mondays through Thursdays in 4-week sessions.
+Camps will be held over Zoom from 10am - 12pm E.S.T on Mondays through Thursdays in 4-week sessions.  
+Each week will focus on a different topic.  Whether you'd like to attend for just one week-long topic or an entire summer-camp cycle that's up to you.  If you'd like to schedule a one-day workshop with our group just reach out to us.
 
 - First Session: June 15th - July 9th, 2020
 
 - Second Session: July 20th - August 13th, 2020
 
+#### By Topic: 
+
+- Learning to code: June 15th - June 18th and again July 20th - July 23rd
+
+- Intro to Cybersecurity: June 22nd - June 25th and again July 27th - July 30th
+
+- Fun with Cryptography: June 29th - July 2nd and again August 3rd - August 6th
+
+- Networks and the Internet (using Minecraft): July 6th - July 9th and again August 10th - August 13th
 
 ### How Do I Sign Up?
 ---------
