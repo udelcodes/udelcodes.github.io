@@ -12,13 +12,13 @@ These camps will be hosted by the University of Delaware Cybersecurity Scholars
 ---------
 The camps will focus on four main topics:
 
-..* Learning to Code
+- Learning to Code
 
-..* Intro to Cybersecurity
+- Intro to Cybersecurity
 
-..* Networks and the Internet
+- Networks and the Internet
 
-..* Fun with Cryptography
+- Fun with Cryptography
 
 ### When
 ----------
