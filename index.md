@@ -28,3 +28,10 @@ Camps will be held over Zoom from 10am - 12pm E.S.T on Mondays through Thursdays
 
 - Second Session: July 20th - August 13th, 2020
 
+
+### How Do I Sign Up?
+---------
+**Students** : Ask your parent for permission before signing up!
+
+**Parents**: Sign-up here!
+
