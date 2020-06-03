@@ -13,7 +13,9 @@ To begin, here is an image of Mr. Bean...
 
 Inside of this image is mulitple zipfiles with secret messages inside. We will learn how to uncover those secret messages through the following exercises.
 
-To practice exercises, go to https://learnification.fun/
+-------
+
+## To practice exercises, go to https://learnification.fun/
 
 * **Exercise 1:** Go to Module 1. Here you will being your first exercise of breaking a password.
 
