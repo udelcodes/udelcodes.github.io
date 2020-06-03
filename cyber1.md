@@ -9,7 +9,7 @@ wget https://gist.githubusercontent.com/AndyNovo/b3c91f87d5ba8292e68cae04c8b8c8a
 
 To begin, here is an image of Mr. Bean...
 
-[<img src="https://www.megabeets.net/uploads/1_image.jpg">](http://google.com.au/)
+[<img src="https://www.megabeets.net/uploads/1_image.jpg">](https://www.megabeets.net/uploads/1_image.jpg)
 
 Inside of this image is mulitple zipfiles with secret messages inside. We will learn how to uncover those secret messages through the following exercises.
 
