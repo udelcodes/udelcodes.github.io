@@ -2,6 +2,14 @@
 
 Go to the web terminal [here](http://157.230.203.138/term).
 
+First we need to install binwalk. You can do this by using the following commands exactly, in the web terminal. 
+```
+git clone https://github.com/ReFirmLabs/binwalk.git
+cd binwalk
+python setup.py install
+cd ..
+```
+
 After you type a command, remember to press the *enter* key on your keyboard to run it. 
 
 To keep your files neat, make a new directory using the *mkdir* command. 
