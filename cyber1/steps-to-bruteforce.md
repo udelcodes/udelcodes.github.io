@@ -90,8 +90,7 @@ wget https://raw.githubusercontent.com/josh-newton/python-zip-cracker/master/cra
 ```
 
 Now we will run the python script on the zip file.
-
-Example: 
+ 
 ```
 python cracker.py -f 10251.zip -d wordlist.txt
 ```
