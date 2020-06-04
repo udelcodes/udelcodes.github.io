@@ -8,7 +8,7 @@ To begin, here is an image of Mr. Bean...
 Inside of this image is mulitple zipfiles with secret messages inside. We will learn how to uncover those secret messages through the following exercises.
 
 
-## To practice exercises, go to https://learnification.fun/
+## To practice exercises, go to [learnification.fun](https://learnification.fun/) 
 Go to Moudles and select, 'Week on of Cyber Day 1!'
 
 * **Exercise 1:** Here you will being your first exercise of breaking a password.
@@ -24,6 +24,6 @@ Go to Moudles and select, 'Week on of Cyber Day 1!'
 After you have completed these exercieses, we will now try to attempt to uncover zipfiles hidden within an image. we will do this using the terminal. 
 * The terminal is a way to speak with your computer **more directly** without using your mouse.
 
-To start this exercuse, go to https://udel.codes/cyber1/steps-to-bruteforce
+To start this exercuse, go to [this page!](https://udel.codes/cyber1/steps-to-bruteforce) 
 
 
