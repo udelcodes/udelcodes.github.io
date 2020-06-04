@@ -2,7 +2,7 @@
 
 ### Daily Puzzle
 
-![crypto crossword](/assets/images/crypto_crossword.png)  
+![crypto crossword](images/crypto_crossword.PNG)  
 **Word Bank**  
 ENCODE  
 DECODE  
