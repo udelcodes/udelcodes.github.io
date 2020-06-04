@@ -95,3 +95,42 @@ password incorrect--reenter:
 
 Now we will try to crack the password to the zip file using a *wordlist* and a *python script.* 
 
+We need to use *wget* to get the wordlist file, and the python script file from the internet into our terminal. 
+
+Run the two *wget* commands below.
+
+Get the wordlist:
+```
+wget https://raw.githubusercontent.com/udelcodes/udelcodes.github.io/master/cyber1/chat_log/wordlist.txt
+```
+
+Get the python script:
+```
+wget https://raw.githubusercontent.com/josh-newton/python-zip-cracker/master/cracker.py
+```
+
+Now we will run the python script on the zip file.
+
+Example: 
+```
+python cracker.py -f 10251.zip -d wordlist.txt
+```
+
+After you run the script, it will tell you if it found the right password to the zip file using your wordlist 
+```
+[+] Found password = busyviolet44
+```
+
+Now you *cd* into the "secret_message" folder and type *ls* to see the extracted file. 
+```
+ls
+message.txt
+```
+
+You can see what is inside of "message.txt" by using the *cat* command.
+```
+cat message.txt
+we_are_da_l33k3rs
+```
+
+And you have found the secret message!
