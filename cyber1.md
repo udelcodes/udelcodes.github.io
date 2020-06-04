@@ -20,7 +20,7 @@ Go to Moudles and select, 'Week on of Cyber Day 1!'
 * **Exercise 4a:** You guessed it, a password hack. Use the skills you have deveopled in the last exercises to crack the password.
 
 -----
-
+## Finding a zipfile in an image
 After you have completed these exercieses, we will now try to attempt to uncover zipfiles hidden within an image. we will do this using the terminal. 
 * The terminal is a way to speak with your computer **more directly** without using your mouse.
 
