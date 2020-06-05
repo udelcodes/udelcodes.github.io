@@ -5,3 +5,10 @@
 <p> We're so glad you're here, and we're so excited to teach you guys some new and exciting things, and we hope you're excited to learn!</p>
 <h2> Why learn to code? </h2>
 There are so many reasons to learn to code, here's just a few: 
+<ul>
+  <li>It's fun!</li>
+  <li>It can help you solve some of the world's biggest problems</li>
+  <li>Gain a better understanding of the world around you</li>
+  <li>Have more career choices in the future</li>
+  <li>You can create and build nearly anything you can imagine</li>
+</ul>
