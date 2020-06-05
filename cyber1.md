@@ -26,7 +26,9 @@ Apparently there is a briefcase hidden in there somehow.
 
 ----
 
-Alice and Bob believe in you, and our desserts are counting on you.  The first lesson they want to teach you is how to evaluate the security of a locking mechanism.  If you're protecting important recipes you'll need a secure lock, but you can't just take someone's word for it.  They hand you a credit card, a lock-picking kit, and some magnetic tape, you're going to learn just how secure doors really are (or aren't)!
+Alice and Bob believe in you, and our desserts are counting on you.  The first lesson they want to teach you is how to evaluate the security of a locking mechanism.  If you're protecting important recipes you'll need a secure lock, but you can't just take someone's word for it.  They hand you a credit card, a lock-picking kit, a hammer, and some sort of auto-lock pick. 
+
+You're going to learn just how secure doors really are (or aren't)!
 
 
 ## To practice exercises, go to <a href="https://learnification.fun/" target="_blank">learnification.fun!</a>
