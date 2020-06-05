@@ -14,10 +14,18 @@ There are so many reasons to learn to code, here's just a few:
 </ul>
 Let's get started! 
 <h2>Build your own website!</h2>
+<h3> 1. Make a GitHub account</h3>
+Go to <a href="https://github.com/" target="_blank" >github.com</a> to create an account if you don't already have one
+<h3> 2. Make your own github page</h3>
+Create a new repository called <your username>.github.io (If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) <br>
+Go into your repository, and make a new file called index.html <br>
+That's all for now, keep this tab open, we'll come back to it later!
+
 <h3>HTML</h3>
 First, we'll learn about HTML so you can build your very own website!
 Click <a href="./introtohtml/index.html" target="_blank" >here</a> to start learning <br>
-Ready to try it for yourself? Click <a href="sdfdf" target="_blank">here</a> to make your own! <br>
+Ready to try it for yourself? go into your <b>index.html</b> file and start writing! <br>
+Need a little help? use the template found <a href="./introtohtml/template.html" target="_blank" >here</a> to get started
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
 Now try adding some CSS to your website!
