@@ -29,7 +29,7 @@ Narrative power needed below here
 
 Train with them on how to pick locks and crack codes so we can uncover the secret plans.
 
-## To practice exercises, go to [learnification.fun](https://learnification.fun/) 
+## To practice exercises, go to <a href="https://learnification.fun/" target="_blank">learnification.fun!</a>
 Go to Moudles and select, 'Week on of Cyber Day 1!'
 
 * **Exercise 1:** Here you will being your first exercise of breaking a password.
@@ -38,15 +38,15 @@ Go to Moudles and select, 'Week on of Cyber Day 1!'
 
 * **Exercise 3:** Another password hack! Yet this one might take a little more time. 
 
-* **Exercise 4a:** You guessed it, a password hack. Use the skills you have deveopled in the last exercises to crack the password.
-
 -----
-## Finding a zipfile in an image
+## Finding the secret message!
 After you have completed these exercieses, we will now try to attempt to uncover zipfiles hidden within an image. we will do this using the terminal. 
 * The terminal is a way to speak with your computer **more directly** without using your mouse.
 
-To start this exercise, go to [this page!](https://udel.codes/cyber1/steps-to-bruteforce)
-<a href="https://udel.codes/cyber1/steps-to-bruteforce" target="_blank">This Page</a>
+We are going to try and uncover the secret message within the package that was intercepted from the l33k3rs!
+
+To start this exercise, go to
+<a href="https://udel.codes/cyber1/steps-to-bruteforce" target="_blank">this page!</a>
 
 
 
