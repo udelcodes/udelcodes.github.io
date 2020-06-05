@@ -57,6 +57,8 @@ Requires a large amount of mathematical knowledge
 
 ## Let's Get Cracking...
 
+Today we will be learning some of the first ciphers ever used (cipher is another word for a secret code). We will learn how to solve the Ceasar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.
+
 ### The Caesar Cipher
 
 ![caesar salad](https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/166356.jpg)  
@@ -81,8 +83,10 @@ other.
 - We'll try an example with a 19 letter shift
 - Pull out your wheels! We're ging to try an example.  
 ![caesar example 1](images/caesar1.PNG)  
-- Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.  
-Now, we have to figure out how to use this key. Let's try and decode this Ceasar Cipher. The answer will be my favorite place to visit.  
+- Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.
+
+Now, we have to figure out how to use this key. Let's try and decode this Ceasar Cipher. The answer will be my favorite place to visit.
+
 **MAX UXTVA**
 
 Start by finding the first letter of the code, "M", on your big circle. Then, write down the letter on the small circle that is lined up with the "M" on your outside circle. To give you a hint, the first letter should be a "T". Now, all you have to do is keep repeating this for each letter of the message and then you will know my favorite place to visit. 
@@ -110,3 +114,9 @@ Remember, once you have 1 letter figured out, you can line it up on your wheel a
 
 Now that you've learned about Caesar Ciphers and how to decode them, head to this [link](https://learnification.fun/) for more practice. Log in using any google account you or your parents have. Then click on the menu button in the top left corner, and click on bathroom ciphers. This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
 
+### The Substitution Cipher
+
+The Substitution Cipher is very similar to the Caesar Cipher, there are just a few slight differences.  
+We are going to focus on the Aristocrat cipher here.
+
+### Aristocrat
