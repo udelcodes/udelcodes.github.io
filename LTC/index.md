@@ -12,3 +12,9 @@ There are so many reasons to learn to code, here's just a few:
   <li>Have more career choices in the future</li>
   <li>You can create and build nearly anything you can imagine</li>
 </ul>
+Let's get started! 
+<h2>Build your own website!</h2>
+First, we'll learn about HTML so you can build your very own website!
+Click <a href="DIANE'S CODE" target="_blank">here</a> to start learning
+Ready to try it for yourself? Click <a href="sdfdf" target="_blank">here</a> to make your own!
+
