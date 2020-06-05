@@ -2,7 +2,7 @@
 
 ## Password Day
 
-Meet Alice and Bob!
+# Meet Alice and Bob!
 
 ![Alice and Bob](https://physicsworld.com/wp-content/uploads/2013/04/PW-2013-04-163-Communication-without-particles-pic1.jpg)
 
@@ -25,6 +25,8 @@ They found this package and are convinced there is more than meets the eye:
 Apparently there is a briefcase hidden in there somehow.
 
 ----
+
+# Your Training Begins
 
 Alice and Bob believe in you, and our desserts are counting on you.  The first lesson they want to teach you is how to evaluate the security of a locking mechanism.  If you're protecting important recipes you'll need a secure lock, but you can't just take someone's word for it.  They hand you a credit card, a lock-picking kit, a hammer, and some sort of auto-lock pick. 
 
@@ -55,6 +57,9 @@ Each time you crack a lock, copy the **flag** and insert it into the answer box.
 ![Tools make it great](https://prof.ninja/gameimages/auto.jpg)
 
 -----
+
+# Today's Big Mission
+
 ## Open the briefcase, find the secret message!
 
 You're ready to crack the l33k3rs secret code.  Let's find their briefcase and use our new skills to find the secrets to their nefarious plot.
@@ -72,3 +77,13 @@ To start this exercise, go to
 Once you've found the secret message, put it into <a href="https://learnification.fun/" target="_blank">learnification.fun!</a> to claim today's certificate!
 
 Maybe we can show you how to send your own secret messages in images...
+
+----
+
+# The Call
+
+## We need you
+
+Alice and Bob believe you've got what it takes.  They want you to join them in the fight to protect the world's dessert recipes (and power grid, the internet, our banks, Netflix, and all of the other things needing protecting).  
+
+<a href="https://www.cyberseek.org/pathway.html" target="_blank">Let's look at the jobs you could do!</a>
