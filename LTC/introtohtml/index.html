@@ -18,17 +18,17 @@
     <meta name="twitter:title" content="Web Design in 4 minutes">
     <meta name="twitter:description" content="Learn the basics of web design in 4 minutes with this interactive tutorial.">
     <meta name="twitter:image" content="https://jgthms.com/web-design-in-4-minutes/learn-web-design-in-4-minutes.png">
- 
+
     <link rel="stylesheet" type="text/css" href="styles.css"> 
     <script src="things.js"></script> 
   </head>
 <body>
     <header id="header">
         <img id="logo" src="web-design-in-4-minutes.png" alt="Web Design in 4 minutes logo">
-        <h1>Web Design in 4 minutes</h1>
-        <p>
+        <h1>Introduction to HTML</h1>
+        <!-- <p>
         <a href="https://jgthms.com" target="_blank">Inspired by Jeremy Thomas</a>
-        </p>
+        </p> -->
     </header>
 
     <main>
@@ -40,11 +40,14 @@
         <section id="content">
         <h2>Head</h2>
         <p>Before we begin to add content, we will set up the <b>head</b> element. The <b>head</b> stores a bunch of information about the website (such as the author's name, keywords for search engines, and other information), along with links to the CSS and JavaScript files that your HTML file is accessing.</p>
-        <pre><span class="selector">&lt;head&gt;</span>
-            <span class="attribute">&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;</span>
-            <span class="attribute">&lt;title&gt;<input type="text" id="inputTitle" value="Intro to HTML" onkeyup="changeTitle()"></input></span>&lt;/title&gt;
-        &lt;/head&gt;</pre>
-        <p> In the head, you can also set the title of your website. Go ahead and change the title above.</p>
+        <p> In the head, you can also set the title of your website. Go ahead and change the title in the input box below. If you look up at the tab at the top of the browser, you can see the name change, too!</p>
+        <div class="code">
+            <span class="mainTag">&lt;head&gt;</span><br>
+            <span>&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;</span><br>
+            <span class="attribute">&lt;title&gt;<input type="text" id="inputTitle" value="Intro to HTML" onkeyup="changeTitle()"></input></span>&lt;/title&gt;<br>
+            <span class="mainTag">&lt;/head&gt;</span><br>
+        </div>
+        
         <p> Once you've changed the title, you're ready to <a class ="step" data-step="1" href="#centering">add some content to your page!</a></p>
         </section>
 
@@ -52,25 +55,31 @@
         <h2>Content - Basic Tags</h2>
         <p>Try to add some content to the page by putting some text in the input box below. You can also choose what type of element you would like to add. </p>
 
-        <pre><span class="selector">&lt;body&gt;</span>
+        <div class="code">
+            <span class="mainTag">&lt;body&gt;</span>
             <div id="centeringContent"></div>
-        &lt;/body&gt;</pre>
+            <span>            
+                <input type="text" id ="userInput"></input>
+                <select name="elementType" id="elementType">
+                    <option value="p">Paragraph</option>
+                    <option value="h1">Header 1</option>
+                    <option value="h2">Header 2</option>
+                    <option value="h3">Header 3</option>
+                    <option value="h4">Header 4</option>
+                    <option value="h5">Header 5</option>
+                    <option value="h6">Header 6</option>
+                </select>
+            </span>
+            <button id="inputButton" onClick="appendContent()">Add</button><br>
+            <span class="mainTag">&lt;/body&gt;</span>
+        </div>
 
-        <span>            <input type="text" id ="userInput"></input>
-            <select name="elementType" id="elementType">
-        <option value="p">Paragraph</option>
-        <option value="h1">Header 1</option>
-        <option value="h2">Header 2</option>
-        <option value="h3">Header 3</option>
-        <option value="h4">Header 4</option>
-        <option value="h5">Header 5</option>
-        <option value="h6">Header 6</option>
-            </select></span>
 
-    <button id="inputButton" onClick="appendContent()">Add</button>
+
+
 
         <p>Above is what the code that you've added looks like in HTML. Below is what the code looks like once it's been rendered on the page. How cool is that?</p>
-        <div id="userContent"></div>
+        <div id="userContent" class="rendering"></div>
         <p>You've just made text in different sizes! Now that we can do that, <a class="step" data-step="2" href="#font-family">click here to make some </a> lists!</p>
         </section>
 
@@ -78,20 +87,30 @@
         <h2>Lists</h2>
             <p>In HTML, there are three different ways to display lists of items. You can have an <b>unordered</b> list, where the items are displayed using bullet points, you can have an <b>ordered</b> list, where items are numbered, and you can have <b>description lists</b>, where items are given names and descriptions. Let's check them out!</p>
 
-            <pre><span class="selector">&lt;body&gt;</span>
-                    <div id="ulist">&lt;ul&gt;
-                        <p>&lt;li&gt;I'm a list item in an unordered list!&lt;li&gt;</p>
-                    </div>&lt;/ul&gt;
-                    <div id="olist">&lt;ol&gt;
-                        <p>&lt;li&gt;I'm a list item in an ordered list!&lt;/li&gt;</p>
-                    </div>&lt;/ol&gt;
-                    <div id="dlist">&lt;dl&gt;
-                        <p>&lt;dt&gt;I'm a description list term!&lt;/dt&gt;</p>
-                        <p>&lt;dd&gt;And I'm a description list description!&lt;/dd&gt;</p>
-                    </div>&lt;/dl&gt;
-            &lt;/body&gt;</pre>
+            <div class="code">
+                <span class="mainTag">&lt;body&gt;</span><br>
+                <span>&lt;ul&gt;</span><br>
+                    <div id="ulist">
+                        <span>&lt;li&gt;I'm a list item in an unordered list!&lt;li&gt;</span><br>
+                    </div>
+                <span>&lt;/ul&gt;</span><br>
+                <span>&lt;ol&gt;</span><br>
+                <div id="olist">
+                    <span>&lt;li&gt;I'm a list item in an ordered list!&lt;/li&gt;</span><br>
+                </div>
+                <span>&lt;/ol&gt;</span><br>
+                <span>&lt;dl&gt;</span><br>
+                    <div id="dlist">
+                        <span>&lt;dt&gt;I'm a description list term!&lt;/dt&gt;</span><br>
+                        <span>&lt;dd&gt;And I'm a description list description!&lt;/dd&gt;</span><br>
+                    </div>
+                <span>&lt;/dl&gt;</span><br>
+                <span class="mainTag">&lt;/body&gt;</span>
+        
+            </div>
 
-            <div id="listRenderings">
+
+            <div id="listRenderings" class="rendering">
                 <ul id="ulistRender">
                     <li>I'm a list item in an unordered list!</li>
                 </ul>
@@ -131,23 +150,25 @@
             <li>Click the <b>Change Image</b> button and <em>voila</em>, your image should appear below!</li>
         </ol>
         <div class="code">
-            <p>&lt;body&gt;</p>
-            <p>&lt;img src=<input type="text" id="imageSource" value="Link to the image"></input> alt=<input type="text" value="Description" id="altimage"></input> height="200" width="200" &gt;    <button onclick="addImage()">Change Image</button></p>
+            <span class="mainTag">&lt;body&gt;</span><br>
+            <span>&lt;img src=<input type="text" id="imageSource" value="Link to the image"></input> alt=<input type="text" value="Description" id="altimage"></input> height="200" width="200" &gt;    <button onclick="addImage()">Change Image</button></span><br>
 
-            <p>&lt;/body&gt;</p>
+            <span class="mainTag">&lt;/body&gt;</span><br>
         </div>
 
         <div class="rendering">
             <img src="https://images.unsplash.com/photo-1591280371898-22fa17750a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Foggy Overlook" id="userImg" height="200" width="200">
         </div>
         <p>The <b>height</b> and <b>width</b> attributes in the <b>img</b> element above have both been set to 200, so the image will always be 200 pixels in height and 200 pixels in width. If that wasn't there, then the picture would show up as the size that it was when you copied its link.</p>
+        <p>When you change the image, you shouldn't see the alternate description that you entered - which is good! That will only be displayed if the picture can't be for some reason.</p>
         <p>Now that we have images, let's learn how to <a class="step" data-step="4" href="#color-contrast">create links to new pages</a>.</p>
         </section>
 
         <section id="color-contrast">
         <h2>Linking to New Pages</h2>
         <p>Sometimes, you'll want to link to another website from your website. Or, if you want to create more than one HTML page, it's nice to be able to link them all together so you can get from one to the other. We can do this using <b>anchor tags</b>.</p>
-        <ul>Some things to note about anchor tags:
+        <p>Some things to note about anchor tags:</p>
+        <ul>
             <li>They're written as <a class="codeText">&lt;a&gt;&lt;/a&gt;</a></li>
             <li><a class="codeText">href</a> stands for <b>H</b>ypertext <b>REF</b>erence, and is set equal to the URL of the website you want to link to</li>
             <li><a class="codeText">target="_blank"</a> means that the new webpage will open up in another window (and will not change the page that you're on when you click the link).</li>
@@ -156,20 +177,21 @@
         <p>Right now, the code below will link a user to <b>https://www.google.com</b>. Try changing the link to another website!</p>
 
         <div class = "code">
-            <p>&lt;body&gt;</p>
-            <p>&lt;a href=<input type="text" id="userhref" value="https://www.google.com"></input> target="_blank" &gt; <input id="linkDescrip" value="The search engine 'Google'"> &lt;/a&gt;   <button onclick="changeLink()">Change Link</button></p>
-            <p>&lt;/body&gt;</p>
+            <span class="mainTag">&lt;body&gt;</span><br>
+            <span>&lt;a href=<input type="text" id="userhref" value="https://www.google.com"></input> target="_blank" &gt; <input id="linkDescrip" value="The search engine 'Google'"> &lt;/a&gt;   <button onclick="changeLink()">Change Link</button></span><br>
+            <span class="mainTag">&lt;/body&gt;</span>
         </div>
 
         <div class="rendering">
             <a href="https://google.com" target="_blank" id="renderedLink">The search engine "Google"</a>
         </div>
       
-        <p>Now you know how to link to any other page on the internet! As metioned above, you can also link to other HTML pages that YOU have made! We'll look into that more when you begin to build your own <a class="step" data-step="5" href="#balance">out of place</a>.</p>
+        <p>Now you know how to link to any other page on the internet! As metioned above, you can also link to other HTML pages that YOU have made! We'll look into that more when you begin to build your own website. Next, let's learn about forms! (Check back later for this step)
+            <!-- <a class="step" data-step="5" href="#balance">learn about input forms</a>.</p> -->
         </section>
 
         <section id="balance">
-        <h2>Balance</h2>
+        <h2>Forms</h2>
         <p>It only takes a few additional touches to correct the balance of the page:</p>
 <pre><span class="selector">code</span>,
 <span class="selector">pre</span> {
@@ -364,10 +386,9 @@
 
     <a id="visited" href="#share">Looks like you've already been here. Jump to the end?</a>    
     <script>
-        var steps = document.querySelectorAll('.step');
+var steps = document.querySelectorAll('.step');
 var body = document.querySelector('body');
 var html = document.querySelector('html');
-var visited = document.querySelector("visited");
 
 for (var i=0; i < steps.length; i++) {
   var element = steps[i];
@@ -476,13 +497,13 @@ function disabledd() {
 function addToList() {
     var listType = document.getElementById("listType").value;
     var userInput = document.getElementById("listItem").value;
-    var code = document.createElement("p");
+    var code = document.createElement("span");
     var renderCode;
     if (listType === "dl"){
-        var dt = document.createElement("p");
+        var dt = document.createElement("span");
         var ddinput = document.getElementById("userdd").value;
-        dt.innerHTML = "&lt;dt&gt;" + userInput +"&lt;/dt&gt;"
-        code.innerHTML = "&lt;dd&gt;" + ddinput +"&lt;/dd&gt;" 
+        dt.innerHTML = "&lt;dt&gt;" + userInput +"&lt;/dt&gt; <br>"
+        code.innerHTML = "&lt;dd&gt;" + ddinput +"&lt;/dd&gt; <br>" 
         document.getElementById(listType + "ist").appendChild(dt);
         renderCode= document.createElement("dd");
         renderCode.innerHTML = ddinput;
@@ -492,8 +513,8 @@ function addToList() {
     } else {
         renderCode = document.createElement("li");
         renderCode.innerHTML = userInput;
-        var code = document.createElement("p");
-        code.innerHTML = "&lt;li&gt;" + userInput +"&lt;/li&gt;"    
+        var code = document.createElement("span");
+        code.innerHTML = "&lt;li&gt;" + userInput +"&lt;/li&gt; <br>"    
     }
     document.getElementById(listType + "ist").appendChild(code);
     document.getElementById(listType + "istRender").appendChild(renderCode)
