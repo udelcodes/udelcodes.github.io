@@ -12,13 +12,20 @@ They live in this house, the Cyber House:
 
 The are super, but their power isn't from some radioactive spider or what not, it's cybersecurity.  
 
-You've been recruited to train with them and learn how to protect our world from the army of theives known only as the l33k3rs.
+They work for the **Global Dessert Vault**, the international authority responsible for maintaining all of the recipes for the world's best desserts.  
+
+You've been recruited to train with them and learn how to protect our world from their arch nemesis known only as the l33k3rs.
 
 As you all enter the Cyber House they show you what they've found:  [a secret dialogue between two l33k3r agents](https://udel.codes/cyber1/chat_log/chat.html)
 
-They found this image and are convinced there is more than meets the eye:
+They found this package and are convinced there is more than meets the eye:
 
 ![The Leak](https://udel.codes/cyber1/chat_log/leek.png)
+
+Apparently there is a briefcase hidden in there somehow.
+
+----
+Narrative power needed below here
 
 Train with them on how to pick locks and crack codes so we can uncover the secret plans.
 
