@@ -14,9 +14,11 @@ There are so many reasons to learn to code, here's just a few:
 </ul>
 Let's get started! 
 <h2>Build your own website!</h2>
+<h3>HTML</h3>
 First, we'll learn about HTML so you can build your very own website!
 Click <a href="./introtohtml/index.html" target="_blank" >here</a> to start learning <br>
 Ready to try it for yourself? Click <a href="sdfdf" target="_blank">here</a> to make your own! <br>
+<h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/introcss.html" target="_blank" >here</a> to learn about CSS!<br>
 Now try adding some CSS to your website!
 
