@@ -31,6 +31,7 @@ Train with them on how to pick locks and crack codes so we can uncover the secre
 
 ## To practice exercises, go to <a href="https://learnification.fun/" target="_blank">learnification.fun!</a>
 Go to Moudles and select, 'Week on of Cyber Day 1!'
+Each time you complete an exercies, copy the **flag** and insert it into the answer box. Then the next exercise will appear!
 
 * **Exercise 1:** Here you will being your first exercise of breaking a password.
 
