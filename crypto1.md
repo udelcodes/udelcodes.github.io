@@ -108,5 +108,5 @@ Remember, once you have 1 letter figured out, you can line it up on your wheel a
 
 ### Practice!
 
-Now that you've learned about Caesar Ciphers and how to decode them, head to this [link](learnification.fun) for more practice. Log in using any google account you or your parents have. Then click on the menu button in the top left corner, and click on bathroom ciphers. This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
+Now that you've learned about Caesar Ciphers and how to decode them, head to this [link](https://learnification.fun/) for more practice. Log in using any google account you or your parents have. Then click on the menu button in the top left corner, and click on bathroom ciphers. This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
 
