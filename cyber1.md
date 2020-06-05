@@ -1,12 +1,26 @@
-## Welcome to day 1 of Cyber Week
+# Cyber House Rules
 
+## Password Day
 
-To begin, here is an image of Mr. Bean...
+Meet Alice and Bob!
 
-[<img src="https://www.megabeets.net/uploads/1_image.jpg">](https://www.megabeets.net/uploads/1_image.jpg)
+![Alice and Bob](https://physicsworld.com/wp-content/uploads/2013/04/PW-2013-04-163-Communication-without-particles-pic1.jpg)
 
-Inside of this image is mulitple zipfiles with secret messages inside. We will learn how to uncover those secret messages through the following exercises.
+They live in this house, the Cyber House:
 
+![Cyber House Rules](https://i2.wp.com/www.intelligentliving.co/wp-content/uploads/2020/01/cyberhouse-2.jpg)
+
+The are super, but their power isn't from some radioactive spider or what not, it's cybersecurity.  
+
+You've been recruited to train with them and learn how to protect our world from the army of theives known only as the l33k3rs.
+
+As you all enter the Cyber House they show you what they've found:  [a secret dialogue between two l33k3r agents](https://udel.codes/cyber1/chat_log/chat.html)
+
+They found this image and are convinced there is more than meets the eye:
+
+![The Leak](https://udel.codes/cyber1/chat_log/leek.png)
+
+Train with them on how to pick locks and crack codes so we can uncover the secret plans.
 
 ## To practice exercises, go to [learnification.fun](https://learnification.fun/) 
 Go to Moudles and select, 'Week on of Cyber Day 1!'
