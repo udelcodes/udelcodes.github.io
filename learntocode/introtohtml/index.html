@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<head>
+    <title>Intro to HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:url" content="https://jgthms.com/web-design-in-4-minutes/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Web Design in 4 minutes">
+    <meta property="og:description" content="Learn the basics of web design in 4 minutes with this interactive tutorial.">
+    <meta property="og:image" content="https://jgthms.com/web-design-in-4-minutes/learn-web-design-in-4-minutes.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jgthms">
+    <meta name="twitter:creator" content="@jgthms">
+    <meta name="twitter:title" content="Web Design in 4 minutes">
+    <meta name="twitter:description" content="Learn the basics of web design in 4 minutes with this interactive tutorial.">
+    <meta name="twitter:image" content="https://jgthms.com/web-design-in-4-minutes/learn-web-design-in-4-minutes.png">
+<!-- 
+    <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <script src="things.js"></script> 
+  </head>
+<body>
+    <header id="header">
+        <img id="logo" src="web-design-in-4-minutes.png" alt="Web Design in 4 minutes logo">
+        <h1>Web Design in 4 minutes</h1>
+        <p>
+        <a href="https://jgthms.com" target="_blank">Inspired by Jeremy Thomas</a>
+        </p>
+    </header>
+
+    <main>
+        <section id="start">
+        <p>Today, we're going to learn the basics of making a webpage using <em>HTML</em>. <em>HTML</em> stands for <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage, and when combined with CSS and JavaScript, it can be used to make beautiful web sites! <em>HTML</em>'s main purpose is to put content on the page (rather than making the web page look nice or dealing with any math or logic on it), so today, we're going to start adding some content to our page.</p>
+        <p>First, <a class="step" data-step="0" href="#content">click here</a> to set up the title of the web page and learn more about the head section of an <em>HTML</em> document.</p>
+        </section>
+
+        <section id="content">
+        <h2>Head</h2>
+        <p>Before we begin to add content, we will set up the <b>head</b> element. The <b>head</b> stores a bunch of information about the website (such as the author's name, keywords for search engines, and other information), along with links to the CSS and JavaScript files that your HTML file is accessing.</p>
+        <pre><span class="selector">&lt;head&gt;</span>
+            <span class="attribute">&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;</span>
+            <span class="attribute">&lt;title&gt;<input type="text" id="inputTitle" value="Intro to HTML" onkeyup="changeTitle()"></input></span>&lt;/title&gt;
+        &lt;/head&gt;</pre>
+        <p> In the head, you can also set the title of your website. Go ahead and change the title above.</p>
+        <p> Once you've changed the title, you're ready to <a class ="step" data-step="1" href="#centering">add some content to your page!</a></p>
+        </section>
+
+        <section id="centering">
+        <h2>Content - Basic Tags</h2>
+        <p>Try to add some content to the page by putting some text in the input box below. You can also choose what type of element you would like to add. </p>
+
+        <pre><span class="selector">&lt;body&gt;</span>
+            <div id="centeringContent"></div>
+        &lt;/body&gt;</pre>
+
+        <span>            <input type="text" id ="userInput"></input>
+            <select name="elementType" id="elementType">
+        <option value="p">Paragraph</option>
+        <option value="h1">Header 1</option>
+        <option value="h2">Header 2</option>
+        <option value="h3">Header 3</option>
+        <option value="h4">Header 4</option>
+        <option value="h5">Header 5</option>
+        <option value="h6">Header 6</option>
+            </select></span>
+
+    <button id="inputButton" onClick="appendContent()">Add</button>
+
+        <p>Above is what the code that you've added looks like in HTML. Below is what the code looks like once it's been rendered on the page. How cool is that?</p>
+        <div id="userContent"></div>
+        <p>You've just made text in different sizes! Now that we can do that, <a class="step" data-step="2" href="#font-family">click here to make some </a> lists!</p>
+        </section>
+
+        <section id="font-family">
+        <h2>Lists</h2>
+            <p>In HTML, there are three different ways to display lists of items. You can have an <b>unordered</b> list, where the items are displayed using bullet points, you can have an <b>ordered</b> list, where items are numbered, and you can have <b>description lists</b>, where items are given names and descriptions. Let's check them out!</p>
+
+            <pre><span class="selector">&lt;body&gt;</span>
+                    <div id="ulist">&lt;ul&gt;
+                        <p>&lt;li&gt;I'm a list item in an unordered list!&lt;li&gt;</p>
+                    </div>&lt;/ul&gt;
+                    <div id="olist">&lt;ol&gt;
+                        <p>&lt;li&gt;I'm a list item in an ordered list!&lt;/li&gt;</p>
+                    </div>&lt;/ol&gt;
+                    <div id="dlist">&lt;dl&gt;
+                        <p>&lt;dt&gt;I'm a description list term!&lt;/dt&gt;</p>
+                        <p>&lt;dd&gt;And I'm a description list description!&lt;/dd&gt;</p>
+                    </div>&lt;/dl&gt;
+            &lt;/body&gt;</pre>
+
+            <div id="listRenderings">
+                <ul id="ulistRender">
+                    <li>I'm a list item in an unordered list!</li>
+                </ul>
+                <ol id="olistRender">
+                    <li>I'm a list item in an ordered list!</li>
+                </ol>
+                <dl id="dlistRender">
+                    <dt>I'm a description list term!</dt>
+                    <dd>And I'm a description list description!</dd>
+                </dl>
+            </div>
+            <input type="text" value="Something" id="listItem"></input>
+            <input type="text" value="Description (if using a dl)" id="userdd" disabled></input>
+                <select name="listType" id="listType" onchange="disabledd()">
+            <option value="ol" >Ordered List</option>
+            <option value="ul" >Unordered List</option>
+            <option value="dl" >Description List</option>
+            </select>
+            <button onClick="addToList()">Add to List</button>
+
+        <p>Notice the differences between the three different kinds of lists. Next, we're going to learn how to add <a class="step" data-step="3" href="#spacing">images to our HTML</a>.</p>
+        </section>
+
+        <section id="spacing">
+        <h2>Images</h2>
+        <p>Yes, the content that you add to your page can be <em>more</em> than just text! To add an image, you need two things:</p>
+        <ol>
+            <li>A link to an image (either a URL for an image online, or a path to it from the folder your HTML document is in)</li>
+            <li>A description of the image that can be displayed in case the image doesn't load</li>
+        </ol>
+        <p>In the code snippet below, try changing the source for an image. To do this:</p>
+        <ol>
+            <li>Go to <a href="https://unsplash.com/" target="_blank">Unsplash.com</a>, a free website that has thousands of high quality photos, and find a picture that you want to add.</li>
+            <li>Right click on the picture, and click <b>Copy Image Location</b> from the dropdown that appears (this is different from just "Copy Image").</li>
+            <li>On this page, in the code snippet below, remove everything in the input box next to <a class="codeText">src=</a>, and paste in the link you just found by right clicking in the box and selecting <b>Paste</b></li>
+            <li>Remove the text in the input box next to <a class="codeText">alt=</a> that currently says "Foggy Overlook", and type in a description of the picture you chose.</li>
+            <li>Click the <b>Change Image</b> button and <em>voila</em>, your image should appear below!</li>
+        </ol>
+        <div class="code">
+            <p>&lt;body&gt;</p>
+            <p>&lt;img src=<input type="text" id="imageSource" value="Link to the image"></input> alt=<input type="text" value="Description" id="altimage"></input> height="200" width="200" &gt;    <button onclick="addImage()">Change Image</button></p>
+
+            <p>&lt;/body&gt;</p>
+        </div>
+
+        <div class="rendering">
+            <img src="https://images.unsplash.com/photo-1591280371898-22fa17750a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Foggy Overlook" id="userImg" height="200" width="200">
+        </div>
+        <p>The <b>height</b> and <b>width</b> attributes in the <b>img</b> element above have both been set to 200, so the image will always be 200 pixels in height and 200 pixels in width. If that wasn't there, then the picture would show up as the size that it was when you copied its link.</p>
+        <p>Now that we have images, let's learn how to <a class="step" data-step="4" href="#color-contrast">create links to new pages</a>.</p>
+        </section>
+
+        <section id="color-contrast">
+        <h2>Linking to New Pages</h2>
+        <p>Sometimes, you'll want to link to another website from your website. Or, if you want to create more than one HTML page, it's nice to be able to link them all together so you can get from one to the other. We can do this using <b>anchor tags</b>.</p>
+        <ul>Some things to note about anchor tags:
+            <li>They're written as <a class="codeText">&lt;a&gt;&lt;/a&gt;</a></li>
+            <li><a class="codeText">href</a> stands for <b>H</b>ypertext <b>REF</b>erence, and is set equal to the URL of the website you want to link to</li>
+            <li><a class="codeText">target="_blank"</a> means that the new webpage will open up in another window (and will not change the page that you're on when you click the link).</li>
+            <li>In between the two anchor tags, you can put text which will appear on the page. Right now, the text says <em>The search engine 'Google'</em>, but when you click on it, it redirects you to <b>https://www.google.com</b>. You can set the text inbetween the anchor tags to say whatever you want, but the link for <b>href</b> must be exact.</li>
+        </ul>
+        <p>Right now, the code below will link a user to <b>https://www.google.com</b>. Try changing the link to another website!</p>
+
+        <div class = "code">
+            <p>&lt;body&gt;</p>
+            <p>&lt;a href=<input type="text" id="userhref" value="https://www.google.com"></input> target="_blank" &gt; <input id="linkDescrip" value="The search engine 'Google'"> &lt;/a&gt;   <button onclick="changeLink()">Change Link</button></p>
+            <p>&lt;/body&gt;</p>
+        </div>
+
+        <div class="rendering">
+            <a href="https://google.com" target="_blank" id="renderedLink">The search engine "Google"</a>
+        </div>
+      
+        <p>Now you know how to link to any other page on the internet! As metioned above, you can also link to other HTML pages that YOU have made! We'll look into that more when you begin to build your own <a class="step" data-step="5" href="#balance">out of place</a>.</p>
+        </section>
+
+        <section id="balance">
+        <h2>Balance</h2>
+        <p>It only takes a few additional touches to correct the balance of the page:</p>
+<pre><span class="selector">code</span>,
+<span class="selector">pre</span> {
+    <span class="attribute">background</span>: <span class="number">#eee</span>;
+}
+
+<span class="selector">code</span> {
+    <span class="attribute">padding</span>: <span class="number">2</span>px <span class="number">4</span>px;
+    <span class="attribute">vertical-align</span>: text-bottom;
+}
+
+<span class="selector">pre</span> {
+    <span class="attribute">padding</span>: <span class="number">1</span>em;
+}</pre>
+        <p>At this point, you might want to make your page stand out and give it <a class="step" data-step="6" href="#primary-color">identity</a>.</p>
+        </section>
+
+        <section id="primary-color">
+        <h2>Primary color</h2>
+        <p>Most brands have a <strong>primary color</strong> that acts as a visual accent. On a website, this accent can be used to provide emphasis on interactive elements, like <strong>links</strong>.</p>
+<pre><span class="selector">a</span> {
+    <span class="attribute">color</span>: <span class="number">#e81c4f</span>;
+}</pre>
+        <p>But to keep the balance, we will need some <a class="step" data-step="7" href="#secondary-colors">additional colors</a>.</p>
+        </section>
+
+        <section id="secondary-colors">
+        <h2>Secondary colors</h2>
+        <p>The accent color can be complemented with more <em>subtle</em> shades, to be used on borders, backgrounds, or even the body text.</p>
+<pre><span class="selector">body</span> {
+    <span class="attribute">color</span>: <span class="number">#566b78</span>;
+}
+
+<span class="selector">code</span>,
+<span class="selector">pre</span> {
+    <span class="attribute">background</span>: <span class="number">#f5f7f9</span>;
+    <span class="attribute">border-bottom</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#d8dee9</span>;
+    <span class="attribute">color</span>: <span class="number">#a7adba</span>;
+}
+
+<span class="selector">pre</span> {
+    <span class="attribute">border-left</span>: <span class="number">2</span><span class="unit">px</span> solid <span class="number">#69c</span>;
+}</pre>
+        <p>Having changed the shades, why not change the <a class="step" data-step="8" href="#custom-font">shapes</a>...</p>
+        </section>
+
+        <section id="custom-font">
+        <h2>Custom font</h2>
+        <p>Since text is the main content of a webpage, using a <strong>custom font</strong> gives the page even more noticeable identity.</p>
+        <p>While you can embed your own webfont or use an online service like <a href="https://typekit.com" target="_blank">Typekit</a>, let's use <code>"Roboto"</code> from the free <a href="https://fonts.google.com" target="_blank">Google Fonts</a> service:</p>
+<pre><span class="keyword">@import</span> <span class="string">'https://fonts.googleapis.com/css?family=Roboto:300,400,500'</span>;
+
+<span class="selector">body</span> {
+    <span class="attribute">font-family</span>: <span class="string">"Roboto"</span>, <span class="string">"Helvetica"</span>, <span class="string">"Arial"</span>, sans-serif;
+}</pre>
+        <p>After enhancing your identity through <em>text</em>, how about adding a <a class="step" data-step="9" href="#images">thousand words</a>...</p>
+        </section>
+
+        <section id="images">
+        <h2>
+            <img src="images.png" alt="Spongebob rainbow meme saying 'Images'">
+        </h2>
+        <p>Graphics and icons can be used either as ornaments to support your content, or actively take part in the message you want to convey.</p>
+        <p>Let's enhance our header with a nice <strong>background image</strong> from <a href="https://unsplash.com/photos/qH36EgNjPJY" target="_blank">Unsplash</a></p>
+<pre><span class="selector">header</span> {
+    <span class="attribute">background-color</span>: <span class="number">#263d36</span>;
+    <span class="attribute">background-image</span>: url(<span class="string">"header.jpg"</span>);
+    <span class="attribute">background-position</span>: center top;
+    <span class="attribute">background-repeat</span>: no-repeat;
+    <span class="attribute">background-size</span>: cover;
+    <span class="attribute">line-height</span>: <span class="number">1.2</span>;
+    <span class="attribute">padding</span>: <span class="number">10</span><span class="unit">vw</span> <span class="number">2</span><span class="unit">em</span>;
+    <span class="attribute">text-align</span>: center;
+}</pre>
+        <p>Let's also add a <strong>logo</strong></p>
+<pre><span class="selector">header img</span> {
+    <span class="attribute">display</span>: inline-block;
+    <span class="attribute">height</span>: <span class="number">120</span><span class="unit">px</span>;
+    <span class="attribute">vertical-align</span>: top;
+    <span class="attribute">width</span>: <span class="number">120</span><span class="unit">px</span>;
+}</pre>
+        <p>Let's take that opportunity to enhance the text styles.</p>
+<pre><span class="selector">header h1</span> {
+    <span class="attribute">color</span>: white;
+    <span class="attribute">font-size</span>: <span class="number">2.5</span><span class="unit">em</span>;
+    <span class="attribute">font-weight</span>: <span class="number">300</span>;
+}
+
+<span class="selector">header a</span> {
+    <span class="attribute">border</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#e81c4f</span>;
+    <span class="attribute">border-radius</span>: <span class="number">290486</span><span class="unit">px</span>;
+    <span class="attribute">color</span>: white;
+    <span class="attribute">font-size</span>: <span class="number">0.6</span><span class="unit">em</span>;
+    <span class="attribute">letter-spacing</span>: <span class="number">0.2</span><span class="unit">em</span>;
+    <span class="attribute">padding</span>: <span class="number">1</span><span class="unit">em</span> <span class="number">2</span><span class="unit">em</span>;
+    <span class="attribute">text-transform</span>: uppercase;
+    <span class="attribute">text-decoration</span>: none;
+    <span class="attribute">transition</span>: none <span class="number">200</span><span class="unit">ms</span> ease-out;
+    <span class="attribute">transition-property</span>: color, background;
+}
+
+<span class="selector">header a:hover</span> {
+    <span class="attribute">background</span>:  <span class="number">#e81c4f</span>;
+    <span class="attribute">color</span>: white;
+}</pre>
+        <p><a href="#header">And voil&agrave;</a>!</p>
+        <p>We've designed a decent page in just a few minutes, following basic principles of web design. There's only <a class="step" data-step="10" href="#share">one last thing</a> left to do...</p>
+        </section>
+
+        <section id="share">
+        <h2>Learn CSS!</h2>
+        <p>
+            I've written a <strong>44-page pdf</strong> that teaches you how to <strong>build your own webpage</strong> from scratch. <span class="emoji">😃</span>
+        </p>
+        <p class="cover">
+            <a class="resource" href="https://jgthms.com/css-in-44-minutes-ebook">
+            <img src="https://jgthms.com/images/empty.png"
+                    srcset="css-in-44-minutes-book-cover.png 1x,
+                            css-in-44-minutes-book-cover@2x.png 2x,
+                            css-in-44-minutes-book-cover@3x.png 3x,
+                            css-in-44-minutes-book-cover@4x.png 4x"
+                            alt="CSS in 44 minutes book cover"
+                            width="252"
+                            height="352">
+            </a>
+        </p>
+        <h2>Share the love!</h2>
+        <nav class="buttons">
+            <a class="button github" href="https://github.com/jgthms/web-design-in-4-minutes" target="_blank">
+            <em>Download on</em> <strong>GitHub</strong>
+            </a>
+            <a
+            class="button facebook"
+            href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjgthms.com%2Fweb-design-in-4-minutes%2F"
+            rel="nofollow"
+            target="_blank"
+            >
+            <em>Share on</em> <strong>Facebook</strong>
+            </a>
+            <a
+            class="button twitter"
+            data-social-network="Twitter"
+            data-social-action="tweet"
+            data-social-target="https://jgthms.com/web-design-in-4-minutes/"
+            href="https://twitter.com/intent/tweet?text=Web%20Design%20in%204%20minutes&url=https%3A%2F%2Fjgthms.com%2Fweb-design-in-4-minutes%2F&via=jgthms"
+            rel="nofollow"
+            target="_blank"
+            >
+            <em>Share on</em> <strong>Twitter</strong>
+            </a>
+        </nav>
+        <h2>Learn how to design with code!</h2>
+        <p>
+            Here are the resources I wrote to help you learn CSS:
+        </p>
+        <nav class="resources">
+            <a class="resource-marksheet resource" href="http://marksheet.io" target="_blank">
+            <figure class="resource-icon">
+                <img src="marksheet.png" alt="Logo of MarkSheet">
+            </figure>
+            <p>
+                <strong class="resource-name">MarkSheet</strong>
+                my <strong>free tutorial</strong> to learn HTML and CSS
+            </p>
+            </a>
+            <a class="resource-bulma resource" href="https://bulma.io" target="_blank">
+            <figure class="resource-icon">
+                <img src="bulma.png" alt="Logo of Bulma">
+            </figure>
+            <p>
+                <strong class="resource-name">Bulma</strong>
+                my <strong>CSS framework</strong> based on Flexbox, so you can get started right away
+            </p>
+            </a>
+            <a class="resource-css-reference resource" href="http://cssreference.io" target="_blank">
+            <figure class="resource-icon">
+                <img src="css-reference.png" alt="Logo of CSS Reference">
+            </figure>
+            <p>
+                <strong class="resource-name">CSS Reference</strong>
+                my <strong>visual guide</strong> to the most popular CSS properties
+            </p>
+            </a>
+        </nav>
+        <p>Thanks for reading!</p>
+        </section>
+
+        <footer>
+        <a class="button" href="https://jgthms.com" target="_blank">Made by <strong>@jgthms</strong></a>
+        </footer>
+    </main>
+
+    <a id="visited" href="#share">Looks like you've already been here. Jump to the end?</a>    
+    <script>
+        var steps = document.querySelectorAll('.step');
+var body = document.querySelector('body');
+var html = document.querySelector('html');
+var visited = document.querySelector("visited");
+
+for (var i=0; i < steps.length; i++) {
+  var element = steps[i];
+  element.onclick = function(event) {
+    var number = this.dataset.step;
+    var target = this.href;
+    addStep(number, target);
+  }
+};
+
+function removeVisited() {
+  if (document.getElementById('visited')) {
+    body.removeChild(document.getElementById('visited'));
+  }
+}
+
+function addStep(number, target) {
+  html.className += ' step' + number;
+
+  removeVisited();
+
+  if (target !== '') {
+    var id = target.split('#')[1];
+    document.getElementById(id).className = 'animate';
+  }
+
+  if (number === '7') {
+    loadGoogleFont();
+  }
+}
+
+visited.onclick = function() {
+  loadGoogleFont();
+  for (var i=0; i < 11; i++) {
+    html.className += ' step' + i;
+  }
+  removeVisited();
+}
+
+WebFontConfig = {
+  google: {
+    families: ['Roboto:300,400,500']
+  }
+};
+
+function loadGoogleFont() {
+  (function(d) {
+    var wf = d.createElement('script'), s = d.scripts[0];
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js';
+    s.parentNode.insertBefore(wf, s);
+  })(document);
+}
+
+function appendContent() {
+    var elementType = document.getElementById("elementType").value;
+    var userInput = document.getElementById("userInput").value
+  var para = document.createElement(elementType);
+  var node = document.createTextNode(userInput);
+    var htmlNode = document.createTextNode("<" + elementType + ">"+ userInput + "</" + elementType+">");
+    document.getElementById("centeringContent").appendChild(htmlNode);
+    document.getElementById("centeringContent").appendChild(document.createElement("br"));
+  para.innerHTML = userInput;
+  document.getElementById("userContent").appendChild(para);
+}
+
+function makeList() {
+    var tags = document.getElementsByClassName("listType")
+    for (var i = 0; i < tags.length; i++) {
+        tags[i].innerHTML = document.getElementById("listType").value;
+    }
+    var list = document.getElementById("list")
+    list.parentNode.removeChild(list);
+    var newList = document.createElement(document.getElementById("listType").value)
+    newList.set
+    list.parentNode.appendChild(newList);
+    document.get
+
+}
+
+function changeBackgroundColor() {
+  var color = document.getElementById("background").value;
+  document.body.style.backgroundColor = color;
+  //document.getElementById("backgroundColor").innerHTML = color;
+}
+
+function changeStrongColor() {
+  var color = document.getElementById("strongText").value;
+  var strongs = document.getElementsByTagName("strong");
+  for(let i = 0 ; i < strongs.length; i++) {
+    strongs[i].style.color = color;
+  }
+  document.getElementById("strongcolor").innerHTML = color;
+}
+
+function changeTitle() {
+    var newTitle = document.getElementById("inputTitle").value;
+    var titles = document.getElementsByTagName("title");
+    titles[0].innerHTML = newTitle;
+
+}
+
+function disabledd() {
+    document.getElementById("userdd").disabled = (!(listType = document.getElementById("listType").value === "dl"));
+}
+
+function addToList() {
+    var listType = document.getElementById("listType").value;
+    var userInput = document.getElementById("listItem").value;
+    var code = document.createElement("p");
+    var renderCode;
+    if (listType === "dl"){
+        var dt = document.createElement("p");
+        var ddinput = document.getElementById("userdd").value;
+        dt.innerHTML = "&lt;dt&gt;" + userInput +"&lt;/dt&gt;"
+        code.innerHTML = "&lt;dd&gt;" + ddinput +"&lt;/dd&gt;" 
+        document.getElementById(listType + "ist").appendChild(dt);
+        renderCode= document.createElement("dd");
+        renderCode.innerHTML = ddinput;
+        var dtcode = document.createElement("dt");
+        dtcode.innerHTML = userInput
+        document.getElementById(listType + "istRender").appendChild(dtcode);
+    } else {
+        renderCode = document.createElement("li");
+        renderCode.innerHTML = userInput;
+        var code = document.createElement("p");
+        code.innerHTML = "&lt;li&gt;" + userInput +"&lt;/li&gt;"    
+    }
+    document.getElementById(listType + "ist").appendChild(code);
+    document.getElementById(listType + "istRender").appendChild(renderCode)
+
+}
+
+function addImage() {
+    var imgSrc = document.getElementById("imageSource").value
+    var alt = document.getElementById("altimage").value
+    var img = document.getElementById("userImg")
+    img.alt = alt;
+    img.src= imgSrc;
+}
+
+function changeLink() {
+    var newLink = document.getElementById("userhref").value
+    var newDescrip = document.getElementById("linkDescrip").value
+    var userLink = document.getElementById("renderedLink")
+    userLink.href = newLink;
+    userLink.innerHTML = newDescrip;
+
+}
+
+    </script>
+      </body>
+    </html>
