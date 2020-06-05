@@ -2,19 +2,21 @@
 
 ### Daily Puzzle
 
-![crypto crossword](images/crypto_crossword.PNG)  
-**Word Bank**  
-ENCODE  
-DECODE  
-SUBSTITUTION  
-CAESAR  
-BACONIAN  
-CYBERCHEF  
-DATA PROTECTION  
-PLAINTEXT  
-CIPHER  
-CRYPTOGRAPHY  
-CYBERSECURITY
+![crypto_crossword](images/crypto_crossword.PNG)
+
+#### Word Bank
+
+- ENCODE  
+- DECODE  
+- SUBSTITUTION  
+- CAESAR  
+- BACONIAN  
+- CYBERCHEF  
+- DATA PROTECTION  
+- PLAINTEXT  
+- CIPHER  
+- CRYPTOGRAPHY  
+- CYBERSECURITY
 
 ### Daily Camp Outline
 
@@ -23,7 +25,9 @@ CYBERSECURITY
 10:15 - 10:55 -- Lesson part 1  
 10:55 - 11:00 -- Optional Break - can stay and chit chat, get water, snack, bathroom break  
 11:00 - 11:50 -- Lesson part 2  
-11:50 - 12:00 -- Summary/discussion of the day’s lessons
+11:50 - 12:00 -- Summary/discussion of the day’s lessons  
+
+And remeber, all of our material that we cover week will be available on **THIS** website, so you can come back to it whenever you'd like.
 
 ### Who Are We?
 
@@ -31,14 +35,14 @@ We are the CyberSecurity Scholars from the University of Delaware.
 This week's lesson was created by Nikki Pilla, Peter Haushalter, and Sophia Smith, 
 along with help from other members of the CyberSecurity Scholars community.
 
-### What is Cryptology?
+### What is Cryptography?
 
 It’s what spies use!  
 It’s the breaking and creating of secret codes  
 Sort of like passing secrete notes  
 In cybersecurity, it's used to keep your data safe and secure
 
-### Cybersecurity and Cryptology
+### Cybersecurity and Cryptography
 
 Cryptology is a pillar to Cybersecurity. Without secret codes there would be no cybersecurity.  
 Ciphers are one way, Hashes are another way.  
@@ -50,3 +54,23 @@ Working for the NSA
 Working for the Police or other government agencies  
 Working for companies to keep their data secure
 Requires a large amount of mathematical knowledge 
+
+## Let's Get Cracking...
+
+### The Caesar Cipher
+
+![caesar salad](https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/166356.jpg)  
+The **Caesar Cipher** was invented by Julius Caesar to protect military secrets of the Roman Empire. 
+It was one of the first ciphers ever invented!  
+
+## Caesar Wheel
+
+Before starting to learn about the Caesar Cipher, take some time to print and assemble [Ceasar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
+In order to assemble your wheel, follow these steps:  
+- Cut out the two wheels from the pdf. 
+- *Carefully* poke a hole through the dot in the centre of each wheel.
+- Place the smaller circle over the larger circle so that the holes line up, and join them
+together using a paperclip.
+- The two circles should be able to rotate around this centre hole with respect to each
+other.
+
