@@ -45,6 +45,7 @@ Go to Moudles and select, 'Week on of Cyber Day 1!'
 After you have completed these exercieses, we will now try to attempt to uncover zipfiles hidden within an image. we will do this using the terminal. 
 * The terminal is a way to speak with your computer **more directly** without using your mouse.
 
-To start this exercise, go to [this page!](https://udel.codes/cyber1/steps-to-bruteforce) 
+To start this exercise, go to [this page!](https://udel.codes/cyber1/steps-to-bruteforce){:target="_blank"}
+
 
 
