@@ -200,3 +200,86 @@ You can research the K3 and K4 alphabets when you get to them, or you can try an
 You can research the last 2 alphabets that we didn't cover (K1 and K2).  
 You can also use [this Aristocrat generator](https://codepen.io/AndyNovo/full/KKpNRxw) created by our professor Dr. Andrew Novocin to practice an unlimited amount of Aristocrat Ciphers.  
 If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
+
+## Switching Gears: Baconian Cipher
+
+Now that we've learned about the Ceasar and Substitution Ciphers, lets check out a new cipher called the Baconian Cipher. This cipher is quite different from the Caesar Cipher, but it is another one of the original ciphers. Baconian may sound like one of your favorite breakfast foods, but it's actually named after it's founder, Sir Francis Bacon, who created the Baconian Cipher is 1605.
+
+### What is the Baconian Cipher and How Does it Work?
+
+- It is based on 5 bit binary encoding (this means 5 digit strings made up of 2 symbols represent each letter)
+- Traditionally, the 5 bit encoding is strings of "A"'s and "B"'s
+- There are 2 versions of the Baconian alphabet
+  - We will use the version where I/J have the same encoding and U/V have the same encoding
+ - Here is the Baconian alphabet
+ 
+ ![baconian alphabet](images/baconian_alphabet.PNG)
+ 
+- In the encoded message, there are two typefaces or different symbols that each represent an “A” or a “B”
+- Replace the typeface with the respective letter it represents (A or B)
+- Use the alphabet of the Baconian cipher to determine the plaintext letter
+
+### Let's Try an Example
+
+Here is the coded messade you have to decode:
+
+**LEt uS StaRt WitH aN EAsy PrOBLEm fIrST. FUn!**
+
+Look closely at this message and see if you can identify the 2 typefaces.  
+You will see that some letters are capitalized, while some letters are lowercase.  
+Now you have a choice to make. You can either choose to have lowercase letters represent A and capital letters represent B, or you can choose the opposite where capital letters represent A and lowercase letters represent B.  
+Only one of these options is correct, and the other option will give you a random string of letters.  
+The only way to find out which method is correct is to test it!  
+Rewrite the message in "A"'s and "B"'s based on whichever choice you made.  
+Then, split the message into groups of 5 letters. Each group of 5 "A"'s and "B"'s represents 1 plaintext letter.  
+Now use the Baconian alphabet to decode the message! If the decoded message doesn't make sense, try switching which kind of letter represents an "A" and which kind of letter represents a "B".
+
+ ![baconian alphabet](images/baconian_alphabet.PNG)
+ 
+ ### Another Example, With a Twist
+ 
+This cipher seems easy enough when the typefaces are clear. However, sometimes you have more than 2 options to choose from that could represent your "A"'s and "B"'s. To show this, try this example:
+
+**NO** G**oOD** d**E**e**D g**O**Es u**n**Pu**N**IsH**e**d.**
+
+Remeber in this example, you can choose between lowercase/capital letters or bolded/unbolded letters.
+
+### Practice!
+
+Now that you've learned about the Baconian Cipher and how to decode it, head to [this link](https://learnification.fun/module/crypto/TRYTOFINDANOTHERBATHROOMTHATHASTOILETPAPER) for more practice.
+If it asks you to log in, log in using any google account you or your parents have. 
+Then you will be presented with some example Baconian Ciphers.  
+If you really love the Baconian Cipher, you can try to solve this one. It's very tough to solve since there are so many possibilities for A and B.
+
+![Baconian hard example](images/Baconian1.PNG)
+
+## Last Cipher of the Day: Pig Pen Cipher!
+
+The Pig Pen Cipher is less formal than the previous ciphers, but it is a lot of fun! 
+
+### What is the Pig Pen Cipher?
+
+For the Pig Pen Cipher, each letter of the alphabet is assigned to a symbol based on this chart...
+
+![Pig Pen Alphabet](https://crypto.interactive-maths.com/uploads/1/1/3/4/11345755/8550539_orig.gif)
+
+...which can be interpreted in this way
+
+![pig pen alphabet 2](https://lobestir.files.wordpress.com/2014/05/cypher-pig-pen-lower.png?w=840)
+
+All you have to do is match the symbols with the corresponding letters!
+
+### Example Time!
+
+Try to solve this Pig Pen cipher using the Pig Pen alphabet.
+
+![Pig Pen Example 1](images/pig_pen1.PNG
+
+#### End of Day Wrap Up
+
+Congratulations! You made it through day 1!!  
+We hope you had fun learning about the different ciphers today.  
+If you really liked today's lesson, be sure to check out the extra resources mentioned with each type of cipher.  
+Take what you learned today and go teach a friend or a family member, and you can start sending secret messages to each other!  
+See you tomorrow for a new lesson on the different number systems in cryptography.  
+The next lesson will use [this link](https://udel.codes/crypto2).
