@@ -25,7 +25,7 @@ That's all for now, keep this tab open, we'll come back to it later!
 First, we'll learn about HTML so you can build your very own website!
 Click <a href="./introtohtml/index.html" target="_blank" >here</a> to start learning <br>
 Ready to try it for yourself? go into your <b>index.html</b> file and start writing! <br>
-Need a little help? use the template found <a href="./introtohtml/template.html" target="_blank" >here</a> to get started
+Need a little help? use the template found <a href="https://codepen.io/mariavanv/pen/YzwXKvQ" target="_blank" >here</a> to get started
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
 Now try adding some CSS to your website!
