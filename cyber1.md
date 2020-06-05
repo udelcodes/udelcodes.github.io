@@ -25,23 +25,41 @@ They found this package and are convinced there is more than meets the eye:
 Apparently there is a briefcase hidden in there somehow.
 
 ----
-Narrative power needed below here
 
-Train with them on how to pick locks and crack codes so we can uncover the secret plans.
+Alice and Bob believe in you, and our desserts are counting on you.  The first lesson they want to teach you is how to evaluate the security of a locking mechanism.  If you're protecting important recipes you'll need a secure lock, but you can't just take someone's word for it.  They hand you a credit card, a lock-picking kit, and some magnetic tape, you're going to learn just how secure doors really are (or aren't)!
+
 
 ## To practice exercises, go to <a href="https://learnification.fun/" target="_blank">learnification.fun!</a>
-Go to Moudles and select, 'Week on of Cyber Day 1!'
-Each time you complete an exercies, copy the **flag** and insert it into the answer box. Then the next exercise will appear!
+Go to Moudles and select, 'Week of Cyber Day 1!'
 
-* **Exercise 1:** Here you will being your first exercise of breaking a password.
+Each time you crack a lock, copy the **flag** and insert it into the answer box. Then the next lock will appear!
+
+* **Exercise 1:** For the first lock it looks like a job for your credit-card:
+
+![cracking the lock](https://mk0artoflockpic9s07b.kinstacdn.com/wp-content/uploads/2020/05/How-to-Pick-a-Lock-with-a-Credit-Card-1024x384.jpg)
 
 * **Exercise 2:** Here you will break another password however this one is hash protected.
 
-* **Exercise 3:** Another password hack! Yet this one might take a little more time. 
+![Using a lockpick set](https://theravingtrends.com/wp-content/uploads/2020/03/lock-picking-set-.jpg)
+
+* **Exercise 3:** Another password hack! When you have a hammer everything is a nail...
+
+![When you have a hammer everything is a nail](https://prof.ninja/gameimages/hammer.jpg)
+
+<iframe height="800px" width="100%" src="https://repl.it/@AndyNovo/TightOvalHacks-1?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+* **Exercise 4:** Last password hack. Let's use the power of automation!
+
+![Tools make it great](https://prof.ninja/gameimages/auto.jpg)
 
 -----
-## Finding the secret message!
-After you have completed these exercieses, we will now try to attempt to uncover zipfiles hidden within an image. we will do this using the terminal. 
+## Open the briefcase, find the secret message!
+
+You're ready to crack the l33k3rs secret code.  Let's find their briefcase and use our new skills to find the secrets to their nefarious plot.
+
+![busting in](https://ak1.ostkcdn.com/wp-content/uploads/2017/05/briefcase-lock-TWIT.jpg)
+
+We will now attempt to uncover zipfiles hidden within an image. We will do this using the terminal.
 * The terminal is a way to speak with your computer **more directly** without using your mouse.
 
 We are going to try and uncover the secret message within the package that was intercepted from the l33k3rs!
@@ -49,5 +67,6 @@ We are going to try and uncover the secret message within the package that was i
 To start this exercise, go to
 <a href="https://udel.codes/cyber1/steps-to-bruteforce" target="_blank">this page!</a>
 
+Once you've found the secret message, put it into <a href="https://learnification.fun/" target="_blank">learnification.fun!</a> to claim today's certificate!
 
-
+Maybe we can show you how to send your own secret messages in images...
