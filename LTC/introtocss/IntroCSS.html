@@ -1,0 +1,307 @@
+<head>
+  <script src="IntroCSS.js"></script> 
+  <link rel="stylesheet" type="text/css" href="IntroCSS.css">
+
+</head>
+
+
+<body>
+    <header id="header">
+ 
+      <h1>Intro to CSS</h1>
+      <p>
+        <a href="https://jgthms.com" target="_blank">adapted from Jeremy Thomas</a>
+      </p>
+    </header>
+
+    <main>
+      <section id="start">
+        <p> Click the <b>Next</b> button to learn about CSS! </p> 
+        <h3 id = "0" class = "startHidden"> What does <b>CSS</b> stand for?</h3> 
+        <p id="1" class="startHidden">Cascading Style Sheets</p>
+        
+        <h3 id="2" class="startHidden"> What does <b>CSS</b> do?</h3> 
+        <p id="3" class="startHidden"> Describes how HTML elements are to be displayed on screen, lets you make fun changes to your website, like changing color!</p>
+        
+
+        
+        <button type="next" onclick="showNext()">Next</button>
+        
+        <h3> </h3>
+        
+      </section>
+
+      <section id="centering">
+        <h2>Centering</h2>
+        <p>Long lines of text can be hard to parse, and thus hard to <strong>read</strong>. Setting a limit of characters per line greatly enhances the readability and appeal of a wall of text.</p>
+        <p> Try changing the margin and max-width values! Click <b>Change Centering</b> to update the page</p>
+        <p> <i> Hint: try making the margin 100 and the max width 40</i> </p>
+<pre><span class="selector">body</span> {
+  <span class="attribute">margin</span>: <span class="number"><input id="marginInput" placeholder="0" type="text"></input></span> px;
+  <span class="attribute">max-width</span>: <span class="number"><input id="maxWidthInput" placeholder="50"type="text"></input></span><span class="unit">em</span>;
+}</pre>
+
+<button onClick="changeCentering()">Change Centering</button>
+        <p>After styling the text <em>blocks</em>, what about styling the text itself?</p>
+      </section>
+
+      <section id="font-family">
+        <h2>Font family</h2>
+        <p>The browser's font defaults to <code>"Times"</code>, which can look unappealing (mostly because it is the "unstyled" font). Switching to a <strong>sans-serif</strong> font like <code>"Helvetica"</code> or <code>"Arial"</code> can vastly improve the look of your page.</p>
+        <p> Select a font from the dropdown to test some different fonts! </p>
+<pre><span class="selector">body</span> {
+  <span class="attribute">font-family</span>: <select name="fonts" id="fonts">
+    <option value="'Times New Roman', Times, serif"> "Times New Roman", Times, serif</option>
+    <option value="'Comic Sans MS', cursive, sans-serif">"Comic Sans MS", cursive, sans-serif</option>
+    <option value="Impact, Charcoal, sans-serif">Impact, Charcoal, sans-serif</option>
+    <option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">"Lucida Sans Unicode", "Lucida Grande", sans-serif</option>
+    <option value="'Lucida Console', Monaco, monospace">"Lucida Console", Monaco, monospace</option>
+    
+  </select>;
+}</pre>
+<button onClick="changeFont()">Change Font</button>
+
+        <p>While this makes the text more <em>appealing</em>, let's also make it more readable.</p>
+      </section>
+
+      <section id="spacing">
+        <h2>Spacing</h2>
+        <p>When a page looks "broken" to a user, it's usually a <strong>spacing</strong> issue. Providing space both <em>around</em> and <em>within</em> your content can increase the appeal of your page.</p>
+<pre><span class="selector">body</span> {
+  <span class="attribute">line-height</span>: <span class="number"><input id="lineSpaceInput" placeholder="1" type="text"></input></span>;
+  <span class="attribute">padding</span>: <span class="number"><input id="padding1" placeholder="1" type="text"></span><span class="unit">em</span> <span class="number"><input id="padding2" placeholder="1"type="text"></span><span class="unit">em</span>;
+}
+
+<span class="selector">h2</span> {
+  <span class="attribute">margin-top</span>: <span class="number"><input id="marginTopInput" placeholder="1"type="text"></input></span><span class="unit">em</span>;
+  <span class="attribute">padding-top</span>: <span class="number">1</span><span class="unit">em</span>;
+}</pre>
+
+<button onClick="changeSpacing()">Change Spacing</button>
+
+
+        <p>While the layout has greatly improved so far, let's apply more <a class="step" data-step="4" href="#color-contrast">subtle changes</a>.</p>
+      </section>
+
+      <section id="color-contrast">
+        <h2>Color &amp; contrast</h2>
+        <p>Black text on a white background can be harsh on the eyes. Opting for a softer shade of black for body text makes the page more <strong>comfortable</strong> to read.</p>
+<pre><span class="selector">body</span> {
+  <span class="attribute">color</span>: <span class="number" id="backgroundColor">
+  <input id="background" type="text"></input>
+</span>;
+}</pre>
+         <p> Try entering your own background color</p>
+        
+
+  <button onClick="changeBackgroundColor()">Change background</button>
+    <p> Notice how the color changed in the css above!</p>
+        <p>And in order to keep a decent level of <strong>contrast</strong>, let's pick a darker shade for <strong>important</strong> words</p>
+<pre><span class="selector">h1</span>,
+<span class="selector">h2</span>,
+<span class="selector">strong</span> {
+  <span class="attribute">color</span>: <span class="number" id="strongcolor">#333</span>;
+}</pre>
+      <p> Try entering a color for the strong words</p>
+        <input id="strongText" type="text"></input>
+
+  <button onClick="changeStrongColor()">Change strong words</button>   
+       
+        <p>While most of the page has been improved visually, some elements (like the code snippets) still seem <a class="step" data-step="5" href="#balance">out of place</a>.</p>
+      </section>
+
+      <section id="balance">
+        <h2>Balance</h2>
+        <p>It only takes a few additional touches to correct the balance of the page:</p>
+<pre><span class="selector">code</span>,
+<span class="selector">pre</span> {
+  <span class="attribute">background</span>: <span class="number">#eee</span>;
+}
+
+<span class="selector">code</span> {
+  <span class="attribute">padding</span>: <span class="number">2</span>px <span class="number">4</span>px;
+  <span class="attribute">vertical-align</span>: text-bottom;
+}
+
+<span class="selector">pre</span> {
+  <span class="attribute">padding</span>: <span class="number">1</span>em;
+}</pre>
+        <p>At this point, you might want to make your page stand out and give it <a class="step" data-step="6" href="#primary-color">identity</a>.</p>
+      </section>
+
+      <section id="primary-color">
+        <h2>Primary color</h2>
+        <p>Most brands have a <strong>primary color</strong> that acts as a visual accent. On a website, this accent can be used to provide emphasis on interactive elements, like <strong>links</strong>.</p>
+<pre><span class="selector">a</span> {
+  <span class="attribute">color</span>: <span class="number">#e81c4f</span>;
+}</pre>
+        <p>But to keep the balance, we will need some <a class="step" data-step="7" href="#secondary-colors">additional colors</a>.</p>
+      </section>
+
+      <section id="secondary-colors">
+        <h2>Secondary colors</h2>
+        <p>The accent color can be complemented with more <em>subtle</em> shades, to be used on borders, backgrounds, or even the body text.</p>
+<pre><span class="selector">body</span> {
+  <span class="attribute">color</span>: <span class="number">#566b78</span>;
+}
+
+<span class="selector">code</span>,
+<span class="selector">pre</span> {
+  <span class="attribute">background</span>: <span class="number">#f5f7f9</span>;
+  <span class="attribute">border-bottom</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#d8dee9</span>;
+  <span class="attribute">color</span>: <span class="number">#a7adba</span>;
+}
+
+<span class="selector">pre</span> {
+  <span class="attribute">border-left</span>: <span class="number">2</span><span class="unit">px</span> solid <span class="number">#69c</span>;
+}</pre>
+        <p>Having changed the shades, why not change the <a class="step" data-step="8" href="#custom-font">shapes</a>...</p>
+      </section>
+
+      <section id="custom-font">
+        <h2>Custom font</h2>
+        <p>Since text is the main content of a webpage, using a <strong>custom font</strong> gives the page even more noticeable identity.</p>
+        <p>While you can embed your own webfont or use an online service like <a href="https://typekit.com" target="_blank">Typekit</a>, let's use <code>"Roboto"</code> from the free <a href="https://fonts.google.com" target="_blank">Google Fonts</a> service:</p>
+<pre><span class="keyword">@import</span> <span class="string">'https://fonts.googleapis.com/css?family=Roboto:300,400,500'</span>;
+
+<span class="selector">body</span> {
+  <span class="attribute">font-family</span>: <span class="string">"Roboto"</span>, <span class="string">"Helvetica"</span>, <span class="string">"Arial"</span>, sans-serif;
+}</pre>
+        <p>After enhancing your identity through <em>text</em>, how about adding a <a class="step" data-step="9" href="#images">thousand words</a>...</p>
+      </section>
+
+      <section id="images">
+        <h2>
+          
+        </h2>
+        <p>Graphics and icons can be used either as ornaments to support your content, or actively take part in the message you want to convey.</p>
+        <p>Let's enhance our header with a nice <strong>background image</strong> from <a href="https://unsplash.com/photos/qH36EgNjPJY" target="_blank">Unsplash</a></p>
+<pre><span class="selector">header</span> {
+  <span class="attribute">background-color</span>: <span class="number">#263d36</span>;
+  <span class="attribute">background-image</span>: url(<span class="string">"header.jpg"</span>);
+  <span class="attribute">background-position</span>: center top;
+  <span class="attribute">background-repeat</span>: no-repeat;
+  <span class="attribute">background-size</span>: cover;
+  <span class="attribute">line-height</span>: <span class="number">1.2</span>;
+  <span class="attribute">padding</span>: <span class="number">10</span><span class="unit">vw</span> <span class="number">2</span><span class="unit">em</span>;
+  <span class="attribute">text-align</span>: center;
+}</pre>
+        <p>Let's also add a <strong>logo</strong></p>
+<pre><span class="selector">header img</span> {
+  <span class="attribute">display</span>: inline-block;
+  <span class="attribute">height</span>: <span class="number">120</span><span class="unit">px</span>;
+  <span class="attribute">vertical-align</span>: top;
+  <span class="attribute">width</span>: <span class="number">120</span><span class="unit">px</span>;
+}</pre>
+        <p>Let's take that opportunity to enhance the text styles.</p>
+<pre><span class="selector">header h1</span> {
+  <span class="attribute">color</span>: white;
+  <span class="attribute">font-size</span>: <span class="number">2.5</span><span class="unit">em</span>;
+  <span class="attribute">font-weight</span>: <span class="number">300</span>;
+}
+
+<span class="selector">header a</span> {
+  <span class="attribute">border</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#e81c4f</span>;
+  <span class="attribute">border-radius</span>: <span class="number">290486</span><span class="unit">px</span>;
+  <span class="attribute">color</span>: white;
+  <span class="attribute">font-size</span>: <span class="number">0.6</span><span class="unit">em</span>;
+  <span class="attribute">letter-spacing</span>: <span class="number">0.2</span><span class="unit">em</span>;
+  <span class="attribute">padding</span>: <span class="number">1</span><span class="unit">em</span> <span class="number">2</span><span class="unit">em</span>;
+  <span class="attribute">text-transform</span>: uppercase;
+  <span class="attribute">text-decoration</span>: none;
+  <span class="attribute">transition</span>: none <span class="number">200</span><span class="unit">ms</span> ease-out;
+  <span class="attribute">transition-property</span>: color, background;
+}
+
+<span class="selector">header a:hover</span> {
+  <span class="attribute">background</span>:  <span class="number">#e81c4f</span>;
+  <span class="attribute">color</span>: white;
+}</pre>
+        <p><a href="#header">And voil&agrave;</a>!</p>
+        <p>We've designed a decent page in just a few minutes, following basic principles of web design. There's only <a class="step" data-step="10" href="#share">one last thing</a> left to do...</p>
+      </section>
+
+      <section id="share">
+        <h2>Learn CSS!</h2>
+        <p>
+          I've written a <strong>44-page pdf</strong> that teaches you how to <strong>build your own webpage</strong> from scratch. <span class="emoji">😃</span>
+        </p>
+        <p class="cover">
+          <a class="resource" href="https://jgthms.com/css-in-44-minutes-ebook">
+            
+          </a>
+        </p>
+        <h2>Share the love!</h2>
+        <nav class="buttons">
+          <a class="button github" href="https://github.com/jgthms/web-design-in-4-minutes" target="_blank">
+            <em>Download on</em> <strong>GitHub</strong>
+          </a>
+          <a
+            class="button facebook"
+            href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjgthms.com%2Fweb-design-in-4-minutes%2F"
+            rel="nofollow"
+            target="_blank"
+            >
+            <em>Share on</em> <strong>Facebook</strong>
+          </a>
+          <a
+            class="button twitter"
+            data-social-network="Twitter"
+            data-social-action="tweet"
+            data-social-target="https://jgthms.com/web-design-in-4-minutes/"
+            href="https://twitter.com/intent/tweet?text=Web%20Design%20in%204%20minutes&url=https%3A%2F%2Fjgthms.com%2Fweb-design-in-4-minutes%2F&via=jgthms"
+            rel="nofollow"
+            target="_blank"
+            >
+            <em>Share on</em> <strong>Twitter</strong>
+          </a>
+        </nav>
+        <h2>Learn how to design with code!</h2>
+        <p>
+          Here are the resources I wrote to help you learn CSS:
+        </p>
+        <nav class="resources">
+          <a class="resource-marksheet resource" href="http://marksheet.io" target="_blank">
+            <figure class="resource-icon">
+             
+            </figure>
+            <p>
+              <strong class="resource-name">MarkSheet</strong>
+              my <strong>free tutorial</strong> to learn HTML and CSS
+            </p>
+          </a>
+          <a class="resource-bulma resource" href="https://bulma.io" target="_blank">
+            <figure class="resource-icon">
+              
+            </figure>
+            <p>
+              <strong class="resource-name">Bulma</strong>
+              my <strong>CSS framework</strong> based on Flexbox, so you can get started right away
+            </p>
+          </a>
+          <a class="resource-css-reference resource" href="http://cssreference.io" target="_blank">
+            <figure class="resource-icon">
+             
+            </figure>
+            <p>
+              <strong class="resource-name">CSS Reference</strong>
+              my <strong>visual guide</strong> to the most popular CSS properties
+            </p>
+          </a>
+        </nav>
+        <p>Thanks for reading!</p>
+      </section>
+
+      <footer>
+        <a class="button" href="https://jgthms.com" target="_blank">Made by <strong>@jgthms</strong></a>
+      </footer>
+    </main>
+
+    <a id="visited" href="#share">Looks like you've already been here. Jump to the end?</a>
+
+
+
+
+
+
+  

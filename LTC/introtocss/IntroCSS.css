@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  margin: 0px;
+  max-width: 50em;
+}
+
+header {
+  background-color: white
+;
+}
+
+img {
+  border: 1px solid #ddd;
+  max-width: 100%;
+  height: 50;
+
+}
+
+#1 {
+  visibility:hidden;
+}
+
+#2 {
+  visibility:hidden;
+}
+
+.startHidden {
+  visibility:hidden;
+}
+
