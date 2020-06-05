@@ -79,8 +79,8 @@ other.
 - Essentially a shift
 - Plaintext(Regular) alphabet and Cipher(Code) alphabet in alphabetical order
 - We'll try an example with a 19 letter shift
-- Pull out your wheels! We're ging to try an example.
-![caesar example 1](images/caesar1.PNG)
+- Pull out your wheels! We're ging to try an example.  
+![caesar example 1](images/caesar1.PNG)  
 - Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.  
 Now, we have to figure out how to use this key. Let's try and decode this Ceasar Cipher. The answer will be my favorite place to visit.  
 **MAX UXTVA**
@@ -101,7 +101,8 @@ In order to use your Caesar wheel to crack codes, you need to know the size of t
   - Likely words you have most of the letters for
   - 2 letter words (in, on, no, of, so, to, etc.)
   - Name or place that you know is in the cipher
-- Utilize letter frequency  
+- Utilize letter frequency
+
 ![letter frequency chart](images/letter_frequency.PNG)  
 Remember, once you have 1 letter figured out, you can line it up on your wheel and you now have a key to decipher the whole code.
 
