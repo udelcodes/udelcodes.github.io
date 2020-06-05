@@ -17,7 +17,7 @@ Let's get started!
 <h3> 1. Make a GitHub account</h3>
 Go to <a href="https://github.com/" target="_blank" >github.com</a> to create an account if you don't already have one
 <h3> 2. Make your own github page</h3>
-Create a new repository called <your username>.github.io (If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) <br>
+Create a new repository called YourUsername.github.io <br> <i>(If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) </i><br>
 Go into your repository, and make a new file called index.html <br>
 That's all for now, keep this tab open, we'll come back to it later!
 
