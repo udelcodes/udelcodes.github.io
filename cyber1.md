@@ -34,7 +34,7 @@ You're going to learn just how secure doors really are (or aren't)!
 
 
 ## To practice exercises, go to <a href="https://learnification.fun/" target="_blank">learnification.fun!</a>
-Go to Moudles and select, 'Week of Cyber Day 1!'
+Go to Modules and select, 'Week of Cyber Day 1!'
 
 Each time you crack a lock, copy the **flag** and insert it into the answer box. Then the next lock will appear!
 
