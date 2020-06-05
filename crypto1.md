@@ -63,7 +63,7 @@ Requires a large amount of mathematical knowledge
 The **Caesar Cipher** was invented by Julius Caesar to protect military secrets of the Roman Empire. 
 It was one of the first ciphers ever invented!  
 
-## Caesar Wheel
+### Caesar Wheel
 
 Before starting to learn about the Caesar Cipher, take some time to print and assemble [Ceasar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
 In order to assemble your wheel, follow these steps:  
@@ -73,4 +73,39 @@ In order to assemble your wheel, follow these steps:
 together using a paperclip.
 - The two circles should be able to rotate around this centre hole with respect to each
 other.
+
+### What is the Caesar Cipher?
+
+- Essentially a shift
+- Plaintext(Regular) alphabet and Cipher(Code) alphabet in alphabetical order
+- We'll try an example with a 19 letter shift
+- Pull out your wheels! We're ging to try an example.
+![caesar example 1](images/caesar1.PNG)
+- Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.  
+Now, we have to figure out how to use this key. Let's try and decode this Ceasar Cipher. The answer will be my favorite place to visit.  
+**MAX UXTVA**
+
+Start by finding the first letter of the code, "M", on your big circle. Then, write down the letter on the small circle that is lined up with the "M" on your outside circle. To give you a hint, the first letter should be a "T". Now, all you have to do is keep repeating this for each letter of the message and then you will know my favorite place to visit. 
+
+Now, you can try to crack this code on your own. The answer should be a type of cereal.
+
+**VBGGTFHG MHTLM VKNGVA**
+
+Feel free to take a break here and practice writing your own codes using your wheel. You can practice writing your name, your school, your favorite ice cream flavor, or anything you want. If you're eager, try to teach a sibling, parent, or friend how to use your wheel to crack Caesar Ciphers and practice writing secret messages to each other!
+
+### How Do You Solve a Caesar Cipher?
+
+In order to use your Caesar wheel to crack codes, you need to know the size of the shift. Most of the time, you don't know the size of the shift. No worries, we can still solve these codes it just takes a little more thinking. Here are some helpful hints on how to crack Ceasar Ciphers.  
+- Look for a hint, like...
+  - Single letter words (I & A)
+  - Likely words you have most of the letters for
+  - 2 letter words (in, on, no, of, so, to, etc.)
+  - Name or place that you know is in the cipher
+- Utilize letter frequency  
+![letter frequency chart](images/letter_frequency.PNG)  
+Remember, once you have 1 letter figured out, you can line it up on your wheel and you now have a key to decipher the whole code.
+
+### Practice!
+
+Now that you've learned about Caesar Ciphers and how to decode them, head to this [link](learnification.fun) for more practice. Log in using any google account you or your parents have. Then click on the menu button in the top left corner, and click on bathroom ciphers. This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
 
