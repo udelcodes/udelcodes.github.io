@@ -64,7 +64,8 @@ here is a comparison between the original Tom_Nook.png and tom.png. Do you see a
 
 TODO: 
 - add markdown formatting
-- find a way to upload the files from the terminal
+- find a way to upload the files from the terminal so they can share the image with others
+- encourage them to add the file to their website if they want? 
 
 try to crack the password using the directions [here - link to the steps to bruteforce markdown file]
 questions and stuff / assumptions we are making:
