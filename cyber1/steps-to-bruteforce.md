@@ -2,17 +2,6 @@
 
 Go to the web terminal [here](http://157.230.203.138/term).
 
-First we need to install binwalk. You can do this by using the following commands exactly, in the web terminal.
-
-Binwalk takes a look at all of the 0's and 1's that make up your image and it tries to figure out if there are any hidden files inside. We will be using it later on. 
-
-```
-git clone https://github.com/ReFirmLabs/binwalk.git
-cd binwalk
-python setup.py install
-cd ..
-```
-
 After you type a command, remember to press the *enter* key on your keyboard to run it. 
 
 To keep your files neat, make a new directory using the *mkdir* command. 
@@ -30,7 +19,7 @@ Grab the image you want to try to extract a zip file from using the *wget* comma
 wget https://udel.codes/cyber1/chat_log/leek.png
 ```
 
-Use *binwalk* on your image.  
+Use *binwalk* on your image. Binwalk takes a look at all of the 0's and 1's that make up your image and it tries to figure out if there are any hidden files inside. 
 
 Be sure to include the *file extension* along with the name of your image. Your image might have a .jpg, .gif, or .png extension. 
 
@@ -84,18 +73,12 @@ Get the wordlist:
 wget https://raw.githubusercontent.com/udelcodes/udelcodes.github.io/master/cyber1/chat_log/wordlist.txt
 ```
 
-Get the python script:
+Now we will use fcrackzip on the zip file, and tell it to try out every word in our wordlist. 
 ```
-wget https://raw.githubusercontent.com/josh-newton/python-zip-cracker/master/cracker.py
-```
-
-Now we will run the python script on the zip file.
- 
-```
-python cracker.py -f 10251.zip -d wordlist.txt
+fcrackzip -u -D -p "./wordlist.txt" 10251.zip
 ```
 
-After you run the script, it will tell you if it found the right password to the zip file using your wordlist 
+After you run  fcrackzip, it will tell you if it found the right password to the zip file using your wordlist 
 ```
 [+] Found password = busyviolet44
 ```
