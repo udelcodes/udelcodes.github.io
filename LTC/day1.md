@@ -14,8 +14,20 @@ There are so many reasons to learn to code, here's just a few:
 </ul>
 Let's get started! 
 <h2>Build your own website!</h2>
+
 <h3> 1. Make a GitHub account</h3>
-Go to <a href="https://github.com/" target="_blank" >github.com</a> to create an account if you don't already have one
+
+<p>If you already have a GitHub account, you can skip these steps and begin <b> Step 2. Make your own GitHub page</b></p>
+
+<ol>
+  <li>To make a GitHub account, first go to <a href="https://github.com/" target="_blank" >github.com</a></li>
+  <li>It should bring you to a page that says "Sign Up," but if you don't see that click the "Sign Up" button in the upper right corner</li>
+  <li>Create a username, enter your email, and create a password</li>
+  <li>Select your occupation, skill level, and interests from the menu it gives you. (This step doesn't matter too much) </li>
+  <li>Log onto your email. GitHub should've sent you a confirmation email that includes a button that says "Verify Email Address". Click the button to verify your account</li>
+  <li>The button should open up GitHub in your browser. You may need to re-enter your username/email and password. Once you've logged in, you're ready to code!</li>  
+</ol>
+  
 <h3> 2. Make your own github page</h3>
 Create a new repository called YourUsername.github.io <br> <i>(If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) </i><br>
 Go into your repository, and make a new file called index.html <br>
