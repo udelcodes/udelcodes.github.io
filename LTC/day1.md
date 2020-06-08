@@ -29,12 +29,25 @@ Let's get started!
 </ol>
   
 <h3> 2. Make your own github page</h3>
-Create a new repository called YourUsername.github.io <br> <i>(If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) </i><br>
-Go into your repository, and make a new file called index.html <br>
+<ol>
+  <li> Create a new repository by clicking on the little triangle to the right of the <b>+</b> icon in the top right corner and selecting "New repository"</li>
+  <li> Where it says "Repository name," enter YourUsername.github.io <br> <i>(If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) </i><br></li>
+  <li>Click on the button that says "Create New File" (it's been circled in the photo below)</li>
+  </ol>
+  
+  [Where to make a new file](./images/github1.png)
+  
 That's all for now, keep this tab open, we'll come back to it later!
 
 <h3>HTML</h3>
 First, we'll learn about HTML so you can build your very own website!
+
+#### Before we begin learning, let's check out some other websites and look at their HTML. 
+
+In a new tab, open up any website that you like. 
+
+Right click on the website, and click "view page source." This should open up another page, which will contain all of the HTML used to build that website. 
+
 Click <a href="./introtohtml/index.html" target="_blank" >here</a> to start learning <br>
 Ready to try it for yourself? go into your <b>index.html</b> file and start writing! <br>
 Need a little help? use the template found <a href="https://codepen.io/mariavanv/pen/YzwXKvQ" target="_blank" >here</a> to get started
