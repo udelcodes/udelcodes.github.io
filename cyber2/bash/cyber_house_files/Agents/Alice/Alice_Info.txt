@@ -1,5 +1,0 @@
-Agent Code Name: Alice
-Date of Birth: February 20, 2001
-Home State: New York
-Main Coding Skill: HTML/CSS
-Favorite Dessert: Chocolate Cupcakes
