@@ -36,7 +36,7 @@ Let's get started!
   <li>Scroll to the bottom and click the green button that says "Commit new file"</li>
   </ol>
   
-  [Where to make a new file](./images/github1.png)
+  ![Where to make a new file](./images/githubStarter.png)
   
 That's all for now, but keep this tab open since we'll come back to it later!
 
@@ -49,9 +49,13 @@ In a new tab, open up any website that you like.
 
 Right click on the website, and click "view page source." This should open up another page, which will contain all of the HTML used to build that website. 
 
-Click <a href="./introtohtml/index.html" target="_blank" >here</a> to start learning <br>
-Ready to try it for yourself? go into your <b>index.html</b> file and start writing! <br>
-Need a little help? use the template found <a href="https://codepen.io/mariavanv/pen/YzwXKvQ" target="_blank" >here</a> to get started
+Look through their HTML. See if you can find places where it says **div, input, class, id, li,** or **button**
+
+Once you've found some of those items, <a href="./introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
+
+Ready to write your own code? Go back into your <b>index.html</b> file in the GitHub repository we made earlier and start writing! <br>
+If you need a little help,you can use the template found <a href="https://codepen.io/mariavanv/pen/YzwXKvQ" target="_blank" >here</a> to get started. Just copy and paste that file into your own <b>index.html</b> and change the content to say whatever you'd like! Feel free to add your own stuff in there, too!
+
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
 Now try adding some CSS to your website!
