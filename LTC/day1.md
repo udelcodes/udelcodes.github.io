@@ -32,12 +32,13 @@ Let's get started!
 <ol>
   <li> Create a new repository by clicking on the little triangle to the right of the <b>+</b> icon in the top right corner and selecting "New repository"</li>
   <li> Where it says "Repository name," enter YourUsername.github.io <br> <i>(If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) </i><br></li>
-  <li>Click on the button that says "Create New File" (it's been circled in the photo below)</li>
+  <li>Click on the button that says "Create New File" (it's been circled in the photo below) and name it "index.html" but don't put anything in it yet!</li>
+  <li>Scroll to the bottom and click the green button that says "Commit new file"</li>
   </ol>
   
   [Where to make a new file](./images/github1.png)
   
-That's all for now, keep this tab open, we'll come back to it later!
+That's all for now, but keep this tab open since we'll come back to it later!
 
 <h3>HTML</h3>
 First, we'll learn about HTML so you can build your very own website!
