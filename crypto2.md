@@ -25,7 +25,7 @@ In cryptography, cybersecurity, and generally in coding, it is important to unde
 In programming, counting often starts at 0 instead of 1.  
 If you're counting left to right, the “**c**” in **computers** is in the 0th position. The “**o**” is in the 1st position, the “**m**” is in the 2nd position, and so on.
 
-### Binary to Base 10, the Basics
+## Binary to Base 10, the Basics
 
 What is the Binary Number System?
 - The binary number system is made up of only 0s and 1s.
@@ -66,3 +66,106 @@ First, divide 97 by 2.
 When we do that, we get 48 with a remainder of 1. 
 The remainder (1) will become a part of our binary number while the quotient (48) will be divided by 2. 
 This process repeats itself until the quotient becomes 0.
+
+![crypto2.3](images/crypto2.3.PNG)
+
+So the base 10 number **97** is the binary number **1100001**!
+
+Here is a [reference](https://www.cs.odu.edu/~jbollen/cgi-bin/bin2dec.cgi?bin=1100001) for Binary and Base 10 if you need more practice or if you're just curious to learn more.
+
+### Practice Converting Between Binary and Base 10!
+
+Have a friend pick a random number between 1 and 100. 
+Have your friend convert their number into binary. 
+Next, your friend will give you their binary number and you have to convert it back into base 10. 
+Tell your friend your base 10 number and see if the random number your friend matches your answer! 
+Afterwards, try swapping roles.
+
+## How Do You Go From Hexadecimal to Base 10?
+
+How would we represent 0 - 15 as a single number? 
+You can’t. 
+So you have to create a character representing a number. 
+Now A = 10, B = 11 etc
+
+0 = 0  
+1 = 1  
+2 = 2  
+3 = 3  
+4 = 4  
+5 = 5  
+6 = 6  
+7 = 7  
+8 = 8  
+9 = 9  
+A = 10  
+B = 11  
+C = 12  
+D =13  
+E = 14  
+F = 15  
+
+Just like in base 10 where we have a number like 3912, we could view it as 3000 + 900 + 10 + 2.
+
+Or as:
+
+3 x 10<sup>3</sup>,  9 x 10<sup>2</sup>, 1 x 10<sup>1</sup>, 2 * 10<sup>0</sup>
+
+Now what would 192 written as hexadecimal be?
+
+1 x 16<sup>2</sup> + 9 x 16<sup>1</sup> + 2 x 16<sup>0</sup> 
+
+1 x 256 + 9 x 16 + 2 x 1 = 256 + 144 + 2 = 402
+
+What is 2FC then in hexadecimal?
+
+2 x 16<sup>2</sup> + 15 x 16<sup>1</sup> + 12<sup>1</sup>
+
+2 * 256 + 15 x 16 + 12 = 512 + 240 + 12 = 764
+
+Safe number system. 
+
+## How Do You Go From Base 10 to Hexadecimal?
+
+What About base 10 to hexadecimal?
+
+Starting from the decimal number 764.
+
+How many times does 256 divide into 764 as a whole number? 
+
+2 times. Therefore in the 16^2 spot we would put 2.
+
+764 - 2 * 256 = 252 or 764 - 512 = 252
+
+How many times does 16 divide into 252 as a whole number?
+
+15 times. Therefore in the 16^1 spot we would put F
+
+252 - 15 * 16 = 12 or 252 - 240 = 12
+
+The remaining number 12 is then converted directly from base 10 to base 16. This would be C.
+
+That's how we got 2FC in the original problem. 
+
+Now, binary and hexadecimal are very similar. That’s why in computer science the two are used frequently.
+
+## How Do You Go From Binary 10 to Hexadecimal?
+
+0000 - 0  
+0001 - 1  
+0010 - 2  
+0011 - 3  
+0100 - 4  
+0101 - 5  
+0110 - 6  
+0111 - 7  
+1000 - 8  
+1001 - 9  
+1010 - A  
+1011 - B  
+1100 - C  
+1101 - D  
+1110 - E  
+1111 - F
+
+Each hexadecimal digit 0 - F can be represented as 4 1s and 0s.
