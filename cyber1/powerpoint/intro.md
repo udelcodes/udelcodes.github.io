@@ -18,5 +18,5 @@
 ----
 ![Slide 9](https://udel.codes/cyber1/powerpoint/slide9.png)
 ----
-Go to <a href="https://www.udel.codes/cyber1" target="_blank">this page</a> to being
+Go to <a href="https://udel.codes/cyber1" target="_blank">this page</a> to being
 
