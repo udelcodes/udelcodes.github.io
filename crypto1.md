@@ -2,7 +2,7 @@
 
 ### Daily Puzzle
 
-![crypto_crossword](https://udel.codes/crypto_crossword.PNG)
+![crypto_crossword](images/crypto_crossword.PNG)
 
 #### Word Bank
 
