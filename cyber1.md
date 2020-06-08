@@ -1,6 +1,7 @@
 # Cyber House Rules
 
 ## Password Day
+<a href="https://udel.codes/cyber1/powerpoint/intro" target="_blank">Introduction Slideshow</a>
 
 # Meet Alice and Bob!
 
