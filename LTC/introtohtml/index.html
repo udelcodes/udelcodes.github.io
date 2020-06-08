@@ -63,7 +63,7 @@
             <span class="mainTag">&lt;body&gt;</span>
             <div id="centeringContent"></div>
             <span>            
-                <input type="text" id ="userInput"></input>
+                <input type="text" id ="userInput" value="Type something here"></input>
                 <select name="elementType" id="elementType">
                     <option value="p">Paragraph</option>
                     <option value="h1">Header 1</option>
@@ -84,13 +84,13 @@
             <h2>Example 2 - Rendering</h2>
             <div id="userContent"></div>
         </div>
-        <p>You've just made text in different sizes! Before we move on, we also want to say that there is another very common type of <b>element</b> which is called a <b>div</b>. <b>Divs</b> are used to separate/group elements to make the code easier to read, but you can't really see a div just from the page. </p>
+        <p>You've just made text in different sizes! Before we move on, we also want to say that there are two other very common types of <b>elements</b>, which are called <b>div</b>s and <b>span</b>s. They're both used to separate/group elements to make the code easier to read, but you can't really see that they're there just by looking at the page. </p>
             <p>Now that we can add <b>content</b> to our page, <a class="step" data-step="2" href="#lists">click here to make some </a> lists!</p>
         </section>
 
         <section id="lists">
         <h2>Lists</h2>
-            <p>In HTML, there are three different ways to display lists of items. You can have an <b>unordered</b> list, where the items are displayed using bullet points, you can have an <b>ordered</b> list, where items are numbered, and you can have <b>description lists</b>, where items are given names and descriptions. Let's check them out!</p>
+            <p>In HTML, there are three different ways to display lists of items. You can have an <b>unordered</b> list, where the items are displayed using bullet points, you can have an <b>ordered</b> list, where items are numbered, and you can have <b>description lists</b>, where items are given terms and descriptions. Let's check them out!</p>
 
             <div class="code">
                 <h2>Example 3 - Code</h2>
@@ -132,8 +132,8 @@
             <input type="text" value="Something" id="listItem"></input>
             <input type="text" value="Description (if using a dl)" id="userdd" disabled></input>
                 <select name="listType" id="listType" onchange="disabledd()">
-            <option value="ol" >Ordered List</option>
             <option value="ul" >Unordered List</option>
+            <option value="ol" >Ordered List</option>
             <option value="dl" >Description List</option>
             </select>
             <button onClick="addToList()">Add to List</button>
@@ -181,7 +181,7 @@
             <li>They're written as <a class="codeText">&lt;a&gt;&lt;/a&gt;</a></li>
             <li><a class="codeText">href</a> stands for <b>H</b>ypertext <b>REF</b>erence, and is set equal to the URL of the website you want to link to</li>
             <li><a class="codeText">target="_blank"</a> means that the new webpage will open up in another window (and will not change the page that you're on when you click the link).</li>
-            <li>In between the two anchor tags, you can put text which will appear on the page. Right now, the text says <em>The search engine 'Google'</em>, but when you click on it, it redirects you to <b>https://www.google.com</b>. You can set the text inbetween the anchor tags to say whatever you want, but the link for <b>href</b> must be exact.</li>
+            <li>In between the two anchor tags, you can put text which will appear on the page. Right now, the text says <em>The search engine 'Google'</em>, but when you click on it, it redirects you to <b>https://www.google.com</b>. You can set the text in between the anchor tags to say whatever you want, but the link for <b>href</b> must be exact.</li>
         </ul>
         <p>Right now, the code below will link a user to <b>https://www.google.com</b>. Try changing the link to another website!</p>
 
@@ -224,7 +224,7 @@
             <span class="mainTag">&lt;/body&gt;</span>
         </div>
 
-        <p>We haven't learned about buttons or IDs yet, but for now</p>
+        <p>We haven't learned about buttons or IDs yet, but for now just know that clicking the button will print the <b>value</b> of the input you entered</p>
 
         <div class="rendering" >
             <h2>Example 6 - Rendering</h2>
@@ -238,7 +238,7 @@
         </div>
 
         
-        <p>Feel free to choose different values for the <b>type</b> and enter different values in the resultant input fields to see what will be printed. You may have noticed that there's a <b>button</b> element below the input in the code - we'll learn about <b>buttons</b> later. For now, just know that clicking the button will print whatever value the user chose by using the input.</p>
+        <p>Feel free to choose different values for the <b>type</b> and enter different values in the resultant input fields to see what will be printed. </p>
         <p>Notice how when you try to type in an <b>input</b> box when <b>value="password"</b>, the letters are replaced by dots in the box!</p>
 
         <p>If you're giving the user certain choices to pick from, you'll have to make options for each choice with values assigned to them. Try putting different foods in the input boxes below and seeing how that changes the code in <b>Example 7 - Rendering</b>.</p>
@@ -292,12 +292,12 @@
 
         <p>Click the button above and see what happens!</p>
         <p>Now that you've seen what the button did, it's important to note that all of the functionality of the button (a.k.a. the color changing) was done using JavaScript in a method called "myFunction()". If you're page doesn't include any JavaScript, then buttons won't be able to do very much.</p>
-        <p>Websites are normally built using a combination of HTML, CSS, <em>and</em> JavaScript! Later today, we're going to look at more ways to style your website, using <b>CSS</b>! Before you move on to this, there's one more topic that we need to go over: <a class="step" data-step="7" href="#selectors">classes and IDs</a></p> 
+        <p>Websites are normally built using a combination of HTML, CSS, <em>and</em> JavaScript! Later today, we're going to look at more ways to style your website using <b>CSS</b>! Before you move on to this, there's one more topic that we need to go over: <a class="step" data-step="7" href="#selectors">classes and IDs</a></p> 
         </section>
 
         <section id="selectors">
             <h2>Classes and IDs</h2>
-            <p>You can write an HTML page without using <b>classes</b> or <b>IDs</b> (as you've seen in the previous examples); however, if you want to add any colors, styles, or interactive functions to your page, they'll be quite useful. Plus, they're super simple to add!</p>
+            <p>You can write an HTML page without using <b>classes</b> or <b>IDs</b> (as you've seen in the previous examples); however, if you want to add any colors, styles, or interactive functions to your page, <b>class</b>es and <b>ID</b>s will be quite useful. Plus, they're super simple to add!</p>
             <ul>
                 <li>Class - A <b>class</b> is an HTML attribute that is shared by multiple elements that should be treated similarly. For instance, if you had certain elements that you wanted to be colored red, you can set <b>class="red"</b> for each of them, and then write <b>CSS</b> that would turn their color red. An element can also be in multiple classes, too! To add more classes, you just put a space between them, so <b>class="red big"</b> would put the element in the "red" class and the "big" class.</li>
                 <li>ID - An <b>ID</b> is a unique identifier for an element. While multiple elements could/should be in the same <b>class</b>, <b>ID</b>s should be specific for each element. Also, each element should only have <b>one</b> ID (if it has one at all!)</li>
@@ -329,8 +329,8 @@
             </div>
 
             <p>The above code shows how a <b>class</b> and <b>ID</b> would look in HTML. <u>Any</u> type of element can have an <b>ID</b> or <b>classes</b>.</p>
-            <p>Congratulations! You finished our lesson on HTML! While we learned a ton here, there's still a lot more to learn in HTML that we <em>didn't</em> get the chance to go over. Back at <a href="http://www.udel.codes/LTC/HTMLresources" tagret="_blank">https://www.udel.codes/LTC/HTMLresources</a>, we've made a list of resources on HTML that we encourage you to explore! It has more examples of what we did today, plus some links to examples of things that we haven't covered yet!</p>
-            <p>Even though we only covered a bit og HTML today, you still have enough to get started on an awesome web page of your own! Now head back to <a target="_blank" href="http://www.udel.codes/LTC/day1">the main camp website for today</a> to see the next activity!</p>
+            <p>Congratulations! You finished our lesson on HTML! While we learned a ton here, there's still a lot more to learn in HTML that we <em>didn't</em> get the chance to go over. Back at <a href="http://www.udel.codes/LTC/HTMLresources" target="_blank">https://www.udel.codes/LTC/HTMLresources</a>, we've made a list of resources on HTML that we encourage you to explore! It has more examples of what we did today, plus some links to examples of things that we haven't covered yet!</p>
+            <p>Even though we only covered a bit of HTML today, you still have enough to get started on an awesome web page of your own! Now head back to <a target="_blank" href="http://www.udel.codes/LTC/day1">the main camp website for today</a> to see the next activity!</p>
         </section>
     <script>
 var steps = document.querySelectorAll('.step');
