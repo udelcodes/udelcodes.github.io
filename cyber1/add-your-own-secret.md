@@ -1,65 +1,89 @@
+# How to add your own secret messages to an image
+First, go to the web terminal here - [http://157.230.203.138/term] 
 
-first, go to the web terminal here - [link to the web terminal] 
-to keep it organized, make a new directory
+To keep your work organized, make a new directory and then change into it. 
 
+```
 mkdir example
+cd example
+```
 
 written instructions on how to get the link to an image
 gif here on how to get the link to an image
 
-get your image using wget
+Get your image using wget
+```
 wget https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png
+```
 
 In this example, I will be using a picture of Tom Nook 
-[original image of tom nook]
+![Original Tom Nook](https://github.com/udelcodes/udelcodes.github.io/blob/master/cyber1/example/Tom_Nook.png)
  
-make the directory for your secret message
+Make the directory for your secret message
+```
 mkdir secret_message
+```
 
-cd into the directory
+Cd into the directory
+```
 cd secret_message
+```
 
-make a file to hold your secret message
+Make a file to hold your secret message
+```
 touch secret.txt
+```
 
-now write to the file, you can also use cat and the > symbol to tell cat to save to the file. When you are done writing to your message you can hit CTRL-d on your keyboard
+nNw write to the file, you can also use cat and the > symbol to tell cat to save to the file. When you are done writing to your message you can hit CTRL-d on your keyboard
+```
 cat > secret.txt
 this is my secret message
 (now hit CTRL-d on your keyboard)
+```
 
-now go back one directory up using cd and ..
+Now go back one directory up using cd and ..
+```
 cd .. 
+```
 
-now we need to pick a password for our zip file.
+Now we need to pick a password for our zip file.
 
-to make it so that other people can use the wordlist and try to crack the zipfile, we need to take a look at the wordlist. 
+To make it so that other people can use the wordlist and try to crack the zipfile, we need to take a look at the wordlist. 
 
-so get the wordlist using wget 
+So get the wordlist using wget 
+```
 wget https://raw.githubusercontent.com/udelcodes/udelcodes.github.io/master/cyber1/chat_log/wordlist.txt
+```
 
-and then to take a look at the wordlist in the terminal so that you can scroll up and down use the following command
+And then to take a look at the wordlist in the terminal so that you can scroll up and down use the following command
+```
 cat wordlist.txt | more
+```
 
-take a look at the wordlist, and pick a password for your zipfile from that list 
-to keep scrolling down the wordlist (it is quite long) you can keep pressing or holding the ENTER key on your keyboard
-if you have picked a password before you get to the end of the wordlist, hit ctrl-c on the keyboard to exit 
+Take a look at the wordlist, and pick a password for your zipfile from that list 
+To keep scrolling down the wordlist (it is quite long) you can keep pressing or holding the ENTER key on your keyboard
+If you have picked a password before you get to the end of the wordlist, hit ctrl-c on the keyboard to exit 
 
-now we will make our zip file using the zip command. when you run this command, it will ask you for your chosen password twice, and then create your zip file. 
+Now we will make our zip file using the zip command. when you run this command, it will ask you for your chosen password twice, and then create your zip file. 
+```
 zip --encrypt -r secret.zip secret_message/
 Enter password: 
 Verify password: 
   adding: secret_message/ (stored 0%)
   adding: secret_message/secret.txt (stored 0%)
+```
 
-now we need to add the zip file into our image. use the following command, we will be using cat and the > symbol again 
-put the new filename that contains both the image and the zipfile after the > symbol, and match the file extension of the name of the file. make sure to include that file extension
+Now we need to add the zip file into our image. use the following command, we will be using cat and the > symbol again 
+Put the new filename that contains both the image and the zipfile after the > symbol, and match the file extension of the name of the file. Make sure to include that file extension.
+```
 cat Tom_Nook.png secret.zip > tom.png
+```
 
-now in this example, I have made a new file called tom.png, it has the secret zip file and the secret message, but the two look totally the same 
+Now in this example, I have made a new file called tom.png, it has the secret zip file and the secret message, but the two look totally the same 
 
-here is a comparison between the original Tom_Nook.png and tom.png. Do you see any visible difference?
-[original tom nook image]
-[new tom nook image]
+Here is a comparison between the original Tom_Nook.png and tom.png. Do you see any visible difference?
+![Original Tom Nook](https://github.com/udelcodes/udelcodes.github.io/blob/master/cyber1/example/Tom_Nook.png)
+![New Tom Nook](https://github.com/udelcodes/udelcodes.github.io/blob/master/cyber1/example/tom.png)
 
 TODO: 
 - add markdown formatting
