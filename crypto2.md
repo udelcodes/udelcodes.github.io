@@ -1,5 +1,8 @@
 ## W3lc0m3 t0 Day 2 of Crypt0 W33k!!
 
+Today we will be learning about the different number systems that are used in coding and cybersecurity.  
+Specifically, we will be learning about Binary, Base 10, and Hexadecimal.
+
 ### First Up, Mini Math Review!
 
 We know, we know. We promised to teach you about cryptography, not math, 
@@ -25,6 +28,26 @@ In cryptography, cybersecurity, and generally in coding, it is important to unde
 In programming, counting often starts at 0 instead of 1.  
 If you're counting left to right, the “**c**” in **computers** is in the 0th position. The “**o**” is in the 1st position, the “**m**” is in the 2nd position, and so on.
 
+### We Need Your Help!
+
+The FBI intercepted a secret message sent through E Corp.  
+E Corp is an evil business franchise run by Ivan Vladimir and Dmitry Oleg.  
+They are infamous for trying to steal money from the US government!  
+The FBI needs ***YOUR*** help to interpret these secret messages and stop E Corp's evil plan!  
+
+In the first message, Ivan Vladimir and Dmitry Oleg are plotting how much money they are planning to steal. We intercepted it but we don’t know how much they said. 
+
+*Ivan Vladimir: “Dmitry Oleg”  
+Dmitry Oleg: “Dr Vladimir”   
+Ivan Vladimir: “Please comrade, call me Dr. V”  
+“How much are we planning to steal from these Americanos?”  
+Dmitry Oleg: “11010 trillion dollars”
+
+Oh no! We already have 25 trillion dollars in debt!
+
+First, we need to figure out what the 1s and 0s even mean.  
+The FBI thinks they may be written in Binary, let's investigate.
+
 ## Binary to Base 10, the Basics
 
 What is the Binary Number System?
@@ -47,11 +70,15 @@ For example...
 
 ![crypto2.1](images/crypto2.1.PNG)
 
-Then, in order to convert base 10, it would look like this:
+Then, in order to convert to base 10, it would look like this:
 
 ![crypto2.2](images/crypto2.2.PNG)
 
 So the binary number **1100001** is the number **97** in base 10!
+
+Now that we reviewed how to convert from Binary to Base 10, let's go back to helping the FBI stop E Corp!  
+In their message, E Corp said they were planning on stealing 11010 trillion dollars.  
+How much money are they planning on stealing in Base 10?
 
 ### How Do You Go From Base 10 to Binary?
 
@@ -73,15 +100,17 @@ So the base 10 number **97** is the binary number **1100001**!
 
 Here is a [reference](https://www.cs.odu.edu/~jbollen/cgi-bin/bin2dec.cgi?bin=1100001) for Binary and Base 10 if you need more practice or if you're just curious to learn more.
 
-### Practice Converting Between Binary and Base 10!
+### Let's Communicate Like Dr. V Did!
 
-Have a friend pick a random number between 1 and 100. 
-Have your friend convert their number into binary. 
-Next, your friend will give you their binary number and you have to convert it back into base 10. 
-Tell your friend your base 10 number and see if the random number your friend matches your answer! 
-Afterwards, try swapping roles.
+You will be given a number in either Binary or Base 10 from the instructors as well as the name of another participant.  
+Once you get a number, your job is to convert it into the opposite number system.  
+We will split you up into groups of 4. 
+For example, if I give you 9327, your job is to convert it into binary, and if you get 101110 you have to convert it into base 10.  
+Then, you will send your decoded number to the person the instuctor told you (private message them in zoom). 
 
 ## How Do You Go From Hexadecimal to Base 10?
+
+What if we made our own secret code just like E Corp did. Instead of sending numbers as 1s and 0s, what if we send them as numbers ranging from 0 to 15?
 
 How would we represent 0 - 15 as a single number? 
 You can’t. 
@@ -123,7 +152,9 @@ What is 2FC then in hexadecimal?
 
 2 * 256 + 15 x 16 + 12 = 512 + 240 + 12 = 764
 
-Safe number system. 
+We just got a secret message from the FBI that is the combination code to an E Corp safe.  
+It says: “The combination is 6F0”.  
+Decode the message to help the FBI!
 
 ## How Do You Go From Base 10 to Hexadecimal?
 
@@ -170,11 +201,15 @@ Now, binary and hexadecimal are very similar. That’s why in computer science t
 
 Each hexadecimal digit 0 - F can be represented as 4 1s and 0s.
 
+So now we could convert 6F0 into binary, maybe we can send false information to E Corp this way.  
+What if we also combine our binary/ hexadecimal codes with our ciphers from yesterday?  
+By combining different encryption methods, we strengthen the security of our data.
+
 ### End of Day Wrap Up
 
 Congratulations! You made it through day 2!!  
 We hope you had fun learning about the different number systems today.  
 If you really liked today's lesson, be sure to dig deeper into the different number systems in coding and keep learning!  
 Take what you learned today and go teach a friend or a family member, and you can start sending secret messages to each other!  
-See you tomorrow for a new lesson on logical operators and randomness in cryptography.  
+See you tomorrow for a new lesson on operators and randomness in cryptography.  
 The next lesson will use [this link](https://udel.codes/crypto3).
