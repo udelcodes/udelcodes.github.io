@@ -54,7 +54,7 @@ Look through their HTML. See if you can find places where it says **div, input, 
 Once you've found some of those items, <a href="./introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
 
 Ready to write your own code? Go back into your <b>index.html</b> file in the GitHub repository we made earlier and start writing! <br>
-If you need a little help,you can use the template found <a href="https://codepen.io/mariavanv/pen/YzwXKvQ" target="_blank" >here</a> or <a href="./template.html" target="_blank">here</a> to get started. Just copy and paste that file into your own <b>index.html</b> and change the content to say whatever you'd like! Feel free to add your own stuff in there, too!
+If you need a little help,you can use the template found <a href="./template.html" target="_blank">here</a> to get started. Just copy and paste that file into your own <b>index.html</b> and change the content to say whatever you'd like! Feel free to add your own stuff in there, too!
 
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
