@@ -31,4 +31,6 @@ Scenario 1:
   A is if you took notes in class
   B is if you studied for the test
   O is if you pass the class or not 
+  You will pass the test if you either study or took notes, or both
 Scenario 2:
+  
