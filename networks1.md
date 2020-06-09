@@ -42,4 +42,11 @@ We invented the telegraph (the first phone line).
 
 </body>
 
-</h3 
+<h3> The need and desire for fast human interaction is so strong that there was an enormous network developed in just a matter of 
+years </h3>
+
+https://www.youtube.com/watch?v=DKHZKTRyzeg
+
+<h3> Now we will try to talk to each other using morse code! Yay so fun!! </h3>
+
+
