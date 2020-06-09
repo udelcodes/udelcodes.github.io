@@ -6,7 +6,7 @@ To take down the l33k3rs, we need to be able to think like they do, and be able 
 # Intro to bash 
 In the Cyber House, Alice and Bob have created an "Intro To Bash" training grounds, but they suspect that it has been infiltrated by the l33k3rs. However, they don't have any proof. 
 
-Access the training grounds [linktoreadmeofhowtoaccesstraininggrounds] to begin the training and find proof that the l33k3rs have infiltrated the training grounds.  
+Access the training grounds [here](https://udel.codes/cyber2/Bash_Tutorial) to begin the training and find proof that the l33k3rs have infiltrated the training grounds.  
 
 ---
 
