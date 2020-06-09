@@ -1,0 +1,36 @@
+<h1> Networks Day 1 </h1>
+
+Our desire to communicate is strong. When we have to communicate with technology, it's weird. We as people will do all of the
+technological innovation in the world to tell mom we love her.
+
+We learned to talk.
+
+We painted caves (the first instaflex).
+
+We told stories that were memorized and passed on from generation to generation.
+
+We learned to write so we could hand those stories to someone, and deliver them by boat, camel, horse, etc (the first blogs).
+
+We communicated by smoke signals between tribes (the first cellies).
+
+We wrote into stone, paper, hides, and even ropes (the first to-do lists).
+
+We wrote letters (the first e-mails).
+
+We created laws (the first protocols).
+
+We shared culture, intentionally and not (the first memes).
+
+We invented the printing press (the first internet).
+
+We wrote plays and performed them (the first YouTube).
+
+We painted pictures (the first selfies).
+
+We invented puppets (the first cartoons).
+
+We wrote music onto paper (the first mp3s).
+
+We conducted symphonies (the first Spotify).
+
+We invented the telegraph (the first phone line).
