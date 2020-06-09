@@ -169,3 +169,12 @@ Now, binary and hexadecimal are very similar. That’s why in computer science t
 1111 - F
 
 Each hexadecimal digit 0 - F can be represented as 4 1s and 0s.
+
+### End of Day Wrap Up
+
+Congratulations! You made it through day 2!!  
+We hope you had fun learning about the different number systems today.  
+If you really liked today's lesson, be sure to dig deeper into the different number systems in coding and keep learning!  
+Take what you learned today and go teach a friend or a family member, and you can start sending secret messages to each other!  
+See you tomorrow for a new lesson on logical operators and randomness in cryptography.  
+The next lesson will use [this link](https://udel.codes/crypto3).
