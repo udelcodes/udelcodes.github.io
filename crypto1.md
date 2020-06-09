@@ -9,7 +9,7 @@ Specifically, we will be learning about the Caesar Cipher, the Substitution Ciph
 
 #### Word Bank
 
-ENCODE  |  DECODE  |  SUBSTITUTION  |  CAESAR  |  BACONIAN  |  CYBERCHEF  |  DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY
+ENCODE | DECODE | SUBSTITUTION | CAESAR | BACONIAN | CYBERCHEF | DATA PROTECTION | PLAINTEXT | CIPHER | CRYPTOGRAPHY | CYBERSECURITY
 
 ## Let's Get Cracking...
 
