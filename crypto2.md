@@ -1,4 +1,4 @@
-## W3lc0m3 t0 Crypt0 W33k, Day 2!!
+## W3lc0m3 t0 Day 2 of Crypt0 W33k!!
 
 ### First Up, Mini Math Review!
 
