@@ -1,7 +1,7 @@
 ## W3lc0m3 t0 Day 3 of Crypt0 W33k!!
 
-Today we will be learning about logical operators and randomness in cryptography.  
-Specifically, we will learn about the boolean operators, the modulo operator, the XOR operator, 
+Today we will be learning about different operators and randomness in cryptography.  
+Specifically, we will learn about thelogical operators, the boolean operators, the modulo operator, the XOR operator, 
 randomness, and the one-time pad.
 
 ### Background on Logical Operators and the Modulo Operator
