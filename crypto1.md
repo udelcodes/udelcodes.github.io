@@ -1,4 +1,4 @@
-## W3lc0m3 t0 Crypt0 W33k!!
+## W3lc0m3 t0 Day 1 of Crypt0 W33k!!
 
 ### Daily Puzzle
 
