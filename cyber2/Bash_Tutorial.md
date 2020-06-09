@@ -5,9 +5,9 @@ First we will go to the online terminal Alice and Bob provided yesterday: <a hre
 
 Begin by entering the following commands in the terminal...
 
-1. git clone https://github.com/alexarnell/Bash_Tutorial.git
-2. cd Bash_Tutorial
-3. cat cheat_sheet.txt
+1. `git clone https://github.com/alexarnell/Bash_Tutorial.git`
+2. `cd Bash_Tutorial`
+3. `cat cheat_sheet.txt`
 
 Using this cheat sheet you are now unstoppable!
 
