@@ -34,3 +34,11 @@ We wrote music onto paper (the first mp3s).
 We conducted symphonies (the first Spotify).
 
 We invented the telegraph (the first phone line).
+
+<h3> Now let's take a look at how people first communicated over a long distance instantaneously </h3>
+<body>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=7e522NK7gcM&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</h3 
