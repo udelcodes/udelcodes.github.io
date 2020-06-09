@@ -3,7 +3,7 @@
 ### First Up, Mini Math Review!
 
 We know, we know. We promised to teach you about cryptography, not math, 
-but we *promise* that math is an integral part in cryptography.  
+but we *promise* that math is an integral part to cryptography.  
 
 In cryptography, cybersecurity, and generally in coding, it is important to understand exponents.
 
