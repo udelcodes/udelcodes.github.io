@@ -28,15 +28,20 @@ What this line of code does is it allows for us to inject (enter) bash commands 
 
 Now that you know what know what this file does, upload that file just as you did with your dessert image
 
-Once you do that, you will be directed to a page that says **Warning**, and underneath of that will be a little question mark image.
+Once you do that, you will be directed to a page that says 
+> We got your cake image: /cakes/Hack.php
 
-Right click on this image and select, **"Open Link in new Tab"**
+With a little image underneath
+
+Right click on this image and select, **"Open Image in new Tab"**
 
 Once at the new webpage, go to the url and at the very end put this statement...
 
 `?cmd=ls`
 
 Hit enter, and now you see a list of all the files that the website contains! Crazy right! 
+
+The command that is executed is directly after the `=`, so like we learned in the bash tutorial, `ls` prints all the contents of a directory. Now, find the flag!
 
 
 
