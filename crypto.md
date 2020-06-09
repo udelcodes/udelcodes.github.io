@@ -51,3 +51,15 @@ Here are just a *few* potential jobs that relate to cryptography:
 - Working for companies to delevop secure software
 
 To find out more about possible jobs in this field, follow [this link](https://www.indeed.com/q-Cryptography-jobs.html).
+
+## Time to Learn!
+
+Now that we've introduced ourselves, it's time to get down to the good stuff.  
+Below, you will find the links to the each day's lesson.  
+
+[Day 1](https://udel.codes/crypto1) - Introduction to Ciphers  
+[Day 2](https://udel.codes/crypto2) - Introduction to Number Systems  
+[Day 3](https://udel.codes/crypto3) - Operators and Randomness  
+[Day 4](https://udel.codes/crypto4) -  
+
+Good luck!
