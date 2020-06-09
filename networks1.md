@@ -49,4 +49,5 @@ https://www.youtube.com/watch?v=DKHZKTRyzeg
 
 <h3> Now we will try to talk to each other using morse code! Yay so fun!! </h3>
 
+![morse code](images/morse-code.PNG)
 
