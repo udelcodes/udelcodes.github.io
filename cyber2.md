@@ -15,8 +15,8 @@ The l33k3rs have also infiltrated the main desert database and have added leeks 
 
 Alice and Bob have collected the photographic evidence [here](https://udel.codes/cyber2/web-evidence.html). 
 
-The **Global Desert Vault** developers have provided us with a sample copy of their website. They suspect that an old, unprotected file upload page is the culprit, but they can't figure out the l33k3rs managed to use the page to deface the main website. 
+The **Global Desert Vault** developers have provided us with a sample copy of their website. They suspect that an old, unprotected file upload page is the culprit, but they can't figure out how the l33k3rs managed to use the page to deface the main website. 
 
-Take a look and see what you and the rest of the team can learn from the file upload page here (link to page). 
+Take a look and see what you and the rest of the team can learn from the file upload page [here](http://desserts.gel.webfactional.com/). 
 
 
