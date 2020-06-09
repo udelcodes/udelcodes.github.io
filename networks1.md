@@ -48,7 +48,14 @@ years </h3>
 
 <h3> Now we will try to talk to each other using morse code! Yay so fun!! </h3>
 
-![morse code](images/morse-code.PNG)
+![morse code](images/morse-code.png)
 
+** Put some background on what morse code is / how it's useful
 
+** Heart language game
+--> Insert streaming instructions for minecraft here
+
+** Develop our own script for the minecraft people / talk them through it and demonstrate example
+
+<h3> Now Imagine Multiple People Want to Talk at the Same Time </h3>
 
