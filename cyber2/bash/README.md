@@ -6,6 +6,6 @@ Begin by entering the following command in the terminal...
 
 Using this cheat sheet you are now unstoppable!
 
-Total Number of Flags: 5
+**Total Number of Flags: 5**
 
 
