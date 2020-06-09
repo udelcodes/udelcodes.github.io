@@ -37,7 +37,8 @@ We invented the telegraph (the first phone line).
 
 <h3> Now let's take a look at how people first communicated over a long distance instantaneously </h3>
 <body>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7e522NK7gcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7e522NK7gcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 </body>
 
