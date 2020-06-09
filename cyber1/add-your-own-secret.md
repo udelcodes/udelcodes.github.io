@@ -86,7 +86,6 @@ Here is a comparison between the original Tom_Nook.png and tom.png. Do you see a
 ![New Tom Nook](https://github.com/udelcodes/udelcodes.github.io/blob/master/cyber1/example/tom.png)
 
 TODO: 
-- add markdown formatting
 - find a way to upload the files from the terminal so they can share the image with others
 - encourage them to add the file to their website if they want? 
 
