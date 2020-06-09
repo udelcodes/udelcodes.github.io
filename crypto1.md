@@ -1,5 +1,8 @@
 ## W3lc0m3 t0 Day 1 of Crypt0 W33k!!
 
+Today we will be learning about the first ciphers that were used in the old days.  
+Specifically, we will be learning about the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.  
+
 ### Daily Puzzle
 
 ![crypto_crossword](images/crypto_crossword.PNG)
@@ -7,43 +10,6 @@
 #### Word Bank
 
 ENCODE  |  DECODE  |  SUBSTITUTION  |  CAESAR  |  BACONIAN  |  CYBERCHEF  |  DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY
-
-### Daily Camp Outline
-
-10:00 - 10:15 -- Opening puzzle/question  
-10:10 -10:15 -- Intro for the day  
-10:15 - 10:55 -- Lesson part 1  
-10:55 - 11:00 -- Optional Break - can stay and chit chat, get water, snack, bathroom break  
-11:00 - 11:50 -- Lesson part 2  
-11:50 - 12:00 -- Summary/discussion of the day’s lessons  
-
-And remeber, all of our material that we cover this week will be available on **THIS** website, so you can come back to it whenever you'd like.
-
-### Who Are We?
-
-We are the CyberSecurity Scholars from the University of Delaware. 
-This week's lesson was created by Nikki Pilla, Peter Haushalter, and Sophia Smith, 
-along with help from other members of the CyberSecurity Scholars community.
-
-### What is Cryptography?
-
-It’s what spies use!  
-It’s the breaking and creating of secret codes  
-Sort of like passing secrete notes  
-In cybersecurity, it's used to keep your data safe and secure
-
-### Cybersecurity and Cryptography
-
-Cryptography is a pillar to Cybersecurity. Without secret codes there would be no cybersecurity.  
-Ciphers are one way, Hashes are another way.  
-Without Cryptography there would be no internet as the world runs on secret codes!  
-
-### Jobs 
-
-Working for the NSA  
-Working for the Police or other government agencies  
-Working for companies to keep their data secure
-Requires a large amount of mathematical knowledge 
 
 ## Let's Get Cracking...
 
@@ -265,7 +231,7 @@ Try to solve this Pig Pen cipher using the Pig Pen alphabet.
 
 ![Pig Pen Example 1](images/pig_pen1.PNG
 
-#### End of Day Wrap Up
+### End of Day Wrap Up
 
 Congratulations! You made it through day 1!!  
 We hope you had fun learning about the different ciphers today.  
