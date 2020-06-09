@@ -59,3 +59,16 @@ years </h3>
 
 <h3> Now Imagine Multiple People Want to Talk at the Same Time </h3>
 
+Aloha Net was based in Hawaii where they had to communicate between islands. The Aloha Net Protocol was developed so people could
+communicate from two different islands without being interrupted by someone else.
+
+![alohanet](images/aloha-net.png)
+
+** Radio Example
+
+<h3> Noisy Channel </h3>
+
+
+<h3> Now let's all try to make our own protocol for the noisy channel! </h3>
+
+<h3> Let's go back to minecraft and see if our protocol works there too! </h3>
