@@ -47,7 +47,6 @@ cd _leek.png.extracted
 Now that you are in the folder with the extracted files, type *ls* to see the extracted files.
 ```
 ls
-10251.zip  A4  A4.zlib  secret_message
 ```
 
 The *.zip* file is the file that contains the secret message. If you try to look inside the *secret_message* folder right now, you will see that there is nothing inside. 
