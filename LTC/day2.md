@@ -28,9 +28,9 @@ The table above can also be represented using 0's and 1's (0 is no/false, and 1 
 
 Now try to match the following tables with the given scenarios!
 
-Scenario 1: 
+Scenario 1: <br>
 
-  A is if you took notes in class
+  A is if you took notes in class <br>
   
   B is if you studied for the test
   
