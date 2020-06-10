@@ -1,5 +1,5 @@
 # How to add your own secret messages to an image
-First, go to the web terminal here - [http://157.230.203.138/term] 
+First, go to the web terminal [here](http://157.230.203.138/term) 
 
 To keep your work organized, make a new directory and then change into it. 
 
