@@ -27,10 +27,12 @@ Access the training grounds [here](https://udel.codes/cyber2/Bash_Tutorial) to b
 
 ---
 
-# Web infiltration 
+# Web infiltration Mission
 
 The **Global Desert Vault** developers have provided us with a sample copy of their website. They suspect that an old, unprotected file upload page is the culprit, but they can't figure out how the l33k3rs managed to use the page to deface the main website. 
 
-Take a look and see what you and the rest of the team can learn from the file upload page [here](http://desserts.gel.webfactional.com/). 
+Take a look and see what you and the rest of the team can learn from the file upload page [here](http://desserts.gel.webfactional.com/).
+
+Here is a link to the page that may be helpful in your mission to find out how the L33k3rs l33ked our page! Good Luck!
 
 
