@@ -53,4 +53,6 @@ https://xss-game.appspot.com/?utm_source=webopsweekly&utm_medium=email
 
 TODO:  Add XSS Google game 
 
+To learn about bug bounty hunter jobs check out this link:
 
+https://www.hackerone.com/internet-bug-bounty
