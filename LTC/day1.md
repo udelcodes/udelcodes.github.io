@@ -83,5 +83,14 @@ Now that you've add all of this cool content, let's add some color and style to 
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
 Now try adding some CSS to your website!
+Try these tasks:
+<input type="checkbox" >
+  <label>Change Background Color</label><br>
+<input type="checkbox" >
+  <label>Change Text Color</label><br>
+  <input type="checkbox" >
+<label>Change the font</label><br>
+  <input type="checkbox" >
+<label>Change Header Color</label><br>
 
 
