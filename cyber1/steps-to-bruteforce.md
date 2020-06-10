@@ -85,3 +85,6 @@ cat message.txt
 ```
 
 And you have found the secret message!
+
+## TODO:
+- Add screenshots that show the output of each command so that students can simply copy/paste the commands in the code boxes into the terminal 
