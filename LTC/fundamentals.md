@@ -73,6 +73,8 @@ This is how we move through the loop - without this statement, we'd be stuck in 
 
 Let's look at a for loop in action!
 
+In the code below, find the line where it says "function makeDots(numberOfDots)". In the line right below that, you should see a for loop! This for loop says **we have a variable named i, which we'll set equal to 0. We want to repeat whatever is inbetween the two curly brackets (which look like { and } ) that follow this line as long as i is less than numberOfDots. Also, after each time we perform our action, we will add 1 to i**. In this example, **numberOfDots** is whatever number you enter in the box! The code in the curly brackets is a little confusing, but all you need to know is that it *calls* another function which will make a dot, and then it waits 1 second to go through the loop again. **Normally, we'd be able to go through this for loop *almost* instantly, but in order to show how the computer *actually* goes through the for loop 1 dot at a time, I set it so that it will wait 1 second in between making the dots.** 
+
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="WNrrdXv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="for loops">
   <span>See the Pen <a href="https://codepen.io/dianevinson/pen/WNrrdXv">
@@ -80,3 +82,9 @@ Let's look at a for loop in action!
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+There's another **for loop** in the code above - see if you can find it!
+
+The code inside the second **for loop** is used to create a random color for the dot. As you might've learned in the CSS lesson yesterday, colors can be represented by numbers, which in certain number bases can be represented by numbers and letters! The line inside the **for loop** that says 
+     color += letters[Math.floor(Math.random() * 16)];
+says "choose a random number or letter from '0123456789ABCDEF', and then add it to the end of our list of numbers/letters that represent the color. Since the hexcode (a.k.a. the list of numbers and letters) for a color is always 6 characters long, we will repeat this process of choosing a random number/letter from 0-F and adding it to our list **six** times. 
