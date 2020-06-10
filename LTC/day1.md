@@ -54,7 +54,29 @@ Look through their HTML. See if you can find places where it says **div, input, 
 Once you've found some of those items, <a href="./introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
 
 Ready to write your own code? Go back into your <b>index.html</b> file in the GitHub repository we made earlier and start writing! <br>
-If you need a little help,you can use the template found <a href="./template.html" target="_blank">here</a> to get started. Just copy and paste that file into your own <b>index.html</b> and change the content to say whatever you'd like! Feel free to add your own stuff in there, too!
+If you need a little help,you can use the template found <a href="./template.html" target="_blank">here</a> to get started. Just open that file, then right click and hit "View page source", and copy and paste the contents of that file into your own <b>index.html</b> and change the content to say whatever you'd like! Feel free to add your own stuff in there, too!
+
+#### Things to add to YOUR index.html
+<div>
+  <input type="checkbox">
+  <label>Change the title of your page (found in the head)</label><br>
+  <input type="checkbox" >
+  <label>Change the header of your webpage</label><br>
+  <input type="checkbox">
+  <label>Add a link that links back to "http://www.udel.codes/LTC"</label><br> 
+  <input type="checkbox">
+  <label>Add a question that you have to the list of questions</label><br>
+  <input type="checkbox" >
+  <label>Add something that you learned to the list of things that you learned</label><br>
+  <input type="checkbox">
+  <label>Change one of the lists to be an **ordered** list</label><br> 
+  <input type="checkbox">
+  <label>Add a photo to your website!</label><br>
+  <input type="checkbox" >
+  <label>Add a **paragraph** element and introduce yourself in it!</label><br>
+  <input type="checkbox">
+  <label>Add a user input with any type of your choosing!</label><br>
+</div>
 
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
