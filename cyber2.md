@@ -35,4 +35,7 @@ Take a look and see what you and the rest of the team can learn from the file up
 
 Here is a link to the page that may be helpful in your mission to find out how the L33k3rs l33ked our page! Good Luck! <a href="https://udel.codes/cyber2/File_Upload_Tutorial" target="_blank">Tutorial</a>
 
+---
+
+# Bug Bounties
 
