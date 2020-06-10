@@ -231,7 +231,7 @@ All you have to do is match the symbols with the corresponding letters!
 
 Try to solve this Pig Pen cipher using the Pig Pen alphabet.
 
-![Pig Pen Example 1](images/pig_pen1.PNG
+![Pig Pen Example 1](images/pig_pen1.PNG)
 
 ### End of Day Wrap Up
 
