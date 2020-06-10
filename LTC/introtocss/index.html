@@ -1,3 +1,5 @@
+<html id=all>
+
 <head>
   <script src="IntroCSS.js"></script> 
   <link rel="stylesheet" type="text/css" href="IntroCSS.css">
@@ -22,16 +24,38 @@
         
         <h3 id="2" class="startHidden"> What does <b>CSS</b> do?</h3> 
         <p id="3" class="startHidden"> Describes how HTML elements are to be displayed on screen, lets you make fun changes to your website, like changing color!</p>
-        
-
-        
+      
         <button type="next" onclick="showNext()">Next</button>
-        
-        <h3> </h3>
         
       </section>
 
-      <section id="centering">
+      <section id = color>
+        <h2>Color</h2>
+        <p>Black text on a white background can be harsh on the eyes. Opting for a softer shade of black for body text makes the page more <strong>comfortable</strong> to read.</p>
+        <p> Try typing a color like "lightblue" or "green", or use <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">this</a> to pick a color, then enter the 6-digit code with a hastag in front </p>
+        <p>Changing <b>background-color</b> changes the background color, and changing <b>color</b> changes the text color</p>
+
+        <pre><span class="selector">body</span> {
+          <span class="attribute">background-color</span>: <span class="number" id="backgroundColor"><input id="background" type="text" placeholder="white"></input></span>;
+          <span class="attribute">color</span>: <span class="number"><input id="bodyColor" type="text" placeholder="black"></input></span>;
+        }</pre>
+             
+          <button onClick="changeBackgroundColor()">Change background</button>
+
+          <p> Now try changing colors in the header!</p>
+      <pre><span class="selector">header</span> {
+        <span class="attribute">background-color</span>: <span class="number" id="headerColorSpan"><input id="headerColor" type="text" placeholder="white"></input></span>;
+        <span class="attribute">color</span>: <span class="number"><input id="headerTextColor" type="text" placeholder="black"></input></span>;
+
+      }</pre>
+   <button onClick="changeHeaderColor()">Change Header Color</button>
+
+  </section>
+
+
+
+
+<section id="centering">
         <h2>Centering</h2>
         <p>Long lines of text can be hard to parse, and thus hard to <strong>read</strong>. Setting a limit of characters per line greatly enhances the readability and appeal of a wall of text.</p>
         <p> Try changing the margin and max-width values! Click <b>Change Centering</b> to update the page</p>
@@ -42,6 +66,14 @@
 }</pre>
 
 <button onClick="changeCentering()">Change Centering</button>
+<p> Now try giving the html a different background color to better see the spacing</p>
+<pre><span class="selector">html</span> {
+  <span class="attribute">color</span>: <span class="number" id="htmlBackgroundColor"><input id="htmlbackground" type="text" placeholder="white"></input></span>;
+}</pre>
+<button onClick="changehtmlBackground()">Change HTML Background</button>
+
+
+
         <p>After styling the text <em>blocks</em>, what about styling the text itself?</p>
       </section>
 
@@ -67,7 +99,8 @@
       <section id="spacing">
         <h2>Spacing</h2>
         <p>When a page looks "broken" to a user, it's usually a <strong>spacing</strong> issue. Providing space both <em>around</em> and <em>within</em> your content can increase the appeal of your page.</p>
-<pre><span class="selector">body</span> {
+        <p><i>Hint: try making line-height 1.5 or 2</i></p>
+        <pre><span class="selector">body</span> {
   <span class="attribute">line-height</span>: <span class="number"><input id="lineSpaceInput" placeholder="1" type="text"></input></span>;
   <span class="attribute">padding</span>: <span class="number"><input id="padding1" placeholder="1" type="text"></span><span class="unit">em</span> <span class="number"><input id="padding2" placeholder="1"type="text"></span><span class="unit">em</span>;
 }
@@ -80,43 +113,32 @@
 <button onClick="changeSpacing()">Change Spacing</button>
 
 
-        <p>While the layout has greatly improved so far, let's apply more <a class="step" data-step="4" href="#color-contrast">subtle changes</a>.</p>
-      </section>
+<p>While the layout has greatly improved so far, let's apply more <a class="step" data-step="4" href="#color-contrast">subtle changes</a>.</p>
+</section>
 
-      <section id="color-contrast">
-        <h2>Color &amp; contrast</h2>
-        <p>Black text on a white background can be harsh on the eyes. Opting for a softer shade of black for body text makes the page more <strong>comfortable</strong> to read.</p>
-        <p> Try typing a color like "lightblue" or "green", or use <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">this</a> to pick a color, then enter the 6-digit code with a hastag in front </p>
-<pre><span class="selector">body</span> {
-  <span class="attribute">color</span>: <span class="number" id="backgroundColor">
-  <input id="background" type="text"></input>
-</span>;
-}</pre>
-         <p> Try entering your own background color</p>
+<section id="color-contrast">
+        <h2>More Color &amp; contrast</h2>
         
-
-  <button onClick="changeBackgroundColor()">Change background</button>
-    <p> Notice how the color changed in the css above!</p>
         <p>And in order to keep a decent level of <strong>contrast</strong>, let's pick a darker shade for <strong>important</strong> words</p>
 <pre><span class="selector">h1</span>,
 <span class="selector">h2</span>,
 <span class="selector">strong</span> {
-  <span class="attribute">color</span>: <span class="number" id="strongcolor">#333</span>;
+  <span class="attribute">color</span>: <span class="number" id="strongcolor"><input id="strongText" placeholder="#333" type="text"></input></span>;
 }</pre>
       <p> Try entering a color for the strong words</p>
-        <input id="strongText" type="text"></input>
+        
 
   <button onClick="changeStrongColor()">Change strong words</button>   
        
-        <p>While most of the page has been improved visually, some elements (like the code snippets) still seem <a class="step" data-step="5" href="#balance">out of place</a>.</p>
-      </section>
+        <p>While most of the page has been improved visually, some elements (like the code snippets) still seem out of place.</p>
+</section>
 
-      <section id="balance">
+<section id="balance">
         <h2>Balance</h2>
         <p>It only takes a few additional touches to correct the balance of the page:</p>
-<pre><span class="selector">code</span>,
+<pre>
 <span class="selector">pre</span> {
-  <span class="attribute">background</span>: <span class="number">#eee</span>;
+  <span class="attribute">background</span>: <span class="number"><input id="codebackground" type="text" placeholder="white"></input></span>;
 }
 
 <span class="selector">code</span> {
@@ -127,106 +149,13 @@
 <span class="selector">pre</span> {
   <span class="attribute">padding</span>: <span class="number">1</span>em;
 }</pre>
-        <p>At this point, you might want to make your page stand out and give it <a class="step" data-step="6" href="#primary-color">identity</a>.</p>
-      </section>
 
-      <section id="primary-color">
-        <h2>Primary color</h2>
-        <p>Most brands have a <strong>primary color</strong> that acts as a visual accent. On a website, this accent can be used to provide emphasis on interactive elements, like <strong>links</strong>.</p>
-<pre><span class="selector">a</span> {
-  <span class="attribute">color</span>: <span class="number">#e81c4f</span>;
-}</pre>
-        <p>But to keep the balance, we will need some <a class="step" data-step="7" href="#secondary-colors">additional colors</a>.</p>
-      </section>
+<button onClick="changeBalance()">Change Balance</button>   
 
-      <section id="secondary-colors">
-        <h2>Secondary colors</h2>
-        <p>The accent color can be complemented with more <em>subtle</em> shades, to be used on borders, backgrounds, or even the body text.</p>
-<pre><span class="selector">body</span> {
-  <span class="attribute">color</span>: <span class="number">#566b78</span>;
-}
+</section>
 
-<span class="selector">code</span>,
-<span class="selector">pre</span> {
-  <span class="attribute">background</span>: <span class="number">#f5f7f9</span>;
-  <span class="attribute">border-bottom</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#d8dee9</span>;
-  <span class="attribute">color</span>: <span class="number">#a7adba</span>;
-}
-
-<span class="selector">pre</span> {
-  <span class="attribute">border-left</span>: <span class="number">2</span><span class="unit">px</span> solid <span class="number">#69c</span>;
-}</pre>
-        <p>Having changed the shades, why not change the <a class="step" data-step="8" href="#custom-font">shapes</a>...</p>
-      </section>
-
-      <section id="custom-font">
-        <h2>Custom font</h2>
-        <p>Since text is the main content of a webpage, using a <strong>custom font</strong> gives the page even more noticeable identity.</p>
-        <p>While you can embed your own webfont or use an online service like <a href="https://typekit.com" target="_blank">Typekit</a>, let's use <code>"Roboto"</code> from the free <a href="https://fonts.google.com" target="_blank">Google Fonts</a> service:</p>
-<pre><span class="keyword">@import</span> <span class="string">'https://fonts.googleapis.com/css?family=Roboto:300,400,500'</span>;
-
-<span class="selector">body</span> {
-  <span class="attribute">font-family</span>: <span class="string">"Roboto"</span>, <span class="string">"Helvetica"</span>, <span class="string">"Arial"</span>, sans-serif;
-}</pre>
-        <p>After enhancing your identity through <em>text</em>, how about adding a <a class="step" data-step="9" href="#images">thousand words</a>...</p>
-      </section>
-
-      <section id="images">
-        <h2>
-          
-        </h2>
-        <p>Graphics and icons can be used either as ornaments to support your content, or actively take part in the message you want to convey.</p>
-        <p>Let's enhance our header with a nice <strong>background image</strong> from <a href="https://unsplash.com/photos/qH36EgNjPJY" target="_blank">Unsplash</a></p>
-<pre><span class="selector">header</span> {
-  <span class="attribute">background-color</span>: <span class="number">#263d36</span>;
-  <span class="attribute">background-image</span>: url(<span class="string">"header.jpg"</span>);
-  <span class="attribute">background-position</span>: center top;
-  <span class="attribute">background-repeat</span>: no-repeat;
-  <span class="attribute">background-size</span>: cover;
-  <span class="attribute">line-height</span>: <span class="number">1.2</span>;
-  <span class="attribute">padding</span>: <span class="number">10</span><span class="unit">vw</span> <span class="number">2</span><span class="unit">em</span>;
-  <span class="attribute">text-align</span>: center;
-}</pre>
-        <p>Let's also add a <strong>logo</strong></p>
-<pre><span class="selector">header img</span> {
-  <span class="attribute">display</span>: inline-block;
-  <span class="attribute">height</span>: <span class="number">120</span><span class="unit">px</span>;
-  <span class="attribute">vertical-align</span>: top;
-  <span class="attribute">width</span>: <span class="number">120</span><span class="unit">px</span>;
-}</pre>
-        <p>Let's take that opportunity to enhance the text styles.</p>
-<pre><span class="selector">header h1</span> {
-  <span class="attribute">color</span>: white;
-  <span class="attribute">font-size</span>: <span class="number">2.5</span><span class="unit">em</span>;
-  <span class="attribute">font-weight</span>: <span class="number">300</span>;
-}
-
-<span class="selector">header a</span> {
-  <span class="attribute">border</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#e81c4f</span>;
-  <span class="attribute">border-radius</span>: <span class="number">290486</span><span class="unit">px</span>;
-  <span class="attribute">color</span>: white;
-  <span class="attribute">font-size</span>: <span class="number">0.6</span><span class="unit">em</span>;
-  <span class="attribute">letter-spacing</span>: <span class="number">0.2</span><span class="unit">em</span>;
-  <span class="attribute">padding</span>: <span class="number">1</span><span class="unit">em</span> <span class="number">2</span><span class="unit">em</span>;
-  <span class="attribute">text-transform</span>: uppercase;
-  <span class="attribute">text-decoration</span>: none;
-  <span class="attribute">transition</span>: none <span class="number">200</span><span class="unit">ms</span> ease-out;
-  <span class="attribute">transition-property</span>: color, background;
-}
-
-<span class="selector">header a:hover</span> {
-  <span class="attribute">background</span>:  <span class="number">#e81c4f</span>;
-  <span class="attribute">color</span>: white;
-}</pre>
-        <p><a href="#header">And voil&agrave;</a>!</p>
-        <p>We've designed a decent page in just a few minutes, following basic principles of web design. There's only <a class="step" data-step="10" href="#share">one last thing</a> left to do...</p>
-      </section>
 
       <section id="share">
-        <h2>Learn CSS!</h2>
-        <p>
-          I've written a <strong>44-page pdf</strong> that teaches you how to <strong>build your own webpage</strong> from scratch. <span class="emoji">😃</span>
-        </p>
         <p class="cover">
           <a class="resource" href="https://jgthms.com/css-in-44-minutes-ebook">
             
@@ -302,7 +231,7 @@
 
 
 
-
+    </html>
 
 
   

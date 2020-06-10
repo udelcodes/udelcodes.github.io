@@ -69,8 +69,24 @@ function appendContent() {
 
 function changeBackgroundColor() {
   var color = document.getElementById("background").value;
+  var textColor = document.getElementById("bodyColor").value;
   document.body.style.backgroundColor = color;
-  //document.getElementById("backgroundColor").innerHTML = color;
+  document.body.style.color = textColor;
+}
+
+function changeHeaderColor() {
+  var color = document.getElementById("headerColor").value;
+  var textColor = document.getElementById("headerTextColor").value;
+  var elem = document.getElementById("header");
+  elem.style.backgroundColor = color;
+  elem.style.color = textColor;
+
+}
+
+function changehtmlBackground() {
+  var color = document.getElementById("htmlbackground").value;
+  var stuff = document.getElementById("all");
+  stuff.style.backgroundColor = color;
 }
 
 function changeStrongColor() {
@@ -79,7 +95,16 @@ function changeStrongColor() {
   for(let i = 0 ; i < strongs.length; i++) {
     strongs[i].style.color = color;
   }
-  document.getElementById("strongcolor").innerHTML = color;
+  
+}
+
+function changeBalance() {
+  var color = document.getElementById("codebackground").value;
+  var code = document.getElementsByTagName("pre");
+  for(let i = 0 ; i < code.length; i++) {
+    code[i].style.backgroundColor = color;
+  }
+  
 }
 
 function changeCentering() {
