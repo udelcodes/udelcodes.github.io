@@ -51,7 +51,7 @@ ls
 
 The *.zip* file is the file that contains the secret message. If you try to look inside the *secret_message* folder right now, you will see that there is nothing inside. 
 
-Try to unzip the *.zip* file using *unzip*. You will be asked for a password. But you probably don't know the password yet. 
+Try to unzip the *.zip* file using *unzip*. You will be asked for a password. But you probably don't know the password yet. If you try an incorrect password three times, the program will stop. 
 ```
 unzip 10251.zip 
 ```
