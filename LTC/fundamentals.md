@@ -47,9 +47,36 @@ The **for loop** is normally used when you know how many times you want to repea
 
 In JavaScript, a **for loop** is normally written as follows:
 
-    for (let i = 0; i < x; i++) {
+    for (let i = 0; i < 10; i++) {
        //perform an action
     }
+    
+### Let's break down the above code
+
+In the code, you can see that it starts out with "for", and then has a pair of parentheses, and in those parentheses are three statements, separated by semi-colons (;). Every **for** loop has three parts:
+
+- The initialization of our variable: This is always the first statement, where some baseline condition will be set for the for loop. This is where we start counting how many times we do something. In this case (and in many cases), this is **let i = 0**. 
+
+This says that we will have a variable called **i**, and that we will start out our loop with **i** being equal to 0. We will use **i** to keep track of the number of times we've gone through our loop.
+
+Many people name their counting variable **i** in their for loops (maybe because it stands for index? or integer?). While normally you want to be more descriptive when naming variables, we use this variable for such a short amount of time that it's okay! If you wanted to make multiple **for loops**, or a **for loop** *inside* of a **for loop** (we'll see that in a minute), you could use the variables j, k, and so on to go through those for loops.  
+
+- The ending condition: This is always the second statement, which tells us how long we should repeat our action for. In this example, we have that we will keep repeating our action as long as **i < 10** (10 could be replaced with any number, depending on how many times YOU want to repeat the action). 
+
+Since this specifically says that **i** must be *less* than 10, we will STOP performing this action once i=10 (we will perform it when i = 9, though). 
+
+In computer science, people normally start counting at 0 instead of 1, which is why we go *until* i = 10 if we want to repeat the action 10 times. Rather than repeating it from i=1 to i=10 (which would still be 10 repeats and you could absolutely do!), people normally repeat the action from i=0 to i=9 (which is also 10 repeats!)
+
+- The incrementing statement: Finally, our third statement tells us a way to increment our counting variable, i. In this example (and normally), this is written as **i++**. This is a short way to write **i = i + 1**, which just means that you're **adding 1 to i**. 
+
+This is how we move through the loop - without this statement, we'd be stuck in the loop forever! You don't always have to increment by 1; for instance, you could add 2 each time (i+=2) or you could multiply i by 3 each time (i = i\*3).
+
+Let's look at a for loop in action!
 
 
-
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="WNrrdXv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="for loops">
+  <span>See the Pen <a href="https://codepen.io/dianevinson/pen/WNrrdXv">
+  for loops</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
