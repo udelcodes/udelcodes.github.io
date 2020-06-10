@@ -14,9 +14,9 @@ The lesson plans for each day are all linked right below:
 
 -[Day 1 - Making a Website](./day1)
 
--[Day 2 - Choose Your Own Adventure Games](./day2)
+-[Day 2 - Logic and Intro to JavaScript](./day2)
 
--[Day 3 - Logic and JavaScript](./day3)
+-[Day 3 - Choose Your Own Adventure Game](./day3)
 
 -[Day 4 - Putting Everything Together!](./day4)
 
