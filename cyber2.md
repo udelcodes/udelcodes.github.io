@@ -39,7 +39,9 @@ Here is a link to the page that may be helpful in your mission to find out how t
 
 # Bug Bounties
 
-In the future, the Gloabl Dessert Vault has decided to hire Bug Bounty Hunters to stop groups like the l33k3rs from gaining access to the **Global Dessert Vault**, and they would like your help! But first, you need to know what a bug bounty hunter does, and how they do it. You should also probably know what a bug is! A bug, is an accidental problem within a program that might not be obvious to its creators, but can be exploited by hackers, like the l33k3rs, right under the programers nose. Originally, the term bug meant an actual insect had made its way into the computer and was stopping it from working! Computers are too small for that now though. Bug bounty hunters are people who will go onto a program, with permission from the owner, and search for these exploitable problems, and area paid a bug bounty for every one they find! Here's an activity Alice and Bob have created to train you on the art of being a bug bounty hunter:
+In the future, the Gloabl Dessert Vault has decided to hire Bug Bounty Hunters to stop groups like the l33k3rs from gaining access to the **Global Dessert Vault**, and they would like your help! But first, you need to know what a bug bounty hunter does, and how they do it. You should also probably know what a bug is! A bug, is an accidental problem within a program that might not be obvious to its creators, but can be exploited by hackers, like the l33k3rs, right under the programers nose. Originally, the term bug meant an actual insect had made its way into the computer and was stopping it from working! Computers are too small for that now though. Bug bounty hunters are people who will go onto a program, with permission from the owner, and search for these exploitable problems, and area paid a bug bounty for every one they find! 
+
+Here's an activity created by Google to help teach you about one of the most common bugs on the web, known as Cross-Site Scripting, or XSS. 
 
 https://xss-game.appspot.com/?utm_source=webopsweekly&utm_medium=email
 
