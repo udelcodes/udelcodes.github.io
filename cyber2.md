@@ -14,9 +14,9 @@ Alice and Bob have collected the photographic evidence
 
 ![After](https://udel.codes/cyber2/With%20Leeks.png)
 
-Horrible Right!
+Horrible!
 
-Today you will be taken through a series of exercieses to develope your skills so you are able to figure out how the L33k3rs were able to hack into the dessert database! First, we will begin with learning bash.
+Today you will be taken through a series of exercises to develop your skills so you are able to figure out how the L33k3rs were able to hack into the dessert database! First, we will begin with learning bash.
 
 ---
 
