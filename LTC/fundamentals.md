@@ -18,12 +18,12 @@ So, if you wanted to write "A or B" in JavaScript, you would do **A\|\|B**. Or, 
 
 All of these concepts are shown in the CodePen below. (You can click the "HTML" tab again to *only* see the result, or click the "Result" button and then the "HTML" button to *only* see the code. You can also switch between the HTML, CSS, and JavaScript by clicking their respective tabs, right above the code).
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="dianevinson" data-slug-hash="wvMMoqJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Boolean">
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="wvMMoqJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Boolean">
   <span>See the Pen <a href="https://codepen.io/dianevinson/pen/wvMMoqJ">
   Boolean</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script><br>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 
 If you go to the **JavaScript** tab on the CodePen above (it says "JS" and is to the right of the tab that says "CSS"), in the function called **updateBooleans()**, you can see where we perform that **boolean logic** to get our outputs! Try to find the following in the JavaScript file (hint: first find where it says **function updateBooleans()**, then look in the code in between the two parenthesis. There's some other stuff in there that we'll learn later, so it's okay if you don't understand everything that you see yet!):
@@ -44,6 +44,8 @@ Today, we'll be looking at two different types of loops: the **for loop** and th
 #### The For Loop
 
 The **for loop** is normally used when you know how many times you want to repeat the action. For instance, maybe you're writing a program to print out a document, and you want the user to be able to enter how many copies of the document they want to print out. In this example, you could create a **print()** function that would print the document one time, and then repeat that one function as many times as the user wanted. In this scenario, a **for loop** would be very helpful!
+
+> *Can you think of another example where you could use a For Loop?*
 
 In JavaScript, a **for loop** is normally written as follows:
 
@@ -88,3 +90,25 @@ There's another **for loop** in the code above - see if you can find it!
 The code inside the second **for loop** is used to create a random color for the dot. As you might've learned in the CSS lesson yesterday, colors can be represented by numbers, which in certain number bases can be represented by numbers and letters! The line inside the **for loop** that says 
      color += letters[Math.floor(Math.random() * 16)];
 says "choose a random number or letter from '0123456789ABCDEF', and then add it to the end of our list of numbers/letters that represent the color. Since the hexcode (a.k.a. the list of numbers and letters) for a color is always 6 characters long, we will repeat this process of choosing a random number/letter from 0-F and adding it to our list **six** times. 
+
+Let's look at a second type of loop.
+
+#### The While Loop
+
+The **while loop** is normally used when you want to repeat an item for as long as it takes to do something else, or *while* one statement is true.
+
+Imagine that you have a program where a user can keep entering numbers until the sum of all the numbers they enter is 50. In this scenario, your program would continue to prompt them to enter a new number *while* their total is less than 50. 
+
+> *Can you think of another example where you could use a While Loop?*
+
+In JavaScript, a **while loop** is normally written like this:
+
+    var i = 0;
+    while ( i < 50) {
+        //perform action
+        i++
+    }
+
+Notice how in a **while loop**, you only have <u>one<u> statement inside of the parentheses! Just like a **for loop** though, you still have to initialize your counting variable at some point, and you have to increment it too. The only differences between a **for loop** and a **while loop** are *where* you initialize your variable and *where* you increment it.
+  
+Since the two loops are quite similar, they can be used interchangeably a lot of times! It's up to your personal preference to decide which one is easier for you to use in your code. 
