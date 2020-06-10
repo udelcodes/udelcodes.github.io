@@ -112,3 +112,14 @@ In JavaScript, a **while loop** is normally written like this:
 Notice how in a **while loop**, you only have <u>one<u> statement inside of the parentheses! Just like a **for loop** though, you still have to initialize your counting variable at some point, and you have to increment it too. The only differences between a **for loop** and a **while loop** are *where* you initialize your variable and *where* you increment it.
   
 Since the two loops are quite similar, they can be used interchangeably a lot of times! It's up to your personal preference to decide which one is easier for you to use in your code. 
+
+The example below is the same as the one that we used before, **EXCEPT** that this one uses a while loop instead of a for loop!
+
+Try to find where it says **var i = 0, i < numberOfDots,** and **i++**. 
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="xxZZjoJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="while loops">
+  <span>See the Pen <a href="https://codepen.io/dianevinson/pen/xxZZjoJ">
+  while loops</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
