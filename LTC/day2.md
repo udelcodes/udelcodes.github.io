@@ -27,11 +27,17 @@ The table above can also be represented using 0's and 1's (0 is no/false, and 1 
 | 1 | 1 | 1 |
 
 Now try to match the following tables with the given scenarios!
+
 Scenario 1: 
+
   A is if you took notes in class
+  
   B is if you studied for the test
+  
   O is if you pass the class or not 
+  
   You will pass the test if you either study or took notes, or both
+  
 Scenario 2:
 
 [Here is the link to the JavaScript Tutorial for the afternoon](./fundamentals.md)
