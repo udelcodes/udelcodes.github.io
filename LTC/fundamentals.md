@@ -109,7 +109,7 @@ In JavaScript, a **while loop** is normally written like this:
         i++
     }
 
-Notice how in a **while loop**, you only have <u>one<u> statement inside of the parentheses! Just like a **for loop** though, you still have to initialize your counting variable at some point, and you have to increment it too. The only differences between a **for loop** and a **while loop** are *where* you initialize your variable and *where* you increment it.
+Notice how in a **while loop**, you only have <u>one</u> statement inside of the parentheses! Just like a **for loop** though, you still have to initialize your counting variable at some point, and you have to increment it too. The only differences between a **for loop** and a **while loop** are *where* you initialize your variable and *where* you increment it.
   
 Since the two loops are quite similar, they can be used interchangeably a lot of times! It's up to your personal preference to decide which one is easier for you to use in your code. 
 
