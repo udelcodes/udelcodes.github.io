@@ -33,4 +33,6 @@ Scenario 1:
   O is if you pass the class or not 
   You will pass the test if you either study or took notes, or both
 Scenario 2:
+
+[Here is the link to the JavaScript Tutorial for the afternoon](./fundamentals.md)
   
