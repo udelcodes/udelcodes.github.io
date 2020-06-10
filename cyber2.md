@@ -3,6 +3,17 @@
 To take down the l33k3rs, we need to be able to think like they do, and be able to do what they can do. 
 
 ---
+
+# L33k3ers most recent Hack
+
+The l33k3rs have infiltrated the main desert database (A database very important to the cyber house for obvious reasons) and have added leeks to all of the dessert recipes! They have defaced the main website with the l33k3rs name.
+
+Alice and Bob have collected the photographic evidence
+
+Today you will be taken through a series of exercieses to develope your skills so you are able to figure out how the L33k3rs were able to hack into the dessert database! First, we will begin with learning bash.
+
+---
+
 # Intro to bash 
 In the Cyber House, Alice and Bob have created an "Intro To Bash" training grounds, but they suspect that it has been infiltrated by the l33k3rs. However, they don't have any proof. 
 
