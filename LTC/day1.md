@@ -78,6 +78,8 @@ If you need a little help,you can use the template found <a href="./template.htm
   <label>Add a user input with any type of your choosing!</label><br>
 </div>
 
+Now that you've add all of this cool content, let's add some color and style to it! We'll do this using **CSS**!
+
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
 Now try adding some CSS to your website!
