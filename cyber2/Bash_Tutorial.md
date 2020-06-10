@@ -11,4 +11,6 @@ Begin by entering the following commands in the terminal...
 
 Using this cheat sheet you are now unstoppable!
 
+Now try and find all the flags 
+
 **Total Number of Flags: 5**
