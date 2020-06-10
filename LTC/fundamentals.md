@@ -115,7 +115,11 @@ Since the two loops are quite similar, they can be used interchangeably a lot of
 
 The example below is the same as the one that we used before, **EXCEPT** that this one uses a while loop instead of a for loop!
 
-Try to find where it says **var i = 0, i < numberOfDots,** and **i++**. 
+Try to find where it says 
+
+- var i = 0 
+- i < numberOfDots
+- i++ 
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="xxZZjoJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="while loops">
   <span>See the Pen <a href="https://codepen.io/dianevinson/pen/xxZZjoJ">
