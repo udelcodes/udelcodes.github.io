@@ -26,4 +26,11 @@ All of these concepts are shown in the CodePen below. (You can click the "HTML" 
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script><br>
 
 
-If you go to the **JavaScript** tab on the CodePen above (it says "JS" and is to the right of the tab that says "CSS"), in the function called **updateBooleans()**, you can see where we perform that **boolean logic** to get our outputs!
+If you go to the **JavaScript** tab on the CodePen above (it says "JS" and is to the right of the tab that says "CSS"), in the function called **updateBooleans()**, you can see where we perform that **boolean logic** to get our outputs! Try to find the following in the JavaScript file (hint: first find where it says **function updateBooleans()**, then look in the code in between the two parenthesis. There's some other stuff in there that we'll learn later, so it's okay if you don't understand everything that you see yet!):
+
+- (A && B)
+- (A || B)
+- !(A && B)
+- !(A || B)
+
+The last two examples in the CodePen are a bit more complicated, but it just goes to show how you can use very simple tools to build more complex ideas!
