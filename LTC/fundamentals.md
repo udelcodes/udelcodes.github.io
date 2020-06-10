@@ -127,3 +127,37 @@ Try to find where it says
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+## If Statements
+---------
+
+The next topic we'll be talking about today is the **if statement**. You use if statements when you want to perform an action *only if* a certain condition is true. **If statements** are oftentimes used along with **boolean logic**!
+
+You use **if statements** all the time in your normal life! Imagine that you're playing softball and you're up to bat. *If* the pitch is in the strike zone, you'll swing at it. *If* it looks like it'll be a ball, you won't swing. 
+
+> Think of an example where you could use an **if statement** to determine what action you'll perform
+
+Let's look at how someone would write an **if statement** in JavaScript.
+
+    if (condition A is true) {
+       // Perform action 1
+    } else if (condition B is true) {
+       // Perform action 2
+    } else {
+       // Perform default action
+    }
+    
+### Let's break down the above code!
+
+<dl>
+  <dt>if (condtion A is true)</dt>
+  <dd>The first line in an if block will always start with a simple *if* statement. This says that if condition A is true, then action 1 will be performed. If condition A is true, then once action 1 is performed, the program will <u>NOT</u> check to see if condition B is true.</dd>
+  <dt> else if (condition B is true)</dt>
+  <dd> This program will only check if condition B is true <u>IF</u> condition A was not true. If condition B is true, then action 2 will be performed, and the program will not check to see any of the following conditions listed are true. **You can have multiple "else if" statements!** They will be checked in whatever order you type them in. Similarly, it's not required that you have *any* "else if" statements</dd>
+  <dt> else</dt>
+  <dd> The else statement is performed **if and only if** none of the other conditions were true. In this example, that means that conditions A and B were both false. **You do not need to include an else statement**, but if you do, it always goes after all of the other statements.</dd>
+</dl>
+
+> Can you think of why you would want to put your **else** statement after all of your **else if** statements?
+
+
