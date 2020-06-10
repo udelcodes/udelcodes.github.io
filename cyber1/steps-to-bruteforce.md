@@ -60,8 +60,6 @@ Now we will try to crack the password to the zip file using a *wordlist* and a *
 
 We need to use *wget* to get the wordlist file, and the python script file from the internet into our terminal. 
 
-Run the two *wget* commands below.
-
 Get the wordlist:
 ```
 wget https://raw.githubusercontent.com/udelcodes/udelcodes.github.io/master/cyber1/chat_log/wordlist.txt
