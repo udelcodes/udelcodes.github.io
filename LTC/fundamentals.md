@@ -11,10 +11,10 @@ Earlier today, we learned about **Boolean logic/ Boolean algebra**, where we had
 Here's how you represent the concepts we learned about in JavaScript:
 
 - And is &&
-- Or is ||
+- Or is \|\|
 - Not is !
 
-So, if you wanted to write "A or B" in JavaScript, you would do **A||B**. Or, if you wanted to say "Not A, and B", you would do **!A&&B**. In JavaScript, the order of operations goes !, &&, then ||. This means that first the **not** will be applied, then the **and**, and lastly the **or** - kind of like PEMDAS! Also like PEMDAS, you can use parenthesis, which will also be applied first. So maybe the order techincally goes () , ! , && , ||
+So, if you wanted to write "A or B" in JavaScript, you would do **A\|\|B**. Or, if you wanted to say "Not A, and B", you would do **!A&&B**. In JavaScript, the order of operations goes !, &&, then \|\|. This means that first the **not** will be applied, then the **and**, and lastly the **or** - kind of like PEMDAS! Also like PEMDAS, you can use parenthesis, which will also be applied first. So maybe the order techincally goes () , ! , && , \|\|
 
 All of these concepts are shown in the CodePen below. (You can click the "HTML" tab again to *only* see the result, or click the "Result" button to *only* see the code. You can also switch between the HTML, CSS, and JavaScript by clicking their respective tabs, right above the code).
 
@@ -29,8 +29,8 @@ All of these concepts are shown in the CodePen below. (You can click the "HTML" 
 If you go to the **JavaScript** tab on the CodePen above (it says "JS" and is to the right of the tab that says "CSS"), in the function called **updateBooleans()**, you can see where we perform that **boolean logic** to get our outputs! Try to find the following in the JavaScript file (hint: first find where it says **function updateBooleans()**, then look in the code in between the two parenthesis. There's some other stuff in there that we'll learn later, so it's okay if you don't understand everything that you see yet!):
 
 - (A && B)
-- (A || B)
+- (A \|\| B)
 - !(A && B)
-- !(A || B)
+- !(A \|\| B)
 
 The last two examples in the CodePen are a bit more complicated, but it just goes to show how you can use very simple tools to build more complex ideas!
