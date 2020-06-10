@@ -1,4 +1,7 @@
-## W3lc0m3 t0 Crypt0 W33k!!
+## W3lc0m3 t0 Day 1 of Crypt0 W33k!!
+
+Today we will be learning about the first ciphers that were used in the old days.  
+Specifically, we will be learning about the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.  
 
 ### Daily Puzzle
 
@@ -6,48 +9,13 @@
 
 #### Word Bank
 
-ENCODE  |  DECODE  |  SUBSTITUTION  |  CAESAR  |  BACONIAN  |  CYBERCHEF  |  DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY
+ENCODE  |  DECODE  |  SUBSTITUTION  |  CAESAR  |  BACONIAN  |  CYBERCHEF
 
-### Daily Camp Outline
-
-10:00 - 10:15 -- Opening puzzle/question  
-10:10 -10:15 -- Intro plan for the day  
-10:15 - 10:55 -- Lesson part 1  
-10:55 - 11:00 -- Optional Break - can stay and chit chat, get water, snack, bathroom break  
-11:00 - 11:50 -- Lesson part 2  
-11:50 - 12:00 -- Summary/discussion of the day’s lessons  
-
-And remeber, all of our material that we cover week will be available on **THIS** website, so you can come back to it whenever you'd like.
-
-### Who Are We?
-
-We are the CyberSecurity Scholars from the University of Delaware. 
-This week's lesson was created by Nikki Pilla, Peter Haushalter, and Sophia Smith, 
-along with help from other members of the CyberSecurity Scholars community.
-
-### What is Cryptography?
-
-It’s what spies use!  
-It’s the breaking and creating of secret codes  
-Sort of like passing secrete notes  
-In cybersecurity, it's used to keep your data safe and secure
-
-### Cybersecurity and Cryptography
-
-Cryptology is a pillar to Cybersecurity. Without secret codes there would be no cybersecurity.  
-Ciphers are one way, Hashes are another way.  
-Without Cryptology there would be no internet as the world runs on secret codes!  
-
-### Jobs 
-
-Working for the NSA  
-Working for the Police or other government agencies  
-Working for companies to keep their data secure
-Requires a large amount of mathematical knowledge 
+DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY
 
 ## Let's Get Cracking...
 
-Today we will be learning some of the first ciphers ever used (cipher is another word for a secret code). We will learn how to solve the Ceasar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.
+Today we will be learning some of the first ciphers ever used (cipher is another word for a secret code). We will learn how to solve the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.
 
 ### The Caesar Cipher
 
@@ -58,7 +26,7 @@ It was one of the first ciphers ever invented!
 
 ### Caesar Wheel
 
-Before starting to learn about the Caesar Cipher, take some time to print and assemble [Ceasar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
+Before starting to learn about the Caesar Cipher, take some time to print and assemble [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
 In order to assemble your wheel, follow these steps:  
 - Cut out the two wheels from the pdf. 
 - *Carefully* poke a hole through the dot in the centre of each wheel.
@@ -78,7 +46,7 @@ other.
 
 - Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.
 
-Now, we have to figure out how to use this key. Let's try and decode this Ceasar Cipher. The answer will be my favorite place to visit.
+Now, we have to figure out how to use this key. Let's try and decode this Caesar Cipher. The answer will be my favorite place to visit.
 
 **MAX UXTVA**
 
@@ -92,7 +60,7 @@ Feel free to take a break here and practice writing your own codes using your wh
 
 ### How Do You Solve a Caesar Cipher?
 
-In order to use your Caesar wheel to crack codes, you need to know the size of the shift. Most of the time, you don't know the size of the shift. No worries, we can still solve these codes it just takes a little more thinking. Here are some helpful hints on how to crack Ceasar Ciphers.  
+In order to use your Caesar wheel to crack codes, you need to know the size of the shift. Most of the time, you don't know the size of the shift. No worries, we can still solve these codes it just takes a little more thinking. Here are some helpful hints on how to crack Caesar Ciphers.  
 - Look for a hint, like...
   - Single letter words (I & A)
   - Likely words you have most of the letters for
@@ -187,7 +155,7 @@ You can research the K3 and K4 alphabets when you get to them, or you can try an
 
 ### If you're interested in learning more about the Ceasar and Substitution Ciphers...
 
-You can research the last 2 alphabets that we didn't cover (K1 and K2).  
+You can research the last 2 alphabets that we didn't cover (K3 and K4).  
 You can also use [this Aristocrat generator](https://codepen.io/AndyNovo/full/KKpNRxw) created by our professor Dr. Andrew Novocin to practice an unlimited amount of Aristocrat Ciphers.  
 If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
 
@@ -263,9 +231,9 @@ All you have to do is match the symbols with the corresponding letters!
 
 Try to solve this Pig Pen cipher using the Pig Pen alphabet.
 
-![Pig Pen Example 1](images/pig_pen1.PNG
+![Pig Pen Example 1](images/pig_pen1.PNG)
 
-#### End of Day Wrap Up
+### End of Day Wrap Up
 
 Congratulations! You made it through day 1!!  
 We hope you had fun learning about the different ciphers today.  

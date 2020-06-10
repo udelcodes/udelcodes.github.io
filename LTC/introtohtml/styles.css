@@ -1,15 +1,28 @@
 /* Base styles */
 body {
-    text-align: center;
+    
     max-width: 75%;
     margin: auto;
     background-color: lightgoldenrodyellow;
-    font-family: Arial, Helvetica, sans-serif
-    ;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    line-height: 2;
+  }
 
 a strong {
     color: inherit;
+  }
+
+  p {
+    text-indent: 5%;
+  }
+
+  .rendering p {
+    text-indent: 0;
+  }
+
+  .codeText {
+    font-family: 'Courier New', Courier, monospace;
   }
   
   hr {
@@ -22,6 +35,8 @@ a strong {
     height: auto;
     max-width: 100%;
   }
+
+
   
   pre {
     overflow: auto;
@@ -40,6 +55,14 @@ a strong {
             justify-content: center;
     margin-top: 4em;
     text-align: center;
+  }
+
+  .large {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #mainTitle {
+    color: white;
   }
   
   /* Initial state */
@@ -74,13 +97,39 @@ a strong {
     background-color: lightblue;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 5%;
+
 
 }
 
+
+div.code > h2 {
+  background-color: rgb(169, 243, 178);
+  max-width: 50%;
+  margin-left: -5%;
+  padding:5px;
+  border-radius: 5%;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.rendering > h2 {
+  background-color: rgb(222, 188, 240);
+  max-width: 50%;
+  margin-left: -5%;
+  padding:5px;
+  border-radius: 5%;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .rendering {
     background-color: lightcoral;
     text-align: left;
 
+}
+
+html {
+  display: block;
 }
 
   .code > span, div {
@@ -97,24 +146,24 @@ a strong {
   
   /* 00 Content */
   
-  html.step0 #content {
+  html.step0 #head {
     display: block;
   }
   
   /* 01 Centering */
   
-  html.step1 #centering {
+  html.step1 #basictags {
     display: block;
   }
   
   /* 02 Font family */
   
-  html.step2 #font-family {
+  html.step2 #lists {
     display: block;
   }
   /* 03 Spacing */
   
-  html.step3 #spacing {
+  html.step3 #images {
     display: block;
   }
   
@@ -122,7 +171,7 @@ a strong {
   
   /* 04 Color and contrast */
   
-  html.step4 #color-contrast {
+  html.step4 #links{
     display: block;
   }
 
@@ -132,56 +181,20 @@ a strong {
   
   /* 05 Balance */
   
-  html.step5 #balance {
+  html.step5 #input {
     display: block;
   }
  
-  html.step6 #primary-color {
+  html.step6 #buttons {
     display: block;
   }
-  
- 
-  
-  html.step7 #secondary-colors {
+
+  html.step7 #selectors {
     display: block;
   }
   
  
-  html.step8 #custom-font {
-    display: block;
-  }
-  
-  
-  html.step9 #images {
-    display: block;
-  }
-  
  
-  /* 10 Share */
-  
-  html.step10 #share,
-  html.step10 footer {
-    display: block;
-  }
-  
-  /* Classes */
-  
-  .animate {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-name: blink;
-            animation-name: blink;
-  }
-  
-  @-webkit-keyframes blink {
-    from {
-      background-color: lightyellow;
-    }
-  
-    to {
-      background-color: transparent;
-    }
-  }
   
   @keyframes blink {
     from {

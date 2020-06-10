@@ -1,0 +1,4 @@
+We are the L33k3rs! We have our own hidden file here...
+We can't believe that you found it 
+
+Flag: FoundTheL33k3rFlag

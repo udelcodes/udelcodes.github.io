@@ -1,0 +1,12 @@
+Agent Code Name: Bob
+Date of Birth: October 31, 1998
+Home State: Delaware
+Main Coding Skill: Python
+Favorite Dessert: Ice Cream Cake
+
+Bob is considered one of the best python coders in all of the world. While working
+for the president of the United States, he single handedly stopped a L33k3er attack
+when they tired to gain access to all the presidents information. When the Cyber
+House heard of Bob's accomplishments, they asked him to become an agent. The Cyber
+House being the best Cybersecurity agency in the world, Bob could not refuse the 
+offer of becoming a top tier agent. 

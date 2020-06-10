@@ -1,0 +1,42 @@
+exit - exits the bash shell!
+
+cd <path> - change to the directory given; with no 
+arguments, chdir to the home directory; with a '-' 
+as the only argument, chdirs to directory
+previously in, the same as what tcsh does. 
+
+
+pwd - print the current working directory. 
+
+
+ls - with no arguments, lists the files
+in the current working directory one per
+line. With arguments, lists the files in each
+directory given as an argument, with a blank
+line then the name of the directory followed
+by a : before the list of files in that directory.
+
+
+ls -la: list all the files including hidden files in the
+current working directory :)
+
+
+kill <pid>- When given just a pid, sends
+a SIGTERM to the process with that
+pid using kill(2). When given a signal
+number (with a - in front of it), sends
+that signal to the pid. (e.g., kill 5678,
+kill -9 5678).
+
+
+cat <filename> - allows us to create single or multiple
+files, view contain of file, concatenate files
+and redirect output in terminal or files
+
+
+pid - prints the pid of the shell
+
+
+grep <filename> - a command-line utility for searching
+plain-text data sets for lines that match a regular
+expression.
