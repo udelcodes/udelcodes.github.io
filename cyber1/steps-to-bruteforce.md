@@ -49,7 +49,7 @@ Now that you are in the folder with the extracted files, type *ls* to see the ex
 ls
 ```
 
-The *.zip* file is the file that contains the secret message. If you try to look inside the *secret_message* folder right now, you will see that there is nothing inside. 
+The *.zip* file is the file that contains the secret message. If you try to look inside the *secret_message* folder right now, you will see that there is a message.txt file, however, if you try to view what is inside of message.txt, there will be no message inside. 
 
 Try to unzip the *.zip* file using *unzip*. You will be asked for a password. But you probably don't know the password yet. If you try an incorrect password three times, the program will stop. 
 ```
