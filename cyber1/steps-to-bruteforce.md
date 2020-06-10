@@ -77,7 +77,12 @@ You can now unzip the file using your found password with the following command:
 unzip -P busyviolet44 10251.zip
 ```
 
-Now you *cd* into the "secret_message" folder and type *ls* to see the extracted file. 
+Now you *cd* into the "secret_message" folder.
+```
+cd secret_message
+```
+
+Type *ls* to see the contents of the folder. 
 ```
 ls
 ```
