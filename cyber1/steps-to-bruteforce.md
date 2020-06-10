@@ -72,7 +72,12 @@ Now we will use fcrackzip on the zip file, and tell it to try out every word in 
 fcrackzip -u -D -p "./wordlist.txt" 10251.zip
 ```
 
-After you run  fcrackzip, it will tell you if it found the right password to the zip file using your wordlist 
+After you run  fcrackzip, it will tell you if it found the right password to the zip file using your wordlist.
+
+You can now unzip the file using your found password with the following command:
+```
+unzip -P busyviolet44 10251.zip
+```
 
 Now you *cd* into the "secret_message" folder and type *ls* to see the extracted file. 
 ```
