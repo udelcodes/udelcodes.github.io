@@ -33,7 +33,6 @@ Let binwalk run for a bit. You may get some error messages, but for our purposes
 Once binwalk is done, use *ls* to see the folder that binwalk has extracted any hidden files into. 
 ```
 ls 
-_leek.png.extracted  leek.png
 ```
 
 Now we are going to *change directories* into the folder that binwalk has extracted any hidden files into. 
@@ -56,10 +55,6 @@ The *.zip* file is the file that contains the secret message. If you try to look
 Try to unzip the *.zip* file using *unzip*. You will be asked for a password. But you probably don't know the password yet. 
 ```
 unzip 10251.zip 
-Archive:  10251.zip
-[10251.zip] secret_message/message.txt password: 
-password incorrect--reenter: 
-   skipping: secret_message/message.txt  incorrect password
 ```
 
 Now we will try to crack the password to the zip file using a *wordlist* and a *python script.* 
@@ -79,20 +74,15 @@ fcrackzip -u -D -p "./wordlist.txt" 10251.zip
 ```
 
 After you run  fcrackzip, it will tell you if it found the right password to the zip file using your wordlist 
-```
-[+] Found password = busyviolet44
-```
 
 Now you *cd* into the "secret_message" folder and type *ls* to see the extracted file. 
 ```
 ls
-message.txt
 ```
 
 You can see what is inside of "message.txt" by using the *cat* command.
 ```
 cat message.txt
-we_are_da_l33k3rs
 ```
 
 And you have found the secret message!
