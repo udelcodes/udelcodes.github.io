@@ -8,6 +8,9 @@ We use logic all the time, even if you don't realize it.
 
 Let's say you're getting ready to leave for the day, and you're deciding what to take with you for the day.
 
+![umb](https://images.unsplash.com/photo-1538459173903-780083407053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80)
+
+
 If it's raining, and you plan on walking, you would bring an umbrella, but if you don't have to walk (or it's not raining), then you would not bring an umbrella. This can be represented with a truth table!
 
 | I have to walk | It's raining | Bring an umbrella |
