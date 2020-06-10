@@ -39,3 +39,8 @@ Here is a link to the page that may be helpful in your mission to find out how t
 
 # Bug Bounties
 
+https://xss-game.appspot.com/?utm_source=webopsweekly&utm_medium=email
+
+TODO:  Add XSS Google game 
+
+
