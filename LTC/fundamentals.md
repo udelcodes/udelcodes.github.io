@@ -160,4 +160,17 @@ Let's look at how someone would write an **if statement** in JavaScript.
 
 > Can you think of why you would want to put your **else** statement after all of your **else if** statements?
 
+The conditions that you check in your **if/ else if statements** need to be either **true** or **false** - just like in our Boolean truth tables! 
+
+Look at the example below. In this example, the background image will change depending on what time the user enters. 
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="VweedRv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="If statements">
+  <span>See the Pen <a href="https://codepen.io/dianevinson/pen/VweedRv">
+  If statements</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+Look in the JavaScript code and try to find the if statements!
+
 
