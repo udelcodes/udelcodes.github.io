@@ -201,10 +201,10 @@ A **key-value** pair is a set of two objects, a key and a value, that are linked
 
 |Key        | Value         |
 | ----------|:-------------:|
-| Breakfast | Oatmeal |
-| Lunch     | Chicken Pot Pie      |
-| Snack     | Chips and Salsa      | 
-| Dinner    | Chicken Pot Pie      |
+| breakfast | Oatmeal |
+| lunch     | Chicken Pot Pie      |
+| snack     | Chips and Salsa      | 
+| dinner    | Chicken Pot Pie      |
 
 In the table above, the **keys** are the names of meals, and their corresponding **values** are what you ate at that meal. So, one key value pair is `"breakfast":"Oatmeal"`.  
 
