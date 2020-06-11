@@ -13,4 +13,6 @@ Using this cheat sheet you are now unstoppable!
 
 Now try and find all the flags 
 
+Once you find a flag, input it in the answer box on <a href="https://learnification.fun/" target="_blank">Learnification.fun</a> under the module Week of Cyber Day 2! Good Luck!
+
 **Total Number of Flags: 5**
