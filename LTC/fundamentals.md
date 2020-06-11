@@ -197,7 +197,7 @@ Now that we've learned a bit about **boolean logic, loops,** and **if statements
 
 ## What is a key-value pair?
 
-A **key-value** pair is a set of two objects, a key and a value, that are linked together and are stored in something called a **map**. Let's look at a visual representation of a **map**:
+A **key-value** pair is a set of two objects, a key and a value, that are linked together and are stored in something called a **map**. Users are able to retrieve the **values** from the **map** by using the **key**. Let's look at a visual representation of a **map**:
 
 |Key        | Value         |
 | ----------|:-------------:|
@@ -208,11 +208,11 @@ A **key-value** pair is a set of two objects, a key and a value, that are linked
 
 In the table above, the **keys** are the names of meals, and their corresponding **values** are what you ate at that meal. So, one key value pair is `"breakfast":"Oatmeal"`.  
 
-One important feature of a **map** is that **you cannot repeat the same key in a map, but you can have multiple keys share a value**. To put this in terms of our meal example above, you would not be able to create two enteries with the `key="dinner"`. If you look at the **values** for Lunch and Dinner, though, you can see that they both have the same value, which is "Chicken Pot Pie".
+One important feature of a **map** is that **you cannot repeat the same key in a map, but you can have multiple keys share a value**. To put this in terms of our meal example above, you would not be able to create two enteries with the `key="dinner"`. If you look at the **values** for Lunch and Dinner, though, you can see that they both have the same value, which is "Chicken Pot Pie". *Beause you access values by using their keys, you cannot have the same key repeat with different values.*
 
 > But what if you have multiple values that you want to associate with a key? What if I had chicken pot pie *and* a salad for dinner?
 
-Every key can be associated with *ONE* object, but luckily, this object can be a list of other objects (we count a list as *one* object)! This is done very often, and you'll see an example of it in our activity later today.
+Every key can be associated with *ONE* object, but luckily, this object can be a collection of other objects (it could be a list of other objects, or another map!). This is done very often, and you'll see an example of it in our activity later today.
 
 > So, what's the difference between a JSON Object and a Map?
 
@@ -220,7 +220,28 @@ JSON Objects and Maps are very similar, as they both consist of key-value pairs.
 
 > What does a JSON Object look like?
 
-Great question! Below is what our meal example would look like. 
+Great question! Below is what our meal example would look like (including the side salad we had for dinner).
+
+      "Meals": {
+        "breakfast" : "Oatmeal",
+        "lunch" : "Chicken Pot Pie",
+        "snack" : "Chips and Salsa",
+        "dinner" : {
+           "main course" : "Chicken Pot Pie",
+           "side dish" : "Salad"
+         }
+      }
+      
+The first **key** in this JSON object is "Meals", its value is the JSON object storing all of the meals that you had today. Looking inside that second JSON object, we have the following keys: "breakfast", "lunch", "snack", and "dinner". The value for "dinner" is another JSON object! That JSON object has keys "main course" and "side dish". 
+
+Finally, notice that the key-value pairs are separated by commas. I know that JSON objects might look complicated right now, but we're going to do an activity in a minute that will make things a lot clearer!
+
+![JSON meme to spice things up](https://i.chzbgr.com/full/8759438080/hC74C9921/i-heard-you-like-json-so-im-going-to-put-json-inside-json-so-you-can-parse-what-is-parsed)
+
+
+Head over to [this website](http://www.udel.codes/LTC/alchemy) to begin our fun JSON activity!
+
+
 
 
 
