@@ -43,16 +43,14 @@ In the future, the Gloabl Dessert Vault has decided to hire Bug Bounty Hunters t
 
 But first, you need to know what a bug bounty hunter does, and how they do it. 
 You should also probably know what a bug is! A bug, is an accidental problem within a program that might not be obvious to its creators, but can be exploited by hackers, like the l33k3rs, right under the programers nose! 
+
 Originally, the term bug meant an actual insect had made its way into the computer and was stopping it from working! Computers are too small for that now though. 
 
 Bug bounty hunters are people who will go onto a program, with permission from the owner, and search for these exploitable problems, and area paid a bug bounty for every one they find! 
 
 Here's an activity created by Google to help teach you about one of the most common bugs on the web, known as Cross-Site Scripting, or XSS. 
 
-https://xss-game.appspot.com/?utm_source=webopsweekly&utm_medium=email
+Access the game [here](https://xss-game.appspot.com/?utm_source=webopsweekly&utm_medium=email)
 
-TODO:  Add XSS Google game 
+Go [here](https://www.hackerone.com/internet-bug-bounty) to learn more about bug bounty hunting jobs. 
 
-To learn about bug bounty hunter jobs check out this link:
-
-https://www.hackerone.com/internet-bug-bounty
