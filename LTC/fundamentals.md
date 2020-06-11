@@ -14,9 +14,15 @@ Here's how you represent the concepts we learned about in JavaScript:
 - Or is \|\|
 - Not is !
 
-So, if you wanted to write "A or B" in JavaScript, you would do **A\|\|B**. Or, if you wanted to say "Not A, and B", you would do **!A&&B**. In JavaScript, the order of operations goes !, &&, then \|\|. This means that first the **not** will be applied, then the **and**, and lastly the **or** - kind of like PEMDAS! Also like PEMDAS, you can use parenthesis, which will also be applied first. So maybe the order techincally goes () , ! , && , \|\|
+So, if you wanted to write "A or B" in JavaScript, you would do **A\|\|B**. Or, if you wanted to say "Not A, and B", you would do **!A&&B**. 
 
-All of these concepts are shown in the CodePen below. (You can click the "HTML" tab again to *only* see the result, or click the "Result" button and then the "HTML" button to *only* see the code. You can also switch between the HTML, CSS, and JavaScript by clicking their respective tabs, right above the code).
+> NOT is !, AND is &&, OR is ||
+
+In JavaScript, the order of operations goes !, &&, then \|\|. This means that first the **not** will be applied, then the **and**, and lastly the **or** - kind of like PEMDAS! Also like PEMDAS, you can use parenthesis, which will also be applied first. So maybe the order techincally goes () , ! , && , \|\|
+
+> How would you write "A and Not B"?
+
+All of these concepts are shown in the CodePen below. (You can click the "JS" tab above the code to *only* see the result, or click the "Result" button and then the "JS" button to *only* see the code. You can also switch between the HTML, CSS, and JavaScript by clicking their respective tabs, right above the code).
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="wvMMoqJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Boolean">
   <span>See the Pen <a href="https://codepen.io/dianevinson/pen/wvMMoqJ">
@@ -59,7 +65,7 @@ In the code, you can see that it starts out with "for", and then has a pair of p
 
 - The initialization of our variable: This is always the first statement, where some baseline condition will be set for the for loop. This is where we start counting how many times we do something. In this case (and in many cases), this is **let i = 0**. 
 
-This says that we will have a variable called **i**, and that we will start out our loop with **i** being equal to 0. We will use **i** to keep track of the number of times we've gone through our loop.
+This says that we will have a variable called **i**, and that we will start out our loop with **i** being equal to 0. We will use **i** to keep track of the number of times we've gone through our loop. Each time we perform the action(s) inside of the loop, we will increment our counting variable.
 
 Many people name their counting variable **i** in their for loops (maybe because it stands for index? or integer?). While normally you want to be more descriptive when naming variables, we use this variable for such a short amount of time that it's okay! If you wanted to make multiple **for loops**, or a **for loop** *inside* of a **for loop** (we'll see that in a minute), you could use the variables j, k, and so on to go through those for loops.  
 
@@ -75,7 +81,9 @@ This is how we move through the loop - without this statement, we'd be stuck in 
 
 Let's look at a for loop in action!
 
-In the code below, find the line where it says "function makeDots(numberOfDots)". In the line right below that, you should see a for loop! This for loop says **we have a variable named i, which we'll set equal to 0. We want to repeat whatever is inbetween the two curly brackets (which look like { and } ) that follow this line as long as i is less than numberOfDots. Also, after each time we perform our action, we will add 1 to i**. In this example, **numberOfDots** is whatever number you enter in the box! The code in the curly brackets is a little confusing, but all you need to know is that it *calls* another function which will make a dot, and then it waits 1 second to go through the loop again. **Normally, we'd be able to go through this for loop *almost* instantly, but in order to show how the computer *actually* goes through the for loop 1 dot at a time, I set it so that it will wait 1 second in between making the dots.** 
+In the code below, find the line where it says "function makeDots(numberOfDots)". In the line right below that, you should see a for loop! This for loop says **we have a variable named i, which we'll set equal to 0. We want to repeat whatever is inbetween the two curly brackets (which look like { and } ) that follow this line as long as i is less than numberOfDots. Also, after each time we perform our action, we will add 1 to i**. In this example, **numberOfDots** is whatever number you enter in the box! The code in the curly brackets is a little confusing, but all you need to know is that it *calls* another function which will make a dot, and then it waits 1 second to go through the loop again. 
+
+**Normally, we'd be able to go through this for loop *almost* instantly, but in order to show how the computer *actually* goes through the for loop 1 dot at a time, I set it so that it will wait 1 second in between making the dots.** 
 
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="WNrrdXv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="for loops">
@@ -88,7 +96,9 @@ In the code below, find the line where it says "function makeDots(numberOfDots)"
 There's another **for loop** in the code above - see if you can find it!
 
 The code inside the second **for loop** is used to create a random color for the dot. As you might've learned in the CSS lesson yesterday, colors can be represented by numbers, which in certain number bases can be represented by numbers and letters! The line inside the **for loop** that says 
-     color += letters[Math.floor(Math.random() * 16)];
+
+      color += letters[Math.floor(Math.random() * 16)];
+      
 says "choose a random number or letter from '0123456789ABCDEF', and then add it to the end of our list of numbers/letters that represent the color. Since the hexcode (a.k.a. the list of numbers and letters) for a color is always 6 characters long, we will repeat this process of choosing a random number/letter from 0-F and adding it to our list **six** times. 
 
 Let's look at a second type of loop.
@@ -151,11 +161,11 @@ Let's look at how someone would write an **if statement** in JavaScript.
 
 <dl>
   <dt>if (condtion A is true)</dt>
-  <dd>The first line in an if block will always start with a simple *if* statement. This says that if condition A is true, then action 1 will be performed. If condition A is true, then once action 1 is performed, the program will <u>NOT</u> check to see if condition B is true.</dd>
+  <dd>The first line in an if block will always start with a simple <b>if</b> statement. This says that if condition A is true, then action 1 will be performed. If condition A is true, then once action 1 is performed, the program will <u>NOT</u> check to see if condition B is true.</dd>
   <dt> else if (condition B is true)</dt>
-  <dd> This program will only check if condition B is true <u>IF</u> condition A was not true. If condition B is true, then action 2 will be performed, and the program will not check to see any of the following conditions listed are true. **You can have multiple "else if" statements!** They will be checked in whatever order you type them in. Similarly, it's not required that you have *any* "else if" statements</dd>
+  <dd> This program will only check if condition B is true <em>IF</em> condition A was not true. If condition B is true, then action 2 will be performed, and the program will not check to see any of the following conditions listed are true. <b>You can have multiple "else if" statements!</b> They will be checked in whatever order you type them in. Similarly, it's not required that you have <em>any</em> "else if" statements</dd>
   <dt> else</dt>
-  <dd> The else statement is performed **if and only if** none of the other conditions were true. In this example, that means that conditions A and B were both false. **You do not need to include an else statement**, but if you do, it always goes after all of the other statements.</dd>
+  <dd> The else statement is performed <b>if and only if</b> none of the other conditions were true. In this example, that means that conditions A and B were both false. <b>You do not need to include an else statement</b>, but if you do, it always goes after all of the other statements.</dd>
 </dl>
 
 > Can you think of why you would want to put your **else** statement after all of your **else if** statements?
@@ -171,6 +181,6 @@ Look at the example below. In this example, the background image will change dep
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Look in the JavaScript code and try to find the if statements!
+Look in the JavaScript code and try to find the if statements! (Hint: they're in the function called *changeBackground(time)*)
 
 
