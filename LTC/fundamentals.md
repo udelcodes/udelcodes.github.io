@@ -139,7 +139,6 @@ Try to find where it says
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ## If Statements
----------
 
 The next topic we'll be talking about today is the **if statement**. You use if statements when you want to perform an action *only if* a certain condition is true. **If statements** are oftentimes used along with **boolean logic**!
 
@@ -181,6 +180,49 @@ Look at the example below. In this example, the background image will change dep
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Look in the JavaScript code and try to find the if statements! (Hint: they're in the function called *changeBackground(time)*)
+Look in the JavaScript code and try to find the if statements! (Hint: they're in the function called *changeBackground(time)*). If you look in the comments next to each statement, you can see what time range that block of code will be executed for. The code in between the statements (document.body.style.backgroundImage = "url(...)") is more JavaScript that changes the background. We'll learn about it tomorrow).
+
+> Find the comment that says "the time is greater than 4 pm and less than 9pm". Notice how we never had to say **hours > 16 && hours < 21** in our code. How did the program know that that was our third condition?
+
+
+Now that we've learned a bit about **boolean logic, loops,** and **if statements** in JavaScript, we're going to learn about another JavaScript concept: **JSON Objects**!
+
+-----------
+
+## JSON Objects
+
+#### What is a JSON Object?
+
+**JSON** stands for **J**ava**S**cript **O**bject **N**otation, and it is used to create objects using **key-value** pairs in JavaScript. To begin with our understanding of **JSON Objects**, we're going to start by looking at **key-value pairs** and **maps**
+
+## What is a key-value pair?
+
+A **key-value** pair is a set of two objects, a key and a value, that are linked together and are stored in something called a **map**. Let's look at a visual representation of a **map**:
+
+|Key        | Value         |
+| ----------|:-------------:|
+| Breakfast | Oatmeal |
+| Lunch     | Chicken Pot Pie      |
+| Snack     | Chips and Salsa      | 
+| Dinner    | Chicken Pot Pie      |
+
+In the table above, the **keys** are the names of meals, and their corresponding **values** are what you ate at that meal. So, one key value pair is `"breakfast":"Oatmeal"`.  
+
+One important feature of a **map** is that **you cannot repeat the same key in a map, but you can have multiple keys share a value**. To put this in terms of our meal example above, you would not be able to create two enteries with the `key="dinner"`. If you look at the **values** for Lunch and Dinner, though, you can see that they both have the same value, which is "Chicken Pot Pie".
+
+> But what if you have multiple values that you want to associate with a key? What if I had chicken pot pie *and* a salad for dinner?
+
+Every key can be associated with *ONE* object, but luckily, this object can be a list of other objects (we count a list as *one* object)! This is done very often, and you'll see an example of it in our activity later today.
+
+> So, what's the difference between a JSON Object and a Map?
+
+JSON Objects and Maps are very similar, as they both consist of key-value pairs. Maps, by definition, will not allow a user to use the same key multiple times when entering data, but *technically* JSON objects will (although it is confusing and bad practice and can lead to problems). 
+
+> What does a JSON Object look like?
+
+Great question! Below is what our meal example would look like. 
+
+
+
 
 
