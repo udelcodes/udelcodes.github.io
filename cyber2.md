@@ -33,7 +33,9 @@ The **Global Dessert Vault** developers have provided us with a sample copy of t
 
 Take a look and see what you and the rest of the team can learn from the file upload page <a href="http://desserts.gel.webfactional.com/" target="_blank">here</a>.
 
-Here is a link to the page that may be helpful in your mission to find out how the L33k3rs l33ked our page! Good Luck! <a href="https://udel.codes/cyber2/File_Upload_Tutorial" target="_blank">Tutorial</a>
+Here is a link to the page that may be helpful in your mission to find out how the L33k3rs l33ked our page! Good Luck! 
+
+<a href="https://udel.codes/cyber2/File_Upload_Tutorial" target="_blank">Tutorial</a>
 
 ---
 
