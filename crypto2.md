@@ -41,7 +41,7 @@ In the first message, Ivan Vladimir and Dmitry Oleg are plotting how much money 
 Dmitry Oleg: “Dr Vladimir”   
 Ivan Vladimir: “Please comrade, call me Dr. V”  
 “How much are we planning to steal from these Americanos?”  
-Dmitry Oleg: “11010 trillion dollars”
+Dmitry Oleg: “11010 trillion dollars”*
 
 Oh no! We already have 25 trillion dollars in debt!
 
