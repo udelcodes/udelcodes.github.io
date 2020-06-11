@@ -189,13 +189,13 @@ Now that we've learned a bit about **boolean logic, loops,** and **if statements
 
 -----------
 
-## JSON Objects
+# JSON Objects
 
-#### What is a JSON Object?
+### What is a JSON Object?
 
 **JSON** stands for **J**ava**S**cript **O**bject **N**otation, and it is used to create objects using **key-value** pairs in JavaScript. To begin with our understanding of **JSON Objects**, we're going to start by looking at **key-value pairs** and **maps**
 
-## What is a key-value pair?
+### What is a key-value pair?
 
 A **key-value** pair is a set of two objects, a key and a value, that are linked together and are stored in something called a **map**. Users are able to retrieve the **values** from the **map** by using the **key**. Let's look at a visual representation of a **map**:
 
