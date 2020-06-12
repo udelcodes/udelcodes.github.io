@@ -68,10 +68,10 @@ Below is a little more indepth cheat sheet with commands to help
 you find your flags. Good Luck!
 
 ---
-
+```
 **exit** - exits the bash shell!
 
-**cd <path>** - change to the directory given; with no 
+**cd** <path> - change to the directory given; with no 
 arguments, chdir to the home directory; with a '-' 
 as the only argument, chdirs to directory
 previously in, the same as what tcsh does. Also, 
@@ -94,7 +94,7 @@ by a : before the list of files in that directory.
 current working directory :)
 
 
-**kill <pid>**- When given just a pid, sends
+**kill** <pid>- When given just a pid, sends
 a SIGTERM to the process with that
 pid using kill(2). When given a signal
 number (with a - in front of it), sends
@@ -110,10 +110,10 @@ and redirect output in terminal or files
 **pid** - prints the pid of the shell
 
 
-**grep <filename>**- a command-line utility for searching
+**grep** <filename>- a command-line utility for searching
 plain-text data sets for lines that match a regular
 expression.
-  
+  ```
 ---
 
 **Now try and find all the flags**
