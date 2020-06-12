@@ -2,7 +2,7 @@
 <h2> Welcome back!</h2>
 <h3>Getting Interactive</h3>
 
-![techwomen](https://images.unsplash.com/photo-1573496773905-f5b17e717f05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60)
+![techwomen](https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixlib=rb-1.2.1&auto=format&fit=crop&w=991&q=80)
 
 Let's play this for a second.
 
