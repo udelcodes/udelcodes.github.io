@@ -12,4 +12,6 @@ Combine different items to discover new ones! <br>
 Now click the "JS" button to see what the code looks like
 
 click the following link to start editting your own!
-https://codepen.io/mariavanv/pen/pogyyQa
+
+<a href="https://codepen.io/mariavanv/pen/pogyyQa" target="_blank" >Make your own Little Alchemy!</a>
+
