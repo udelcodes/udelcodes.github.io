@@ -13,5 +13,5 @@ Now click the "JS" button to see what the code looks like
 
 click the following link to start editting your own!
 
-<a href="https://codepen.io/mariavanv/pen/pogyyQa" target="_blank" >Make your own Little Alchemy!</a>
+<a href="https://codepen.io/mariavanv/pen/jOWqoLy" target="_blank" >Make your own Little Alchemy!</a>
 
