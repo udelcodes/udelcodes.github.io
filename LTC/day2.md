@@ -14,7 +14,7 @@ Play with the following codepen! By the end of the day, you'll be able to build 
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 
-Now let's learn a <b>bit</b> about logic!
+Now let's learn a <b>bit</b> about logic! 
 We use logic all the time, even if you don't realize it. 
 
 <h2>Example 1: Umbrella Uncertainty</h2>
