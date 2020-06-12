@@ -57,7 +57,7 @@ First we will go to the online terminal Alice and Bob provided yesterday: <a hre
 
 Amazing! You have now learned how to create directories and files within a bash terminal!
 
-## Navigate the terminal to finding flags!
+## Navigate the terminal to find flags!
 
 Begin by entering the following commands in the home directory of the terminal...
 
