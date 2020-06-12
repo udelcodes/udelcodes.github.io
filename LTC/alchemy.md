@@ -15,3 +15,10 @@ click the following link to start editting your own!
 
 <a href="https://codepen.io/mariavanv/pen/jOWqoLy" target="_blank" >Make your own Little Alchemy!</a>
 
+
+Try doing the following tasks:
+<ol>
+  <li> Change the names and images of <b>example1</b> and <b>example2</b> in the JS </li>
+  <li> Change <b>result example</b> to be a logical combination of example 1 and example 2. <i>Ideas: maybe do 'red' plus 'yellow' equals 'orange' or 'seed' plus 'water' equals 'flower'</i> </li>
+  <li> Add some new items, and make sure you edit the <b>combinations</b> section of items it combines with! <i> Note: you'll need to add the result and the thing it mixes with before running your code</i> </li>
+ </ol>
