@@ -6,6 +6,15 @@
 Today we're going to learn a <b>bit</b> about logic!
 We use logic all the time, even if you don't realize it. 
 
+Play with the following codepen! By the end of the day, you'll be able to build your very own! But first we need to learn some basics
+<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="result" data-user="mariavanv" data-slug-hash="pogyyQa" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Little Alchemy Engine Example">
+  <span>See the Pen <a href="https://codepen.io/mariavanv/pen/pogyyQa">
+  Little Alchemy Engine Example</a> by mariavanv (<a href="https://codepen.io/mariavanv">@mariavanv</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<br>
+
 <h2>Example 1: Umbrella Uncertainty</h2>
 
 Let's say you're getting ready to leave for the day, and you're deciding what to take with you for the day.
