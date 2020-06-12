@@ -3,8 +3,7 @@
 
 ![techwomen](https://images.unsplash.com/photo-1573496773905-f5b17e717f05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60)
 
-Today we're going to learn a <b>bit</b> about logic!
-We use logic all the time, even if you don't realize it. 
+
 
 Play with the following codepen! By the end of the day, you'll be able to build your very own! But first we need to learn some basics
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="result" data-user="mariavanv" data-slug-hash="pogyyQa" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Little Alchemy Engine Example">
@@ -14,6 +13,9 @@ Play with the following codepen! By the end of the day, you'll be able to build 
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
+
+Now let's learn a <b>bit</b> about logic!
+We use logic all the time, even if you don't realize it. 
 
 <h2>Example 1: Umbrella Uncertainty</h2>
 
