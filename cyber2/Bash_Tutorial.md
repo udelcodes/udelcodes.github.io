@@ -59,7 +59,7 @@ Amazing! You have now learned how to create directories and files within a bash 
 
 ## Navigate the terminal to finding flags!
 
-Begin by entering the following commands in the terminal...
+Begin by entering the following commands in the home directory of the terminal...
 
 1. `git clone https://github.com/alexarnell/Bash_Tutorial.git`
 2. Next go into the 'Bash_Tutorial' directory to start hunting for flags
