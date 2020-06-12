@@ -10,3 +10,6 @@ Combine different items to discover new ones! <br>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 <br>
 Now click the "JS" button to see what the code looks like
+
+click the following link to start editting your own!
+https://codepen.io/mariavanv/pen/pogyyQa
