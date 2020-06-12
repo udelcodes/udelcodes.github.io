@@ -6,11 +6,11 @@
 
 We hope you all are excited for this week of camp! This week, we're going to learn how to:
 
--Make our own websites using HTML and CSS
--Create our own "choose your own adventure" style games
--Develop our JavaScript skills
--Learn about the Document Object Model
--Improve our logical thinking skills 
+-Make our own websites using HTML and CSS<br>
+-Create our own "choose your own adventure" style games<br>
+-Develop our JavaScript skills<br>
+-Learn about the Document Object Model<br>
+-Improve our logical thinking skills <br>
 
 
 The lesson plans for each day are all linked right below:
