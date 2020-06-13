@@ -136,6 +136,27 @@ Then, change the part where it says `document.getElementById("printhere").innerH
     
 Now, it'll log whenever you click the button!
 
+### Step 7. Add a message
+
+In the HTML, add a line *before* the button that says `<input type="text" id="message"></input>`
+
+In the JavaScript, add a line *after* the line that says `var date = new Date();` that says `var message = document.getElementById("message").value;`
+
+Change the JavaScript so that `time.innerHTML` prints the message *and* the time.
+
+Your JavaScript should now look something like this (although you might print the message and time in a slightly different way):
+
+    document.getElementById("clickme").addEventListener("click", function(){
+      var date = new Date();
+      var message = document.getElementById("message").value; 
+      var time = document.createElement("p");
+      time.innerHTML = message + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();   
+      document.getElementById("printhere").appendChild(time);
+    });
+    
+
+
+
 
 
 
