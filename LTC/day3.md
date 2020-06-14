@@ -83,7 +83,7 @@ Delete everything that's in that file and replace it with the following code:
 
 Next, from the files listed on the left, click on the one that's called "package.json". Where it says "Add package" at the top of the document, search "socketio", and select the option called "2.3.0 socket.io".
 
-!(This is what it should look like)[https://prof.ninja/cyber/glitch2.png]
+![This is what it should look like](https://prof.ninja/cyber/glitch2.png)
 
 Now, from the files listed on the left, click on "views/", and then click on the file that says "index.html". Delete everything that's in that file and replace it with the following code:
 
@@ -281,7 +281,7 @@ Your `index.html` file should now look something like this:
 
 If you click the button that says "Show" and then click where it says "Next to the code", you can see the code that we just added! Look how good it looks so far! We're almost done!
 
-!(almost there)[https://media0.giphy.com/media/VEzlrMWk3F7uuFuRSq/giphy.gif]
+![almost there](https://media0.giphy.com/media/VEzlrMWk3F7uuFuRSq/giphy.gif)
 
 
 
