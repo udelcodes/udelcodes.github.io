@@ -47,11 +47,87 @@ Congrats you have made a click listener.  Let's talk about that
 
 Next, we're going to use what we've learned to build a super cool surprise!
 
-First, open up ![a new pen on codepen](https://www.codepen.io).
+First things first, head over to ![glitch.com](https://glitch.com).
+
+### Step 1. Create a new project
+
+Click the button that says "New Project" thats located towards the upper right corner of the screen, then click on "hello-express".
+
+### Step 2. Copy and paste some things
+
+Before we begin, we're going to copy and paste some code that will work as our back-end for this project.
+
+From the files listed on the left hand side, click the one called "server.js".
+
+Delete everything that's in that file and replace it with the following code:
+
+`var app = require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+var port = process.env.PORT || 3000;
+
+app.get('/', function(request, response) {
+  response.sendFile(__dirname + '/views/index.html');
+});
+
+io.on('connection', function(socket){
+  console.log("hi");
+  socket.on('chat message', function(msg){
+    io.emit('chat message', msg);
+  });
+});
+
+var listener = http.listen(process.env.PORT, function() {
+  console.log('Your app is listening on port ' + listener.address().port);
+});`
+
+Next, from the files listed on the left, click on the one that's called "package.json". Where it says "Add package" at the top of the document, search "socketio", and select the option called "2.3.0 socket.io".
+
+(This is what it should look like)[https://prof.ninja/cyber/glitch2.png]
+
+Now, from the files listed on the left, click on "views/", and then click on the file that says "index.html". Delete everything that's in that file and replace it with the following code:
+
+`<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <style>
+          /*Add your CSS in here*/
+    </style>
+  </head>
+  <body>
+    <!--Start typing the HTML right under here-->
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      $(function () {
+        var socket = io();
+        $('#clickme').click(function(){
+          //begin typing our JavaScript right under here
+          
+         
+          socket.emit('chat message',input);
+          return false;
+        });
+        socket.on('chat message', function(msg){
+          //paste the "append" line under here
+          
+        });
+      });
+    </script>
+  </body>
+</html>`
+
+### Step 3. Open up Codepen
+
+Leave the Glitch tab open, as we're going to come back to it in a minute. We're going to move to codepen, since it'll be a little bit easier to see what we're doing in there. 
+
+Go to ![Codepen](https://codepen.io) and create a new pen by clicking the tab that says "Pen" on the left side. 
 
 ### Step 1. Log to the console
 
-In the HTML tab, add a button element by typing `<button id="clickme">Click Here</button>`
+In the HTML tab on Codepen, add a button element by typing `<button id="clickme">Click Here</button>`
 
 In the JavaScript tab, add `document.getElementById("clickme").addEventListener("click",function(){alert(1)});`
 
@@ -79,20 +155,20 @@ Click the button. What happens?
 
 ### Step 3. Print on the screen
 
-In the HTML, right below where we made the button, add a line that says `<h2 id="printhere"></h2>`
+In the HTML, right above where we made the button, add a line that says `<h2 id="messages"></h2>`
 
-In the JavaScript, change `alert(1)` to say `document.getElemenetById("printhere").innerHTML = "You clicked"`
+In the JavaScript, change `alert(1)` to say `document.getElemenetById("messages").innerHTML = "You clicked"`
 
 Try clicking the button to see what happens
 
-- In the code above, we used the same method of `document.getElemenetId("printhere")` to get the header2 element that we just added. 
+- In the code above, we used the same method of `document.getElemenetId("messages")` to get the header2 element that we just added. 
 
-- `.innerHTML =` sets what's between the two h2 tags. Once this line has run, the h2 element looks like `<h2 id="printhere">You clicked</h2>`      
+- `.innerHTML =` sets what's between the two h2 tags. Once this line has run, the h2 element looks like `<h2 id="messages">You clicked</h2>`      
 
 
 ### Step 4. Showing the time
 
-In the JavaScript, add the line `var date = new Date();` right before where it says `document.getElementById("printhere")`
+In the JavaScript, add the line `var date = new Date();` right before where it says `document.getElementById("messages")`
 
 Also, change the code that says `"you clicked"` to say `date.getTime()`
 
@@ -100,7 +176,7 @@ Your JavaScript code should know look something like this:
 
     document.getElementById("clickme").addEventListener("click", function(){
       var date = new Date();
-      document.getElementById("printhere").innerHTML = date.getTime()
+      document.getElementById("messages").innerHTML = date.getTime()
     });
     
  Click on the button and see what's changed.
@@ -113,46 +189,105 @@ Let's break down the code we just added:
   
 ### Step 5. Show the time in a clearer way
 
-Change the JavaScript code that says `date.getTime()` to say `date.getHours() + ":" + date.getMinutes()`
+Change the JavaScript code that says `date.getTime()` to say `(date.getMonth() + 1) +"/" + date.getDate() + " " +date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();`
 
 Click the button. Doesn't that time look nicer? 
 
 ### Step 6. Show all of the times that you've clicked
 
-In the HTML, change the part that says `<h2 id="printhere"></h2>` to says `<div id="printhere"></div>`
+In the HTML, change the part that says `<h2 id="messages"></h2>` to says `<ul id="messages"></ul>`
 
-Next, in the JavaScript, after it says `var date = new Date();`, add a line that says `var time = document.createElement("p");`.
+Below that, add a line that says `let time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();`
 
-Below that, add a line that says `time.innerHTML = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();`
-
-Then, change the part where it says `document.getElementById("printhere").innerHTML = date.getHours() + ":" + date.getMinutes()` to say `document.getElementById("printhere").appendChild(time);`. Your JavaScript should now look like this:
+Then, change the part where it says `document.getElementById("messages").innerHTML = (date.getMonth() + 1) +"/" + date.getDate() + " " +date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();` to say ``document.getElementById("messages").append(`<li>${time}</li>`);``. Your JavaScript should now look like this:
 
     document.getElementById("clickme").addEventListener("click", function(){
       var date = new Date();
-      var time = document.createElement("p");
-      time.innerHTML = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-      document.getElementById("printhere").appendChild(time);
+      let time = (date.getMonth() + 1) +"/" + date.getDate() + " " +date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+      document.getElementById("messages").append(`<li>${time}</li>`);
     });
     
 Now, it'll log whenever you click the button!
 
 ### Step 7. Add a message
 
-In the HTML, add a line *before* the button that says `<input type="text" id="message"></input>`
+In the HTML, add a line *before* the button but *after* the list that says `<input type="text" id="message">`
 
 In the JavaScript, add a line *after* the line that says `var date = new Date();` that says `var message = document.getElementById("message").value;`
 
-Change the JavaScript so that `time.innerHTML` prints the message *and* the time.
+Change the JavaScript so that instead of just appending `${time}` to our list of messages, it appends `${message}` too.
 
 Your JavaScript should now look something like this (although you might print the message and time in a slightly different way):
 
     document.getElementById("clickme").addEventListener("click", function(){
-      var date = new Date();
-      var message = document.getElementById("message").value; 
-      var time = document.createElement("p");
-      time.innerHTML = message + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();   
-      document.getElementById("printhere").appendChild(time);
+      var date = new Date();      
+      var message = document.getElementById("message").value;
+      let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+      document.getElementById("messages").append(`<li>${message} ${time}</li>`);
     });
+    
+When you click the button now, it might still show the "li" tags and look a little funny. But don't worry about that - we're going to move back to our glitch.com app now, anyway.
+
+### Step 8. Move our code to Glitch
+
+Copy all of the code from the HTML section on our Codepen and paste it into the Glitch right below line 10 in `index.html`, where it says "\<!--Start typing the HTML right under here-->".
+
+
+Next, copy lines 2 through 4 of our JavaScript on Codepen (from `var date = ` to `` + date.getSeconds();`` and paste that into our Glitch on line 25 of `index.html`, right below the line that says "//begin typing our JavaScript right under here". 
+
+Copy line 5 of our JavaScript from Codepen (which should say ``document.getElementById("messages").append(`<li>${message} ${time}</li>`);``) and paste that under the line that says "//paste the "append" line under here" (this should be around line 33).
+
+Your `index.html` file should now look something like this:
+
+`<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <style>
+          /*Add your CSS in here*/
+    </style>
+  </head>
+  <body>
+    <!--Start typing the HTML right under here-->
+    <ul id="messages">
+</ul>
+<div id="input">
+<input type="text" id="message">
+<button id="clickme">Click me</button>
+</div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      $(function () {
+        var socket = io();
+        $('#clickme').click(function(){
+          //begin typing our JavaScript right under here
+          var date = new Date();      
+          var message = document.getElementById("message").value;
+          let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+         
+          socket.emit('chat message',input);
+          return false;
+        });
+        socket.on('chat message', function(msg){
+          //paste the "append" line under here
+          document.getElementById("messages").append(`<li>${message} ${time}</li>`);
+        });
+      });
+    </script>
+  </body>
+</html>`
+
+If you click the button that says "Show" and then click where it says "Next to the code", you can see the code that we just added! Look how good it looks so far! We're almost done!
+
+!(almost there)[https://media0.giphy.com/media/VEzlrMWk3F7uuFuRSq/giphy.gif]
+
+
+
+
+    
+
     
 
 
