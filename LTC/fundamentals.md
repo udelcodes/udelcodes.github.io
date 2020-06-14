@@ -25,7 +25,7 @@ In JavaScript, the order of operations goes !, &&, then \|\|. This means that fi
 > How would you write "A and Not B"?
 
 
-<button onClick="(function(){document.getElementById("answer1").style.visibility = visible;})();return false;">Click here for the answer</button>
+<h3>Click here for the answer</h3>
 
 
 <h4 id="answer1" style="visibility:hidden;"> A&&!B</h4>
