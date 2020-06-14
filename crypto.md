@@ -59,6 +59,8 @@ Below, you will find the links to the each day's lesson.
 
 [Day 1](https://udel.codes/crypto1) - Introduction to Ciphers  
 [Day 2](https://udel.codes/crypto2) - Introduction to Number Systems  
+ - [In-depth explanation of number systems](https://udel.codes/numbersystems) (supplemental)
+ 
 [Day 3](https://udel.codes/crypto3) - Operators and Randomness  
 [Day 4](https://udel.codes/crypto4) -  
 
