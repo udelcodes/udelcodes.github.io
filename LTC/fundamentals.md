@@ -16,11 +16,17 @@ Here's how you represent the concepts we learned about in JavaScript:
 
 So, if you wanted to write "A or B" in JavaScript, you would do **A\|\|B**. Or, if you wanted to say "Not A, and B", you would do **!A&&B**. 
 
-> NOT is !, AND is &&, OR is ||
+> NOT is !, AND is &&, OR is \|\|
 
 In JavaScript, the order of operations goes !, &&, then \|\|. This means that first the **not** will be applied, then the **and**, and lastly the **or** - kind of like PEMDAS! Also like PEMDAS, you can use parenthesis, which will also be applied first. So maybe the order techincally goes () , ! , && , \|\|
 
 > How would you write "A and Not B"?
+
+
+<h2 onClick="(function(){document.getElementById("answer1").style.visibility = visible;})();return false;">Click here for the answer</h2>
+
+
+<h4 id="answer1" style="visibility:hidden;"> A&&!B</h4>
 
 All of these concepts are shown in the CodePen below. (You can click the "JS" tab above the code to *only* see the result, or click the "Result" button and then the "JS" button to *only* see the code. You can also switch between the HTML, CSS, and JavaScript by clicking their respective tabs, right above the code).
 
