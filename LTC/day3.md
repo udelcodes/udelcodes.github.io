@@ -109,11 +109,13 @@ Now, from the files listed on the left, click on "views/", and then click on the
 
 
                 socket.emit('chat message',input);
+                $('#message').val('');
                 return false;
               });
               socket.on('chat message', function(msg){
-                //paste the "append" line under here
+                //paste the "append" line right below here
 
+              window.scrollTo(0, document.body.scrollHeight);
               });
             });
           </script>
@@ -269,22 +271,118 @@ Your `index.html` file should now look something like this:
                 let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 
                 socket.emit('chat message',input);
+                $('#message').val('');
                 return false;
               });
               socket.on('chat message', function(msg){
                 //paste the "append" line under here
                 document.getElementById("messages").append(`<li>${message} ${time}</li>`);
+                window.scrollTo(0, document.body.scrollHeight);
               });
             });
           </script>
         </body>
       </html>
 
-Add a line below the line that says `let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();` that says ``let input = `${message} ${time}` ``, and change ``document.getElementById("messages").append(`<li>${message} ${time}</li>`);`` to say ``document.getElementById("messages").append(`<li>${msg}</li>`);``
+Add a line below the line that says `let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();` that says ``let input = `${message} ${time}` ``, and change ``document.getElementById("messages").append(`<li>${message} ${time}</li>`);`` to say ``$("#messages").append(`<li>${msg}</li>`);``
+
+Your JavaScript should look like this:
+
+              $(function () {
+          var socket = io();
+          $('#clickme').click(function(){
+            //begin typing our JavaScript right under here
+            var date = new Date();      
+            var message = document.getElementById("message").value;
+            let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+            let input = `${message} ${time}`
+            socket.emit('chat message',input);
+            $('#message').val('');
+            return false;
+          });
+          socket.on('chat message', function(msg){
+            //paste the "append" line under here
+            $("#messages").append(`<li>${msg}</li>`);
+            window.scrollTo(0, document.body.scrollHeight);
+          });
+        });
 
 If you click the button that says "Show" and then click where it says "Next to the code", you can see the code that we just added! Look how good it looks so far! We're almost done!
 
 ![almost there](https://media0.giphy.com/media/VEzlrMWk3F7uuFuRSq/giphy.gif)
+
+
+### Step 9. Add a username and color
+
+Now we're going to allow users to put in usernames and choose the color that they want their names to come up as.
+
+Add the following code right above where we put the list in the HTML code:
+
+       <div id="nameInput">
+          <input type="text" id="name" autocomplete="off" placeholder="Name" value="Anonymous"> 
+          <input type="color" id="color" value="#aa00ff">
+       </div>
+       
+In the JavaScript, right above the line that says `var date = new Date()`, add the following lines:
+
+          let name = document.getElementById("name").value
+          let color = document.getElementById("color").value
+          
+Finally, change the line that says ``let input = `${message} ${time}` `` to say ``let input = `<span style="color: ${color};">${name}</span>: ${message} <span id="timetext">${time}</span>` ``
+
+This is coming together to look like a really cool chat app!
+
+### Step 10. Adding CSS
+
+Finally, add the following CSS code to your `index.html` file, right below the line that says "/*Add your CSS in here*/" (it should be around line 7).
+
+      * { 
+        margin: 0; 
+        padding: 0; 
+        box-sizing: border-box; 
+      }
+      body {font: 13px Helvetica, Arial;}
+      #input {
+        background:#000;
+        padding: 3px;
+        position: fixed;
+         bottom:0;
+        width:100%;
+      }
+      #message {
+        width: 90%;
+        border:0;
+        padding: 10px;
+        margin-right: .5%;
+      }
+      #clickme {
+        width:9%;
+        background: rgb(130, 224, 255);
+        padding: 10px;
+      }      
+      #timetext {
+        padding-right: 10px;
+        position: fixed;
+        right: 0;
+      }
+      #nameInput {
+        background:#000;
+        padding: 3px;
+        width: 100%;
+        justify-content: center; 
+      }
+      #name { width:50%; border:0;padding:7px;margin-right:.5%;}
+      #color {width:20%; border:0px; height:20px; padding:2px;}
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+      #messages { margin-bottom: 40px }
+      
+Congratulations! You know have quite a professional looking chat app! If you click "Show" and then "In a New Window", it'll look even better!
+
+![you did it!](https://media0.giphy.com/media/QaXcpBEQRfD9pR3zk5/source.gif)
+
+You can share the link for your chat app with your friends and family and then you can all talk to each other at the same time!
 
 
 
