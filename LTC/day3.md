@@ -100,6 +100,7 @@ Now, from the files listed on the left, click on "views/", and then click on the
 
           <script src="/socket.io/socket.io.js"></script>
           <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+          <script src="lib/jquery-1.11.3.min.js" type="application/javascript"></script>
           <script>
             $(function () {
               var socket = io();
@@ -239,45 +240,47 @@ Copy line 5 of our JavaScript from Codepen (which should say ``document.getEleme
 
 Your `index.html` file should now look something like this:
 
-`<!doctype html>
-<html>
-  <head>
-    <title>Socket.IO chat</title>
-    <style>
-          /*Add your CSS in here*/
-    </style>
-  </head>
-  <body>
-    <!--Start typing the HTML right under here-->
-    <ul id="messages">
-</ul>
-<div id="input">
-<input type="text" id="message">
-<button id="clickme">Click me</button>
-</div>
-    
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <script>
-      $(function () {
-        var socket = io();
-        $('#clickme').click(function(){
-          //begin typing our JavaScript right under here
-          var date = new Date();      
-          var message = document.getElementById("message").value;
-          let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-         
-          socket.emit('chat message',input);
-          return false;
-        });
-        socket.on('chat message', function(msg){
-          //paste the "append" line under here
-          document.getElementById("messages").append(`<li>${message} ${time}</li>`);
-        });
-      });
-    </script>
-  </body>
-</html>`
+      <!doctype html>
+      <html>
+        <head>
+          <title>Socket.IO chat</title>
+          <style>
+                /*Add your CSS in here*/
+          </style>
+        </head>
+        <body>
+          <!--Start typing the HTML right under here-->
+          <ul id="messages">
+      </ul>
+      <div id="input">
+      <input type="text" id="message">
+      <button id="clickme">Click me</button>
+      </div>
+
+          <script src="/socket.io/socket.io.js"></script>
+          <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+          <script>
+            $(function () {
+              var socket = io();
+              $('#clickme').click(function(){
+                //begin typing our JavaScript right under here
+                var date = new Date();      
+                var message = document.getElementById("message").value;
+                let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+
+                socket.emit('chat message',input);
+                return false;
+              });
+              socket.on('chat message', function(msg){
+                //paste the "append" line under here
+                document.getElementById("messages").append(`<li>${message} ${time}</li>`);
+              });
+            });
+          </script>
+        </body>
+      </html>
+
+Add a line below the line that says `let time = (date.getMonth() + 1) + "/" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();` that says ``let input = `${message} ${time}` ``, and change ``document.getElementById("messages").append(`<li>${message} ${time}</li>`);`` to say ``document.getElementById("messages").append(`<li>${msg}</li>`);``
 
 If you click the button that says "Show" and then click where it says "Next to the code", you can see the code that we just added! Look how good it looks so far! We're almost done!
 
