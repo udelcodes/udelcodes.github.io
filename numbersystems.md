@@ -1,4 +1,4 @@
-## W3lc0m3 t0 an In-Depth Explanation of Number Systems!
+## Welcome to an In-Depth Explanation of Number Systems!
 
 Today you saw some cool ways to code numbers, now let's take a closer look into how they actually work.  
 Specifically, we will be learning about Binary, Base 10, and Hexadecimal.
