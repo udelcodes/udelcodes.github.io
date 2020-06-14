@@ -45,9 +45,9 @@ Each week of the camp will focus on a different topic.  Whether you'd like to at
 
 **Parents**: [Sign up here](https://docs.google.com/forms/d/e/1FAIpQLSc2u4xMOktBeiefPk1tug7gkMo06_aXrkWOhsBvyW0yKwhKaw/viewform)
 
----------
-### Week 1: Learn To Code
 
+### Week 1: Learn To Code
+---------
 Here is a link for the Learn To Code week homepage, we will be going to this page at the beginning of everyday!
 
 <a href="https://udel.codes/LTC/" target="_blank">Learn To Code Homepage</a>
