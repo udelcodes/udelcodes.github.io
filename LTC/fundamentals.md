@@ -39,8 +39,7 @@ All of these concepts are shown in the CodePen below. (You can click the "JS" ta
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-
-If you go to the **JavaScript** tab on the CodePen above (it says "JS" and is to the right of the tab that says "CSS"), in the function called **updateBooleans()**, you can see where we perform that **boolean logic** to get our outputs! Try to find the following in the JavaScript file (hint: first find where it says **function updateBooleans()**, then look in the code in between the two parenthesis. There's some other stuff in there that we'll learn later, so it's okay if you don't understand everything that you see yet!):
+Try to find the following in the JavaScript file (hint: first find where it says **function updateBooleans()**, then look in the code in between the two parenthesis):
 
 - (A && B)
 - (A \|\| B)
@@ -51,7 +50,7 @@ The last two examples in the CodePen are a bit more complicated, but it just goe
 
 ## Loops
 
-The next *very* important concept that we'll be talking about is **loops**! Loops are used to **repeat** an action. For instance, maybe you want to print something out a bunch of times, or maybe you have a list of numbers and you want to add them all together - remember, you can do practically anything when you're coding if you break it into small enough parts. 
+The next *very* important concept that we'll be talking about is **loops**! Loops are used to **repeat** an action. 
 
 Today, we'll be looking at two different types of loops: the **for loop** and the **while loop**. Both are used to repeat an action, but they come in handy in different scenarios.
 
@@ -60,6 +59,8 @@ Today, we'll be looking at two different types of loops: the **for loop** and th
 The **for loop** is normally used when you know how many times you want to repeat the action. For instance, maybe you're writing a program to print out a document, and you want the user to be able to enter how many copies of the document they want to print out. In this example, you could create a **print()** function that would print the document one time, and then repeat that one function as many times as the user wanted. In this scenario, a **for loop** would be very helpful!
 
 > *Can you think of another example where you could use a For Loop?*
+
+![xerox machine](https://www.thedigitalbridges.com/wp-content/uploads/2017/03/photocopier-machine-types.jpg)
 
 In JavaScript, a **for loop** is normally written as follows:
 
@@ -75,13 +76,7 @@ In the code, you can see that it starts out with "for", and then has a pair of p
 
 This says that we will have a variable called **i**, and that we will start out our loop with **i** being equal to 0. We will use **i** to keep track of the number of times we've gone through our loop. Each time we perform the action(s) inside of the loop, we will increment our counting variable.
 
-Many people name their counting variable **i** in their for loops (maybe because it stands for index? or integer?). While normally you want to be more descriptive when naming variables, we use this variable for such a short amount of time that it's okay! If you wanted to make multiple **for loops**, or a **for loop** *inside* of a **for loop** (we'll see that in a minute), you could use the variables j, k, and so on to go through those for loops.  
-
 - The ending condition: This is always the second statement, which tells us how long we should repeat our action for. In this example, we have that we will keep repeating our action as long as **i < 10** (10 could be replaced with any number, depending on how many times YOU want to repeat the action). 
-
-Since this specifically says that **i** must be *less* than 10, we will STOP performing this action once i=10 (we will perform it when i = 9, though). 
-
-In computer science, people normally start counting at 0 instead of 1, which is why we go *until* i = 10 if we want to repeat the action 10 times. Rather than repeating it from i=1 to i=10 (which would still be 10 repeats and you could absolutely do!), people normally repeat the action from i=0 to i=9 (which is also 10 repeats!)
 
 - The incrementing statement: Finally, our third statement tells us a way to increment our counting variable, i. In this example (and normally), this is written as **i++**. This is a short way to write **i = i + 1**, which just means that you're **adding 1 to i**. 
 
@@ -101,13 +96,7 @@ In the code below, find the line where it says "function makeDots(numberOfDots)"
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-There's another **for loop** in the code above - see if you can find it!
-
-The code inside the second **for loop** is used to create a random color for the dot. As you might've learned in the CSS lesson yesterday, colors can be represented by numbers, which in certain number bases can be represented by numbers and letters! The line inside the **for loop** that says 
-
-      color += letters[Math.floor(Math.random() * 16)];
-      
-says "choose a random number or letter from '0123456789ABCDEF', and then add it to the end of our list of numbers/letters that represent the color. Since the hexcode (a.k.a. the list of numbers and letters) for a color is always 6 characters long, we will repeat this process of choosing a random number/letter from 0-F and adding it to our list **six** times. 
+There's another **for loop** in the code above that generates random colors - see if you can find it!
 
 Let's look at a second type of loop.
 
@@ -115,19 +104,25 @@ Let's look at a second type of loop.
 
 The **while loop** is normally used when you want to repeat an item for as long as it takes to do something else, or *while* one statement is true.
 
-Imagine that you have a program where a user can keep entering numbers until the sum of all the numbers they enter is 50. In this scenario, your program would continue to prompt them to enter a new number *while* their total is less than 50. 
+Imagine you had a box of cookies. *While* you're still hungry, you'll keep eating cookies one by one. Once you're full, you'll stop.
 
 > *Can you think of another example where you could use a While Loop?*
 
+![cookies](https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60)
+
 In JavaScript, a **while loop** is normally written like this:
 
-    var i = 0;
-    while ( i < 50) {
+    var i = true;
+    while (i == true) {
         //perform action
-        i++
+        if (something) {
+          i = false;
+        }
     }
 
-Notice how in a **while loop**, you only have <u>one</u> statement inside of the parentheses! Just like a **for loop** though, you still have to initialize your counting variable at some point, and you have to increment it too. The only differences between a **for loop** and a **while loop** are *where* you initialize your variable and *where* you increment it.
+Notice how in a **while loop**, you only have <u>one</u> statement inside of the parentheses!
+
+Instead of just incrementing your variable inside of the while loop, you need to make it so that at some point your condition inside of the parentheses becomes false. This could be reaching a certain number like it was in a for loop, or it could be something. 
   
 Since the two loops are quite similar, they can be used interchangeably a lot of times! It's up to your personal preference to decide which one is easier for you to use in your code. 
 
@@ -154,6 +149,8 @@ You use **if statements** all the time in your normal life! Imagine that you're 
 
 > Think of an example where you could use an **if statement** to determine what action you'll perform
 
+![baseball](https://images.unsplash.com/photo-1470083748587-df49227c0505?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+
 Let's look at how someone would write an **if statement** in JavaScript.
 
     if (condition A is true) {
@@ -174,8 +171,6 @@ Let's look at how someone would write an **if statement** in JavaScript.
   <dt> else</dt>
   <dd> The else statement is performed <b>if and only if</b> none of the other conditions were true. In this example, that means that conditions A and B were both false. <b>You do not need to include an else statement</b>, but if you do, it always goes after all of the other statements.</dd>
 </dl>
-
-> Can you think of why you would want to put your **else** statement after all of your **else if** statements?
 
 The conditions that you check in your **if/ else if statements** need to be either **true** or **false** - just like in our Boolean truth tables! 
 
