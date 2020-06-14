@@ -4,6 +4,8 @@ Now that we've explored a bit of logic by using truth tables & and/or/not, we ca
 
 Although we'll be coding in JavaScript, the principles we'll be learning today can be applied to practically any programming language you can think of. Tomorrow, we'll look at some more JavaScript and add it to our website.
 
+![Computer pic](https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60)
+
 ## Boolean Logic
 
 Earlier today, we learned about **Boolean logic/ Boolean algebra**, where we had two inputs and used the operators **not, and, & or** to generate outputs. 
@@ -23,7 +25,7 @@ In JavaScript, the order of operations goes !, &&, then \|\|. This means that fi
 > How would you write "A and Not B"?
 
 
-<h2 onClick="(function(){document.getElementById("answer1").style.visibility = visible;})();return false;">Click here for the answer</h2>
+<button onClick="(function(){document.getElementById("answer1").style.visibility = visible;})();return false;">Click here for the answer</button>
 
 
 <h4 id="answer1" style="visibility:hidden;"> A&&!B</h4>
