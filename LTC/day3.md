@@ -61,63 +61,63 @@ From the files listed on the left hand side, click the one called "server.js".
 
 Delete everything that's in that file and replace it with the following code:
 
-`var app = require('express')();
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
-var port = process.env.PORT || 3000;
+    var app = require('express')();
+    var http = require('http').Server(app);
+    var io = require('socket.io')(http);
+    var port = process.env.PORT || 3000;
 
-app.get('/', function(request, response) {
-  response.sendFile(__dirname + '/views/index.html');
-});
+    app.get('/', function(request, response) {
+      response.sendFile(__dirname + '/views/index.html');
+    });
 
-io.on('connection', function(socket){
-  console.log("hi");
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
-  });
-});
+    io.on('connection', function(socket){
+      console.log("hi");
+      socket.on('chat message', function(msg){
+        io.emit('chat message', msg);
+      });
+    });
 
-var listener = http.listen(process.env.PORT, function() {
-  console.log('Your app is listening on port ' + listener.address().port);
-});`
+    var listener = http.listen(process.env.PORT, function() {
+      console.log('Your app is listening on port ' + listener.address().port);
+    });
 
 Next, from the files listed on the left, click on the one that's called "package.json". Where it says "Add package" at the top of the document, search "socketio", and select the option called "2.3.0 socket.io".
 
-(This is what it should look like)[https://prof.ninja/cyber/glitch2.png]
+!(This is what it should look like)[https://prof.ninja/cyber/glitch2.png]
 
 Now, from the files listed on the left, click on "views/", and then click on the file that says "index.html". Delete everything that's in that file and replace it with the following code:
 
-`<!doctype html>
-<html>
-  <head>
-    <title>Socket.IO chat</title>
-    <style>
-          /*Add your CSS in here*/
-    </style>
-  </head>
-  <body>
-    <!--Start typing the HTML right under here-->
-    
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <script>
-      $(function () {
-        var socket = io();
-        $('#clickme').click(function(){
-          //begin typing our JavaScript right under here
-          
-         
-          socket.emit('chat message',input);
-          return false;
-        });
-        socket.on('chat message', function(msg){
-          //paste the "append" line under here
-          
-        });
-      });
-    </script>
-  </body>
-</html>`
+      <!doctype html>
+      <html>
+        <head>
+          <title>Socket.IO chat</title>
+          <style>
+                /*Add your CSS in here*/
+          </style>
+        </head>
+        <body>
+          <!--Start typing the HTML right under here-->
+
+          <script src="/socket.io/socket.io.js"></script>
+          <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+          <script>
+            $(function () {
+              var socket = io();
+              $('#clickme').click(function(){
+                //begin typing our JavaScript right under here
+
+
+                socket.emit('chat message',input);
+                return false;
+              });
+              socket.on('chat message', function(msg){
+                //paste the "append" line under here
+
+              });
+            });
+          </script>
+        </body>
+      </html>
 
 ### Step 3. Open up Codepen
 
