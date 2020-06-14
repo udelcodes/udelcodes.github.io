@@ -207,9 +207,8 @@ By combining different encryption methods, we strengthen the security of our dat
 
 ### End of Day Wrap Up
 
-Congratulations! You made it through day 2!!  
-We hope you had fun learning about the different number systems today.  
-If you really liked today's lesson, be sure to dig deeper into the different number systems in coding and keep learning!  
+Congratulations! You made it through this bonus lesson!!  
+We hope you had fun learning about the different number systems.  
+If you really liked this lesson, be sure to dig deeper into the different number systems in coding and keep learning!  
 Take what you learned today and go teach a friend or a family member, and you can start sending secret messages to each other!  
-See you tomorrow for a new lesson on operators and randomness in cryptography.  
-The next lesson will use [this link](https://udel.codes/crypto3).
+Click [this link](https://udel.codes/crypto) to go back to the home page for Crypto Week.
