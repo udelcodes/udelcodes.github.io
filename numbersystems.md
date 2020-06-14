@@ -210,5 +210,6 @@ By combining different encryption methods, we strengthen the security of our dat
 Congratulations! You made it through this bonus lesson!!  
 We hope you had fun learning about the different number systems.  
 If you really liked this lesson, be sure to dig deeper into the different number systems in coding and keep learning!  
-Take what you learned today and go teach a friend or a family member, and you can start sending secret messages to each other!  
+Take what you learned today and go teach a friend or a family member, and you can start sending secret messages to each other! 
+Click [this link](https://udel.codes/crypto2) to go back to the Day 2 Lesson for Crypto Week.
 Click [this link](https://udel.codes/crypto) to go back to the home page for Crypto Week.
