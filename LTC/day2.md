@@ -83,7 +83,7 @@ This is an example of <b>Logical Not</b>, because A must <b>not</b> be true for 
 
 <i> <b>Exercise:</b> Can you think of another example of Logical Not? </i>
 
-<h2>Indentification Exploration</h2>
+<h2>Identification Exploration</h2>
 
 Now try to identify the following scenarios as <b>AND</b>, <b>OR</b>, or <b>NOT</b>
 
