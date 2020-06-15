@@ -67,21 +67,16 @@ In JavaScript, a **for loop** is normally written as follows:
 
 In the code, you can see that it starts out with "for", and then has a pair of parentheses, and in those parentheses are three statements, separated by semi-colons (;). Every **for** loop has three parts:
 
-- The initialization of our variable: This is always the first statement, where some baseline condition will be set for the for loop. This is where we start counting how many times we do something. In this case (and in many cases), this is **let i = 0**. 
-
-This says that we will have a variable called **i**, and that we will start out our loop with **i** being equal to 0. We will use **i** to keep track of the number of times we've gone through our loop. Each time we perform the action(s) inside of the loop, we will increment our counting variable.
+- The initialization of our counting variable: This is always the first statement, where some baseline condition will be set for the for loop. This is where we start counting how many times we do something. In this case (and in many cases), this is **let i = 0**. 
 
 - The ending condition: This is always the second statement, which tells us how long we should repeat our action for. In this example, we have that we will keep repeating our action as long as **i < 10** (10 could be replaced with any number, depending on how many times YOU want to repeat the action). 
 
-- The incrementing statement: Finally, our third statement tells us a way to increment our counting variable, i. In this example (and normally), this is written as **i++**. This is a short way to write **i = i + 1**, which just means that you're **adding 1 to i**. 
+- The incrementing statement: Finally, our third statement tells us a way to increment our counting variable, i. In this example (and normally), this is written as **i++**. This is a short way to write **i = i + 1**, which just means that you're **adding 1 to i**. Without an incrementing statement, we'd be stuck in the loop forever! 
 
-This is how we move through the loop - without this statement, we'd be stuck in the loop forever! You don't always have to increment by 1; for instance, you could add 2 each time (i+=2) or you could multiply i by 3 each time (i = i\*3).
-
-Let's look at a for loop in action!
+### Let's look at a for loop in action!
 
 In the code below, find the line where it says "function makeDots(numberOfDots)". In the line right below that, you should see a for loop! This for loop says **we have a variable named i, which we'll set equal to 0. We want to repeat whatever is inbetween the two curly brackets (which look like { and } ) that follow this line as long as i is less than numberOfDots. Also, after each time we perform our action, we will add 1 to i**. In this example, **numberOfDots** is whatever number you enter in the box! The code in the curly brackets is a little confusing, but all you need to know is that it *calls* another function which will make a dot, and then it waits 1 second to go through the loop again. 
 
-**Normally, we'd be able to go through this for loop *almost* instantly, but in order to show how the computer *actually* goes through the for loop 1 dot at a time, I set it so that it will wait 1 second in between making the dots.** 
 
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="WNrrdXv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="for loops">
@@ -90,6 +85,9 @@ In the code below, find the line where it says "function makeDots(numberOfDots)"
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+**Normally, we'd be able to go through this for loop *almost* instantly, but in order to show how the computer *actually* goes through the for loop 1 dot at a time, I set it so that it will wait 1 second in between making the dots.** 
 
 There's another **for loop** in the code above that generates random colors - see if you can find it!
 
