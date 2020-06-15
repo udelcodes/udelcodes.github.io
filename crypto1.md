@@ -14,7 +14,7 @@ Specifically, we will be learning about the Caesar Cipher, the Substitution Ciph
 
 ENCODE  |  DECODE  |  SUBSTITUTION  |  CAESAR  |  BACONIAN  |  CYBERCHEF
 
-DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY
+DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY  |  PIGPEN
 
 ## Let's Get Cracking...
 
