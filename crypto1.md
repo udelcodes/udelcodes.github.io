@@ -1,13 +1,13 @@
-## W3lc0m3 t0 Day 1 of Crypt0 W33k!!
+# W3lc0m3 t0 Day 1 of Crypt0 W33k!!
 
 Today we will be learning about the first ciphers that were used in the old days.  
 Specifically, we will be learning about the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.  
 
-### Daily Puzzle
+## Daily Puzzle
 
 ![crypto_crossword](images/crypto_crossword.PNG)
 
-#### Word Bank
+### Word Bank
 
 ENCODE  |  DECODE  |  SUBSTITUTION  |  CAESAR  |  BACONIAN  |  CYBERCHEF
 
@@ -17,7 +17,7 @@ DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY
 
 Today we will be learning some of the first ciphers ever used (cipher is another word for a secret code). We will learn how to solve the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.
 
-### The Caesar Cipher
+## The Caesar Cipher
 
 ![caesar salad](https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/166356.jpg)
 
@@ -79,7 +79,7 @@ Log in using any google account you or your parents have.
 Then click on the menu button in the top left corner, and click on bathroom ciphers. 
 This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
 
-### The Substitution Cipher
+## The Substitution Cipher
 
 The Substitution Cipher is very similar to the Caesar Cipher, there are just a few slight differences.  
 In a Substitution Cipher, each letter in the plaintext alphabet is substituted for a different letter in the cipher alphabet. 
@@ -233,11 +233,12 @@ Try to solve this Pig Pen cipher using the Pig Pen alphabet.
 
 ![Pig Pen Example 1](images/pig_pen1.PNG)
 
-### End of Day Wrap Up
+## End of Day Wrap Up
 
 Congratulations! You made it through day 1!!  
 We hope you had fun learning about the different ciphers today.  
 If you really liked today's lesson, be sure to check out the extra resources mentioned with each type of cipher.  
 Take what you learned today and go teach a friend or a family member, and you can start sending secret messages to each other!  
 See you tomorrow for a new lesson on the different number systems in cryptography.  
-The next lesson will use [this link](https://udel.codes/crypto2).
+The next lesson will use [this link](https://udel.codes/crypto2).  
+Or you can head back to our [home page for Crypto Week](https://udel.codes/crypto2).
