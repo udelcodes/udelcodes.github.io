@@ -56,13 +56,13 @@ Ready to write your own code?
 #### Things to add to YOUR index.html
 <div>
   <input type="checkbox">
-  <label>Change the title of your page (found in the head) to say "<Your name>'s Website</label><br>
+  <label>Change the title of your page (found in the head) to say "Your name's Website"</label><br>
   <input type="checkbox" >
   <label>Change the author (also found in the head) to be your name</label><br>
   <input type="checkbox" >
-  <label>Change the header of your webpage to say "<Your name>'s Favorite Things About Summer</label><br>
+  <label>Change the header of your webpage to say "Your name's Favorite Things About Summer"</label><br>
   <input type="checkbox">
-  <label>Add a link that links back to "http://www.udel.codes/LTC"</label><br> 
+  <label>Add a link that links back to http://www.udel.codes/LTC</label><br> 
   <input type="checkbox">
   <label>Add some items to your list of favorite summer activities</label><br>
   <input type="checkbox" >
