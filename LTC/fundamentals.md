@@ -79,7 +79,7 @@ In the code below, find the line where it says "function makeDots(numberOfDots)"
 
 
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="WNrrdXv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="for loops">
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="WNrrdXv" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="for loops">
   <span>See the Pen <a href="https://codepen.io/dianevinson/pen/WNrrdXv">
   for loops</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -105,18 +105,21 @@ Imagine you had a box of cookies. *While* you're still hungry, you'll keep eatin
 
 In JavaScript, a **while loop** is normally written like this:
 
-    var i = true;
     while (i == true) {
         //perform action
-        if (something) {
-          i = false;
-        }
     }
 
 Notice how in a **while loop**, you only have <u>one</u> statement inside of the parentheses!
 
-Instead of just incrementing your variable inside of the while loop, you need to make it so that at some point your condition inside of the parentheses becomes false. This could be reaching a certain number like it was in a for loop, or it could be something. 
-  
+A common way to write **while loops**, which is very similar to our **for loops** is like this:
+
+    var i = 0
+    while (i < 10) {
+      //perform action
+      i++
+    }
+
+
 Since the two loops are quite similar, they can be used interchangeably a lot of times! It's up to your personal preference to decide which one is easier for you to use in your code. 
 
 The example below is the same as the one that we used before, **EXCEPT** that this one uses a while loop instead of a for loop!
@@ -127,7 +130,7 @@ Try to find where it says
 - i < numberOfDots
 - i++ 
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="xxZZjoJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="while loops">
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="xxZZjoJ" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="while loops">
   <span>See the Pen <a href="https://codepen.io/dianevinson/pen/xxZZjoJ">
   while loops</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -158,9 +161,9 @@ Let's look at how someone would write an **if statement** in JavaScript.
 
 <dl>
   <dt>if (condtion A is true)</dt>
-  <dd>The first line in an if block will always start with a simple <b>if</b> statement. This says that if condition A is true, then action 1 will be performed. If condition A is true, then once action 1 is performed, the program will <u>NOT</u> check to see if condition B is true.</dd>
+  <dd>The first line in an if block will always start with a simple <b>if</b> statement. This says that if condition A is true, then action 1 will be performed, and the following conditions will NOT be checked. </dd>
   <dt> else if (condition B is true)</dt>
-  <dd> This program will only check if condition B is true <em>IF</em> condition A was not true. If condition B is true, then action 2 will be performed, and the program will not check to see any of the following conditions listed are true. <b>You can have multiple "else if" statements!</b> They will be checked in whatever order you type them in. Similarly, it's not required that you have <em>any</em> "else if" statements</dd>
+  <dd> The program will only check if condition B is true <em>IF</em> condition A was not true. If condition B is true, then action 2 will be performed, and the program will not check to see any of the following conditions listed are true. <b>You can have multiple "else if" statements!</b> They will be checked in whatever order you type them in. Similarly, it's not required that you have <em>any</em> "else if" statements</dd>
   <dt> else</dt>
   <dd> The else statement is performed <b>if and only if</b> none of the other conditions were true. In this example, that means that conditions A and B were both false. <b>You do not need to include an else statement</b>, but if you do, it always goes after all of the other statements.</dd>
 </dl>
@@ -178,7 +181,7 @@ Look at the example below. In this example, the background image will change dep
 
 Look in the JavaScript code and try to find the if statements! (Hint: they're in the function called *changeBackground(time)*). If you look in the comments next to each statement, you can see what time range that block of code will be executed for. The code in between the statements (document.body.style.backgroundImage = "url(...)") is more JavaScript that changes the background. We'll learn about it tomorrow).
 
-> Find the comment that says "the time is greater than 4 pm and less than 9pm". Notice how we never had to say **hours > 16 && hours < 21** in our code. How did the program know that that was our third condition?
+> Find the comment that says "the time is greater than 4 pm and less than 9pm". Notice how we never had to say **hours > 16 && hours < 21** in our code. How did the program know that that was our third condition? *(Hint: hours must be between 0 and 23)*
 
 
 Now that we've learned a bit about **boolean logic, loops,** and **if statements** in JavaScript, we're going to learn about another JavaScript concept: **JSON Objects**!
@@ -189,48 +192,67 @@ Now that we've learned a bit about **boolean logic, loops,** and **if statements
 
 ### What is a JSON Object?
 
-**JSON** stands for **J**ava**S**cript **O**bject **N**otation, and it is used to create objects using **key-value** pairs in JavaScript. To begin with our understanding of **JSON Objects**, we're going to start by looking at **key-value pairs** and **maps**
+**JSON** stands for **J**ava**S**cript **O**bject **N**otation, and a JSON object is just a collection of **key-value pairs**.
 
 ### What is a key-value pair?
 
-A **key-value** pair is a set of two objects, a key and a value, that are linked together and are stored in something called a **map**. Users are able to retrieve the **values** from the **map** by using the **key**. Let's look at a visual representation of a **map**:
+A **key-value** pair is a set of two objects, a key and a value, that are linked together. Users are able to retrieve the **values** from the **JSON object** by using the **key**. Let's look at a visual representation of a JSON Object:
 
 |Key        | Value         |
 | ----------|:-------------:|
-| breakfast | Oatmeal |
-| lunch     | Chicken Pot Pie      |
-| snack     | Chips and Salsa      | 
-| dinner    | Chicken Pot Pie      |
+| Species | Chicken |
+| Number of Legs     | 2     |
+| Appearance    | Feathery     | 
+| Max Speed (mph)    | 9     |
 
-In the table above, the **keys** are the names of meals, and their corresponding **values** are what you ate at that meal. So, one key value pair is `"breakfast":"Oatmeal"`.  
+In the table above, the **keys** are the attributes for an animal, and their corresponding **values** describe that attribute. 
 
-One important feature of a **map** is that **you cannot repeat the same key in a map, but you can have multiple keys share a value**. To put this in terms of our meal example above, you would not be able to create two enteries with the `key="dinner"`. If you look at the **values** for Lunch and Dinner, though, you can see that they both have the same value, which is "Chicken Pot Pie". *Beause you access values by using their keys, you cannot have the same key repeat with different values.*
+One key value pair is `Species: Chicken `, or `Number of Legs : 2`.  
 
-> But what if you have multiple values that you want to associate with a key? What if I had chicken pot pie *and* a salad for dinner?
 
-Every key can be associated with *ONE* object, but luckily, this object can be a collection of other objects (it could be a list of other objects, or another map!). This is done very often, and you'll see an example of it in our activity later today.
+![chicken run](https://img-aws.ehowcdn.com/750x428p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/8f90ff3795074f1abed46130b079656b)
 
-> So, what's the difference between a JSON Object and a Map?
+> What if you have multiple values that you want to associate with a key? What if I had chicken that was feathery *and* scrawny?
 
-JSON Objects and Maps are very similar, as they both consist of key-value pairs. Maps, by definition, will not allow a user to use the same key multiple times when entering data, but *technically* JSON objects will (although it is confusing and bad practice and can lead to problems). 
+Every key can be associated with *ONE* object, but luckily, this object can be a collection of other objects (it could be a list of other objects, or another JSON Object!). This is done very often, and you'll see an example of it in our activity later today.
 
-> What does a JSON Object look like?
+> What does a JSON Object look like in JavaScript?
 
 Great question! Below is what our meal example would look like (including the side salad we had for dinner).
 
-      "Meals": {
-        "breakfast" : "Oatmeal",
-        "lunch" : "Chicken Pot Pie",
-        "snack" : "Chips and Salsa",
-        "dinner" : {
-           "main course" : "Chicken Pot Pie",
-           "side dish" : "Salad"
-         }
-      }
+      "Animals": {
+        "chicken" : {
+          "species" : "Chicken",
+          "numberOfLegs" : 2,
+          "appearance" : {
+              "1" : "feathery",
+              "2" : "scrawny"
+           },
+          "maxSpeedInMPH" : 9
+         },
+         "dog" : {
+           "species" : "Dog",
+           "numberOfLegs" : 4,
+           "appearance" : {
+                "1" : "Furry",
+                "2" : "Chubby"
+            },
+            "maxSpeedInMPH" : 20
+          }
+        }
+         
       
-The first **key** in this JSON object is "Meals", its value is the JSON object storing all of the meals that you had today. Looking inside that second JSON object, we have the following keys: "breakfast", "lunch", "snack", and "dinner". The value for "dinner" is another JSON object! That JSON object has keys "main course" and "side dish". 
+- The first **key** in this JSON object is "Animals", which represents our entire collection of animals.
 
-Finally, notice that the key-value pairs are separated by commas. I know that JSON objects might look complicated right now, but we're going to do an activity in a minute that will make things a lot clearer!
+- The next key is "chicken", and it's value is a JSON object representing all of the attributes of a chicken.
+
+- Inside of the "chicken" object, we see the keys "species", "numberOfLegs", "appearance", and "maxSpeedInMPH".
+
+- The values for "appearance" for the chicken are "feathery" and "scrawny"
+
+> What is the value of the key "maxSpeedInMPH" for the "dog" object?
+
+Things might be a bit confusing right now, but we have an awesome activity planned to help you guys get the hang of it!
 
 ![JSON meme to spice things up](https://i.chzbgr.com/full/8759438080/hC74C9921/i-heard-you-like-json-so-im-going-to-put-json-inside-json-so-you-can-parse-what-is-parsed)
 
