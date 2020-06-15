@@ -5,7 +5,7 @@
         <title>Put your title here</title>
         <!--Change the content below to be your name-->
         <meta name="author" content="Put your name here">
-        <!--<link rel="stylesheet" type="text/css" href="Once you make a CSS file, we'll link it here"> -->
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <h2> Put your header here!</h2>
