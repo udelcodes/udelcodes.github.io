@@ -33,9 +33,13 @@ Right click anywhere on this page and click the button that says "view page sour
 Look through the HTML. See if you can find places where it says 
 
 - div
+
 -input
+
 -class
+
 -id
+
 -li
 
 Once you've found some of those items, <a href="./introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
