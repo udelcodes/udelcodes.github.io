@@ -25,21 +25,16 @@ In JavaScript, the order of operations goes !, &&, then \|\|. This means that fi
 > How would you write "A and Not B"?
 
 
-<h3 onClick="(function(){document.getElementById("answer1").style.visibility = visible;})();return false;">Click here for the answer</h3>
 
-
-<h4 id="answer1" style="visibility:hidden;"> A&&!B</h4>
-
-All of these concepts are shown in the CodePen below. (You can click the "JS" tab above the code to *only* see the result, or click the "Result" button and then the "JS" button to *only* see the code. You can also switch between the HTML, CSS, and JavaScript by clicking their respective tabs, right above the code).
-
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="dianevinson" data-slug-hash="wvMMoqJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Boolean">
+<p class="codepen" data-height="459" data-theme-id="light" data-default-tab="result" data-user="dianevinson" data-slug-hash="wvMMoqJ" style="height: 459px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Boolean">
   <span>See the Pen <a href="https://codepen.io/dianevinson/pen/wvMMoqJ">
   Boolean</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Try to find the following in the JavaScript file (hint: first find where it says **function updateBooleans()**, then look in the code in between the two parenthesis):
+
+Click on the tab that says "JS" and look for the following in the JavaScript file (hint: first find where it says **function updateBooleans()**, then look in the code in between the two parenthesis):
 
 - (A && B)
 - (A \|\| B)
