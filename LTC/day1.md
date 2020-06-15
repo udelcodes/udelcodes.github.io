@@ -40,7 +40,7 @@ Ready to write your own code?
 
 1. On the homepage of [Glitch.com](https://glitch.com), click the button that says "New Project" and then click "hello-webpage"
 
-2. Once the project loads, go into the file that says "index.html". Remove all of the code that's in that file now and replace it with the code from <a href="./template.txt">this template</a>.
+2. Once the project loads, go into the file that says "index.html". Remove all of the code that's in that file now and replace it with the code from <a href="./template.txt" target="_blank">this template</a>.
 
 3. Press the button that says "Show" and then click either "In a New Window" or "Next to the Code". Now you can see your very own website/share it with others!
 
