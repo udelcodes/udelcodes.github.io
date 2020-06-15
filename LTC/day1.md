@@ -102,3 +102,6 @@ Try these tasks:
 <label><em>CHALLENGE TASK</em> Change the background to be a gradient (google "Gradient background CSS")</label><br>
 
 
+For resources on CSS/HTML, check out (our resource list here)[https://udel.codes/LTC/HTMLResources]
+
+
