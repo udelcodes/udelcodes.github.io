@@ -5,9 +5,11 @@ Specifically, we will be learning about the Caesar Cipher, the Substitution Ciph
 
 ## Daily Puzzle
 
+While we're waiting to start, solve this crossword puzzle with words that you will understand by the end of the day. There is a word bank below the crossword puzzle.
+
 <div style="margin:10; display:flex; flex-direction:column; height:1000px; max-width:1000px">
     <iframe border="0" src="https://crosswordlabs.com/embed/cryptography-crossword-puzzle?clue_height=30" style="flex:1; width:100%; padding:5px 0px 0 5px; border:3px solid black; "></iframe>
-    <a target="_blank" style="align-self:center; font-size:12px; color:black; padding-top:10px; text-decoration:none;text-align:center" href="https://crosswordlabs.com">Crossword Puzzle Maker</a>
+    <a target="_blank" style="align-self:center; font-size:12px; color:black; padding-top:10px; text-decoration:none;text-align:center" href="https://crosswordlabs.com">This puzzle was made using https://crosswordlabs.com.</a>
 </div>
 
 ### Word Bank
