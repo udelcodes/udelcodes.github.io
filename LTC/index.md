@@ -17,11 +17,13 @@ The lesson plans for each day are all linked right below:
 
 -[Day 1 - Making a Website](./day1)
 
+-[Day 1 Video (if you're unable to make it to camp)](./videos/day1)
+
 -[Day 2 - Logic and Intro to JavaScript](./day2)
 
 -[Day 3 - Choose Your Own Adventure Game](./day3)
 
 -[Day 4 - Putting Everything Together!](./day4)
 
-## Camp will be held over Zoom from 10am - 12pm Monday through Thursday. The Zoom link should've been emailed out to you (or your parent) early last week. 
+## Camp will be held over Zoom from 10am - 12pm Monday through Thursday. The Zoom link should've been emailed out to you (or your parent) on 6/14. 
 
