@@ -15,75 +15,73 @@ There are so many reasons to learn to code, here's just a few:
 Let's get started! 
 <h2>Build your own website!</h2>
 
-<h3> 1. Make a GitHub account</h3>
+<h3> 1. Make a Glitch.com account (if you want to) </h3>
 
-<p>If you already have a GitHub account, you can skip these steps and begin <b> Step 2. Make your own GitHub page</b></p>
+Before we start, open up <a href="https://glitch.com" target="_blank">glitch.com</a>. You don't need to make an account to do today's activity, but if you want to save your work for longer than 5 days, you'll need to make an account. 
 
-<ol>
-  <li>To make a GitHub account, first go to <a href="https://github.com/" target="_blank" >github.com</a></li>
-  <li>It should bring you to a page that says "Sign Up," but if you don't see that click the "Sign Up" button in the upper right corner</li>
-  <li>Create a username, enter your email, and create a password</li>
-  <li>Select your occupation, skill level, and interests from the menu it gives you. (This step doesn't matter too much) </li>
-  <li>Log onto your email. GitHub should've sent you a confirmation email that includes a button that says "Verify Email Address". Click the button to verify your account</li>
-  <li>The button should open up GitHub in your browser. You may need to re-enter your username/email and password. Once you've logged in, you're ready to code!</li>  
-</ol>
-  
-<h3> 2. Make your own github page</h3>
-<ol>
-  <li> Create a new repository by clicking on the little triangle to the right of the <b>+</b> icon in the top right corner and selecting "New repository"</li>
-  <li> Where it says "Repository name," enter YourUsername.github.io <br> <i>(If your username is electricKangaroo, you would name your repository electricKangaroo.github.io) </i><br></li>
-  <li>Click on the button that says "Create New File" (it's been circled in the photo below) and name it "index.html" but don't put anything in it yet!</li>
-  <li>Scroll to the bottom and click the green button that says "Commit new file"</li>
-  </ol>
-  
-  ![Where to make a new file](./images/githubStarter.png)
-  
-That's all for now, but keep this tab open since we'll come back to it later!
+To make an account on Glitch, press the "Sign in" button in the upper right, then click "Create an Account". If you have a G-Mail, Facebook, or GitHub account, you can sign in with those, or you can just use your regular email.
+
+If you sign in with your email, you might have to verify your account through an email that Glitch sends you.
 
 <h3>HTML</h3>
 First, we'll learn about HTML so you can build your very own website!
 
 #### Before we begin learning, let's check out some other websites and look at their HTML. 
 
-In a new tab, open up any website that you like. 
+Right click anywhere on this page and click the button that says "view page source". This should open up another page, which will contain all of the HTML used to build this website. You can do this for any website on the internet!
 
-Right click on the website, and click "view page source." This should open up another page, which will contain all of the HTML used to build that website. 
-
-Look through their HTML. See if you can find places where it says **div, input, class, id, li,** or **button**
+Look through the HTML. See if you can find places where it says **div, input, class, id, li,** or **button**
 
 Once you've found some of those items, <a href="./introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
 
-Ready to write your own code? Go back into your <b>index.html</b> file in the GitHub repository we made earlier and start writing! <br>
-If you need a little help,you can use the template found <a href="./template.html" target="_blank">here</a> to get started. Just open that file, then right click and hit "View page source", and copy and paste the contents of that file into your own <b>index.html</b> and change the content to say whatever you'd like! Feel free to add your own stuff in there, too!
+Ready to write your own code? 
+
+<h3> 2. Make a new Glitch project </h3>
+
+1. On the homepage of [Glitch.com](https://glitch.com), click the button that says "New Project" and then click "hello-webpage"
+
+2. Once the project loads, go into the file that says "index.html". Remove all of the code that's in that file now and replace it with the code from <a href="./template.txt">this template</a>.
+
+3. Press the button that says "Show" and then click either "In a New Window" or "Next to the Code". Now you can see your very own website/share it with others!
+
+3. Spice up the code! Add whatever you like to it! We've created a few tasks below to get you started.
+
 
 #### Things to add to YOUR index.html
 <div>
   <input type="checkbox">
-  <label>Change the title of your page (found in the head)</label><br>
+  <label>Change the title of your page (found in the head) to say "<Your name>'s Website</label><br>
   <input type="checkbox" >
-  <label>Change the header of your webpage</label><br>
+  <label>Change the author (also found in the head) to be your name</label><br>
+  <input type="checkbox" >
+  <label>Change the header of your webpage to say "<Your name>'s Favorite Things About Summer</label><br>
   <input type="checkbox">
   <label>Add a link that links back to "http://www.udel.codes/LTC"</label><br> 
   <input type="checkbox">
-  <label>Add a question that you have to the list of questions</label><br>
+  <label>Add some items to your list of favorite summer activities</label><br>
   <input type="checkbox" >
-  <label>Add something that you learned to the list of things that you learned</label><br>
+  <label>Add some things to your summer to do list</label><br>
   <input type="checkbox">
-  <label>Change one of the lists to be an **ordered** list</label><br> 
+  <label>Change one of the lists to be an ordered list</label><br> 
   <input type="checkbox">
   <label>Add a photo to your website!</label><br>
   <input type="checkbox" >
-  <label>Add a **paragraph** element and introduce yourself in it!</label><br>
-  <input type="checkbox">
-  <label>Add a user input with any type of your choosing!</label><br>
+  <label>Add a paragraph element and write about your favorite summer memory</label><br>
+  <input type="checkbox" >
+    <label><em>CHALLENGE TASK</em>Create a list of things you want to do this summer and add checkboxes next to each item! (Pssst look at this pages source code for a hint!)</label><br>  
 </div>
 
 Now that you've add all of this cool content, let's add some color and style to it! We'll do this using **CSS**!
 
 <h3>CSS</h3>
 Want to add some <i>style</i>??? Click <a href="./introtocss/index.html" target="_blank" >here</a> to learn about CSS!<br>
-Now try adding some CSS to your website!
+
+Another important concept in CSS is the use of *selectors*, which allow the programmer to choose which items they want to apply CSS to. A very helpful (and fun!) game to play to learn more about selectors is the CSS Diner Game found [here](https://flukeout.github.io/).
+
+Try adding some CSS to your glitch website!
+
 Try these tasks:
+
 <input type="checkbox" >
   <label>Change Background Color</label><br>
 <input type="checkbox" >
@@ -92,5 +90,7 @@ Try these tasks:
 <label>Change the font</label><br>
   <input type="checkbox" >
 <label>Change Header Color</label><br>
+  <input type="checkbox" >
+<label><em>CHALLENGE TASK</em>Change the background to be a gradient (google "Gradient background CSS")</label><br>
 
 
