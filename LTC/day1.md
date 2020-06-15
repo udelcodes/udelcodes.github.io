@@ -99,6 +99,6 @@ Try these tasks:
   <input type="checkbox" >
 <label>Change Header Color</label><br>
   <input type="checkbox" >
-<label><em>CHALLENGE TASK</em>Change the background to be a gradient (google "Gradient background CSS")</label><br>
+<label><em>CHALLENGE TASK</em> Change the background to be a gradient (google "Gradient background CSS")</label><br>
 
 
