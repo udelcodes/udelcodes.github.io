@@ -1,5 +1,7 @@
 # W3lc0m3 t0 Day 1 of Crypt0 W33k!!
 
+![cryptography](https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/Simpler-Cryptography_0.jpg?itok=HH5QoVrb)
+
 Today we will be learning about the first ciphers that were used in the old days.  
 Specifically, we will be learning about the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.  
 
