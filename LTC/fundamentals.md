@@ -254,7 +254,6 @@ Great question! Below is what our meal example would look like (including the si
 
 Things might be a bit confusing right now, but we have an awesome activity planned to help you guys get the hang of it!
 
-![JSON meme to spice things up](https://i.chzbgr.com/full/8759438080/hC74C9921/i-heard-you-like-json-so-im-going-to-put-json-inside-json-so-you-can-parse-what-is-parsed)
 
 
 Head over to [this website](http://www.udel.codes/LTC/alchemy) to begin our fun JSON activity!
