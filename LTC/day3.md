@@ -122,13 +122,13 @@ Now, from the files listed on the left, click on "views/", and then click on the
         </body>
       </html>
 
-### Step 3. Open up Codepen
+### Step 1. Open up Codepen
 
 Leave the Glitch tab open, as we're going to come back to it in a minute. We're going to move to codepen, since it'll be a little bit easier to see what we're doing in there. 
 
 Go to ![Codepen](https://codepen.io) and create a new pen by clicking the tab that says "Pen" on the left side. 
 
-### Step 1. Log to the console
+### Step 2. Log to the console
 
 In the HTML tab on Codepen, add a button element by typing `<button id="clickme">Click Here</button>`
 
@@ -150,13 +150,13 @@ Putting this all together, this means that the element with the id "click me" wi
 
 Printing things to the console is a useful tool for developers to see what's going on in their code without having to change the HTML. 
 
-### Step 2. Alerts
+### Step 3. Alerts
 
 In the code we just wrote, change the part that says `function(){console.log(1)}` to say `function(){alert(1)}`
 
 Click the button. What happens?
 
-### Step 3. Print on the screen
+### Step 4. Print on the screen
 
 In the HTML, right above where we made the button, add a line that says `<h2 id="messages"></h2>`
 
@@ -169,7 +169,7 @@ Try clicking the button to see what happens
 - `.innerHTML =` sets what's between the two h2 tags. Once this line has run, the h2 element looks like `<h2 id="messages">You clicked</h2>`      
 
 
-### Step 4. Showing the time
+### Step 5. Showing the time
 
 In the JavaScript, add the line `var date = new Date();` right before where it says `document.getElementById("messages")`
 
@@ -190,13 +190,13 @@ Let's break down the code we just added:
   
   - `date.getTime()` gets the time from the "date" variable we just created. This number might not look like the time, but it is - it's the number of milliseconds that have passed since midnight on January 1st, 1970. 
   
-### Step 5. Show the time in a clearer way
+### Step 6. Show the time in a clearer way
 
 Change the JavaScript code that says `date.getTime()` to say `(date.getMonth() + 1) +"/" + date.getDate() + " " +date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();`
 
 Click the button. Doesn't that time look nicer? 
 
-### Step 6. Show all of the times that you've clicked
+### Step 7. Show all of the times that you've clicked
 
 In the HTML, change the part that says `<h2 id="messages"></h2>` to says `<ul id="messages"></ul>`
 
@@ -212,7 +212,7 @@ Then, change the part where it says `document.getElementById("messages").innerHT
     
 Now, it'll log whenever you click the button!
 
-### Step 7. Add a message
+### Step 8. Add a message
 
 In the HTML, add a line *before* the button but *after* the list that says `<input type="text" id="message">`
 
@@ -231,7 +231,7 @@ Your JavaScript should now look something like this (although you might print th
     
 When you click the button now, it might still show the "li" tags and look a little funny. But don't worry about that - we're going to move back to our glitch.com app now, anyway.
 
-### Step 8. Move our code to Glitch
+### Step 9. Move our code to Glitch
 
 Copy all of the code from the HTML section on our Codepen and paste it into the Glitch right below line 10 in `index.html`, where it says "\<!--Start typing the HTML right under here-->".
 
@@ -312,7 +312,7 @@ If you click the button that says "Show" and then click where it says "Next to t
 ![almost there](https://media0.giphy.com/media/VEzlrMWk3F7uuFuRSq/giphy.gif)
 
 
-### Step 9. Add a username and color
+### Step 10. Add a username and color
 
 Now we're going to allow users to put in usernames and choose the color that they want their names to come up as.
 
@@ -332,7 +332,7 @@ Finally, change the line that says ``let input = `${message} ${time}` `` to say 
 
 This is coming together to look like a really cool chat app!
 
-### Step 10. Adding CSS
+### Step 11. Adding CSS
 
 Finally, add the following CSS code to your `index.html` file, right below the line that says "/*Add your CSS in here*/" (it should be around line 7).
 
