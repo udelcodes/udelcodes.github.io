@@ -192,22 +192,22 @@ Now that we've learned a bit about **boolean logic, loops,** and **if statements
 
 ### What is a JSON Object?
 
-**JSON** stands for **J**ava**S**cript **O**bject **N**otation, and a JSON object is just a collection of **key-value pairs**.
+**JSON** stands for **J**ava**S**cript **O**bject **N**otation, and a JSON object is just a collection of **key-value pairs** that's specially formatted using curly brackets and commas.
 
 ### What is a key-value pair?
 
-A **key-value** pair is a set of two objects, a key and a value, that are linked together. Users are able to retrieve the **values** from the **JSON object** by using the **key**. Let's look at a visual representation of a JSON Object:
+A **key-value** pair is a set of two objects, a key and a value, that are linked together so that a user can get the value by using the key. Let's look at a tabular representation of some key-value pairs:
 
 |Key        | Value         |
 | ----------|:-------------:|
-| Species | Chicken |
+| Species | Gallus gallus domesticus |
 | Number of Legs     | 2     |
 | Appearance    | Feathery     | 
 | Max Speed (mph)    | 9     |
 
-In the table above, the **keys** are the attributes for an animal, and their corresponding **values** describe that attribute. 
+In the table above, the **keys** are the attributes for an animal (a chicken), and their corresponding **values** describe that attribute. 
 
-One key value pair is `Species: Chicken `, or `Number of Legs : 2`.  
+One key value pair is `Species: Gallus gallus domesticus `, or `Number of Legs : 2`.  
 
 
 ![chicken run](https://img-aws.ehowcdn.com/750x428p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/8f90ff3795074f1abed46130b079656b)
@@ -222,7 +222,7 @@ Great question! Below is what our meal example would look like (including the si
 
       "Animals": {
         "chicken" : {
-          "species" : "Chicken",
+          "species" : "Gallus gallus domesticus",
           "numberOfLegs" : 2,
           "appearance" : {
               "1" : "feathery",
@@ -230,8 +230,8 @@ Great question! Below is what our meal example would look like (including the si
            },
           "maxSpeedInMPH" : 9
          },
-         "dog" : {
-           "species" : "Dog",
+         "germanShepherd" : {
+           "species" : "Canis lupus familiaris",
            "numberOfLegs" : 4,
            "appearance" : {
                 "1" : "Furry",
@@ -250,7 +250,7 @@ Great question! Below is what our meal example would look like (including the si
 
 - The values for "appearance" for the chicken are "feathery" and "scrawny"
 
-> What is the value of the key "maxSpeedInMPH" for the "dog" object?
+> What is the value of the key "maxSpeedInMPH" for the "germnaShepherd" object?
 
 Things might be a bit confusing right now, but we have an awesome activity planned to help you guys get the hang of it!
 
