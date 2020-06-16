@@ -1,6 +1,6 @@
 # W3lc0m3 t0 Day 1 of Crypt0 W33k!!
 
-![cryptography](https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/Simpler-Cryptography_0.jpg?itok=HH5QoVrb)
+<center><img src="https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/Simpler-Cryptography_0.jpg?itok=HH5QoVrb" alt="Cryptography"/></center>
 
 Today we will be learning about the first ciphers that were used in the old days.  
 Specifically, we will be learning about the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.  
@@ -243,6 +243,8 @@ Try to solve this Pig Pen cipher using the Pig Pen alphabet.
 ![Pig Pen Example 1](images/pig_pen1.PNG)
 
 ## End of Day Wrap Up
+
+<center><img src="https://media.giphy.com/media/3o6ZtlGkjeschymLNm/giphy.gif" alt="We did it! gif"/></center>
 
 Congratulations! You made it through day 1!!  
 We hope you had fun learning about the different ciphers today.  
