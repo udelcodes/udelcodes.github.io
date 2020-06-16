@@ -114,6 +114,11 @@ Now try to identify the following scenarios as <b>AND</b>, <b>OR</b>, or <b>NOT<
   O is you are hungry
   
   If you eat a sandwich, you won't be hungry, and if you do eat the sandwich, you won't be hungry
+  
+  
+### Logic Gates
 
-[Here is the link to the JavaScript Tutorial for the afternoon](./fundamentals.md)
+A really cool way that engineers represent these concepts are through diagrams called **"logic gates"**. A really cool logic gate simulator can be found [here](https://logic.ly/demo). There are a lot of circuit parts in the side bar, but the only ones that we learned about today are the and, or & not. 
+
+Now, let's learn about [JavaScript](./fundamentals.md)
   
