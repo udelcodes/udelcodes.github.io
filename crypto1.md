@@ -170,6 +170,8 @@ If your school has a Science Olympiad team, consider joining it and competing in
 
 Now that we've learned about the Ceasar and Substitution Ciphers, lets check out a new cipher called the Baconian Cipher. This cipher is quite different from the Caesar Cipher, but it is another one of the original ciphers. Baconian may sound like one of your favorite breakfast foods, but it's actually named after it's founder, Sir Francis Bacon, who created the Baconian Cipher is 1605.
 
+<center><img src="https://www.biography.com/.image/t_share/MTIwNjA4NjMzNzMxNzc4MDYw/francis-bacon-9194632-1-402.jpg" alt="Sir Francis Bacon" width="381"/></center>
+
 ### What is the Baconian Cipher and How Does it Work?
 
 - It is based on 5 bit binary encoding (this means 5 digit strings made up of 2 symbols represent each letter)
