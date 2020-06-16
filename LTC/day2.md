@@ -113,7 +113,7 @@ Now try to identify the following scenarios as <b>AND</b>, <b>OR</b>, or <b>NOT<
   
   O is you are hungry
   
-  If you eat a sandwich, you won't be hungry, and if you do eat the sandwich, you won't be hungry
+  If you <b>do</b> eat a sandwich, you <b>won't</b> be hungry, and if you do <b>not</b> eat the sandwich, you <b>will</b> be hungry
   
   
 ### Logic Gates
