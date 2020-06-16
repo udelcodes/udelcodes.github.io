@@ -17,7 +17,7 @@ Now let's look at the source.
 
 ## Task 1:  Copy Paste
 
-[Click here for template!](https://codepen.io/mariavanv/pen/xxZENVd?editors=1010)
+<a href="https://codepen.io/mariavanv/pen/xxZENVd?editors=1010" target="_blank">Click Here for template</a>
 
 Click FORK (bottom right corner of screen) to make your own game.
 
