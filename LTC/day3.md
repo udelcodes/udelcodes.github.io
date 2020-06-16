@@ -17,7 +17,7 @@ Now let's look at the source.
 
 ## Task 1:  Copy Paste
 
-Click FORK to make start your own game.
+Click FORK to make your own game.
 
 Let's add a new major to our University choose your own adventure game by copying line 54 (starts with COPY FROM HERE) to line 77 (ends with END COPY HERE)
 
