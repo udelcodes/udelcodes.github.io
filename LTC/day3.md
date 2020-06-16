@@ -17,16 +17,20 @@ Now let's look at the source.
 
 ## Task 1:  Copy Paste
 
-Click FORK to make your own game.
+[Click here for template!](https://codepen.io/mariavanv/pen/xxZENVd?editors=1010)
 
-Let's add a new major to our University choose your own adventure game by copying line 54 (starts with COPY FROM HERE) to line 77 (ends with END COPY HERE)
+Click FORK (bottom right corner of screen) to make your own game.
 
-Change "startLocation" to "education" 
+Let's rename the start location by changing the text on line *whatever line number*
 
-and ADD one option at line 70, `{buttonText:"Click here to major in Education", 
-           takesYouToLocation:"education"}`
+Let's add a room to our choose your own adventure game by copying line 54 (starts with COPY FROM HERE) to line 77 (ends with END COPY HERE)
+
+Change "startLocation" to the name of the new room 
+
+and ADD one option at line 70, `{buttonText:"Click here to go to *your room name*", 
+           takesYouToLocation:"roomName"}`
            
-If it worked you'll see three buttons when you begin and if you click "Click here to major in Education" you'll see the old start image.
+If it worked you'll see three buttons when you begin and if you click "Click here to go to *your room name*" you'll see the old start image.
 
 When we're done today you'll understand how this game is designed, build your own creative story, and learn how to make websites truly interactive.
 
