@@ -19,6 +19,8 @@ Now let's look at the source.
 
 <a href="https://codepen.io/mariavanv/pen/xxZENVd?editors=1010" target="_blank">Click Here for template</a>
 
+You can also use the example from aboveif you clcik "Edit in CodePen", then fork
+
 Click FORK (bottom right corner of screen) to make your own game.
 
 Let's rename the start location by changing the text on line *whatever line number*
