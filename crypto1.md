@@ -161,7 +161,7 @@ You can research the K3 and K4 alphabets when you get to them, or you can try an
 ### If you're interested in learning more about the Ceasar and Substitution Ciphers...
 
 You can research the last 2 alphabets that we didn't cover (K3 and K4).  
-You can also use [this Aristocrat generator](https://codepen.io/AndyNovo/full/KKpNRxw) created by our professor Dr. Andrew Novocin to practice an unlimited amount of Aristocrat Ciphers.  
+You can also use [this Aristocrat generator](https://codepen.io/AndyNovo/full/KKpNRxw) created by our awesome professor Dr. Andy Novocin to practice an unlimited amount of Aristocrat Ciphers.  
 If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
 
 ## Switching Gears: Baconian Cipher
