@@ -26,7 +26,9 @@ Let's rename the start location by changing the text on line 80
 
 Change the start location image by changing the link on line 84
 
-Let's add a room to our choose your own adventure game by copying line 73 (starts with COPY FROM HERE) to line 112 (ends with END COPY HERE) and pasting it on line 119
+You can edit rooms "A" and "B" to be new exciting locations.
+
+Let's also add a room to our choose your own adventure game by copying line 73 (starts with COPY FROM HERE) to line 112 (ends with END COPY HERE) and pasting it on line 119
 
 Change "startLocation" to the name of the new room 
 
