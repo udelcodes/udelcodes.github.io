@@ -26,8 +26,6 @@ Today we will be learning some of the first ciphers ever used (cipher is another
 
 ## The Caesar Cipher
 
-![caesar salad](https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/166356.jpg)
-
 The **Caesar Cipher** was invented by Julius Caesar to protect military secrets of the Roman Empire. 
 It was one of the first ciphers ever invented!  
 
