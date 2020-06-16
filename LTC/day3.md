@@ -20,21 +20,21 @@ Now let's look at the source.
 <a href="https://codepen.io/Arnell/pen/KKVgLmp?editors=0010
 " target="_blank">Click Here for template</a>
 
-Click FORK (bottom right corner of screen) to make your own game.
+1. Click FORK (bottom right corner of screen) to make your own game.
 
-Let's rename the start location by changing the text on line 80
+2. Let's rename the start location by changing the text on line 80
 
-Change the start location image by changing the link on line 84
+3. Change the start location image by changing the link on line 84
 
-You can edit rooms "A" and "B" to be new exciting locations.
+4. You can edit rooms "A" and "B" to be new exciting locations.
 
-Let's also add a room to our choose your own adventure game by copying line 73 (starts with COPY FROM HERE) to line 112 (ends with END COPY HERE) and pasting it on line 119
+5. Let's also add a room to our choose your own adventure game by copying line 73 (starts with COPY FROM HERE) to line 112 (ends with END COPY HERE) and pasting it on line 119
 
-Change "startLocation" to the name of the new room 
+   >Change "startLocation" to the name of the new room 
 
-Continue to follow the comments, and edit rooms and paths accordingly. Have fun, and make something special!
+   >Continue to follow the comments, and edit rooms and paths accordingly. Have fun, and make something special!
 
-Try adding some items!
+6. Try adding some items!
 
 When we're done today you'll understand how this game is designed, build your own creative story, and learn how to make websites truly interactive.
 
