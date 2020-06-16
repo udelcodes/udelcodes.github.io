@@ -15,11 +15,9 @@ Let's play this for a second.
 
 Now let's look at the source.
 
-## Task 1:  Copy Paste
+## Task 1:  Make your Own Version!
 
 <a href="https://codepen.io/mariavanv/pen/xxZENVd?editors=1010" target="_blank">Click Here for template</a>
-
-You can also use the example from aboveif you clcik "Edit in CodePen", then fork
 
 Click FORK (bottom right corner of screen) to make your own game.
 
@@ -35,17 +33,6 @@ and ADD one option at line 70, `{buttonText:"Click here to go to *your room name
 If it worked you'll see three buttons when you begin and if you click "Click here to go to *your room name*" you'll see the old start image.
 
 When we're done today you'll understand how this game is designed, build your own creative story, and learn how to make websites truly interactive.
-
-
-## Task 2: Let's make a button
-
-Head to [Codepen](https://codepen.io/pen/) to make a new "pen".
-
-In the HTML side add `<button id="clickme">Click Here</button>`
-
-On the Javascript side add `document.getElementById("clickme").addEventListener("click",function(){alert(1)});`
-
-Congrats you have made a click listener.  Let's talk about that
 
 ---------------------------
 
