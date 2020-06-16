@@ -212,11 +212,15 @@ One key value pair is `Species: Gallus gallus domesticus `, or `Number of Legs :
 
 ![chicken run](https://img-aws.ehowcdn.com/750x428p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/8f90ff3795074f1abed46130b079656b)
 
-> What if you have multiple values that you want to associate with a key? What if I had chicken that was feathery *and* scrawny?
+### What if you have multiple values that you want to associate with a key? What if I had chicken that was feathery *and* scrawny?
 
 Every key can be associated with *ONE* object, but luckily, this object can be a collection of other objects (it could be a list of other objects, or another JSON Object!). This is done very often, and you'll see an example of it in our activity later today.
 
-> What does a JSON Object look like in JavaScript?
+### When do you use a JSON Object?
+
+JSONs are a great and well-organized way to transfer and store data. It's easy to pass JSON objects around to different functions, and it's very easy to retrieve the values from them if you know the key.
+
+### What does a JSON Object look like in JavaScript?
 
 Great question! Below is what our meal example would look like (including the side salad we had for dinner).
 
@@ -225,8 +229,8 @@ Great question! Below is what our meal example would look like (including the si
           "species" : "Gallus gallus domesticus",
           "numberOfLegs" : 2,
           "appearance" : {
-              "1" : "feathery",
-              "2" : "scrawny"
+              1 : "feathery",
+              2 : "scrawny"
            },
           "maxSpeedInMPH" : 9
          },
@@ -234,8 +238,8 @@ Great question! Below is what our meal example would look like (including the si
            "species" : "Canis lupus familiaris",
            "numberOfLegs" : 4,
            "appearance" : {
-                "1" : "Furry",
-                "2" : "Chubby"
+                1 : "Furry",
+                2 : "Chubby"
             },
             "maxSpeedInMPH" : 20
           }
