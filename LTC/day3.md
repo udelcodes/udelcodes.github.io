@@ -120,6 +120,8 @@ In the HTML, change the part that says `<h2 id="messages"></h2>` to says `<ul id
 
 Below the line that says `var date = new Date();`, add a line that says `let time = date.toLocaleString()`
 
+Next, click on the button that says "Settings" on your Codepen. Then click "JS" on the left side of the popup that comes up. Then, where it says "Search CDNjs", search up "jquery" and click on the one that comes up that says "jquery 3.5.1".
+
 Then, change the part where it says `document.getElementById("messages").innerHTML = date.toLocaleString()` to say ``$("#messages").append(`<li>${time}</li>`);``. Your JavaScript should now look like this:
 
     document.getElementById("clickme").addEventListener("click", function(){
