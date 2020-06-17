@@ -21,6 +21,9 @@ Today you will be taken through a series of exercises to develop your skills so 
 ---
 
 # Intro to bash 
+
+![Bash Terminal](https://help.apple.com/assets/5D92A6940946227D4301035B/5D92A6A50946227D43010362/en_US/dfa4eabaceda47fa30991ecfd2c28d7c.png)
+
 In the Cyber House, Alice and Bob have created an "Intro To Bash" training grounds, but they suspect that it has been infiltrated by the l33k3rs. However, they don't have any proof. 
 
 Access the training grounds <a href="https://udel.codes/cyber2/Bash_Tutorial" target="_blank">here</a> to begin the training and find proof that the l33k3rs have infiltrated the training grounds.  
@@ -28,6 +31,8 @@ Access the training grounds <a href="https://udel.codes/cyber2/Bash_Tutorial" ta
 ---
 
 # Web infiltration Mission
+
+![Web Hack](https://us.res.keymedia.com/files/image/iStock_databreach1_68635595_SMALL%20(500%20x%20333).jpg)
 
 The **Global Dessert Vault** developers have provided us with a sample copy of their website. They suspect that an old, unprotected file upload page is the culprit, but they can't figure out how the l33k3rs managed to use the page to deface the main website. 
 
@@ -40,6 +45,8 @@ Here is a link to the page that may be helpful in your mission to find out how t
 ---
 
 # Bug Bounties
+
+![Bug Bounties](https://miro.medium.com/max/800/0*lHeMJ6vBYiSYvPaZ.png)
 
 In the future, the Gloabl Dessert Vault has decided to hire Bug Bounty Hunters to stop groups like the l33k3rs from gaining access to the **Global Dessert Vault**, and they would like your help! 
 
