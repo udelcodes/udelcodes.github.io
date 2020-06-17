@@ -10,7 +10,7 @@ CyberChef is so useful in cryptography! If we're spies, then CyberChef is our sp
 It can encode and decode messages crazy fast, and all we have to do is tell it which kind of cipher to use.  
 CyberChef is so smart, sometimes it can even guess which cipher it needs to decode a message without you telling it!
 
-First, let's get our bearings. Here are the key features of cyberchef:
+First, let's get our bearings. Here are the key features of CyberChef:
  - The **Operations** section on the left 
    - This section contains all of the different ways of encoding and decoding messages that CyberChef can help you with
    - You can look through the tabs (Data Format is the one we will use a lot today) or you can search for a specific cipher by name
