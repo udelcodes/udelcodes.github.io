@@ -185,7 +185,48 @@ To create your own database, you'll first need to **fork** the codepen linked be
 
 <a href="https://codepen.io/dianevinson/pen/vYLyEaJ" target="_blank">Open up this Codepen</a> and click the "fork" button in the lower right corner. This will create a new database for you to use!
 
-### Step 11. Copy our code from our first Codepen
+## OR IF YOU'RE USING GLITCH USE THIS!!!
+
+
+          !doctype html>
+          <html>
+            <head>
+              <title>Socket.IO chat</title>
+              <style>
+              // PASTE CSS UNDER HERE
+              
+              
+              
+              </style>
+            </head>
+            <body>
+              //PASTE HTML UNDER HERE
+
+              <script src="/socket.io/socket.io.js"></script>
+              <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+              <script src="lib/jquery-1.11.3.min.js" type="application/javascript"></script>
+              <script>
+                $(function () {
+                  var socket = io();
+                  $('#clickme').click(function(){
+                   // PASTE CODE THAT GETS NAME AND MESSAGE UNDER HERE
+                   
+                   
+                    socket.emit('chat message',input);
+                    $('#message').val('');
+                    return false;
+                  });
+                  socket.on('chat message', function(msg){
+                    // ADD A LINE TO APPEND YOUR MESSAGE UNDER HERE
+
+                    window.scrollTo(0, document.body.scrollHeight);
+                  });
+                });
+              </script>
+            </body>
+          </html>
+
+### Step 11. Copy our code from our first Codepen (CODEPEN)
 
 Now, we're going to copy in the code that we just wrote in our earlier Codepen. 
 
@@ -204,7 +245,16 @@ Your chat app should be working now! Colors and names should be displayed, and i
 All that's left to do now is make it look pretty.
 
 
-### Step 11. Adding CSS
+### Step 11. Copying code (GLITCH)
+
+- 
+- Copy everything in the HTML tab from your first Codepen and paste it into the HTML section of the Glitch index.html.
+
+- In your old Codepen, copy everything in the JavaScript file from where it says `var date = new Date();` through the line where it says `` let input = `<span style="color: ${color};">${name}</span>: ${message} <span id="timetext">${time}</span>` `` and paste that into line 37 of the JS file on our new Codepen (right below the line that says "Paste code that gets name & message under here").
+
+- Add a line that says `` $('#messages').append(`<li>${msg}</li>`); `` right below where it says `// ADD A LINE TO APPEND YOUR MESSAGE UNDER HERE`
+
+### Step 12. Adding CSS
 
 We'll make one final little styling change in our HTML, and then add some CSS to make it look pretty.
 
