@@ -187,6 +187,37 @@ To create your own database, you'll first need to **fork** the codepen linked be
 
 ## OR IF YOU'RE USING GLITCH USE THIS!!!
 
+- Create a new glitch project that says "hello-express"
+
+- Go to "package.json" and click "add package"
+
+- Add "2.3.0 socketio"
+
+- Then replace the code that's currently in your `server.js` file with this code:
+
+
+        var app = require('express')();
+        var http = require('http').Server(app);
+        var io = require('socket.io')(http);
+        var port = process.env.PORT || 3000;
+
+        app.get('/', function(request, response) {
+          response.sendFile(__dirname + '/views/index.html');
+        });
+
+        io.on('connection', function(socket){
+          console.log("hi");
+          socket.on('chat message', function(msg){
+            io.emit('chat message', msg);
+          });
+        });
+
+        var listener = http.listen(process.env.PORT, function() {
+          console.log('Your app is listening on port ' + listener.address().port);
+        });
+        
+ And replace the code that's currently in `index.html` with this code:
+
 
           !doctype html>
           <html>
