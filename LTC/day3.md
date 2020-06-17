@@ -46,7 +46,7 @@ Next, we're going to use what we've learned to build a super cool surprise!
 
 ### Step 1. Open up Codepen
 
-Go to [Codepen](https://codepen.io) and create a new pen by clicking the tab that says "Pen" on the left side. 
+Go to <a href="https://www.codepen.io" target="_blank">Codepen.io</a> and create a new pen by clicking the tab that says "Pen" on the left side. 
 
 ### Step 2. Log to the console
 
