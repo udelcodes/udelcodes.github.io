@@ -78,11 +78,11 @@ Click the button. What happens?
 
 In the HTML, right above where we made the button, add a line that says `<h2 id="messages"></h2>`
 
-In the JavaScript, change `alert(1)` to say `document.getElemenetById("messages").innerHTML = "You clicked"`
+In the JavaScript, change `alert(1)` to say `document.getElementById("messages").innerHTML = "You clicked";`
 
 Try clicking the button to see what happens
 
-- In the code above, we used the same method of `document.getElemenetById("messages")` to get the header2 element that we just added. 
+- In the code above, we used the same method of `document.getElementById("messages")` to get the header2 element that we just added. 
 
 - `.innerHTML =` sets what's between the two h2 tags. Once this line has run, the h2 element looks like `<h2 id="messages">You clicked</h2>`      
 
@@ -97,7 +97,7 @@ Your JavaScript code should know look something like this:
 
     document.getElementById("clickme").addEventListener("click", function(){
       var date = new Date();
-      document.getElementById("messages").innerHTML = date.getTime()
+      document.getElementById("messages").innerHTML = date.getTime();
     });
     
  Click on the button and see what's changed.
@@ -110,7 +110,7 @@ Let's break down the code we just added:
   
 ### Step 6. Show the time in a clearer way
 
-Change the JavaScript code that says `date.getTime()` to say `date.getLocaleString()`
+Change the JavaScript code that says `date.getTime()` to say `date.toLocaleString()`
 
 Click the button. Doesn't that time look nicer? 
 
@@ -118,17 +118,21 @@ Click the button. Doesn't that time look nicer?
 
 In the HTML, change the part that says `<h2 id="messages"></h2>` to says `<ul id="messages"></ul>`
 
-Below that, add a line that says `let time = date.getLocaleString()`
+Below the line that says `var date = new Date();`, add a line that says `let time = date.toLocaleString()`
 
-Then, change the part where it says `document.getElementById("messages").innerHTML = date.getLocaleString()` to say ``document.getElementById("messages").append(`<li>${time}</li>`);``. Your JavaScript should now look like this:
+Then, change the part where it says `document.getElementById("messages").innerHTML = date.toLocaleString()` to say ``$("#messages").append(`<li>${time}</li>`);``. Your JavaScript should now look like this:
 
     document.getElementById("clickme").addEventListener("click", function(){
       var date = new Date();
-      let time = date.getLocaleString();
-      document.getElementById("messages").append(`<li>${time}</li>`);
+      let time = date.toLocaleString();
+      $("#messages").append(`<li>${time}</li>`);
     });
     
 Now, it'll log whenever you click the button!
+
+- `$('#messages')` pretty much does the same thing as `document.getElementById("messages")`.
+
+- `` `<li>${time}</li>` `` allows us to put code into our HTML file using JavaScript, but will replace the word "time" with the value of the time variable.
 
 ### Step 8. Add a message
 
@@ -136,9 +140,9 @@ In the HTML, add a line *before* the button but *after* the list that says `<inp
 
 In the JavaScript, add a line *after* the line that says `var date = new Date();` that says `var message = document.getElementById("message").value;`
 
-Change the JavaScript so that instead of just appending `${time}` to our list of messages, it appends `${message}` too.
+Change the JavaScript so that instead of just appending `` `<li>${message} ${time}</li>` `` to our list of messages, it appends `` `<li>${message} ${time}</li>` ``
 
-Your JavaScript should now look something like this (although you might print the message and time in a slightly different way):
+Your JavaScript should now look something like this: 
 
     document.getElementById("clickme").addEventListener("click", function(){
       var date = new Date();      
@@ -147,7 +151,7 @@ Your JavaScript should now look something like this (although you might print th
       document.getElementById("messages").append(`<li>${message} ${time}</li>`);
     });
     
-When you click the button now, it might still show the "li" tags and look a little funny. But don't worry about that - we're going to move back to our glitch.com app now, anyway.
+It should now display the message and the time at which you sent it! It may not be the prettiest right now, but you can see how this is turning into quite the functional little app!
 
 
 ### Step 9. Add a username and color
@@ -161,20 +165,21 @@ Add the following code right above where we put the list in the HTML code:
           <input type="color" id="color" value="#aa00ff">
        </div>
        
-In the JavaScript, right above the line that says `var date = new Date()`, add the following lines:
+In the JavaScript, right above the line that says `var date = new Date();`, add the following lines:
 
-          let name = document.getElementById("name").value
-          let color = document.getElementById("color").value
+          let name = document.getElementById("name").value;
+          let color = document.getElementById("color").value;
           
-Finally, change the line that says ``let input = `${message} ${time}` `` to say ``let input = `<span style="color: ${color};">${name}</span>: ${message} <span id="timetext">${time}</span>` ``
+Finally, add a line in the JavaScript below the line that says   the line that says `` let time = date.toLocaleString(); `` that says ``let input = `<span style="color: ${color};">${name}</span>: ${message} <span id="timetext">${time}</span>` ``
 
-This is coming together to look like a really cool chat app!
+The color and name shouldn't appear yet when you click the button, but we'll add those in in the next step.
+
 
 ### Step 10. Add a Database
 
 Now, we're going to add a **database**. This will allow us to save all of the messages that have been sent in our chat app, and will allow users to talk to each other over the internet. 
 
-To create your own database, you'll first need to **fork** the codepen linked below.
+To create your own database, you'll first need to **fork** the codepen linked below. Keep the codepen that we've just been working on open, as we're going to transfer all of our code from that pen to one with a database. 
 
 <a href="https://codepen.io/dianevinson/pen/vYLyEaJ" target="_blank">Open up this Codepen</a> and click the "fork" button in the lower right corner. This will create a new database for you to use!
 
@@ -182,14 +187,40 @@ To create your own database, you'll first need to **fork** the codepen linked be
 
 Now, we're going to copy in the code that we just wrote in our earlier Codepen. 
 
-- Copy all everything in the HTML tab from your first Codepen and paste it into the HTML section of the Codepen with the database.
+- Copy everything in the HTML tab from your first Codepen and paste it into the HTML section of the Codepen with the database.
 
+- In your old Codepen, copy everything from where it says `var date = new Date();` through the line where it says `` let input = `<span style="color: ${color};">${name}</span>: ${message} <span id="timetext">${time}</span>` `` and paste that into line 37 on our new Codepen (right below the line that says "Paste code that gets name & message under here").
 
+- Copy and paste the line from our old Codepen that says `$('#messages').append(`<li>${message} ${time}</li>`);` and paste it into the new Codepen on line 52 (right below where it says "Append msgObj.value to list under here")
+
+- Right above the line that we just added (so in between "Append msgObj.value to list under here" and ``$('#messages').append(`<li>${message} ${time}</li>`);`` in the JavaScript), add a line that says `let msg = msgObj.val();`
+
+- Finally, change `${message} ${time}` around line 53 of the JavaScript to just say `${msg}` 
+
+Your chat app should be working now! Colors and names should be displayed, and if you shared the link to it with someone else, then you guys could communicate in real time!
+
+All that's left to do now is make it look pretty.
 
 
 ### Step 11. Adding CSS
 
-Finally, add the following CSS code to your `index.html` file, right below the line that says "/*Add your CSS in here*/" (it should be around line 7).
+We'll make one final little styling change in our HTML, and then add some CSS to make it look pretty.
+
+In the HTML, put the input with the `id="message"` and the button with `id="clickme"` in a div element with `id="input"`.
+
+Our HTML should look like this now:
+
+    <div id="nameInput">
+              <input type="text" id="name" autocomplete="off" placeholder="Name" value="Anonymous"> 
+              <input type="color" id="color" value="#aa00ff">
+           </div>
+    <ul id="messages"></ul>
+    <div id="input">
+    <input type="text" id="message">
+    <button id="clickme">Click Here</button>
+    </div>
+
+Lastly, add the following CSS code to the CSS tab on your Codepen.
 
       * { 
         margin: 0; 
@@ -233,7 +264,7 @@ Finally, add the following CSS code to your `index.html` file, right below the l
       #messages li:nth-child(odd) { background: #eee; }
       #messages { margin-bottom: 40px }
       
-Congratulations! You know have quite a professional looking chat app! If you click "Show" and then "In a New Window", it'll look even better!
+Congratulations! You now have quite a professional looking chat app! If you click "Change View" and then click "Full Page View", it'll take up the whole page.
 
 ![you did it!](https://media0.giphy.com/media/QaXcpBEQRfD9pR3zk5/source.gif)
 
