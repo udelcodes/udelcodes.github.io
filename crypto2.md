@@ -1,6 +1,6 @@
 # W3lc0m3 t0 Day 2 of Crypt0 W33k!!
 
-Today we will be switching from pen and paper to digital.  
+Today we will be switching from pen and paper ciphers to digital ciphers.  
 Specifically, we will be focusing on converting letters and messages into numbers, randomness, and pseudo-randomness.
 
 ## Wacky Encryption
