@@ -193,9 +193,9 @@ Now, we're going to copy in the code that we just wrote in our earlier Codepen.
 
 - In your old Codepen, copy everything in the JavaScript file from where it says `var date = new Date();` through the line where it says `` let input = `<span style="color: ${color};">${name}</span>: ${message} <span id="timetext">${time}</span>` `` and paste that into line 37 of the JS file on our new Codepen (right below the line that says "Paste code that gets name & message under here").
 
-- Copy and paste the line from our old Codepen that says `$('#messages').append(`<li>${message} ${time}</li>`);` and paste it into the new Codepen on line 52  of the JS file (right below where it says "Append msgObj.value to list under here")
+- Copy and paste the line from our old Codepen that says `` $('#messages').append(`<li>${message} ${time}</li>`);`` and paste it into the new Codepen on line 52  of the JS file (right below where it says "Append msgObj.value to list under here")
 
-- Right above the line that we just added (so in between "Append msgObj.value to list under here" and ``$('#messages').append(`<li>${message} ${time}</li>`);`` in the JavaScript), add a line that says `let msg = msgObj.val();`
+- Right above the line that we just added (so in between `\\Append msgObj.value to list under here` and ``$('#messages').append(`<li>${message} ${time}</li>`);`` in the JavaScript), add a line that says `let msg = msgObj.val();`
 
 - Finally, change `${message} ${time}` around line 53 of the JavaScript to just say `${msg}` 
 
