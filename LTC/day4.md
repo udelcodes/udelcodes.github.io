@@ -151,3 +151,41 @@ Just add this badge to your site with an `<img src="https://udel.codes/images/cr
 ![Future Cyberscholar Badge](https://udel.codes/images/cyberscholar.svg)
 
 Just add this badge to your site with an `<img src="https://udel.codes/images/cyberscholar.svg"/>` tag.
+
+# Thanks for being a part of this!
+
+Here's some other cool stuff for you if you want to do more at home:
+
+## Contact-us Form Starter Kit
+
+The idea here is that, if you go to make a website for a business or a club, you'll probably want to let people let you know they are interested in joining/buying/whatever.  So you make a "FORM" that takes some information and shows it on a dashboard.
+
+### The FORM part:
+
+Fork this page, copy the crazy ID at the top and paste it into the NEXT (dashboard) pen, then delete the crazy ID part.
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="AndyNovo" data-slug-hash="gOPwJJV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Contact Form Input Demo">
+  <span>See the Pen <a href="https://codepen.io/AndyNovo/pen/gOPwJJV">
+  Contact Form Input Demo</a> by Andy Novocin (<a href="https://codepen.io/AndyNovo">@AndyNovo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+Now you can fork this dashboard part and paste your form ID into the `yourID` line.
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="AndyNovo" data-slug-hash="eYJBByB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Contact Form Output Demo">
+  <span>See the Pen <a href="https://codepen.io/AndyNovo/pen/eYJBByB">
+  Contact Form Output Demo</a> by Andy Novocin (<a href="https://codepen.io/AndyNovo">@AndyNovo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+Now people can reach out to you through your site and you can check in to see what they say.
+
+## A crazy air hockey game
+
+This was more to show you how you can use databases a little differently.  If you go to this pen you'll either be player1, player2, or an observer.  If you're a player you can play air-hockey against someone else on the same site.
+
+[Link to crazy air hockey](https://codepen.io/AndyNovo/full/xxZRrpQ)
+
+It's a little wonky, but I used a cool technique to make it.  Just search codepen for something you'd like to make then fork theirs and edit the code!  Just give them some love in the comments.
