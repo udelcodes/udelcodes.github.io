@@ -52,9 +52,9 @@ Go to <a href="https://www.codepen.io" target="_blank">Codepen.io</a> and create
 
 In the HTML tab on Codepen, add a button element by typing `<button id="clickme">Click Here</button>`
 
-In the JavaScript tab, add `document.getElementById("clickme").addEventListener("click",function(){alert(1)});`
+In the JavaScript tab, add `document.getElementById("clickme").addEventListener("click",function(){console.log(1)});`
 
-In the bottom left of your screen, click the button that says "Console". What does the button do when you click it?
+In the bottom left of your screen, click the button that says "Console" to open up the console. Now click the button that we added to our HTML page. What does that button do when you click it?
 
 Let's break down the code we just added!
     
