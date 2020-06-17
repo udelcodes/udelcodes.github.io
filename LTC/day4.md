@@ -21,4 +21,4 @@ Open up <a href="https://codepen.io/dianevinson/pen/mdVOxVZ" target="_blank">thi
 
 Paste the following HTML code into the HTML tab on the Codepen that you just forked.
 
-<script src="https://gist.github.com/dianevinson/89c941b5ad1bd6920b85a8b1c98f11db#file-htmltemplate-html"></script>
+<script src="https://gist.github.com/dianevinson/73bc69c5e7ffa3db053b0f85b6643068.js"></script>
