@@ -93,7 +93,7 @@ In the JavaScript, add the line `var date = new Date();` right before where it s
 
 Also, change the code that says `"you clicked"` to say `date.getTime()`
 
-Your JavaScript code should know look something like this:
+Your JavaScript code should now look something like this:
 
     document.getElementById("clickme").addEventListener("click", function(){
       var date = new Date();
