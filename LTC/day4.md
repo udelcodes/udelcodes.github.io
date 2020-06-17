@@ -79,4 +79,75 @@ If you share the link of your app (the link for it when you view it in a new win
 
 Unlike the Codepen app, since this one does *not* use a database, once you exit out of the app you will no longer be able to see the messages. 
 
+# MAD LIBS with friends!
 
+Now we'll have you make your own MAD LIBS stories that you can play with friends even across the internet.
+
+Take a look at these example MAD LIBS stories:
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="dianevinson" data-slug-hash="PoZGpoJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Mad Libs Engine">
+  <span>See the Pen <a href="https://codepen.io/dianevinson/pen/PoZGpoJ">
+  Mad Libs Engine</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+OR:
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="mariavanv" data-slug-hash="gOPwmOx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Mad Libs Engine">
+  <span>See the Pen <a href="https://codepen.io/mariavanv/pen/gOPwmOx">
+  Mad Libs Engine</a> by mariavanv (<a href="https://codepen.io/mariavanv">@mariavanv</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+OR: 
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="AndyNovo" data-slug-hash="eYJdvYo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Mad Libs Engine">
+  <span>See the Pen <a href="https://codepen.io/AndyNovo/pen/eYJdvYo">
+  Mad Libs Engine</a> by Andy Novocin (<a href="https://codepen.io/AndyNovo">@AndyNovo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+OK:
+
+## Step 1: FORK the pen
+
+## Step 2: Edit yourMadLibStory
+
+When you're editing your story use the words you see in the `wordFinder` (VERB, NOUN, ING-VERB, PRONOUN, ADJECTIVE, etc.) whenever you want to ask people to make-up their own words in your story.
+
+## Step 3: Edit yourMadLibTitle
+
+Make any title you want!
+
+## Step 4: Share your URL
+
+Now as people fill out your story it will show on your screen and vice-versa.  Once every answer has been filled out you can click "All Done" to show the answer then "Play Again?" to undo those answers.
+
+# Sharing your creations on your website
+
+You all have made a creative alchemy game, a choose your own adventure game, a chat app, a MAD LIBs story, and a website.  What a week!  Now we encourage you to make a site to share with your friends and family that let's them find all of your cool creations in one easy place.
+
+## Pick your main page location
+
+Make a new pen, new glitch.com project, OR take the one you made on Monday.  
+
+## Gather up your links
+
+Copy the URLs for each of your creations (and feel free to keep adding things) and add links to those URLs like this:
+
+`<a href="GAME_URL_HERE">Friendly Description of your Game/Creation here</a>`
+
+## Add a badge of accomplishment!
+
+We made you some badges to show-off your **Summer of Cyber** week 1 experience!
+
+![Creative Coder Badge](https://udel.codes/images/creativecoder.svg)
+
+Just add this badge to your site with an `<img src="https://udel.codes/images/creativecoder.svg"/>` tag.
+
+![Future Cyberscholar Badge](https://udel.codes/images/cyberscholar.svg)
+
+Just add this badge to your site with an `<img src="https://udel.codes/images/cyberscholar.svg"/>` tag.
