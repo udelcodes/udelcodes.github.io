@@ -15,7 +15,7 @@ Let's play this for a second.
 
 Now let's look at the source.
 
-## Task 1:  Make your Own Version!
+## Activity 1:  Make your Own Story Game!
 
 <a href="https://codepen.io/Arnell/pen/KKVgLmp?editors=0010
 " target="_blank">Click Here for template</a>
