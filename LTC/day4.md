@@ -22,3 +22,24 @@ Open up <a href="https://codepen.io/dianevinson/pen/mdVOxVZ" target="_blank">thi
 Paste the following HTML code into the HTML tab on the Codepen that you just forked.
 
 <script src="https://gist.github.com/dianevinson/73bc69c5e7ffa3db053b0f85b6643068.js"></script>
+
+
+### Step 3. Add the following CSS code
+
+Copy and paste the following CSS code into the CSS tab on the Codepen that you just forked.
+
+<script src="https://gist.github.com/dianevinson/a3c1e3b2ebc06a9c8ffd2e4d3aef3e5d.js"></script>
+
+
+### Step 4. Add JavaScript 
+
+Add the following JavaScript to line 36 in the JavaScript tab on your codepen. (Place this code below everything that's already in the JS tab).
+
+
+<script src="https://gist.github.com/dianevinson/e06d866d7422262625c94d4b73687197.js"></script>
+
+And there you have it! A beautiful chat app that stores all of your messages!
+
+If you click "Change View" and then "Full Page View" on Codepen your chat app will take up the whole screen. 
+
+You can share the link to your chat app with your friends and family and you guys can all communicate with each other!
