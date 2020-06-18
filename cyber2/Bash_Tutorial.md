@@ -77,7 +77,7 @@ Once you find a flag, input it in the answer box on <a href="https://learnificat
 
 ## One More Flag! 
 
-> Now that you can get around your shell we are going to teach you how to use some tools in your shell. In this lesson we what to create a text file and do some fun stuff with it 
+> Now that you can get around your shell we are going to teach you how to use some tools in your shell. In this lesson we what to create a directory and learn how to search files
 
 
 **Commands learned in this lesson**
@@ -105,5 +105,6 @@ Steps <br>
 5. NOTE: Once you remove a file or directory, it is near impossible to get it back, so be careful!
 6. Find the file named "names.txt" and use the `cat` command to see the contents of the text file
 7. Alot of names right? now since the file is taking up a large amount of our screen space, use `clear` so the names are removed from the screen.
-8. Now there is a Flag hidden within "names.txt" yet instead of going through the 20,000 lines of code that the file contains, use `grep` to try and find the Flag!
+8. Now there is a **Flag** hidden within "names.txt" yet instead of going through the 20,000 lines of code that the file contains, use `grep` to try and find the Flag!
 
+Put the Flag in theanswer box on <a href="https://learnification.fun/" target="_blank">Learnification.fun</a> under the module Week of Cyber Day 2
