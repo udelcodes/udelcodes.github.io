@@ -63,6 +63,8 @@ Amazing! You have now learned how to create directories and files within a bash 
 
 ## Navigate the terminal to find flags!
 
+![CTF](https://www.hackerone.com/sites/default/files/Icons_CTF_1.png)
+
 Begin by entering the following commands in the home directory of the terminal...
 
 1. `git clone https://github.com/alexarnell/Bash_Tutorial.git`
