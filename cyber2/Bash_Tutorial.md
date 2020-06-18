@@ -38,12 +38,6 @@ mkdir <directoryname> - created a new dir
 
 cat <filename> - displays the contents of a file 
 
-pid - prints the process ID of the shell
-
-kill <pid> - kills a running process
-
-grep <string> <filename>- searches file for string and prints lines 
-containing that string.
 ```
 
 ## First Exercise, getting familiar with bash
@@ -77,3 +71,37 @@ Begin by entering the following commands in the home directory of the terminal..
 Once you find a flag, input it in the answer box on <a href="https://learnification.fun/" target="_blank">Learnification.fun</a> under the module Week of Cyber Day 2! Good Luck!
 
 **Total Number of Flags: 5**
+
+
+## One More Flag! 
+
+> Now that you can get around your shell we are going to teach you how to use some tools in your shell. In this lesson we what to create a text file and do some fun stuff with it 
+
+
+**Commands learned in this lesson**
+
+```
+echo <string>  - displays a line of text/string that is passed as an argument 
+
+rm <filename>  -  removes objects such as files or directories
+
+grep <string> <filename> - searches a file for a particular string, 
+and displays all lines that contain that string
+
+pid - prints the process ID of the shell
+
+kill <pid> - kills a running process
+
+clear - clears the terminal screen of text
+```
+
+Steps <br>
+1. Use `pwd` and note what dir you are in
+2. Use `echo` with a string as an argument to see how the command works
+3. Use `mkdir` to create a directory named "Trash"
+4. After creating the Trash directory, since it is infact trash, use `rm` to remove the directory
+5. NOTE: Once you remove a file or directory, it is near impossible to get it back, so be careful!
+6. Find the file named "names.txt" and use the `cat` command to see the contents of the text file
+7. Alot of names right? now since the file is taking up a large amount of our screen space, use `clear` so the names are removed from the screen.
+8. Now there is a Flag hidden within "names.txt" yet instead of going through the 20,000 lines of code that the file contains, use `grep` to try and find the Flag!
+
