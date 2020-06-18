@@ -85,7 +85,12 @@ Maybe we can show you how to send your own secret messages in images...
 
 ## We need you
 
-Alice and Bob believe you've got what it takes.  They want you to join them in the fight to protect the world's dessert recipes (and power grid, the internet, our banks, Netflix, and all of the other things needing protecting).  
+Alice and Bob believe you've got what it takes. In so they are presenting you with a badge for your achivements today. They want you to join them in the fight to protect the world's dessert recipes (and power grid, the internet, our banks, Netflix, and all of the other things needing protecting).  
 
 <a href="https://www.cyberseek.org/pathway.html" target="_blank">Let's look at the jobs you could do!</a>
+
+Put this badge on your website, this is the link to the image: https://udel.codes/cyber1/Password_Cracker.png
+
+![Password Cracker](https://udel.codes/cyber1/Password_Cracker.png)
+
 
