@@ -2,6 +2,8 @@
 This page will help you learn how Alice and Bob's dessert database works
 and help you hack into it just like those L33k3ers!
 
+![USA Cake](https://d213sdapb08052.cloudfront.net/assets/recipes/flag-cake/_ogImage/IMG_1153.jpeg?mtime=20200521120223)
+
 ## Lets Begin
 First, lets begin by going to the database itself...
 > <a href="http://desserts.gel.webfactional.com/" target="_blank">DATABASE</a>
@@ -43,6 +45,12 @@ Once at the new webpage, go to the url and at the very end put this statement...
 Hit enter, and now you see a list of all the files that the website contains! Crazy right! 
 
 The command that is executed is directly after the `=`, so like we learned in the bash tutorial, `ls` prints all the contents of a directory. Now, find the **flag!**
+
+## You are truly becoming an expert!
+
+You are getting better with every exercise, Bob and Alice are proud and present you with this badge. Throw it on your website to mark your accomplishments!
+
+![Dessert Exploitation](https://udel.codes/cyber2/Dessert_Exploitation.png)
 
 
 
