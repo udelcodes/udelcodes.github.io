@@ -108,3 +108,9 @@ Steps <br>
 8. Now there is a **Flag** hidden within "names.txt" yet instead of going through the 20,000 lines of code that the file contains, use `grep` to try and find the Flag!
 
 Put the Flag in theanswer box on <a href="https://learnification.fun/" target="_blank">Learnification.fun</a> under the module Week of Cyber Day 2
+
+## You Have Completed the Bash Lessons!
+
+You can now consider yourself a bash specialist. Take this badge and put it on your website. If you use your skills, you can inspect the page and find the URL used to generate this image!
+
+![Bash Specialist](https://udel.codes/cyber2/Bash_Specialist_Badge.png)
