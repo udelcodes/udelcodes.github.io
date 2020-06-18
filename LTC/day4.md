@@ -118,7 +118,7 @@ Go to <a href="https://codepen.io/dianevinson/pen/PoZGpoJ" target="_blank">this 
 
 ## Step 2: Edit yourMadLibStory
 
-When you're editing your story use the words you see in the `wordFinder` (VERB, NOUN, ING-VERB, PRONOUN, ADJECTIVE, etc.) whenever you want to ask people to make-up their own words in your story.
+Find where it says `let yourMadLibStory = ` and then edit that story to say whatever you like! When you're editing your story use the words you see in the `wordFinder` (NOUN,VERB,ADJECTIVE,ADVERB,PLURALNOUN,NUMBER,PROPERNAME,LOCATION,ANIMAL,ING-VERB,PLACE) whenever you want to ask people to make-up their own words in your story. Make sure that when you sub those words into your story that they're written in uppercase letters! 
 
 ## Step 3: Edit yourMadLibTitle
 
@@ -140,11 +140,11 @@ Make a new pen, new glitch.com project, OR take the one you made on Monday.
 
 Copy the URLs for each of your creations (and feel free to keep adding things) and add links to those URLs like this:
 
-`<a href="GAME_URL_HERE">Friendly Description of your Game/Creation here</a>`
+`<a href="GAME_URL_HERE">Friendly Description of your creation here</a>`
 
 ## Add a badge of accomplishment!
 
-We made you some badges to show-off your **Summer of Cyber** week 1 experience!
+We made you some badges to show-off your **Summer of Cyber** week 1 experience! Place these badges anywhere that you want on your website! 
 
 ![Creative Coder Badge](https://udel.codes/images/creativecoder.svg)
 
