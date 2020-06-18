@@ -114,6 +114,8 @@ OK:
 
 ## Step 1: FORK the pen
 
+Go to <a href="https://codepen.io/dianevinson/pen/PoZGpoJ" target="_blank">this sample MadLibs</a> and click "fork" in the bottom right to make your own copy (just like we've been doing).
+
 ## Step 2: Edit yourMadLibStory
 
 When you're editing your story use the words you see in the `wordFinder` (VERB, NOUN, ING-VERB, PRONOUN, ADJECTIVE, etc.) whenever you want to ask people to make-up their own words in your story.
