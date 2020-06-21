@@ -11,7 +11,7 @@ They live in this house, the Cyber House:
 
 ![Cyber House Rules](https://i2.wp.com/www.intelligentliving.co/wp-content/uploads/2020/01/cyberhouse-2.jpg)
 
-The are super, but their power isn't from some radioactive spider or what not, it's cybersecurity.  
+They are super, but their power isn't from some radioactive spider or what not, it's cybersecurity.  
 
 They work for the **Global Dessert Vault**, the international authority responsible for maintaining all of the recipes for the world's best desserts.  
 
