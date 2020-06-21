@@ -50,5 +50,8 @@ Each week of the camp will focus on a different topic.  Whether you'd like to at
 ---------
 Here is a link for the Learn To Code week homepage, we will be going to this page at the beginning of everyday!
 
-<a href="https://udel.codes/LTC/" target="_blank">Learn To Code Homepage</a>
+- <a href="https://udel.codes/LTC/" target="_blank">Learn To Code Homepage</a>
+
+- <a href="https://udel.codes/cyber" target="_blank">Introduction To Cybersecurity</a>
+
 
