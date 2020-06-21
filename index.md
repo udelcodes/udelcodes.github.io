@@ -52,6 +52,11 @@ Here is a link for the Learn To Code week homepage, we will be going to this pag
 
 - <a href="https://udel.codes/LTC/" target="_blank">Learn To Code Homepage</a>
 
+
+### Week 2: Introduction To Cybersecurity
+---------
+Link for the Introduction To Cybersecurity homepage.
+
 - <a href="https://udel.codes/cyber" target="_blank">Introduction To Cybersecurity</a>
 
 
