@@ -9,7 +9,7 @@ network saftey when using your computer.
 
 Throughout the week, we will be learning the ways of the Cyber House. The Cyber House is a group of cybersecurity
 experts who will help us practice and learn cyber skills! We will also be helping them shutdown a group of hackers
-who have been causing mayhem across the internet. Lets introduce you to the agents you will be working with!
+who have been causing mayhem to the Cyber House. Lets introduce you to the agents you will be working with!
 
 ![Agents](https://www.johnhembree.com/wp-content/uploads/2017/10/5-JHH.jpg)
 
