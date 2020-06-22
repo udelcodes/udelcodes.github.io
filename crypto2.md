@@ -19,6 +19,8 @@ This web app incorporates 2 main ideas that we hope you understand by the end of
 
 ## CyberChef, a Crypto Super Toolbox
 
+<center><img src="https://images.unsplash.com/photo-1585569695919-db237e7cc455?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60" alt="Toolbox"/></center>
+
 Head to the [CyberChef](https://gchq.github.io/CyberChef/) website by clicking on that link.  
 If you are following along with this lesson on your own, it may be helpful to check out [this reference](https://udel.codes/cyberchef) for how to use Cyberchef.  
 CyberChef is so useful in cryptography! If we're spies, then CyberChef is our spy kit.  
@@ -93,11 +95,13 @@ In order to do that, we would beed some way to "mix" secret stuff and plaintext.
 ## Intro to Steganography: Hiding In Plain Sight
 
 This sounds really weird and confusing.  
-Here's a photo version of "mixing" secret stuff and plain stuff to help us understand this concept better.  
+Here's a photo version of "mixing" secret stuff and plain stuff to help us understand this concept better. 
 
-Click on [this link](https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png) to download this seemingly normal image (right click the image and press “Save Image As…”, then save to your computer.)
+<center><img src="https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png" alt="Toolbox"/></center>
 
 ![normal image](https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png)
+
+Click on [this link](https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png) to download this seemingly normal image (right click the image and press “Save Image As…”, then save to your computer.)
 
 Then upload the image to [this website](https://georgeom.net/StegOnline/image) and play around until you find the hidden image inside this image!
 
