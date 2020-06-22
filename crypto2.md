@@ -129,3 +129,15 @@ written by other Cybersecurity Scholars!
 Now let’s talk about randomness. Randomness is at the core of cryptography.
 
 There’s no such thing as true randomness created by a computer. Computers use algorithms and generate what we call “pseudo-randomness,” that is they generate something that is as close to random as they can get.
+
+In Minecraft, the game will randomly generate a new terrain everytime you start a new world. But, if you really like a terrain and you want to recreate it, then you can get the ***seed*** for that terrain and use the seed to recreate the exact same terrain. So it seems random at first, but if you are able to recreate a terrain exactly, then it must not be totally random. This is what we call **pseudo-random**.
+
+The same concept applies to random number generators on computers. Computer algorithms also use seeds when they generate random numbers. 
+
+
+<p class="codepen" data-height="400" data-theme-id="light" data-default-tab="js,result" data-user="nikki-pilla" data-slug-hash="mdVmyMy" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Middle Squares">
+  <span>See the Pen <a href="https://codepen.io/nikki-pilla/pen/mdVmyMy">
+  Middle Squares</a> by Nikki Pilla (<a href="https://codepen.io/nikki-pilla">@nikki-pilla</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
