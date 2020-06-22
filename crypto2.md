@@ -134,7 +134,7 @@ In Minecraft, the game will randomly generate a new terrain everytime you start 
 
 The same concept applies to random number generators on computers. Computer algorithms also use seeds when they generate pseudo-random numbers. Play around with the Random Numer Generator below. It will use your seed to generate 5 random numbers.
 
-<p class="codepen" data-height="600" data-theme-id="light" data-default-tab="js,result" data-user="nikki-pilla" data-slug-hash="mdVmyMy" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Middle Squares">
+<p class="codepen" data-height="700" data-theme-id="light" data-default-tab="js,result" data-user="nikki-pilla" data-slug-hash="mdVmyMy" style="height: 700px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Middle Squares">
   <span>See the Pen <a href="https://codepen.io/nikki-pilla/pen/mdVmyMy">
   Middle Squares</a> by Nikki Pilla (<a href="https://codepen.io/nikki-pilla">@nikki-pilla</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
