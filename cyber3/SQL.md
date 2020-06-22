@@ -27,5 +27,22 @@ we can access data the application does not want us to. Basically hacking the ap
 
 Alice and Bob have provided us with documentation on SQL Injection which should help us infiltrate the
 L33k3rs database.
+
+---
+> **A L I C E  &  B O B**
+
+
+A basic SQL Statement looks like this,
+
+`SELECT first_name
+  FROM people
+ WHERE last_name = '$INPUT';`
  
- - 
+Now let us break it down...
+
+- `SELECT first_name` : "first_name is the variable holding information we will be pulling from the database
+- `FROM people` : people is an object that holds multiple variables 
+- ` WHERE last_name = '$INPUT';` : last_name is what the user will be inputing. 
+
+So based on the above code, the user will enter a last name. If the last name is valid,
+the SQL statement will then look for, in the people's object, the first name that correlates with the last name. 
