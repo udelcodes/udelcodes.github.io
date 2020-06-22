@@ -99,8 +99,6 @@ Here's a photo version of "mixing" secret stuff and plain stuff to help us under
 
 <center><img src="https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png" alt="Toolbox"/></center>
 
-![normal image](https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png)
-
 Click on [this link](https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png) to download this seemingly normal image (right click the image and press “Save Image As…”, then save to your computer.)
 
 Then upload the image to [this website](https://georgeom.net/StegOnline/image) and play around until you find the hidden image inside this image!
