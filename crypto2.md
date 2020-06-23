@@ -5,7 +5,7 @@ Specifically, we will be focusing on converting letters and messages into number
 
 ## Wacky Encryption
 
-First, let's check out this [Wacky Encryption](https://codepen.io/AndyNovo/full/jOWqrYQ) made by our awesome professor Dr. Andy Novocin.   
+First, let's check out this [Wacky Encryption](https://codepen.io/AndyNovo/full/jOWqrYQ).
 Click on the link above and it will open a web app that lets you encode messages based on a specific starting seed, or a starting number.  
 This web app incorporates 2 main ideas that we hope you understand by the end of the lesson: randomness and mixing letters with numbers.
 
@@ -174,6 +174,59 @@ That doesn't mean that we gave up, instead someone found another way to generate
 There is a company called Cloudflare that is based in San Francisco, CA. They use lava lamps to generate randomness and they are responsible for keeping 10% of the internet secure.  
 Watch this YouTube video to learn about Cloudflare and their lava lamp wall.
 
-<iframe width="420" height="315"
+<iframe width="680" height="480"
 src="https://www.youtube.com/embed/1cUUfMeOijg">
 </iframe>
+
+## Can True Random Ever Work?
+
+Let's look back at the [Wacky Encryption](https://codepen.io/AndyNovo/full/jOWqrYQ) from the beginning of our lesson.  
+ > Is this encryption true-randomness or pseudo-randomness?  
+ > What are the pros and cons of this encryption from a cryptography perspective? Think about the level of encryption (how random it is) and the practicality of it (how easy it is to use).
+ > Can true random ever work?
+
+Building a wall is a lot easier than building a lockable door. 
+If you were to make a truly random encryption, how would you decrypt it? 
+The sweetspot lies in making an encryption that is pretty random, 
+but most importantly has a secure key for decryption.  
+
+## Kerckhoffs's Principle
+
+In cryptography, there's something called [***Kerckhoffs's Principle***.](https://en.wikipedia.org/wiki/Kerckhoffs%27s_principle) 
+Basically, this principle states that the security of an encryption scheme should be the security of the key if the lock is built right. That's a little confusing, so lets think about this principle in terms we understand. 
+
+<center><img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/16/02/1452881725-giphy-1.gif" alt="bookcase hidden door"/></center>
+
+Let's take this bookcase for example. In this case, the lock is the book and the key is pulling 
+on the book. As cool as it looks, this bookcase is not secure. 
+Someone could be browsing the bookcase and stumble upon the right book by accident, 
+and then they have broken into your secret hideout.
+
+It would be more secure if everyone already knew where the lock is, but the key is very secure.
+
+<center><img src="https://www.stanbondsecurity.com.au/wp-content/uploads/2016/11/Protective-security-doors-450x502.jpg" alt="locked door"/></center>
+
+Let's look at this door. Anyone can see the locks in plain sight on the door. 
+However, no one can get through the door because they don't have the key (or keys) to get in. 
+Even though the lock is more obvious, it doesn't matter because the key is more secure.
+
+## What is True Secrecy?
+
+True secrecy (aka the best lock and key) is this:  
+When given an encrypted output, every conceivable input is equally likely.  
+ > If you are given a random substitution cipher where the coded message is just **"Y"**, 
+ what was the input?
+
+## End of Day 2!
+
+<center><img src="https://memeshappen.com/media/created/2018/07/All-done-for-the-day-Great-job.jpg" alt="all done meme" width="500"/></center>
+
+Congratulations, you made it to the end of day 2 of crypto week!  
+Today we learned:  
+ - any data (message, numbers, picture) can be made digital
+ - digital content can be MIXED with other digital content (our hidden picture)
+ - if secret messages are MIXED with random content then we have good encryption
+   - but only if I can create the EXACT random content again
+
+Thanks for learning with us! You can head back to our [home page for crypto week](https://udel.codes/crypto), you can check out [tomorrow's lesson](https://udel.codes/crypto3), or you can learn more about [the different number systems](https://udel.codes/numbersystems) we explored at the beginning of the lesson.  
+See you tomorrow!
