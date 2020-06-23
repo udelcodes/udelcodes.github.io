@@ -73,6 +73,8 @@ print all the information! So as long as we input one correct statement, we can 
 
 # John Smith
 
+![the boss](https://lh3.googleusercontent.com/proxy/7MOwvnOQT-za9glBWDo8Pg9Fin7dyWkaVqIb08M2lmuPUccT4oadkjUUB47BNvSoUDHyn8XIIHriFXj2QnSrjKOmno3NNv8v_xXxd6WAnqLglZCirI99UVvpF4oZ6-jBti8nXR678aV8oQvfqHwIrtwx3g)
+
 Alright, hopefully you have an understanding of how SQL code works, and how we can manipulate it to our advantage is it is not properly sanitized. 
 
 The secret message that you uncovered has a name in it, **John Smith**. We believe that is the boss of the L33k3rs, therefore his information must be held in the database. 
