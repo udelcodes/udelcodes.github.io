@@ -50,7 +50,7 @@ Here is a link to the page that may be helpful in your mission to find out how t
 # Now it is our turn!
 
 We now know how the L33k3rs were able to break into our beloved dessert database. Alice and Bob have taken the necessary
-actions to fix the bug in the website so no more breaches can happen!
+actions to fix the bug in the website so no more breaches can happen! However, they still need to shut down those nano bots...
 
 Alice and Bob have also discovered something monumental in the battle against the L33k3rs! The two agents have
 found a L33k3r database that they believe to hold information on all members of the L33k3rs. They believe it
