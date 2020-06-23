@@ -81,8 +81,11 @@ The secret message that you uncovered has a name in it, **John Smith**. We belie
 
 Try inputing his name in the database and see what appears. 
 
-http://167.172.231.203:3000
+<a href="http://167.172.231.203:3000" target="_blank">L33k3r Database</a>
 
-https://mystery.knightlab.com/walkthrough.html
+You can see that all of his information appears! Awesome!
+
+Now try to figure out a way using SQL injection to get the names and information of every L33k3r member!
+
 
 
