@@ -15,7 +15,7 @@ on their knowledge.
 ## SQL Injection
 
 Alice and Bob belive that the database can be breached by a means of SQL Injection. Meaning they have 
-found that the database the L33k3rs are using SQL, which is a popular language used to 
+found that the L33k3r database uses SQL code, which is a popular language used to 
 access and manage information held in a database management system. 
 
 SQL Injection is the idea to convince the application to run SQL code that was not intended, therefore
@@ -46,3 +46,17 @@ Now let us break it down...
 
 So based on the above code, the user will enter a last name. If the last name is valid,
 the SQL statement will then look for, in the people's object, the first name that correlates with the last name. 
+
+---
+
+This is a basic way to pull information from a database, so most databases that use SQL handels input like the code above. **This is good**,
+because we can use it to our advantage.
+
+There are statements in SQL that we can use that trick the computer into thinking differently then the code intends. for example, in
+- `WHERE last_name = '$INPUT';`
+Do you see the tick marks surrounding `'$INPUT'`
+
+That is to indicate the user's unput, so if we were to input something like
+- `Andy Novocin'` with a tick mark at the end, we can trick the computer to thinking that is the end of the users input, so we can add more code!!!
+
+
