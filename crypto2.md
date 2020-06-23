@@ -158,7 +158,7 @@ Take this image of a Gnu. This is the image in it's normal form, but we would li
 
 <center><img src="https://vip.udel.edu/crypto/ECB.png" alt="encrypted Gnu"/></center>
 
-This is our first attempt at encrypting our Gnu, but we did not do a very good job. You can still see the outline of the Gnu, and the encryption used 1 pattern for the white parts of the image and another pattern for the black parts of the image.
+This is our first attempt at encrypting our Gnu, but we did not do a very good job. You can still see the outline of the Gnu, and the encryption used 1 pattern for the white parts of the image and another pattern for the black parts of the image. This simple encryption made it easy to tell what the true image is.
 
 <center><img src="https://lh3.googleusercontent.com/proxy/v4rISh0AGKumeZgUlPYaqupZt-ZTTzsneMY3Wp1HgVRv2bDyEoHqyker-M_1887g6k-L0xLLVAE7SXmKTeJxbbEwtdcrjNl24PvJ0oAYhP-YgX-j4IKg" alt="white noise"/></center>
 
@@ -166,4 +166,14 @@ This is an image of white noise, and this is ideally what our encrypted Gnu shou
 
 ## The Lava Lamp Wall
 
-<center><img src="https://vip.ece.udel.edu/crypto/ECB.png" alt="encrypted Gnu"/></center>
+<center><img src="https://icdn2.digitaltrends.com/image/digitaltrends/img_6160.jpg" alt="Lava Lamp Wall"/></center>
+
+We now know that computers are great at generating pseudo-random numbers, but they are not so great at generating true random numbers.  
+That doesn't mean that we gave up, instead someone found another way to generate true-randomness: lava lamps!
+
+There is a company called Cloudflare that is based in San Francisco, CA. They use lava lamps to generate randomness and they are responsible for keeping 10% of the internet secure.  
+Watch this YouTube video to learn about Cloudflare and their lava lamp wall.
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/1cUUfMeOijg">
+</iframe>
