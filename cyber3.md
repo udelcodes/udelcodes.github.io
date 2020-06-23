@@ -64,3 +64,15 @@ We think that name can be useful in accomplishing this goal.
 
 We will begin our mission in breaching the L33k3r database here <a href="https://udel.codes/cyber3/SQL" target="_blank">HERE</a>
 
+<br>
+
+# More Information
+
+![comic](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+
+Great job today, you are really proving yourself worthy of becoming an agent for the Cyber House. Below are a few tools and exercises Alice and Bob have provided that you might find interesting based on today lessons. 
+
+- <a href="https://portswigger.net/web-security/sql-injection" target="_blank">More on SQL Injection</a>
+- <a href="http://websec.fr/level01/index.php " target="_blank">SQL Injection Practice</a>
+
+
