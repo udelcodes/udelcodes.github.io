@@ -81,7 +81,7 @@ The secret message that you uncovered has a name in it, **John Smith**. We belie
 
 Try inputing his name in the database and see what appears, Alice and Bob have already figured out the username and password to enter the database.
 
-- **Username: `admin` Password: `admin`
+- **Username: `admin` Password: `admin`**
 
 <a href="http://167.172.231.203:3000" target="_blank">L33k3r Database</a>
 
