@@ -37,10 +37,28 @@ and report it back to the L33k3rs! So it is a **HIGH PRIORITY** to figure out ho
 ![nanobots](https://fundselectorasia.com/wp-content/uploads/sites/4/2020/02/Spywithmask-1-553x311.png)
 
 Alright, not it is time for us to go to the sample copy of the database that the Dessert Vault developers have given us. 
-Lets use this tool to solve this L33k3r problem! <a href="http://desserts.gel.webfactional.com/" target="_blank">Go TO THE DATABASE HERE</a>.
+Lets use this tool to solve this L33k3r problem! <a href="http://desserts.gel.webfactional.com/" target="_blank">GO TO THE DATABASE HERE</a>.
 
 Here is a link to the page that may be helpful in your mission to find out how the L33k3rs l33ked our page! Good Luck! 
 
 <a href="https://udel.codes/cyber2/File_Upload_Tutorial" target="_blank">Tutorial</a>
 
----
+<br>
+
+# Now it is our turn!
+
+We now know how the L33k3rs were able to break into our beloved dessert database. Alice and Bob have taken the necessary
+actions to fix the bug in the website so no more breaches can happen!
+
+Alice and Bob have also discovered something monumental in the battle against the L33k3rs! The two agents have
+found a L33k3r database that they believe to hold information on all members of the L33k3rs. They believe it
+may be possible for us to hack into the database and uncover that information!
+
+![breakin](https://www.irishtimes.com/polopoly_fs/1.4108771.1575830763!/image/image.jpg)
+
+The secret message you uncovered yesterday read, **The boss is named John Smith**
+
+We think that name can be useful in accomplishing this goal.
+
+We will begin our mission in breaching the L33k3r database here <a href="https://udel.codes/cyber3/SQL" target="_blank">HERE</a>
+
