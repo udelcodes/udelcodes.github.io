@@ -64,7 +64,7 @@ That is to indicate the user's unput, so if we were to input something like
 Now the more code we are going to add is a line that will tell the computer to print everything that is in the `FROM people` object of the database, or where the SQL code is mainly pulling information from. 
 
 Something as simple as 
-- ` OR '1' = '1'` can do this.
+- ` OR 1=1--` can do this.
 
 Since 1 is always equal to itself, the computer will read the statement as always true for every `last_name` inputed. That means it will 
 print all the information! So as long as we input one correct statement, we can make the computer print everything!
