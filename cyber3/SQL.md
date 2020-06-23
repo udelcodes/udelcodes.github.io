@@ -57,6 +57,26 @@ There are statements in SQL that we can use that trick the computer into thinkin
 Do you see the tick marks surrounding `'$INPUT'`
 
 That is to indicate the user's unput, so if we were to input something like
-- `Andy Novocin'` with a tick mark at the end, we can trick the computer to thinking that is the end of the users input, so we can add more code!!!
+- `Andy Novocin'` with a tick mark at the end, we can trick the computer into thinking that is the end of the users input, so we can add more code!!!
+
+---
+
+Now the more code we are going to add is a line that will tell the computer to print everything that is in the `FROM people` object of the database, or where the SQL code is mainly pulling information from. 
+
+Something as simple as 
+- ` OR '1' = '1'` can do this.
+
+Since 1 is always equal to itself, the computer will read the statement as always true for every `last_name` inputed. That means it will 
+print all the information! So as long as we input one correct statement, we can make the computer print everything!
+
+---
+
+# John Smith
+
+Alright, hopefully you have an understanding of how SQL code works, and how we can manipulate it to our advantage is it is not properly sanitized. 
+
+The secret message that you uncovered has a name in it, **John Smith**. We believe that is the boss of the L33k3rs, therefore his information must be held in the database. 
+
+Try inputing his name in the database and see what appears. 
 
 
