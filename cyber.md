@@ -19,6 +19,6 @@ who have been causing mayhem to the Cyber House. Lets introduce you to the agent
 
 - <a href="https://udel.codes/cyber2" target="_blank">Day 2: Bash and Images</a>
 
-- <a href="https://udel.codes/cyber" target="_blank">Day 3: Databases</a>
+- <a href="https://udel.codes/cyber3" target="_blank">Day 3: Databases</a>
 
 - <a href="https://udel.codes/cyber" target="_blank">Day 4: Endgame</a>
