@@ -89,5 +89,17 @@ You can see that all of his information appears! Awesome!
 
 Now try to figure out a way using SQL injection to get the names and information of every L33k3r member!
 
+---
+
+<br>
+
+# Valuable Information!
+
+Alice and Bob are greatful for your findings, this information is a big win for the cyber house! Here is another badge for you help against the L33k3rs
+
+![Injected](https://udel.codes/cyber3/Injected.png)
+
+
+
 
 
