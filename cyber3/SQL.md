@@ -81,4 +81,8 @@ The secret message that you uncovered has a name in it, **John Smith**. We belie
 
 Try inputing his name in the database and see what appears. 
 
+http://167.172.231.203:3000
+
+https://mystery.knightlab.com/walkthrough.html
+
 
