@@ -10,6 +10,9 @@ that this message can be used in the future to help against the L33k3rs!
 
 ![secert message](https://i.ya-webdesign.com/images/secret-clipart-2.png)
 
+<br></br>
+## Global Dessert Database!
+
 If you remember from yesterday, the L33k3rs have infiltrated the **Global Dessert Database**. Alice and Bob still need your
 help in figuring out how the L33k3rs managed to make our beloved database look like this!
 
@@ -17,7 +20,7 @@ help in figuring out how the L33k3rs managed to make our beloved database look l
 
 Alice and Bob have managed to contact the developers of the Vault to get any information that may help us in solving this mystery. 
 
-
+<br></br>
 # Web infiltration Mission
 
 ![Web Hack](https://us.res.keymedia.com/files/image/iStock_databreach1_68635595_SMALL%20(500%20x%20333).jpg)
