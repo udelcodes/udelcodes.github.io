@@ -29,7 +29,7 @@ What this line of code does is it allows for us to inject (enter) bash commands 
 
 **But we won't do that cause we are not the L33k3ers!**
 
-Now that you know what know what this file does, upload that file just as you did with your dessert image
+Now that you know what this file does, upload that file just as you did with your dessert image
 
 Once you do that, you will be directed to a page that says 
 > We got your cake image: /cakes/Hack.php
