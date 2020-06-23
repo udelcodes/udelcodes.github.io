@@ -18,14 +18,14 @@ help in figuring out how the L33k3rs managed to make our beloved database look l
 Alice and Bob have managed to contact the developers of the Vault to get any information that may help us in solving this mystery. 
 
 
-## Web infiltration Mission
+# Web infiltration Mission
 
 ![Web Hack](https://us.res.keymedia.com/files/image/iStock_databreach1_68635595_SMALL%20(500%20x%20333).jpg)
 
 The **Global Dessert Vault** developers have provided us with a sample copy of their website. They suspect that an old, 
 unprotected file upload page is the culprit, but they can't figure out how the l33k3rs managed to use the page to deface the main website. 
 
-### Also, the developers of the Global Dessert Vault suspect that the L33k3rs have planted **nano bots in the website!** 
+## Also, the developers of the Global Dessert Vault suspect that the L33k3rs have planted **nano bots in the website!** 
 
 These nano bots
 are believed to watch over the database, so when ever a new dessert recipe is entered into the database, they can steal it from us
