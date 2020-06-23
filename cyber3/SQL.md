@@ -97,7 +97,7 @@ Now try to figure out a way using SQL injection to get the names and information
 
 Alice and Bob are greatful for your findings, this information is a big win for the cyber house! Here is another badge for you help against the L33k3rs
 
-![Injected](https://udel.codes/cyber3/Injected.png)
+![Injected](https://udel.codes/cyber3/SQL_Injection.png)
 
 
 
