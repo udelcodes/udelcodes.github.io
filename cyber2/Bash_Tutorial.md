@@ -46,18 +46,18 @@ First we will go to the online terminal Alice and Bob provided yesterday: <a hre
 
 1. Use `pwd` and note what dir you are in 
 2. Use `whoami` to see what user you are 
-3. Use `ls` to see what is in that dir. 
+3. Use `ls` to see what is in that dir 
 4. NOTE: You should see a combination of dir and files if not don't worry we can take care of that shortly 
 5. Use `mkdir bash` to created a new dir named bash
 6. Type `ls` so you know see you have created a new dir named bash
 7. Now we want to change our current working dir to bash try `cd bash` Note you can replace `bash` with any dir if you want to go somewhere else 
 8. User `pwd` again to see if you are in the bash dir 
-9. Notice how there is a more dir attached to bash. Something like `User/bash` this is known as your absolute path. `/User` is the parent dir of `/bash`. You might not see 'User', but in other bash terminals you will.
+9. Notice how there is a more dir attached to bash. Something like `User/bash` this is known as your absolute path. `/User` is the parent dir of `/bash`. You might not see 'User', but in other bash terminals you will
 10. Let's go back to our parent dir. Try `cd ..` to change dir to the parent
-11. Again use `pwd` (last time I promise) to verify you are back to the parent. 
+11. Again use `pwd` (last time I promise) to verify you are back to the parent 
 12. Now that you know how to move around lets go back into the bash dir 
-13. Lets try making a new file type `touch newFile` to make a file called newFile
-14. Use `ls` to see if the new files was created
+13. Let's try making a new file type `touch newFile` to make a file called newFile
+14. Use `ls` to see if the new files were created
 
 Amazing! You have now learned how to create directories and files within a bash terminal!
 
@@ -85,7 +85,9 @@ Once you find a flag, input it in the answer box on <a href="https://learnificat
 ```
 echo <string>  - displays a line of text/string that is passed as an argument 
 
-rm <filename>  -  removes objects such as files or directories
+rm <filename>  -  removes files
+
+rm -R <directory name>  -  removes directories
 
 grep <string> <filename> - searches a file for a particular string, 
 and displays all lines that contain that string
@@ -101,7 +103,7 @@ Steps <br>
 1. Use `pwd` and note what dir you are in
 2. Use `echo` with a string as an argument to see how the command works
 3. Use `mkdir` to create a directory named "Trash"
-4. After creating the Trash directory, since it is infact trash, use `rm` to remove the directory
+4. After creating the Trash directory, since it is infact trash, use `rm -R` to remove the directory
 5. NOTE: Once you remove a file or directory, it is near impossible to get it back, so be careful!
 6. Find the file named "names.txt" and use the `cat` command to see the contents of the text file
 7. Alot of names right? now since the file is taking up a large amount of our screen space, use `clear` so the names are removed from the screen.
