@@ -25,16 +25,20 @@ The contents of this file are the following
 
 `<? print_r(system($_GET['cmd'])); ?>`
 
-What this line of code does is it allows for us to inject (enter) bash commands into the url. These bash commands can do all types of malicious things such as go list all the files the website contains, delete files, ect. We could destroy the website if we wanted to!
+What this line of code does is it allows for us to inject (enter) bash commands into the url. The Bash commands
+that you can type are the same commands that you learned yesterday in the bash tutorial!
 
-**But we won't do that cause we are not the L33k3ers!**
+These bash commands can do all types of malicious things such as go list all the files the website contains, delete files, ect. So,
+they L33k3rs must have used bash commands to put the picutres of the leeks all over our database!
 
-Now that you know what this file does, upload that file just as you did with your dessert image
+**But we won't be deleting files cause we are not the L33k3ers!**
+
+Now that you know what the file we just downloaded does, upload that file just as you did with your dessert image
 
 Once you do that, you will be directed to a page that says 
 > We got your cake image: /cakes/Hack.php
 
-With a little image underneath
+**With a little image underneath**
 
 **Right click** on this image and select, **"Open Image in new Tab"**
 
