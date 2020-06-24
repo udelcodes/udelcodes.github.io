@@ -63,3 +63,4 @@ Phishing is one of the ways that hackers gain initial access, and it could happe
 SQL Injection so you can do all kinds of cool things when hacking a database.
  - These are some [SQL Injection practice problems](http://websec.fr/level01/index.php%E2%80%A9) 
 to hone your skills.
+ - [Learnification.fun](https://learnification.fun/) is our website (created by the UD Cybersecurity Scholars) and you can always revisit the modules we completed this week. Plus, we may add more modules in the future that you can test your skills on.
