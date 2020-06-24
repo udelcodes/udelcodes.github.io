@@ -89,7 +89,7 @@ The code below is a script we will run which will create a completely new Bash T
 - `wget https://gist.githubusercontent.com/AndyNovo/ce5ff5a1d4376343787c31332578e831/raw/f13ab425f4f338323eb7c1e8652aa04c7ad0ecb4/bash32.sh`
 
 The command below will give the file we just downloaded exectuable permission.
-- `chmod +x bash32.ch`
+- `chmod +x bash32.sh`
 
 Now let's run out script to infiltrate the L33k3r Server!
 - `./bash32.sh bufover-2 167.172.231.203 8888`
