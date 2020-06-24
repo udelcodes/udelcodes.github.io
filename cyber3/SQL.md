@@ -18,8 +18,8 @@ Alice and Bob belive that the database can be breached by a means of SQL Injecti
 found that the L33k3r database uses SQL code, which is a popular language used to 
 access and manage information held in a database management system. 
 
-SQL Injection is the idea to convince the application to run SQL code that was not intended, therefore
-we can access data the application does not want us to. Basically hacking the application!
+SQL Injection is the idea of convincing the application to run SQL code that was not intended, therefore
+we can access data the application does not want us to. Basically, hacking the application!
 
 ![SQL](http://www.unixwiz.net/images/sqlinjection.jpg)
 
@@ -40,23 +40,23 @@ A basic SQL Statement looks like this,
  
 Now let us break it down...
 
-- `SELECT first_name` : "first_name is the variable holding information we will be pulling from the database
-- `FROM people` : people is an object that holds multiple variables 
-- ` WHERE last_name = '$INPUT';` : last_name is what the user will be inputing. 
+- `SELECT first_name` : "first_name" is the variable holding information we will be pulling from the database
+- `FROM people` : "people" is an object that holds multiple variables 
+- ` WHERE last_name = '$INPUT';` : "last_name" is what the user will be inputing. 
 
 So based on the above code, the user will enter a last name. If the last name is valid,
 the SQL statement will then look for, in the people's object, the first name that correlates with the last name. 
 
 ---
 
-This is a basic way to pull information from a database, so most databases that use SQL handels input like the code above. **This is good**,
+This is a basic way to pull information from a database, so most databases that use SQL handle input like the code above. **This is good**,
 because we can use it to our advantage.
 
-There are statements in SQL that we can use that trick the computer into thinking differently then the code intends. for example, in
+There are statements in SQL that we can use that trick the computer into thinking differently than the code intends. For example, in
 - `WHERE last_name = '$INPUT';`
 Do you see the tick marks surrounding `'$INPUT'`
 
-That is to indicate the user's unput, so if we were to input something like
+That is to indicate the user's input, so if we were to input something like
 - `Andy Novocin'` with a tick mark at the end, we can trick the computer into thinking that is the end of the users input, so we can add more code!!!
 
 ---
