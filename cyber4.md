@@ -38,7 +38,13 @@ Assembly Language is the original true low-level computer language with pure ins
 
 *So why have High-Level Languages if they are just turned into a Low-Level Language?*
 
-- This is because Low-Level Languages is difficult to use and harder to understand then High-Level Languages. High-Level Languages are much more easier to read, write, and maintain. If you think coding in general is hard, Assembly is that much harder. 
+- This is because Low-Level Languages are difficult to use and harder to understand then High-Level Languages. High-Level Languages are much more easier to read, write, and maintain. If you think coding in general is hard, Assembly is that much harder. 
+
+### Why do we need to know this?
+
+We need to know what assembly does because it is going to help us take down the L33k3rs!
+
+Alice and Bob need us to take control of a L33k3r server so we can destroy it from the inside out! This is called pwning. So we will be compromising another server to gain access, almost like how we used the File Upload Exploit to gain access to the Global Dessert Vault!
 
 
 
