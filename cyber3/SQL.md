@@ -75,7 +75,7 @@ print all the information! So as long as we input one correct statement, we can 
 
 ![the boss](https://thesunflower.com/wp-content/uploads/2012/06/064d5acf1c8baf7a26e7099580972fc2.jpg)
 
-Alright, hopefully you have an understanding of how SQL code works, and how we can manipulate it to our advantage is it is not properly sanitized. 
+Alright, hopefully you have an understanding of how SQL code works, and how we can manipulate it to our advantage if it is not properly sanitized. 
 
 The secret message that you uncovered has a name in it, **John Smith**. We believe that is the boss of the L33k3rs, therefore his information must be held in the database. 
 
