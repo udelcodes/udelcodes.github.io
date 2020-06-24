@@ -48,6 +48,8 @@ Alice and Bob need us to take control of a L33k3r server so we can destroy it fr
 
 ---
 
+#Infiltrat the L33k3rs!
+
 So, let go to the terminal we have been using the past couple of days:  <a href="http://157.230.203.138/term" target="_blank">TERMINAL</a>
 
 First begin by listing all the files in the home directory
@@ -91,6 +93,8 @@ Now let's run out script to infiltrate the L33k3r Server!
 - `./bash32.sh buffer-2 ipaddr port`
 
 ---
+
+#We're In!
 
 ![Access Granted](https://ak.picdn.net/shutterstock/videos/33710788/thumb/5.jpg)
 
