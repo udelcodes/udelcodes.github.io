@@ -67,6 +67,6 @@ to hone your skills.
  
  <br> 
  
- # Here is your badge for completing the Week of Cybersecurity
+ ## Here is your badge for completing the Week of Cybersecurity
  
  ![Cyber Expert](https://udel.codes/cyber4/phishing/Cyber_Expert.png)
