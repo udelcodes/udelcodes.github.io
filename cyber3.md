@@ -38,7 +38,7 @@ and report it back to the L33k3rs! So it is a **HIGH PRIORITY** to figure out ho
 
 ![nanobots](https://fundselectorasia.com/wp-content/uploads/sites/4/2020/02/Spywithmask-1-553x311.png)
 
-Alright, not it is time for us to go to the sample copy of the database that the Dessert Vault developers have given us. 
+Alright, now it is time for us to go to the sample copy of the database that the Dessert Vault developers have given us. 
 Lets use this tool to solve this L33k3r problem! <a href="http://desserts.gel.webfactional.com/" target="_blank">GO TO THE DATABASE HERE</a>.
 
 Here is a link to the page that may be helpful in your mission to find out how the L33k3rs l33ked our page! Good Luck! 
