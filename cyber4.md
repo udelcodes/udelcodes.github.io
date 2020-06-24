@@ -100,3 +100,12 @@ Now let's run out script to infiltrate the L33k3r Server!
 
 You have now sucessfully infiltrated the L33k3r server. Now look around using the terminal to try and find anything we can use to shutdown their system or to shut down the nanobots!
 
+### Ideas for thought?
+
+Possibly grep for our friend **John Smith**?
+`grep -R 'John Smith' *`
+
+Maybe look for **kill codes**?
+`killcodes.txt`
+
+
