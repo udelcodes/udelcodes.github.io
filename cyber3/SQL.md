@@ -73,7 +73,7 @@ print all the information! So as long as we input one correct statement, we can 
 
 # John Smith
 
-![the boss](https://lh3.googleusercontent.com/proxy/7MOwvnOQT-za9glBWDo8Pg9Fin7dyWkaVqIb08M2lmuPUccT4oadkjUUB47BNvSoUDHyn8XIIHriFXj2QnSrjKOmno3NNv8v_xXxd6WAnqLglZCirI99UVvpF4oZ6-jBti8nXR678aV8oQvfqHwIrtwx3g)
+![the boss](https://thesunflower.com/wp-content/uploads/2012/06/064d5acf1c8baf7a26e7099580972fc2.jpg)
 
 Alright, hopefully you have an understanding of how SQL code works, and how we can manipulate it to our advantage is it is not properly sanitized. 
 
