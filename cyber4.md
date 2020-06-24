@@ -46,6 +46,8 @@ We need to know what assembly does because it is going to help us take down the 
 
 Alice and Bob need us to take control of a L33k3r server so we can destroy it from the inside out! This is called pwning. So we will be compromising another server to gain access, almost like how we used the File Upload Exploit to gain access to the Global Dessert Vault!
 
+---
+
 So, let go to the terminal we have been using the past couple of days:  <a href="http://157.230.203.138/term" target="_blank">TERMINAL</a>
 
 First begin by listing all the files in the home directory
@@ -86,6 +88,6 @@ The command below will give the file we just downloaded exectuable permission.
 Now let's run out script to infiltrate out local server!
 - `./bash32.sh buffer-2 ipaddr port`
 
-
+---
 
 
