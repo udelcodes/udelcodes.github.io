@@ -59,3 +59,7 @@ come back to and get more comfortable working in a terminal.
  - Here are 2 links about phishing ([link 1](https://www.pbs.org/wgbh/nova/labs/lab/cyber/) and [link 2](https://phishingquiz.withgoogle.com/)). 
 You may have had time to learn about phishing today, but if you didn't then you should definitely check out these links! 
 Phishing is one of the ways that hackers gain initial access, and it could happen to you!
+ - [This link](https://portswigger.net/web-security/sql-injection) will tell you more about 
+SQL Injection so you can do all kinds of cool things when hacking a database.
+ - These are some [SQL Injection practice problems](http://websec.fr/level01/index.php%E2%80%A9) 
+to hone your skills.
