@@ -22,5 +22,5 @@ Alice and Bob have intel that the L33k3rs have been messaging some of our agents
   
 <h2>Time to test your skills!</h2>
 Go to https://www.pbs.org/wgbh/nova/labs/lab/cyber/ to practice some password making, and identify phishing emails! Feel free to skip through the dialogue to get right to the challenges.
-
+<br>
 How about a trickier one? [Click here](https://phishingquiz.withgoogle.com/) to try some more. Warning: look closely, some of the malicious emails can be pretty convincing!
