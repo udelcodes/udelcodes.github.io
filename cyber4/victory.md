@@ -66,6 +66,7 @@ to hone your skills.
  - [Learnification.fun](https://learnification.fun/) is our website (created by the UD Cybersecurity Scholars) and you can always revisit the modules we completed this week. Plus, we may add more modules in the future that you can test your skills on.
  
  <br> 
+ 
  # Here is your badge for completing the Week of Cybersecurity
  
  ![Cyber Expert](https://udel.codes/cyber4/phishing/Cyber_Expert.png)
