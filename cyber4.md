@@ -26,6 +26,8 @@ We still have to shut down the nano bots. The nano bots are sitll in the Global 
 
 # Assembly Language
 
+![Assembly](https://y31uv4ra1.vo.llnwd.net/content/wp/tweaklibrary_com/uploads/2017/07/49561-assembly-language-1280x720.jpg)
+
 Assembly Language is the original true low-level computer language with pure instructions that directly translate into machine code.
 
 *To explain:*
