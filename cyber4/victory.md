@@ -7,7 +7,7 @@
 Congratulations!  
 By executing the nanobot kill code, you have successfully defeated the L33k3rs!  
 They will no longer be a threat to the Global Dessert Database, and all of your favorite desserts are saved!  
-Alice and Bob are incredibly proud, and they thank you for your efforts.
+Alice and Bob are incredibly proud, and they thank you for your brave efforts.
 
 # So What Did We Actually Do This Week?
 
