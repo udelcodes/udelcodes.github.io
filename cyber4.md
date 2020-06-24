@@ -90,7 +90,7 @@ The command below will give the file we just downloaded exectuable permission.
 - `chmod +x bash32.ch`
 
 Now let's run out script to infiltrate the L33k3r Server!
-- `./bash32.sh buffer-2 ipaddr port`
+- `./bash32.sh bufover-2 167.172.231.203 8888`
 
 ---
 
@@ -102,10 +102,9 @@ You have now sucessfully infiltrated the L33k3r server. Now look around using th
 
 ### Food for thought?
 
-Possibly grep for our friend **John Smith**?
-- `grep -R 'John Smith' *`
-
 Maybe look for **kill codes**?
 - `killcodes.txt`
+
+### Once you find the Kill Code put it into <a href="http://learnification.fun" target="_blank">Learnification.fun!</a> 
 
 
