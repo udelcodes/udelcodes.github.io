@@ -52,10 +52,6 @@ The command that is executed is directly after the `=`, so like we learned in th
 
 ## You are truly becoming an expert!
 
-You are getting better with every exercise, Bob and Alice are proud and present you with this badge. Throw it on your website to mark your accomplishments!
-
-![Dessert Exploitation](https://udel.codes/cyber2/Dessert_Exploitation.png)
-
 
 
 
