@@ -66,8 +66,8 @@ to hone your skills.
  - [Learnification.fun](https://learnification.fun/) is our website (created by the UD Cybersecurity Scholars) and you can always revisit the modules we completed this week. Plus, we may add more modules in the future that you can test your skills on.
  - [The MITRE Att&ck Framework](https://attack.mitre.org/) is a super useful table of how cybersecurity breaches are carried out. And to get you started, here is a [quizlet](https://quizlet.com/450381249/mitre-attck-framework-initial-access-flash-cards/) on the first column of the MITRE Att&ck Framework: Initial Access.
  
- <br> 
+<br> 
  
- ## Here is your badge for completing the Week of Cybersecurity
+## Here is your badge for completing the Week of Cybersecurity
  
- ![Cyber Expert](https://udel.codes/cyber4/phishing/Cyber_Expert.png)
+![Cyber Expert](https://udel.codes/cyber4/phishing/Cyber_Expert.png)
