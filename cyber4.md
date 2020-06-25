@@ -24,7 +24,7 @@ Our battle against the L33k3rs is coming to a close, however there is still one 
 
 ### The Nano Bots!
 
-We still have to shut down the nano bots. The nano bots are still in the Global Dessert Vault sending recipes to the L33k3rs. In order to stop them, we need being to understand a very important programming language. **Assembly Language.**
+We still have to shut down the nano bots. The nano bots are still in the Global Dessert Vault sending recipes to the L33k3rs. In order to stop them, we need to understand a very important programming language. **Assembly Language.**
 
 # Assembly Language
 
