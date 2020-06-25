@@ -64,6 +64,7 @@ SQL Injection so you can do all kinds of cool things when hacking a database.
  - These are some [SQL Injection practice problems](http://websec.fr/level01/index.php%E2%80%A9) 
 to hone your skills.
  - [Learnification.fun](https://learnification.fun/) is our website (created by the UD Cybersecurity Scholars) and you can always revisit the modules we completed this week. Plus, we may add more modules in the future that you can test your skills on.
+ - [The MITRE Att&ck Framework](https://attack.mitre.org/) is a super useful table of how cybersecurity breaches are carried out. And to get you started, here is a [quizlet](https://quizlet.com/450381249/mitre-attck-framework-initial-access-flash-cards/) on the first column of the MITRE Att&ck Framework: Initial Access.
  
  <br> 
  
