@@ -50,7 +50,7 @@ Alice and Bob need us to take control of a L33k3r server so we can destroy it fr
 
 ---
 
-# Infiltrat the L33k3rs!
+# Infiltrate the L33k3rs!
 
 So, let go to the terminal we have been using the past couple of days:  <a href="http://157.230.203.138/term" target="_blank">TERMINAL</a>
 
@@ -63,7 +63,7 @@ Next we will move into the secsoft directory
 Now let us list the files in this directory
 - `ls`
 
-Let's read the bufover-2.c file. This is a c file contiang c code. This will generate 
+Let's read the bufover-2.c file. This is a c file containing c code. This will generate 
 - `cat bufover-2.c`
 
 Now we will read the bufover-2 file. This file is the executable for the file we just read. Meaning it will run bufover-2.c.
@@ -72,14 +72,14 @@ Now we will read the bufover-2 file. This file is the executable for the file we
 Let's run the executable
 - `r2 -Ad bufover-2`
 
-Now that our process is running, lets enter this for the input.
+Now that our process is running, let's enter this for the input.
 - `Vpp`
 
 What you are seeing is the assembly code for the bufover-2.c file. You can navigate through the code by using the "j" and "k" keys.
 To Exit out of this view, press q
 - `q`
 
-The program is asking us a few questions, lets answer them by pressing the enter key twice.
+The program is asking us a few questions, let's answer them by pressing the enter key twice.
 - `enter`
 - `enter`
 
