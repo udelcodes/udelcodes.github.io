@@ -40,7 +40,7 @@ Assembly Language is the original true low-level computer language with pure ins
 
 *So why have High-Level Languages if they are just turned into a Low-Level Language?*
 
-- This is because Low-Level Languages are difficult to use and harder to understand then High-Level Languages. High-Level Languages are much more easier to read, write, and maintain. If you think coding in general is hard, Assembly is that much harder. 
+- This is because Low-Level Languages are difficult to use and harder to understand then High-Level Languages. High-Level Languages are much easier to read, write, and maintain. If you think coding in general is hard, Assembly is that much harder. 
 
 ### Why do we need to know this?
 
