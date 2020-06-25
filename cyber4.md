@@ -52,7 +52,7 @@ Alice and Bob need us to take control of a L33k3r server so we can destroy it fr
 
 # Infiltrate the L33k3rs!
 
-So, let go to the terminal we have been using the past couple of days:  <a href="http://157.230.203.138/term" target="_blank">TERMINAL</a>
+So, let's go to the terminal we have been using the past couple of days:  <a href="http://157.230.203.138/term" target="_blank">TERMINAL</a>
 
 First begin by listing all the files in the home directory
 - `ls`
