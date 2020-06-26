@@ -106,7 +106,7 @@ Remember, once you have 1 letter figured out, you can line it up on your wheel a
 ### Practice!
 
 Now that you've learned about Caesar Ciphers and how to decode them, head to [this link](https://learnification.fun/) for more practice.
-Log in using any google account you or your parents have. 
+Log in using any email account you or your parents have to save your progress. 
 Then click on the menu button in the top left corner, and click on bathroom ciphers. 
 This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
 
@@ -186,7 +186,8 @@ Now that you've learned about the Aristocrat Cipher and how to decode it, we wil
 
  - You can research the last 2 alphabets that we didn't cover (K3 and K4).  
  - You can also head to [learnification.fun](https://learnification.fun/module/crypto/USETHISBATHROOMANYWAYANDTEXTYOURFRIENDFORHELP) for more practice.  
-If it asks you to log in, log in using any google account you or your parents have. 
+If it asks you to log in, you can do so using any email account you or 
+your parents have to save your progress. 
 Then you will be presented with some example Aristocrat Ciphers. 
 This site has examples of Aristocrats using all 5 alphabets, so pay attention to the question. 
 You can research the K3 and K4 alphabets when you get to them, or you can try and solve these ciphers using the same skills as solving a cipher with a K1 or K2 alphabet.
