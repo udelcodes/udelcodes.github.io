@@ -160,7 +160,7 @@ Take this image of a Gnu. This is the image in it's normal form, but we would li
 
 This is our first attempt at encrypting our Gnu, but we did not do a very good job. You can still see the outline of the Gnu, and the encryption used 1 pattern for the white parts of the image and another pattern for the black parts of the image. This simple encryption made it easy to tell what the true image is.
 
-<center><img src="https://lh3.googleusercontent.com/proxy/v4rISh0AGKumeZgUlPYaqupZt-ZTTzsneMY3Wp1HgVRv2bDyEoHqyker-M_1887g6k-L0xLLVAE7SXmKTeJxbbEwtdcrjNl24PvJ0oAYhP-YgX-j4IKg" alt="white noise"/></center>
+<center><img src="https://www.tubefilter.com/wp-content/uploads/2018/01/white-noise.jpg" alt="white noise"/></center>
 
 This is an image of white noise, and this is ideally what our encrypted Gnu should look like. You can't make out any hidden pictures from this image, and it looks totally random. This is the standard that cryptographers strive for when encrypting data (letters, numbers, AND pixels).
 
