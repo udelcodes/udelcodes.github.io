@@ -1,15 +1,6 @@
 # W3lc0m3 t0 Crypt0 W33k!!
 
-## Daily Camp Outline
-
-10:00 - 10:15 -- Opening puzzle/question  
-10:10 -10:15 -- Intro for the day  
-10:15 - 10:55 -- Lesson part 1  
-10:55 - 11:00 -- Optional Break - can stay and chit chat, get water, snack, bathroom break  
-11:00 - 11:50 -- Lesson part 2  
-11:50 - 12:00 -- Summary/discussion of the day’s lessons  
-
-And remeber, all of our material that we cover this week will be available on **THIS** website, so you can come back to it whenever you'd like.
+Welcome to Fun with Cryptography!! We are so excited to have you here and to teach you all about crypto! And remeber, all of our material that we cover this week will be available on **THIS** website, so you can come back to it whenever you'd like.
 
 ## Who Are We?
 
@@ -58,7 +49,7 @@ Now that we've introduced ourselves, it's time to get down to the good stuff.
 Below, you will find the links to the each day's lesson.  
 
 [Day 1](https://udel.codes/crypto1) - Introduction to Ciphers  
-[Day 2](https://udel.codes/crypto2) - Introduction to Number Systems  
+[Day 2](https://udel.codes/crypto2) - Introduction to Modern Crypto 
  - [In-depth explanation of number systems](https://udel.codes/numbersystems) (supplemental)
  
 [Day 3](https://udel.codes/crypto3) - Operators and Randomness  
