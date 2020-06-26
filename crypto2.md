@@ -182,7 +182,7 @@ src="https://www.youtube.com/embed/1cUUfMeOijg">
 
 Let's look back at the [Wacky Encryption](https://codepen.io/AndyNovo/full/jOWqrYQ) from the beginning of our lesson.  
  > Is this encryption true-randomness or pseudo-randomness?  
- > What are the pros and cons of this encryption from a cryptography perspective? Think about the level of encryption (how random it is) and the practicality of it (how easy it is to use).
+ > What are the pros and cons of this encryption from a cryptography perspective? Think about the level of encryption (how random it is) and the practicality of it (how easy it is to use).  
  > Can true random ever work?
 
 Building a wall is a lot easier than building a lockable door. 
