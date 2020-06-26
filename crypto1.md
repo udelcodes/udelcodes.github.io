@@ -106,7 +106,7 @@ Remember, once you have 1 letter figured out, you can line it up on your wheel a
 ### Practice!
 
 Now that you've learned about Caesar Ciphers and how to decode them, head to [this link](https://learnification.fun/) for more practice.
-Log in using any email account you or your parents have to save your progress. 
+Log in using any google account you or your parents have. 
 Then click on the menu button in the top left corner, and click on bathroom ciphers. 
 This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
 
@@ -178,20 +178,17 @@ Solving an Aristocrat Cipher is very similar to solving a Caesar Cipher, here ar
 
 ### Practice!
 
-Now that you've learned about the Aristocrat Cipher and how to decode it, we will use [this Aristocrat generator](https://codepen.io/nikki-pilla/full/RwrZRwp) to practice an unlimited amount of Aristocrat Ciphers.
-
-
-
-### If you're interested in learning more about the Ceasar and Substitution Ciphers...
-
- - You can research the last 2 alphabets that we didn't cover (K3 and K4).  
- - You can also head to [learnification.fun](https://learnification.fun/module/crypto/USETHISBATHROOMANYWAYANDTEXTYOURFRIENDFORHELP) for more practice.  
-If it asks you to log in, you can do so using any email account you or 
-your parents have to save your progress. 
+Now that you've learned about the Aristocrat Cipher and how to decode it, head to [this link](https://learnification.fun/module/crypto/USETHISBATHROOMANYWAYANDTEXTYOURFRIENDFORHELP) for more practice.
+If it asks you to log in, log in using any google account you or your parents have. 
 Then you will be presented with some example Aristocrat Ciphers. 
 This site has examples of Aristocrats using all 5 alphabets, so pay attention to the question. 
 You can research the K3 and K4 alphabets when you get to them, or you can try and solve these ciphers using the same skills as solving a cipher with a K1 or K2 alphabet.
- - If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
+
+### If you're interested in learning more about the Ceasar and Substitution Ciphers...
+
+You can research the last 2 alphabets that we didn't cover (K3 and K4).  
+You can also use [this Aristocrat generator](https://codepen.io/AndyNovo/full/KKpNRxw) created by our awesome professor Dr. Andy Novocin to practice an unlimited amount of Aristocrat Ciphers.  
+If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
 
 ## Switching Gears: Baconian Cipher
 
@@ -217,7 +214,7 @@ Now that we've learned about the Ceasar and Substitution Ciphers, lets check out
 
 Here is the coded messade you have to decode:
 
-**LEt uS StaRt WitH aN EAsy PrOBLEm fIrST. FUn!**
+**Let uS StART WitH AN EAsY PRoblEM fIRsT. FUN!**
 
 Look closely at this message and see if you can identify the 2 typefaces.  
 You will see that some letters are capitalized, while some letters are lowercase.  
@@ -236,7 +233,7 @@ This cipher seems easy enough when the typefaces are clear. However, sometimes y
 
 **NO** G**oOD** d**E**e**D g**O**Es u**n**Pu**N**IsH**e**d.**
 
-Remeber in this example, you can choose between lowercase/capital letters or bolded/unbolded letters.
+Remember in this example, you can choose between lowercase/capital letters or bolded/unbolded letters.
 
 ### Practice!
 
