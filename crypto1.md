@@ -27,7 +27,7 @@ DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY  |  
 **C**rustaceans **R**allying **A**round **B**ad **S**ecurity, CRABS for short, 
 is a force to be reckoned with. 
 They are a group of time-travelling crustaceans that are travelling 
-throughout history in order to erase cryptography! 
+throughout history on time-cycles in order to erase cryptography! 
 Thier hatred for crypto stems from a fundamental frustration with texting. 
 
 <center><img src="https://iruntheinternet.com/lulzdump/images/hermit-crab-texting-phone-I-have-no-idea-what-I-am-doing-13613836231.jpg?id" alt="Crab Texting"/></center>
@@ -41,7 +41,11 @@ The issue is, they can't text with their claws so they are jealous of the world 
 interoceanic group of starfish that fight to protect security for all, especially cybersecurity. 
 They believe crypto is key to a secure world where everyon's data is safe, and it's their job to stop the CRABS and save crypto! Plus, they really enjoy texting.
 
-Today we will be learning some of the first ciphers ever used (cipher is another word for a secret code). We will learn how to solve the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.
+## How Can We Help?
+
+The CRABS are travelling through time and erasing crypto from history before it has even been invented. Our job is to help the STARS to learn as much as we can about crypto before the CRABS erase it, so we can teach others and keep our data secure. And somewhere along the way we may use crypt to our advantage and tamper with some CRAB messages. Now, let's get cracking!
+
+The CRABS have driven their time-cycles to the beginning of crypt in history, so today we will be learning some of the first ciphers ever used (cipher is another word for a secret code). We will learn how to solve the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.
 
 ## The Caesar Cipher
 
