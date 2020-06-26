@@ -20,7 +20,26 @@ ENCODE  |  DECODE  |  SUBSTITUTION  |  CAESAR  |  BACONIAN  |  CYBERCHEF
 
 DATA PROTECTION  |  PLAINTEXT  |  CIPHER  |  CRYPTOGRAPHY  |  CYBERSECURITY  |  PIGPEN
 
-## Let's Get Cracking...
+## Who are the C.R.A.B.S.?
+
+<center><img src="https://cdn.drawception.com/images/panels/2016/3-14/5B77s4SRPO-8.png" alt="C.R.A.B.S."/></center>
+
+**C**rustaceans **R**allying **A**round **B**ad **S**ecurity, CRABS for short, 
+is a force to be reckoned with. 
+They are a group of time-travelling crustaceans that are travelling 
+throughout history in order to erase cryptography! 
+Thier hatred for crypto stems from a fundamental frustration with texting. 
+
+<center><img src="https://iruntheinternet.com/lulzdump/images/hermit-crab-texting-phone-I-have-no-idea-what-I-am-doing-13613836231.jpg?id" alt="Crab Texting"/></center>
+
+
+The issue is, they can't text with their claws so they are jealous of the world of people who can test easily with their fingers. Their solution? To eliminate crypto so that everyone’s texts are insecure and no one will want to text anymore.
+
+## Who are the S.T.A.R.S.?
+
+**S**tarfish **T**ogether **A**dvancing **R**eliable **S**ecurity, STARS for short, is an 
+interoceanic group of starfish that fight to protect security for all, especially cybersecurity. 
+They believe crypto is key to a secure world where everyon's data is safe, and it's their job to stop the CRABS and save crypto! Plus, they really enjoy texting.
 
 Today we will be learning some of the first ciphers ever used (cipher is another word for a secret code). We will learn how to solve the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.
 
