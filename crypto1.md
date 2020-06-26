@@ -178,17 +178,19 @@ Solving an Aristocrat Cipher is very similar to solving a Caesar Cipher, here ar
 
 ### Practice!
 
-Now that you've learned about the Aristocrat Cipher and how to decode it, head to [this link](https://learnification.fun/module/crypto/USETHISBATHROOMANYWAYANDTEXTYOURFRIENDFORHELP) for more practice.
+Now that you've learned about the Aristocrat Cipher and how to decode it, we will use [this Aristocrat generator](https://codepen.io/nikki-pilla/full/RwrZRwp) to practice an unlimited amount of Aristocrat Ciphers.
+
+
+
+### If you're interested in learning more about the Ceasar and Substitution Ciphers...
+
+ - You can research the last 2 alphabets that we didn't cover (K3 and K4).  
+ - You can also use [this link](https://learnification.fun/module/crypto/USETHISBATHROOMANYWAYANDTEXTYOURFRIENDFORHELP) for more practice.  
 If it asks you to log in, log in using any google account you or your parents have. 
 Then you will be presented with some example Aristocrat Ciphers. 
 This site has examples of Aristocrats using all 5 alphabets, so pay attention to the question. 
 You can research the K3 and K4 alphabets when you get to them, or you can try and solve these ciphers using the same skills as solving a cipher with a K1 or K2 alphabet.
-
-### If you're interested in learning more about the Ceasar and Substitution Ciphers...
-
-You can research the last 2 alphabets that we didn't cover (K3 and K4).  
-You can also use [this Aristocrat generator](https://codepen.io/AndyNovo/full/KKpNRxw) created by our awesome professor Dr. Andy Novocin to practice an unlimited amount of Aristocrat Ciphers.  
-If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
+ - If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
 
 ## Switching Gears: Baconian Cipher
 
