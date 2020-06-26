@@ -83,9 +83,9 @@ Now, we have to figure out how to use this key. Let's try and decode this Caesar
 
 Start by finding the first letter of the code, "V", on your big circle. Then, write down the letter on the small circle that is lined up with the "V" on your outside circle. To give you a hint, the first letter should be a "C". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the crabs have been saying. 
 
-Now, you can try to crack this code on your own. The answer should be a type of cereal.
+Now, you can try to crack this code on your own. The answer should tell you what type of cryptography the CRABs are trying to get rid of first.
 
-**VBGGTFHG MHTLM VKNGVA**
+**WHPG PBMA MAX VTXLTK VRIAXK**
 
 Feel free to take a break here and practice writing your own codes using your wheel. You can practice writing your name, your school, your favorite ice cream flavor, or anything you want. If you're eager, try to teach a sibling, parent, or friend how to use your wheel to crack Caesar Ciphers and practice writing secret messages to each other!
 
