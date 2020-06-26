@@ -76,11 +76,12 @@ other.
 
 - Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.
 
-Now, we have to figure out how to use this key. Let's try and decode this Caesar Cipher. The answer will be my favorite place to visit.
+STARS at headquarters have intercepted a few messages between CRAB agents, including the following, and they need you to decrypt it!
+Now, we have to figure out how to use this key. Let's try and decode this Caesar Cipher. The answer will tell us what the CRABs have been sending to eachother.
 
-**MAX UXTVA**
+**VKTUL YHK EBYX**
 
-Start by finding the first letter of the code, "M", on your big circle. Then, write down the letter on the small circle that is lined up with the "M" on your outside circle. To give you a hint, the first letter should be a "T". Now, all you have to do is keep repeating this for each letter of the message and then you will know my favorite place to visit. 
+Start by finding the first letter of the code, "V", on your big circle. Then, write down the letter on the small circle that is lined up with the "V" on your outside circle. To give you a hint, the first letter should be a "C". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the crabs have been saying. 
 
 Now, you can try to crack this code on your own. The answer should be a type of cereal.
 
