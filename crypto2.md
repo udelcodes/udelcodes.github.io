@@ -1,7 +1,7 @@
 # W3lc0m3 t0 Day 2 of Crypt0 W33k!!
 
 Today we will be switching from pen and paper ciphers to digital ciphers.  
-Specifically, we will be focusing on converting letters and messages into numbers, randomness, and pseudo-randomness.
+Specifically, we will be focusing on converting letters and messages into numbers, randomness, and pseudo-randomness.  You need to complete today's training in order to help the STARS learn about encrypting data before the CRABS erase encryption from history!
 
 ## Wacky Encryption
 
@@ -99,8 +99,10 @@ In order to do that, we would need some way to "mix" secret stuff and plaintext.
 
 ## Intro to Steganography: Hiding In Plain Sight
 
-This sounds really weird and confusing.  
-Here's a photo version of "mixing" secret stuff and plain stuff to help us understand this concept better. 
+The STARS have been learning about steganography: the practice of concealing messages within other nonsecret data.  
+For your STARS training, you will need to learn about steganography.  
+A STARS agent sent you the image below, but there is hidden information in the image that can tell us what time period the CRABS are currently travelling to.  
+The agent is "mixing" secret stuff within nonsecret stuff, aka they are using staganography.
 
 <center><img src="https://raw.githubusercontent.com/zelinsky/CTF-Course/master/Forensics/Steganography/stego.png" alt="Leonardo Da Vinci... or is it?"/></center>
 
@@ -110,7 +112,7 @@ Then upload the image to [this website](https://georgeom.net/StegOnline/image) a
 
 ## Least Significant Bit Method
 
-This image was hidden using the ***Least-Significant Bit*** method.
+The secret image was hidden using the ***Least-Significant Bit*** method.
 
 You may remember from the Learn to Code week of summer camp how 
 colors are defined on computers.  
