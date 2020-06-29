@@ -57,9 +57,7 @@ It was one of the first ciphers ever invented!
 ### Caesar Wheel
 
 <embed type="game"
-        src="https://inventwithpython.com/cipherwheel/"
-        width="500"
-        height="800">
+        src="https://inventwithpython.com/cipherwheel/">
 
 Before starting to learn about the Caesar Cipher, take some time to print and assemble this [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
 In order to assemble your wheel, follow these steps:  
