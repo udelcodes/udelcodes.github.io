@@ -114,6 +114,8 @@ Then upload the image to [this website](https://georgeom.net/StegOnline/image) a
 
 The secret image was hidden using the ***Least-Significant Bit*** method.
 
+<center><img src="https://i0.wp.com/codeexercise.com/wp-content/uploads/2017/12/HTMLcolors.png?fit=857%2C396&ssl=1" alt="html color chart"/></center>
+
 You may remember from the Learn to Code week of summer camp how 
 colors are defined on computers.  
 Each color has a set of 3 numbers (that’s numbers, not digits! 
@@ -129,7 +131,7 @@ This method of hiding an image within an image is called *Steganography*.
 
 If you’re interested in learning more about Steganography, check out 
 [this lesson](https://zelinsky.github.io/CTF-Course/Classes/13.html) which was 
-written by other Cybersecurity Scholars!
+written by other UD Cybersecurity Scholars!
 
 ## Randomness: The Heart of Cryptography
 
@@ -202,31 +204,39 @@ Basically, this principle states that the security of an encryption scheme shoul
 
 <center><img src="https://hips.hearstapps.com/pop.h-cdn.co/assets/16/02/1452881725-giphy-1.gif" alt="bookcase hidden door"/></center>
 
-Let's take this bookcase for example. In this case, the lock is the book and the key is pulling 
-on the book. As cool as it looks, this bookcase is not secure. 
-Someone could be browsing the bookcase and stumble upon the right book by accident, 
-and then they have broken into your secret hideout.
+This bookcase is the entrance to the CRABS headquarters. 
+In this entrance, the lock is the book and the key is pulling on the book. 
+As cool as it looks, this bookcase is not secure. 
+The CRABS try to keep this bookcase hidden, because they know that a STARS agent could browse 
+the bookcase (not knowing that it's a secret door) and stumble upon the right book by accident. 
+Then, the STARS can break into the CRABS headquarters!
 
-It would be more secure if everyone already knew where the lock is, but the key is very secure.
+It would be more secure if everyone already knows where the lock is, but the key is very secure.
 
 <center><img src="https://www.stanbondsecurity.com.au/wp-content/uploads/2016/11/Protective-security-doors-450x502.jpg" alt="locked door"/></center>
 
-Let's look at this door. Anyone can see the locks in plain sight on the door. 
-However, no one can get through the door because they don't have the key (or keys) to get in. 
-Even though the lock is more obvious, it doesn't matter because the key is more secure.
+This door is the entrance to the STARS headquarters. 
+Any CRABS can see the locks on the door in plain sight, and they know it is the entrance. 
+However, none of the CRABS can get through the door because they don't have the key (or keys) to get in. 
+Even though the lock is more obvious, it doesn't matter because the key is more secure. 
+So the STARS headquarters is safe from any CRABS who want to break in.
 
 ## What is True Secrecy?
 
 True secrecy (aka the best lock and key) is this:  
 When given an encrypted output, every conceivable input is equally likely.  
- > If you are given a random substitution cipher where the coded message is just **"Y"**, 
+ > If you are given any cipher from yesterday where the coded message is just **"Y"**, 
  what was the input?
 
 ## End of Day 2!
 
 <center><img src="https://memeshappen.com/media/created/2018/07/All-done-for-the-day-Great-job.jpg" alt="all done meme" width="500"/></center>
 
-Congratulations, you made it to the end of day 2 of crypto week!  
+Congratulations, you made it to the end of your second day of STARS training!  
+To mark your achievements, the STARS have presented you with this badge:
+
+
+
 Today we learned:  
  - any data (message, numbers, picture) can be made digital
  - digital content can be MIXED with other digital content (our hidden picture)
