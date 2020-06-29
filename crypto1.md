@@ -37,7 +37,7 @@ The issue is, they can't text with their claws so they are jealous of the world 
 
 ## Who are the S.T.A.R.S.?
 
-![STARS](https://cdn4.vectorstock.com/i/1000x1000/01/03/detective-starfish-in-the-cartoon-shape-funny-vector-23810103.jpg)
+![STARS](https://udel.codes/images/starfish.jpg)
 
 **S**tarfish **T**ogether **A**dvancing **R**eliable **S**ecurity, STARS for short, is an 
 interoceanic group of starfish that fight to protect security for all, especially cybersecurity. 
