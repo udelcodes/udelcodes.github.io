@@ -5,7 +5,7 @@
 Today we will be learning about the first ciphers that were used in the old days.  
 Specifically, we will be learning about the Caesar Cipher, the Substitution Cipher, the Baconian Cipher, and the Pig Pen Cipher.  
 
-## Daily Puzzle
+## Warm Up!
 
 While we're waiting to start, solve this crossword puzzle with words that you will understand by the end of the day. There is a word bank below the crossword puzzle.
 
@@ -106,7 +106,7 @@ Remember, once you have 1 letter figured out, you can line it up on your wheel a
 ### Practice!
 
 Now that you've learned about Caesar Ciphers and how to decode them, head to [this link](https://learnification.fun/) for more practice.
-Log in using any google account you or your parents have. 
+Log in using any eamil account you or your parents have to save your progress. 
 Then click on the menu button in the top left corner, and click on bathroom ciphers. 
 This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
 
@@ -178,17 +178,13 @@ Solving an Aristocrat Cipher is very similar to solving a Caesar Cipher, here ar
 
 ### Practice!
 
-Now that you've learned about the Aristocrat Cipher and how to decode it, head to [this link](https://learnification.fun/module/crypto/USETHISBATHROOMANYWAYANDTEXTYOURFRIENDFORHELP) for more practice.
-If it asks you to log in, log in using any google account you or your parents have. 
-Then you will be presented with some example Aristocrat Ciphers. 
-This site has examples of Aristocrats using all 5 alphabets, so pay attention to the question. 
-You can research the K3 and K4 alphabets when you get to them, or you can try and solve these ciphers using the same skills as solving a cipher with a K1 or K2 alphabet.
+Now that you've learned about the Aristocrat Cipher and how to decode it, head to [this Aristocrat generator](https://codepen.io/nikki-pilla/full/RwrZRwp) to practice an unlimited amount of Aristocrat Ciphers!
 
 ### If you're interested in learning more about the Ceasar and Substitution Ciphers...
 
-You can research the last 2 alphabets that we didn't cover (K3 and K4).  
-You can also use [this Aristocrat generator](https://codepen.io/AndyNovo/full/KKpNRxw) created by our awesome professor Dr. Andy Novocin to practice an unlimited amount of Aristocrat Ciphers.  
-If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
+ - You can research the last 2 alphabets that we didn't cover (K3 and K4).  
+ - You can practice at [learnification.fun](https://learnification.fun/module/crypto/USETHISBATHROOMANYWAYANDTEXTYOURFRIENDFORHELP). This site has examples of Aristocrats using all 5 alphabets, so pay attention to the question.
+ - If your school has a Science Olympiad team, consider joining it and competing in the CodeBusters event. This event is all about cracking ciphers!
 
 ## Switching Gears: Baconian Cipher
 
@@ -238,7 +234,7 @@ Remember in this example, you can choose between lowercase/capital letters or bo
 ### Practice!
 
 Now that you've learned about the Baconian Cipher and how to decode it, head to [this link](https://learnification.fun/module/crypto/TRYTOFINDANOTHERBATHROOMTHATHASTOILETPAPER) for more practice.
-If it asks you to log in, log in using any google account you or your parents have. 
+If it asks you to log in, you can use any email account you or your parents have. 
 Then you will be presented with some example Baconian Ciphers.  
 If you really love the Baconian Cipher, you can try to solve this one. It's very tough to solve since there are so many possibilities for A and B.
 
