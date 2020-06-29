@@ -5,9 +5,9 @@ Specifically, we will be focusing on converting letters and messages into number
 
 ## Wacky Encryption
 
-First, let's check out this [Wacky Encryption](https://codepen.io/AndyNovo/full/jOWqrYQ).
-Click on the link above and it will open a web app that lets you encode messages based on a specific starting seed, or a starting number.  
-This web app incorporates 2 main ideas that we hope you understand by the end of the lesson: randomness and mixing letters with numbers.
+The STARS have uncovered this [Wacky Encryption](https://codepen.io/AndyNovo/full/jOWqrYQ) that they believe the CRABS are using to send messages back and forth to each other.  
+Click on the link above so we can try to understand how the CRABS are encrypting their data and practice using it.  
+We believe the CRABS are encorporating 2 concepts: randomness and mixing letters with numbers.
 
  - Try to write a secret message using the Wacky Encryption. See what happens to the message as you change the seed.
  - Now write a secret message and send it in the chat. Don't forget to include the seed or we won't be able to decode your message!
@@ -17,21 +17,25 @@ This web app incorporates 2 main ideas that we hope you understand by the end of
  > Think back to the first week of camp, Learn to Code, when we learned about for loops. 
  > How could you use a for loop to help you crack this code if you didn't know the seed?
 
+We will come back to analyze this Wacky Encryption some more later on. For now, let's send some more coded messages.
+
 ## CyberChef, a Crypto Super Toolbox
 
-<center><img src="https://images.unsplash.com/photo-1585569695919-db237e7cc455?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60" alt="Toolbox"/></center>
+<center><img src="https://images.unsplash.com/photo-1585569695919-db237e7cc455?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60" alt="Toolbox" width="75%"/></center>
 
-Head to the [CyberChef](https://gchq.github.io/CyberChef/) website by clicking on that link.  
+The STARS are very serious about keeping information safe, 
+so they want you to practicing sending coded messages.  
+Let's visit the [CyberChef](https://gchq.github.io/CyberChef/) website, which the STARS use all the time.  
 If you are following along with this lesson on your own, it may be helpful to check out [this reference](https://udel.codes/cyberchef) for how to use Cyberchef.  
 CyberChef is so useful in cryptography! If we're spies, then CyberChef is our spy kit.  
 It can encode and decode messages crazy fast, and all we have to do is tell it 
 which kind of cipher to use.  
-CyberChef is so smart, sometimes it can even guess which cipher it needs to 
-decode a message without you telling it!
+CyberChef is so smart, sometimes it can even guess the cipher being used without you telling it!
 
 ## Converting Letters to Numbers
 
-Yesterday, we looked at ways to code messages by converting the plaintext alphabet to a different alphabet that still used letters.  
+Yesterday, we looked at ways to code messages by converting the plaintext alphabet 
+to a different alphabet that still used letters.  
 Today, we are going to look at ways to represent the plaintext alphabet using numbers.  
 Let's start by looking up the **A1Z26 Cipher Encode** in CyberChef.  
 Type in some messages in the Input Section and see if you can figure out how this cipher works.  
@@ -68,13 +72,13 @@ Q3liZXJzZWN1cml0eSBpcyBhbGwgYXJvdW5kIHVz
 72 61 6e 64 6f 6d 6e 65 73 73 20 69 73 20 74 68 65 20 68 65 61 72 74 20 6f 66 20 63 72 79 
 70 74 6f 67 72 61 70 68 79
 
-Now, you can encode your own secret message in CyberChef using any method that we just learned. 
+Now, as part of your STARS training, you can encode your own secret message in CyberChef using any method that we just learned. 
 Try changing a few characters here and there and use different methods.  
 Once you’ve encoded your message, send it in the chat so we can all try to decode it.  
 Try to recognize which ciphers other people are using by comparing them to the examples 
-we did together.
+we did together and then try to decode the other messages.
 
-Now, you can write a secret message in CyberChef again. 
+Now, you can write another secret message in CyberChef. 
 This time, you can use any method of encoding under the “Data Format” tab as long as it 
 has a “To” and a “From” tool. 
 Try changing a few characters here and there and use different methods.  
@@ -82,15 +86,16 @@ Once again, send your encoded message in the chat so we can all try to decode it
 We may have to use more trial and error this time since you could have used a 
 cipher we haven't seen before.
 
- > Note that everyone can read every message in this stage. 
- > No encryption has happened, only coding, because everyone knows how to decode your messages. 
- > It would be encryption if the way to decode your message was a secret.
+ > Note that everyone can read every message in this stage.  
+ > No encryption has happened, only coding, because everyone knows how to decode your messages.  
+ > This is good, but the STARS want more secrecy when sending messages so that the CRABS can't decode them.  
+ > The STARS really want to *encrypt* their messages, which happens when the way to decode your message is a secret.
 
 ## Intro to Encryption
 
 Now that we’ve seen a bunch of ways to convert letters and messages into numbers, 
-let’s take it a step further and look at how we can *encrypt* numbers.  
-In order to do that, we would beed some way to "mix" secret stuff and plaintext.  
+let’s take it a step further and look at how we can *encrypt* those numbers.  
+In order to do that, we would need some way to "mix" secret stuff and plaintext.  
 
 ## Intro to Steganography: Hiding In Plain Sight
 
