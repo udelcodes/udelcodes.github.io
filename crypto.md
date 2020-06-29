@@ -4,9 +4,8 @@ Welcome to Fun with Cryptography!! We are so excited to have you here and to tea
 
 ## Who Are We?
 
-We are the [CyberSecurity Scholars](https://www.udel.edu/apply/undergraduate-admissions/enrichment-opportunities/cybersecurity-scholars/) from the University of Delaware. 
-This week's lesson was created by Nikki Pilla, Peter Haushalter, and Sophia Smith, 
-along with help from other members of the CyberSecurity Scholars community.
+We are a group of students, faculty, and staff from the  from the University of Delaware who are passionate about coding a cybersecurity. 
+This week's lesson was created by a combination of the UD [CyberSecurity Scholars](https://www.udel.edu/apply/undergraduate-admissions/enrichment-opportunities/cybersecurity-scholars/), UD's [K-12 Engineering Outreach Program](https://engr.udel.edu/offerings/k12-outreach/), [Verically Integrated Projects](https://vip.udel.edu/), [CS+ Social Good](https://studentcentral.udel.edu/organization/cssocialgood), and the UD startup [CyberSecLabs](https://cyberseclabs.it/team).
 
 ## What is Cryptography?
 
@@ -52,7 +51,7 @@ Below, you will find the links to the each day's lesson.
 [Day 2](https://udel.codes/crypto2) - Introduction to Modern Crypto 
  - [In-depth explanation of number systems](https://udel.codes/numbersystems) (supplemental)
  
-[Day 3](https://udel.codes/crypto3) - Operators and Randomness  
+[Day 3](https://udel.codes/crypto3) -   
 [Day 4](https://udel.codes/crypto4) -  
 
 Good luck!
