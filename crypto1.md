@@ -276,3 +276,7 @@ Take what you learned today and go teach a friend or a family member, and you ca
 See you tomorrow for a new lesson on the different number systems in cryptography.  
 The next lesson will use [this link](https://udel.codes/crypto2).  
 Or you can head back to our [home page for Crypto Week](https://udel.codes/crypto2).
+
+Here is a badge for your efforts!
+
+![cipher badge](https://udel.codes/images/cipher_badge.png)
