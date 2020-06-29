@@ -81,7 +81,7 @@ Now, we have to figure out how to use this key. Let's try and decode this Caesar
 
 **VKTUL YHK EBYX**
 
-<iframe id="if1" width="100%" height="500" style="visibility:visible" src="https://inventwithpython.com/cipherwheel/"></iframe>
+<iframe id="if1" width="120%" height="500" style="visibility:visible" src="https://inventwithpython.com/cipherwheel/"></iframe>
 
 Start by finding the first letter of the code, "V", on your big circle. Then, write down the letter on the small circle that is lined up with the "V" on your outside circle. To give you a hint, the first letter should be a "C". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the crabs have been saying. 
 
