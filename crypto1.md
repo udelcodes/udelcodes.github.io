@@ -56,7 +56,7 @@ It was one of the first ciphers ever invented!
 
 ### Caesar Wheel
 
-<iframe id="if1" width="100%" height="100%" style="visibility:visible" src="http://www.perkley.com/cipher-wheel/"></iframe>
+<iframe id="if1" width="100%" height="500" style="visibility:visible" src="http://www.perkley.com/cipher-wheel/"></iframe>
 
 Before starting to learn about the Caesar Cipher, take some time to print and assemble this [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
 In order to assemble your wheel, follow these steps:  
