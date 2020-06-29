@@ -198,6 +198,8 @@ Now that we've learned about the Ceasar and Substitution Ciphers, lets check out
 
 ### What is the Baconian Cipher and How Does it Work?
 
+![baconian](https://proto57.files.wordpress.com/2009/11/iamhere_vms.jpg)
+
 - It is based on 5 bit binary encoding (this means 5 digit strings made up of 2 symbols represent each letter)
 - Traditionally, the 5 bit encoding is strings of "A"'s and "B"'s
 - There are 2 versions of the Baconian alphabet
