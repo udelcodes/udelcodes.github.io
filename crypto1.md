@@ -56,10 +56,8 @@ It was one of the first ciphers ever invented!
 
 ### Caesar Wheel
 
-<iframe id="if1" width="100%" height="500" style="visibility:visible" src="https://inventwithpython.com/cipherwheel/"></iframe>
-
-Before starting to learn about the Caesar Cipher, take some time to print and assemble this [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
-In order to assemble your wheel, follow these steps:  
+Before starting to learn about the Caesar Cipher, take some time to print and assemble this [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf) or use the virtual Caesar Wheel embedded on this page.  
+In order to assemble the physical wheel, follow these steps:  
 - Cut out the two wheels from the pdf. 
 - *Carefully* poke a hole through the dot in the centre of each wheel.
 - Place the smaller circle over the larger circle so that the holes line up, and join them
@@ -82,6 +80,8 @@ STARS at headquarters have intercepted a few messages between CRAB agents, inclu
 Now, we have to figure out how to use this key. Let's try and decode this Caesar Cipher. The answer will tell us what the CRABs have been sending to eachother.
 
 **VKTUL YHK EBYX**
+
+<iframe id="if1" width="100%" height="500" style="visibility:visible" src="https://inventwithpython.com/cipherwheel/"></iframe>
 
 Start by finding the first letter of the code, "V", on your big circle. Then, write down the letter on the small circle that is lined up with the "V" on your outside circle. To give you a hint, the first letter should be a "C". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the crabs have been saying. 
 
