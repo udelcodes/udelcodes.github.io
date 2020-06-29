@@ -210,7 +210,7 @@ Now that we've learned about the Ceasar and Substitution Ciphers, lets check out
 
 ### Let's Try an Example
 
-Here is the coded messade you have to decode:
+Here is a message sent between the CRABS. Decode it so we can tell the STARS what it says.
 
 **Let uS StART WitH AN EAsY PRoblEM fIRsT. FUN!**
 
@@ -225,11 +225,12 @@ Now use the Baconian alphabet to decode the message! If the decoded message does
 
  ![baconian alphabet](images/baconian_alphabet.PNG)
  
- ### Another Example, With a Twist
+### Another Example, With a Twist
  
+Here's a message sent to us from the STARS about what we will be doing tomorrow. The true meaning of the message is hidden using a Baconian Cipher.  
 This cipher seems easy enough when the typefaces are clear. However, sometimes you have more than 2 options to choose from that could represent your "A"'s and "B"'s. To show this, try this example:
 
-**NO** G**oOD** d**E**e**D g**O**Es u**n**Pu**N**IsH**e**d.**
+**We** N**EEd** yO**uR hEl**p **T**O **LEar**N **a**bO**UT** tHi**s** T**oP**I**c**
 
 Remember in this example, you can choose between lowercase/capital letters or bolded/unbolded letters.
 
