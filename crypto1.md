@@ -56,7 +56,12 @@ It was one of the first ciphers ever invented!
 
 ### Caesar Wheel
 
-Before starting to learn about the Caesar Cipher, take some time to print and assemble [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
+<embed type="game"
+        src="https://inventwithpython.com/cipherwheel/"
+        width="500"
+        height="800">
+
+Before starting to learn about the Caesar Cipher, take some time to print and assemble this [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf).  
 In order to assemble your wheel, follow these steps:  
 - Cut out the two wheels from the pdf. 
 - *Carefully* poke a hole through the dot in the centre of each wheel.
