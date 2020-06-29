@@ -87,7 +87,7 @@ Start by finding the first letter of the code, "V", on your big circle. Then, wr
 
 Now, you can try to crack this code on your own. The answer should tell you what type of cryptography the CRABs are trying to get rid of first.
 
-**WHPG PBMA MAX VTXLTK VRIAXK**
+**WHPG PBMA MAX VTXLTK VBIAXK**
 
 Feel free to take a break here and practice writing your own codes using your wheel. You can practice writing your name, your school, your favorite ice cream flavor, or anything you want. If you're eager, try to teach a sibling, parent, or friend how to use your wheel to crack Caesar Ciphers and practice writing secret messages to each other!
 
