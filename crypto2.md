@@ -235,7 +235,7 @@ When given an encrypted output, every conceivable input is equally likely.
 Congratulations, you made it to the end of your second day of STARS training!  
 To mark your achievements, the STARS have presented you with this badge:
 
-
+![Master of Encryption](https://udel.codes/images/master_of_encryption.png)
 
 Today we learned:  
  - any data (message, numbers, picture) can be made digital
