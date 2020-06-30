@@ -252,9 +252,10 @@ Which ones were examples of security by obscurity (hidden code that is easy to c
 <center><img src="https://memeshappen.com/media/created/2018/07/All-done-for-the-day-Great-job.jpg" alt="all done meme" width="500"/></center>
 
 Congratulations, you made it to the end of your second day of STARS training!  
-To mark your achievements, the STARS have presented you with this badge:
+To mark your achievements, the STARS have presented you with these badges:
 
-![Master of Encryption](https://udel.codes/images/master_of_encryption.png)
+![Master of Encryption](https://udel.codes/images/master_of_encryption.png) 
+![Randomness Expert](https://udel.codes/images/random_badge.png) 
 
 Today we learned:  
  - any data (message, numbers, picture) can be made digital
