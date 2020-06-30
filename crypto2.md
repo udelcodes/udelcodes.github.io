@@ -1,4 +1,4 @@
-# W3lc0m3 t0 Day 2 of Crypt0 W33k!!
+# W3lc0m3 t0 Crypt0 W33k - Encryption!!
 
 Today we will be switching from pen and paper ciphers to digital ciphers.  
 Specifically, we will be focusing on converting letters and messages into numbers, randomness, and pseudo-randomness.  You need to complete today's training in order to help the STARS learn about encrypting data before the CRABS erase encryption from history!
@@ -227,8 +227,27 @@ True secrecy (aka the best lock and key) is this:
 When given an encrypted output, every conceivable input is equally likely.  
  > If you are given any cipher from yesterday where the coded message is just **"Y"**, 
  what was the input?
+ 
+## CSPRNG
 
-## End of Day 2!
+CSPRNG stand for Cryptographically Secure PseudoRandom Number Generator.
+
+[CSPRNG from AES](https://codepen.io/AndyNovo/full/yLezmvN)
+
+## Kerckhoff's Principle Quiz
+
+Think back to all of the enncoding and encrypting we've done so far.  
+Which ones were examples of Kerckhoff's Principle (public code with a secure key)?  
+Which ones were examples of security by obscurity (hidden code that is easy to crack)?  
+ - Caesar Cipher  
+ - Substitution  
+ - Baconian  
+ - The Wacky Encryption  
+ - Number Coding (Binary, Base64, etc.)  
+ - Middle Squares  
+ - CSPRNG from AES  
+
+## End of this Lesson!
 
 <center><img src="https://memeshappen.com/media/created/2018/07/All-done-for-the-day-Great-job.jpg" alt="all done meme" width="500"/></center>
 
