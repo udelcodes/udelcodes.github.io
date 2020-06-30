@@ -1,5 +1,7 @@
 ## W3lc0m3 t0 Day 3 of Crypt0 W33k!!
 
+This is my reminder to make a crossword puzzle for day 3.
+
 We are going to do something with this 
 [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
 A + B = C  
