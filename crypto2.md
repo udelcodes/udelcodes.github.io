@@ -230,9 +230,19 @@ When given an encrypted output, every conceivable input is equally likely.
  
 ## CSPRNG
 
-CSPRNG stand for Cryptographically Secure PseudoRandom Number Generator.
+CSPRNG stand for Cryptographically Secure PseudoRandom Number Generator. 
+A CSPRNG generates numbers that are guaranteed to be absolutely random. 
+They typically utilize mixing of two pieces of data. 
+One of those pieces is usually some kind of environmental data that is hard for an outside observer to predict, such as the time between keystrokes. 
+We heard about this kind of environmental data in the Cloudflare video. 
 
-[CSPRNG from AES](https://codepen.io/AndyNovo/full/yLezmvN)
+Here we have a [CSPRNG](https://codepen.io/AndyNovo/full/yLezmvN) that uses AES (Advanced Encryption Standard). 
+There's a lot of big words here that we don't necessarilly need to understand in order to get the concept. 
+Basically what's happening is that this random generator mixes your secret key (known to you and your partner) 
+with a random number (that changes with every new encryption) and performs a cipher or ciphers on the output. 
+These steps are repeated a certain number of times which is determined by the bytes that you choose. 
+
+Click on the link above to play around with the CSPRNG.
 
 ## Kerckhoff's Principle Quiz
 
@@ -246,6 +256,18 @@ Which ones were examples of security by obscurity (hidden code that is easy to c
  - Number Coding (Binary, Base64, etc.)  
  - Middle Squares  
  - CSPRNG from AES  
+
+## Upping the Security of the Wacky Encryption
+
+Imagine if we took a plaintext message and performed a Caesar Cipher on it. 
+Then, we perform a Substitution Cipher on that output. 
+Then, we put that output into Base64. 
+You can imagine that as we keep piling on these ciphers, the message gets more secure. 
+We can see this in action by performing a Caesar Cipher on the output of the Wacky Encryption. 
+Take an encrypted message and increase every number by the same amount. 
+Now when you decrypt the message in the Wacky Encryption, it will produce a Caesar Cipher. Lets try it.
+
+[Wacky Encryption](https://codepen.io/AndyNovo/full/jOWqrYQ)
 
 ## End of this Lesson!
 
