@@ -14,3 +14,8 @@ Maybe we will do some steganography - learn how to hide our own images inside an
 Maybe we will incorporate the [CyberSecLabs Terminal](http://67.205.140.255:2223/ssh/host/67.205.140.255/7538/term).
 
 Maybe somehow we will intercept a CRABS message and change a small part of it so they time travel to the wrong year or the wrong place.
+
+We will definitely be learning about Diffie Hellman
+
+## Diffie Hellman
+
