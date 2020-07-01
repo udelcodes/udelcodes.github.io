@@ -235,7 +235,7 @@ When given an encrypted output, every conceivable input is equally likely.
  
 ## CSPRNG
 
-CSPRNG stand for Cryptographically Secure PseudoRandom Number Generator. 
+CSPRNG stands for Cryptographically Secure PseudoRandom Number Generator. 
 A CSPRNG generates numbers that are guaranteed to be absolutely random. 
 They typically utilize mixing of two pieces of data. 
 One of those pieces is usually some kind of environmental data that is hard for an outside observer to predict, such as the time between keystrokes. 
