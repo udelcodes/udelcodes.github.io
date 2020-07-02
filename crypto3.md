@@ -17,7 +17,7 @@ Head to this [XOR learnification.fun module](https://learnification.fun/module/x
 
 ## Diffie Hellman
 
-
+![Diffie Hellman Visual](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/1200px-Diffie-Hellman_Key_Exchange.svg.png)
 
 ## XOR and AES to Make Real Crypto
 
@@ -35,6 +35,7 @@ Real crypto is based on being able
 
 [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
 Maybe we will incorporate the [CyberSecLabs Terminal](http://157.230.203.138/term).
+[Crypto Topics](https://gist.github.com/AndyNovo/f002ad0e9eef2b7912818bdd9d26f3d6)
 
 
 
