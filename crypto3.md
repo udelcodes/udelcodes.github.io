@@ -1,4 +1,4 @@
-## W3lc0m3 t0 Day 3 of Crypt0 W33k!!
+## W3lc0m3 t0 the Last Day of Crypt0 W33k!!
 
 This is my reminder to make a crossword puzzle for day 3.
 
@@ -10,7 +10,7 @@ This is my reminder to make a crossword puzzle for day 3.
 
 The CRABS used their time-cycles to go back in time and buy a winning lottery ticket. 
 They earned $51M last night in the New Jersey Powerball! 
-To make matters worse, they are *determined* to soend all of it cracking our encryption schemes.  
+To make matters worse, they are *determined* to spend all of it on cracking our encryption schemes.  
 
 ## XOR Fun
 
@@ -54,6 +54,8 @@ Head to this [AES learnification.fun module](https://learnification.fun/module/a
 We can check to see what kind of crypto is being used right now on whatever browser you are on.  
 Right click anywhere on the page, then click *Inspect*. Then click the *Security* tab at the top of the page.
 
+![page security](https://udel.codes/images/page_security.PNG)
+
 ## Scale of the Universe
 
 Remember that the CRABS won $51M in the lottery and are planning to spend it all on cracking our encryption schemes. How much will they actually need? Let's do a little bit of math to figure it out.
@@ -83,8 +85,12 @@ follow the instructions on the left sidebar to send secret messages to each othe
 
 We hope that you learned a lot about crypto this week, and maybe you're interested in learning more.  
 Here is a list of resources that you can use to learn even more about crypto.  
- - [Crypto Topics](https://gist.github.com/AndyNovo/f002ad0e9eef2b7912818bdd9d26f3d6)  
+ - [Crypto Roadmap](https://gist.github.com/AndyNovo/f002ad0e9eef2b7912818bdd9d26f3d6)  
  - [Crypto Video Resources](https://gist.github.com/AndyNovo/b9f11430bf645ba8b870ac851985f8e3)
- - [Crypto training platform](http://cryptohack.org/)
+ - [Crypto Training Platform](http://cryptohack.org/)
  - [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
  - [CyberSecLabs Terminal](http://157.230.203.138/term). 
+ 
+And of course, you have earned this badge for your hard work this week:
+
+![crypto badge](https://udel.codes/images/crypto_badge.png)
