@@ -17,7 +17,7 @@ Head to this [XOR learnification.fun module](https://learnification.fun/module/x
 
 ## Diffie Hellman
 
-![Diffie Hellman Visual](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/1200px-Diffie-Hellman_Key_Exchange.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/1200px-Diffie-Hellman_Key_Exchange.svg.png" alt="Diffie Hellman Visual" width="300"/>
 
 ## XOR and AES to Make Real Crypto
 
