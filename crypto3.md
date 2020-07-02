@@ -31,6 +31,17 @@ We do this by using XOR and something called the Diffie-Hellman Secret Key Excha
 </center>
 
 The Diffie-Hellman method takes advantage of XOR in order to create a shared secret key between two people. 
+Each person has their own private, secret key that only they know and they never tell anyone what that key is. 
+There is also one public key that everybody knows. 
+
+Looking at the picture above, Alice and Bob each mix their secret code with the pubic code and then swap mixtures. 
+Then, Alice has a mixture of Bob's key mixed with the public key and Bob has a mixture of Alice's key mixed with the public key. 
+If Alice and Bob both add their own secret key to the mixtures they recieved, then they will both have the same mixture made up of Alice's secret key, Bob's secret key, and the public key.
+
+In Diffie-Hellman, when we "mix" two keys, we mean XOR the two keys. 
+Also, remember that Alice and Bob can mix each of their private keys with the public key and then send it into the public area. 
+This is still secure because only Bob can add his private key to Alice's mixture and only Alice can add her private key to Bob's mixture. 
+No one else can use XOR to find out the secret message because no one else has Alice and Bob's secret keys.
 
 ## XOR and AES to Make Real Crypto
 
@@ -50,8 +61,5 @@ Head to this [AES learnification.fun module](https://learnification.fun/module/a
 ## Resources
 
 [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
-Maybe we will incorporate the [CyberSecLabs Terminal](http://157.230.203.138/term).
-[Crypto Topics](https://gist.github.com/AndyNovo/f002ad0e9eef2b7912818bdd9d26f3d6)
-
-
-
+Maybe we will incorporate the [CyberSecLabs Terminal](http://157.230.203.138/term).  
+[Crypto Topics](https://gist.github.com/AndyNovo/f002ad0e9eef2b7912818bdd9d26f3d6)  
