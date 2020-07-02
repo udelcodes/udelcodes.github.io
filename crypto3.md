@@ -4,7 +4,9 @@ This is my reminder to make a crossword puzzle for day 3.
 
 ## The CRABS Won the Lottery!!
 
-![crab lotto](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPFW2kAZ-NMJ-aeEVkJumZ5D3trjCdpww9TQ&usqp=CAU)
+<center>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPFW2kAZ-NMJ-aeEVkJumZ5D3trjCdpww9TQ&usqp=CAU" alt="crab lotto" width="250" />
+</center>
 
 The CRABS used their time-cycles to go back in time and buy a winning lottery ticket. 
 They earned $51M last night in the New Jersey Powerball! 
@@ -24,7 +26,9 @@ XOR allows us to randomize data and make it secret so that you can only decrypt 
 If two people are communicating with each other, then we want them both to know the secret key, but we don't want anyone else to know the secret key. 
 We do this by using XOR and something called the Diffie-Hellman Secret Key Exchange.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/1200px-Diffie-Hellman_Key_Exchange.svg.png" alt="Diffie Hellman Visual" width="300"/>
+<center>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Diffie-Hellman_Key_Exchange.svg/1200px-Diffie-Hellman_Key_Exchange.svg.png" alt="Diffie Hellman Visual" width="300"/>
+</center>
 
 The Diffie-Hellman method takes advantage of XOR in order to create a shared secret key between two people. 
 
