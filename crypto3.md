@@ -49,17 +49,42 @@ Like we said earlier, real crypto is based on being able to communicate seret da
 
 Head to this [AES learnification.fun module](https://learnification.fun/module/aes) to practice this concept.
 
+## What Crypto Are We Using Right Now?
+
+We can check to see what kind of crypto is being used right now on whatever browser you are on.  
+Right click anywhere on the page, then click *Inspect*. Then click the *Security* tab at the top of the page.
+
 ## Scale of the Universe
 
+Remember that the CRABS won $51M in the lottery and are planning to spend it all on cracking our encryption schemes. How much will they actually need? Let's do a little bit of math to figure it out.
 
+A computer can do 10^9 operations per second and it costs about 20 cents per day.  
+How many operations per minute?  10^9 * 60  
+How many per hour? 10^9 * 60 * 60  
+How many per day? 10^9 * 60 * 60 * 24  
+How many operations can $1 dollar buy? Roughly 5 * 10^14  
+How many operations can $51 Million Dollars buy?  Roughly 2.5 * 10^22  
+There are about 10^38 AES keys to try in a brute force attack, so they have to win the lottery
+10^16 times to crack our AES encryption.
+
+These numbers are huge, so to gain a little perspective let's check out this 
+[Scale of the Universe](https://htwins.net/scale2/).
+
+That's with only using AES128 encryption. 
+AES also comes in AES192 and AES256, which include even more keys and are even harder to crack.  
 
 ## Send Secret Messages Using DHE!
 
-[CyberSecLabs Terminal](http://157.230.203.138/term)
-
+To finish off the week, let's use the same python script from our AES learnification.fun module. 
+Head to the [CyberSecLabs Terminal](http://157.230.203.138/term) and 
+follow the instructions on the left sidebar to send secret messages to each other.
 
 ## Resources
 
-[XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
-Maybe we will incorporate the [CyberSecLabs Terminal](http://157.230.203.138/term).  
-[Crypto Topics](https://gist.github.com/AndyNovo/f002ad0e9eef2b7912818bdd9d26f3d6)  
+We hope that you learned a lot about crypto this week, and maybe you're interested in learning more.  
+Here is a list of resources that you can use to learn even more about crypto.  
+ - [Crypto Topics](https://gist.github.com/AndyNovo/f002ad0e9eef2b7912818bdd9d26f3d6)  
+ - [Crypto Video Resources](https://gist.github.com/AndyNovo/b9f11430bf645ba8b870ac851985f8e3)
+ - [Crypto training platform](http://cryptohack.org/)
+ - [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
+ - [CyberSecLabs Terminal](http://157.230.203.138/term). 
