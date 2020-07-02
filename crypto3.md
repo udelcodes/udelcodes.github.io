@@ -1,6 +1,4 @@
-## W3lc0m3 t0 the Last Day of Crypt0 W33k!!
-
-This is my reminder to make a crossword puzzle for day 3.
+# W3lc0m3 t0 the Last Day of Crypt0 W33k!!
 
 ## The CRABS Won the Lottery!!
 
