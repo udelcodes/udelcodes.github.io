@@ -15,24 +15,26 @@ We have to get really good at encrypting our data.
 If we want to keep our data safe, we're going to have to use XOR. 
 Head to this [XOR learnification.fun module](https://learnification.fun/module/xorrox) to learn all about XOR so we can keep our data safe from the CRABS!
 
+## Diffie Hellman
+
+
+
 ## XOR and AES to Make Real Crypto
 
 Real crypto is based on being able 
 
-We are going to do something with this 
+## Scale of the Universe
+
+
+
+## Send Secret Messages Using DHE!
+
+
+
+## Resources
+
 [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
-A + B = C  
-A + C = B  
-B + C = A  
-Not quite the transitive property, but very useful.
+Maybe we will incorporate the [CyberSecLabs Terminal](http://157.230.203.138/term).
 
-Maybe we will do some steganography - learn how to hide our own images inside an image.
 
-Maybe we will incorporate the [CyberSecLabs Terminal](http://67.205.140.255:2223/ssh/host/67.205.140.255/7538/term).
-
-Maybe somehow we will intercept a CRABS message and change a small part of it so they time travel to the wrong year or the wrong place.
-
-We will definitely be learning about Diffie Hellman
-
-## Diffie Hellman
 
