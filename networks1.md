@@ -87,11 +87,15 @@
 years </h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DKHZKTRyzeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h3> Now we will try to talk to each other using morse(-like) code! Yay so fun!! </h3>
+## ACTIVITY 1: Now we will try to talk to each other using morse(-like) code! Yay so fun!!
 
-![morse code](images/morse-code.png)
+Our version of Morse code:
 
-** Put some background on what morse code is / how it's useful
+<iframe height="528" style="width: 100%;" scrolling="no" title="Red Blue Yellow Interdimensional Morse Code" src="https://codepen.io/AndyNovo/embed/pogoxpM?height=528&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/pogoxpM'>Red Blue Yellow Interdimensional Morse Code</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 
 ** Heart language game
 --> Insert streaming instructions for minecraft here
