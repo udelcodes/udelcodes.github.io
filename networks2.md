@@ -52,7 +52,13 @@ Each layer has it's own culture.
 
 In our minecraft internet the **physical layer is chests in minecarts** our application layer is stuff like _"print mona lisa"_
 
-## Physical Layer
+## Examine Wireshark to see the layers
+
+**Task 5:** Let the counselor do an interactive Wireshark layer demo.
+
+Notice how CONCEPT with hearts was "envelopes" inside of "boxes", and the internet puts those "boxes" into "carts" that go into "trucks", etc. We saw the same concept show up in week 1 and week 3 (IV vs ct, head vs body).
+
+## Physical Layer - Broadcasting
 
 Buzzing the wire is our beacon, likewise fiber-optic is similar, but Radio (wi-fi) is different.  
 Notice that our beacon was visible to everyone.  In radio (and ethernet) there is the idea that every local computer hears everything!
@@ -61,7 +67,11 @@ Don't trust public wi-fi.
 
 ### Zoom is wifi
 
-Have people start conversations and talk over each other.  See how ineffective it is.
+**Task 6:** Have people start conversations, out loud, in zoom and talk over each other.  
+
+See how ineffective it is.
+
+Imagine it is a dark room without names.
 
 Likewise highlight the importance of saying "who is speaking" and "who is suposed to listen"  (this includes "Hey Everyone")
 
@@ -69,20 +79,30 @@ This is "addressing" and it is the opening of every packet ever sent.  The MAC a
 
 ### The Noisy Channel
 
-Let's try to play 20 questions between pairs of people between the two teams (5-6 games at once) using the noisy channel, and develop some labelling conventions to help us.
+<iframe height="793" style="width: 100%;" scrolling="no" title="The Noisy Channel" src="https://codepen.io/AndyNovo/embed/gOaJqqP?height=793&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/gOaJqqP'>The Noisy Channel</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+**Task 7:** Let's try to play 20 questions between **5 teams from each track** using the noisy channel, and develop some labelling conventions to help us.  The counselors will communicate your "protocol" to the other team with your number (Gold 1 to Blue 1).  Let's limit it to our word list for brevity's sake.
 
 ### ALOHAnet
 
-Let's play the ALOHAnet demo to get a feel for exponential back-off (I'll try to make messages blurred if they collide).
+The FIRST wireless network was in the Hawaiian islands (natural no?) called ALOHAnet, 7 universities on 4 islands:
 
-## Questions about the internet
+![ALOHA net](https://www.technologyuk.net/computing/computer-networks/network-technologies/images/aloha.gif)
 
-Collate the best questions from our team and add some from our campers, we can try to answer them by day 4.
+They used radio because it was cheaper.  And it used "packets" and timing:
 
-## Examine Wireshark to see the layers
+![Collision](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pure_ALOHA1.svg/300px-Pure_ALOHA1.svg.png)
 
-Notice how CONCEPT with hearts was "envelopes" inside of "boxes", and the internet puts those "boxes" into "carts" that go into "trucks", etc. We saw the same concept show up in week 1 and week 3 (IV vs ct, head vs body).
+**Task 8:** Play the ALOHAnet demo to get a feel for exponential back-off.
 
-## Top-level applications
+_GOAL: Let's get the alphabet across in order, A to Z_
 
-HTTP and SSH (Web Requests) vs bottom layer Wi-fi and Ethernet (MAC addresses), look at some log files.
+<iframe height="714" style="width: 100%;" scrolling="no" title="ALOHAnet Broadcast Game" src="https://codepen.io/AndyNovo/embed/NWxxqxp?height=714&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/NWxxqxp'>ALOHAnet Broadcast Game</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+## Q and A about the internet (answers day 4)
