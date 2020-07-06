@@ -117,3 +117,13 @@ _GOAL: Let's get the alphabet across in order, A to Z_
 </iframe>
 
 ## Q and A about the internet (answers day 4)
+
+- Where is the internet?  
+- Does the internet use morse code?  
+- What is a packet?  
+- What is bandwidth?  
+- What’s the difference between my network now and the network in the 90’s?  
+- How is it that I can interact with someone in a different country just as fast as my neighbor?  
+- How many people can visit my website before it crashes?  
+- Why does wifi slow down when more people connect to the network?  
+- Why can I use data in so many more places than I can wifi? - Are they the same thing?  
