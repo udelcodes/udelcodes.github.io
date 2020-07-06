@@ -83,8 +83,21 @@
 
 </body>
 
-<h3> The need and desire for fast human interaction is so strong that there was an enormous network developed in just a matter of 
-years </h3>
+<h3> The need and desire for fast human interaction is so strong that there was a "network" developed in just a matter of 
+1-2 years (even back in 1846)</h3>
+
+![The Telegraph system in 1846](https://upload.wikimedia.org/wikipedia/commons/a/a6/Extent_of_North_American_telegraph_lines_at_end_of_1846.jpg)
+
+### Quickly the cables were intercontinental (1901)
+
+![Telegraph cables in 1901](https://upload.wikimedia.org/wikipedia/commons/a/a5/1901_Eastern_Telegraph_cables.png)
+
+### The Telephone networks grew in a similar fashion (1922)
+
+![Bell Telephone Network](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bell_telephone_magazine_%281922%29_%2814569717649%29.jpg/800px-Bell_telephone_magazine_%281922%29_%2814569717649%29.jpg)
+
+### By the modern era there are 100s of thousands of MILES of intercontinental wires
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DKHZKTRyzeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Week-long Goal:  We're going to build the internet
