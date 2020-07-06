@@ -123,3 +123,32 @@ How did we figure out how to make our communication more effective between the t
 There is a beacon in minecraft.  We're going to try to use it to send our Red, Blue, and Yellow beacon.  Live stream [on YouTube](https://youtu.be/k4L-H18XUqM)
 
 ### Task 6: Now what protocols emerged when we tried this in Minecraft
+
+### Task 7: Play "CONCEPT" inside the tracks
+
+#### BLUE TRACK VERSION
+
+<iframe height="1291" style="width: 100%;" scrolling="no" title="Party Game - Blue Track" src="https://codepen.io/AndyNovo/embed/VweQRzN?height=1291&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/VweQRzN'>Party Game - Blue Track</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+#### GOLD TRACK VERSION
+
+<iframe height="1134" style="width: 100%;" scrolling="no" title="Party Game - Gold Track" src="https://codepen.io/AndyNovo/embed/yLevwzo?height=1134&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/yLevwzo'>Party Game - Gold Track</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+Once we're good at that game inside the two tracks then we can play across the two tracks using the beacon.
+
+### Task 8: Play "CONCEPT" across the tracks using Beacons
+
+In this version we aren't networked using the real internet, but each move has an "encoding" using the thread number (3 hearts), sequence number (3 hearts), and picture ID (5 hearts).  This is our first taste of a "wrapper" of the real data.  We have the row and column as separate data from the picture itself, you'll see:
+
+<iframe height="1230" style="width: 100%;" scrolling="no" title="Minecraft Party Game" src="https://codepen.io/AndyNovo/embed/XWXJZVJ?height=1230&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/XWXJZVJ'>Minecraft Party Game</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+OK for day 2 we'll use [this link](https://udel.codes/networks2)
