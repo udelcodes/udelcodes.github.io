@@ -86,6 +86,17 @@ This is "addressing" and it is the opening of every packet ever sent.  The MAC a
 
 **Task 7:** Let's try to play 20 questions between **5 teams from each track** using the noisy channel, and develop some labelling conventions to help us.  The counselors will communicate your "protocol" to the other team with your number (Gold 1 to Blue 1).  Let's limit it to our word list for brevity's sake.
 
+## Let's Talk Packets
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O7CuFlM4V54?start=61" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p class="codepen" data-height="654" data-theme-id="light" data-default-tab="result" data-user="AndyNovo" data-slug-hash="pogJeKd" style="height: 654px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Packet-Switched Networks vs Circuit-Switched">
+  <span>See the Pen <a href="https://codepen.io/AndyNovo/pen/pogJeKd">
+  Packet-Switched Networks vs Circuit-Switched</a> by Andy Novocin (<a href="https://codepen.io/AndyNovo">@AndyNovo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 ### ALOHAnet
 
 The FIRST wireless network was in the Hawaiian islands (natural no?) called ALOHAnet, 7 universities on 4 islands:
