@@ -1,6 +1,6 @@
 # Networks 2
 
-## Warmup: Blue team send Gold team a CONCEPT via Minecraft
+## Warmup task: Blue team send Gold team a CONCEPT via Minecraft
 
 
 Notice that the Heart version of Concept has three distinct parts to each image.
@@ -16,7 +16,7 @@ This is made to model actual "packets", like this one:
 
 ## Protocols vs Signal Processing
 
-Now Blue will send a heart message to Gold and we'll play a little game.  Notice that our ability to get the correct colors from the beacon takes some subtle, real-world, adjustments to our style of communicating.  This is the art of signal processing, to put a signal into a form where it is easier to read correctly on the other side.  Now what to do with those colors (bytes) once you get them, that's the art of protocols.
+**Task 2** Now Blue will send a heart message to Gold and we'll play a little game.  Notice that our ability to get the correct colors from the beacon takes some subtle, real-world, adjustments to our style of communicating.  This is the art of signal processing, to put a signal into a form where it is easier to read correctly on the other side.  Now what to do with those colors (bytes) once you get them, that's the art of protocols.
 
 
 ### Travelling to Chicago
@@ -33,13 +33,24 @@ We are going to travel to Chicago! Here are seven steps that you will take when 
 | Taxi-airstrip | Peter will guide us to strip 5 for takeoff, Peter will land-us at strip 3 for landing|
 | Airtraffic Controller | You are prepared for take off. You are clear for landing|
 
+
+**Task 3:** Interactively design what the "layers" are for "winning minecraft"
+
 ## The OSI 7 layers
 
 ![OSI Layers](https://blogs.bmc.com/wp-content/uploads/2018/06/osi-model-7-layers-1024x734.jpg)
 
 Each layer has it's own culture.
 
-In our minecraft internet the physical layer is chests in minecarts our application layer is "print mona lisa"
+**Task 4:** Look at our video, intro to building the internet in Minecraft
+
+<video controls>
+			<source src="https://prof.ninja/camp/printchicken.mp4" type="video/mp4">
+			<p>Your browser doesn't support HTML5 video. Here is
+				 a <a href="https://prof.ninja/camp/printchicken.mp4">link to the video</a> instead.</p>
+</video>
+
+In our minecraft internet the **physical layer is chests in minecarts** our application layer is stuff like _"print mona lisa"_
 
 ## Physical Layer
 
