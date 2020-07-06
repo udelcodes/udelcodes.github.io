@@ -87,6 +87,10 @@
 years </h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DKHZKTRyzeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# Week-long Goal:  We're going to build the internet
+
+It all starts with the telegraph and sending any sort of a signal across the wire.  By the end of the week we should see all of the parts of the internet and how it emerges from this first instinct to communicate at a distance.
+
 ## ACTIVITY 1: Now we will try to talk to each other using morse(-like) code! Yay so fun!!
 
 Our version of Morse code:
@@ -96,24 +100,26 @@ Our version of Morse code:
   (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+### Task 1: Encode some words into "heart morse code" 
 
-** Heart language game
---> Insert streaming instructions for minecraft here
+### Task 2: Receive some words from the chat and decode them
 
-** Develop our own script for the minecraft people / talk them through it and demonstrate example
+### Task 3: Let's coordinate across the two tracks of camp (Alphabet game)
 
-<h3> Now Imagine Multiple People Want to Talk at the Same Time </h3>
+First the gold track will think of a food that starts with the letter "A" and send it to the blue track using this link, they will reply 
+with a food that starts with the letter B.  If we make it to the letter "F" we can move on:
 
-Aloha Net was based in Hawaii where they had to communicate between islands. The Aloha Net Protocol was developed so people could
-communicate from two different islands without being interrupted by someone else.
+<iframe height="221" style="width: 100%;" scrolling="no" title="BEACON! Red Yellow Blue" src="https://codepen.io/AndyNovo/embed/xxZpXWW?height=221&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/xxZpXWW'>BEACON! Red Yellow Blue</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-![alohanet](images/aloha-net.png)
+### Task 4: Now, what "protocols" emerged (Heart Morse V1)
 
-** Radio Example
+How did we figure out how to make our communication more effective between the tracks?  How about your team roles?  
 
-<h3> Noisy Channel </h3>
+### Task 5: Now to make it tougher, now we're going to communicate using Minecraft
 
+There is a beacon in minecraft.  We're going to try to use it to send our Red, Blue, and Yellow beacon.  Live stream [on YouTube](https://youtu.be/k4L-H18XUqM)
 
-<h3> Now let's all try to make our own protocol for the noisy channel! </h3>
-
-<h3> Let's go back to minecraft and see if our protocol works there too! </h3>
+### Task 6: Now what protocols emerged when we tried this in Minecraft
