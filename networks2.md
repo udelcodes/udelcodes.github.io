@@ -18,20 +18,43 @@ This is made to model actual "packets", like this one:
 
 Now Blue will send a heart message to Gold and we'll play a little game.  Notice that our ability to get the correct colors from the beacon takes some subtle, real-world, adjustments to our style of communicating.  This is the art of signal processing, to put a signal into a form where it is easier to read correctly on the other side.  Now what to do with those colors (bytes) once you get them, that's the art of protocols.
 
-## Travel analogy for OSI 7 layers
+
+### Travelling to Chicago
+
+We are going to travel to Chicago! Here are seven steps that you will take when travelling through an airport...
+
+| Layer | Description |
+| ----------- | ----------- |
+| Application | Leaving Newark house Arriving in Chicago to hotel|
+| Transport | Driving to long-term parking Use an Uber to get to hotel|
+| Security | Showing ticket and Passport, walking through dectors|
+| Gates| You will use gate A34 And arrive at gate F45|
+| Seats| Sitting at seat A23 Getting out of seat A23|
+| Taxi-airstrip | Peter will guide us to strip 5 for takeoff, Peter will land-us at strip 3 for landing|
+| Airtraffic Controller | You are prepared for take off. You are clear for landing|
+
+## The OSI 7 layers
+
+![OSI Layers](https://blogs.bmc.com/wp-content/uploads/2018/06/osi-model-7-layers-1024x734.jpg)
 
 Each layer has it's own culture.
+
+In our minecraft internet the physical layer is chests in minecarts our application layer is "print mona lisa"
 
 ## Physical Layer
 
 Buzzing the wire is our beacon, likewise fiber-optic is similar, but Radio (wi-fi) is different.  
-Notice that our beacon was visible to everyone.  In our minecraft internet the physical layer is chests in minecarts our application layer is "print mona lisa"
+Notice that our beacon was visible to everyone.  In radio (and ethernet) there is the idea that every local computer hears everything!
+
+Don't trust public wi-fi.
 
 ### Zoom is wifi
 
 Have people start conversations and talk over each other.  See how ineffective it is.
 
 Likewise highlight the importance of saying "who is speaking" and "who is suposed to listen"  (this includes "Hey Everyone")
+
+This is "addressing" and it is the opening of every packet ever sent.  The MAC address (Media Access Control).
 
 ### The Noisy Channel
 
