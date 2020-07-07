@@ -28,9 +28,15 @@
 </table>
 
 <h2>The Post Office</h2>
-<img src="https://images.unsplash.com/photo-1508769941802-a6ca19d19e08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80" alt="Mail boxes"></img>
+<img src="https://images.unsplash.com/photo-1508769941802-a6ca19d19e08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80" alt="Mail boxes">
 
-<p>The post office relies on a network of roads, mailboxes, post offices, mail trucks, and mailpersons</p>
+<p>The post office relies on a network of roads, mailboxes, post offices, mail trucks, and mailpersons to deliver letters and packages to the proper recipients. Use the USPS codepen below to "deliver" the following messages, and learn what they say!</p>
+ 
+<ul>
+    <li> f413017f8269c710bf1fe501e7293616f7cc239cd0679bdbf6f0089675c4a4d2c90943d82fc748863ca9
+destination: Boston
+ </li>
+</ul>
     
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="AndyNovo" data-slug-hash="dyGmgKZ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="USPS">
   <span>See the Pen <a href="https://codepen.io/AndyNovo/pen/dyGmgKZ">
