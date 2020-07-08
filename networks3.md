@@ -62,6 +62,14 @@ destination: Boston
 
 ## Our intercontinental Mail Network
 
-<iframe width=“560” height=“315" src=“https://www.youtube.com/embed/KEOucuVO8rw” frameborder=“0" allow=“accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture” allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KEOucuVO8rw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Let's send some intercontinental mail
+
+
+## Aside
+
+If you can't copy/paste you can process your own letters here:
+
+[LETTER MAKER](https://codepen.io/AndyNovo/full/eYJMPLZ)
