@@ -13,7 +13,8 @@
     <td class="tg-0pky">http</td>
     <td class="tg-0pky">telnet</td>
     <td class="tg-0pky">ssh</td>
-    <td class="tg-0pky">morsecode</td>
+    <td class="tg-0pky">socket</td>
+    <td class="tg-0pky">beacon</td>
   </tr>
   <tr>
     <td class="tg-0pky">ftp</td>
@@ -21,13 +22,8 @@
     <td class="tg-0pky">tcp</td>
     <td class="tg-0pky">udp</td>
     <td class="tg-0pky">printingpress</td>
+    <td class="tg-0pky">morsecode</td>
   </tr>
-  <tr>
-    <td class="tg-0pky">transportlayer</td>
-    <td class="tg-0pky">socket</td>
-    <td class="tg-0pky">beacon</td>
-  </tr>
-    
 </tbody>
 </table>
 
@@ -60,3 +56,12 @@ destination: Boston
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
+![Packets](https://www.practicalnetworking.net/wp-content/uploads/2016/01/packtrav-series-title.gif)
+
+## Our intercontinental Mail Network
+
+<iframe width=“560” height=“315" src=“https://www.youtube.com/embed/KEOucuVO8rw” frameborder=“0" allow=“accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture” allowfullscreen></iframe>
+
+### Let's send some intercontinental mail
