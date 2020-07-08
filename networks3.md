@@ -13,8 +13,7 @@
     <td class="tg-0pky">http</td>
     <td class="tg-0pky">telnet</td>
     <td class="tg-0pky">ssh</td>
-    <td class="tg-0pky">socket</td>
-    <td class="tg-0pky">beacon</td>
+    <td class="tg-0pky">morsecode</td>
   </tr>
   <tr>
     <td class="tg-0pky">ftp</td>
@@ -22,8 +21,13 @@
     <td class="tg-0pky">tcp</td>
     <td class="tg-0pky">udp</td>
     <td class="tg-0pky">printingpress</td>
-    <td class="tg-0pky">morsecode</td>
   </tr>
+  <tr>
+    <td class="tg-0pky">transportlayer</td>
+    <td class="tg-0pky">socket</td>
+    <td class="tg-0pky">beacon</td>
+  </tr>
+    
 </tbody>
 </table>
 
