@@ -32,12 +32,16 @@ demonstrating the idea on our server:
 
 INSERT VIDEO HERE
 
+By the way, this is where **FIREWALLS** block packets to "closed" ports.
+
 ### UDP -- the need for speed
 
 That's it!  UDP is just the postal service and a port number.  It is made for being as fast and direct as possible.  BUT 
 you've seen that packets get lost on the internet, ALL THE TIME.  So UDP doesn't really care if every packet makes it, 
 it doesn't even know if every packet makes it.  It cares mostly about speed more than quality.  This is how video games 
 and ZOOM send their traffic.
+
+![UDP joke](https://www.improgrammer.net/wp-content/uploads/2017/09/UDP-Jokes-Networking.png)
 
 ### TCP -- caution wins the day
 
@@ -66,7 +70,9 @@ After every packet we say how much we've sent.  The receiver acknowledges (with 
 
 If it worked it looks like this:
 
-INSERT SUCCESSFUL DATA PIC HERE
+
+
+![TCP joke](https://i.redd.it/wixamyrqxra01.png)
 
 If it failed it looks more like this:
 
@@ -74,16 +80,13 @@ If it failed it looks more like this:
 
 ## Make rules for 3 word game here
 
-INSERT TCP joke here
 
-INSERT UDP joke here
+## DO THE AMER VISUALIZATION THING
 
-DO THE AMER VISUALIZATION THING
+## EXAMINE THE WIRESHARK http.pcap
 
-EXAMINE THE WIRESHARK http.pcap
+## PLAY BATTLESHIP
 
-PLAY BATTLESHIP
-
-Do TERMINAL STUFF (ping, wget, and netcat)
+## Do TERMINAL STUFF (ping, wget, and netcat)
 
 ## FUTURE IN CYBER
