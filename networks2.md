@@ -116,6 +116,10 @@ _GOAL: Let's get the alphabet across in order, A to Z_
   (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
+## High Level Internet
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i5oe63pOhLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Q and A about the internet (answers day 4)
 
 - Where is the internet?  
