@@ -191,3 +191,7 @@ it from a networking perspective
 
 
 ## FUTURE IN CYBER
+## This week's badges
+
+![terminal](https://udel.codes/images/Terminal.png)
+![network expert](https://udel.codes/images/NetworkExpert.png)
