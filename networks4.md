@@ -115,6 +115,13 @@ G1zzB1zzACKzz6
 G1zzB1zz6zz9zzAzzPETzzWEASEL
 
 
+OK it's go time, 5 stories coming up.
+
+<iframe height="566" style="width: 100%;" scrolling="no" title="The Noisy Channel" src="https://codepen.io/AndyNovo/embed/gOaJqqP?height=566&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/AndyNovo/pen/gOaJqqP'>The Noisy Channel</a> by Andy Novocin
+  (<a href='https://codepen.io/AndyNovo'>@AndyNovo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 ## Live Demo
 
 Check out [this UD made demo where we can see how TCP handles failures interactively](https://media.pearsoncmg.com/aw/ecs_kurose_compnetwork_7/cw/content/interactiveanimations/go-back-n-protocol/index.html)
@@ -126,6 +133,8 @@ OK now the counselors will do a live demo of packets between two servers as capt
 ## PLAY BATTLESHIP
 
 Alright!  Let's play Battleship using TCP and the Minecraft beacon
+
+![Battleship](https://udel.codes/images/battleship.png)
 
 ## Do TERMINAL STUFF (ping, wget, and netcat)
 
