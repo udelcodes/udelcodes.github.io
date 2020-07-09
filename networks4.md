@@ -30,7 +30,7 @@ Every program talking to the internet has a **PORT NUMBER**, like a phone extens
 it's an extra specifier so the **End Host/Computer** knows which program to pass the data to.  Here's a minecraft video 
 demonstrating the idea on our server:
 
-INSERT VIDEO HERE
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kqhTcuSw2PU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 By the way, this is where **FIREWALLS** block packets to "closed" ports.
 
