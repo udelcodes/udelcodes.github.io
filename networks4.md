@@ -130,11 +130,49 @@ Check out [this UD made demo where we can see how TCP handles failures interacti
 
 OK now the counselors will do a live demo of packets between two servers as captures in a "pcap" file.
 
-## PLAY BATTLESHIP
+## PLAY TCP BATTLESHIP
 
 Alright!  Let's play Battleship using TCP and the Minecraft beacon
 
 ![Battleship](https://udel.codes/images/battleship.png)
+
+Here's our Battleship TCP-inspired protocol:
+
+BYBYBY = request to start
+
+BYBYBY = acknowledge request to start
+
+Send colors with 2 seconds in between
+
+RYRYRY = we are finished sending
+
+Send message back to confirm the message
+
+BYRBYR = message was incorrect
+
+BRBRBR = message was correct
+
+Defense team responds with Hit, Miss, or Sink.
+
+BBB = Hit
+
+YYY = Miss
+
+RRR = Hit and Sink
+
+Offense Team responds with the same message to confirm
+
+BBB = Hit
+
+YYY = Miss
+
+RRR = Hit and Sink
+
+BYRBYR = message was incorrect
+
+BRBRBR = message was correct
+
+Next turn starts.
 
 ## Do TERMINAL STUFF (ping, wget, and netcat)
 
