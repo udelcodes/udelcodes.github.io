@@ -70,7 +70,7 @@ After every packet we say how much we've sent.  The receiver acknowledges (with 
 
 If it worked it looks like this:
 
-
+![TCP ACK diagram](https://www.tutorialsweb.com/networking/tcp-ip/images/fig10_SlidingWindow.jpg)
 
 ![TCP joke](https://i.redd.it/wixamyrqxra01.png)
 
@@ -78,15 +78,69 @@ If it failed it looks more like this:
 
 ![Failed ACKs](https://www.tutorialspoint.com/data_communication_computer_network/images/go_back_n_arq.jpg)
 
-## Make rules for 3 word game here
+## TCP and the Noisy Channel
+
+OK Let's try it.  We're going to play the **Three word game**
+
+We'll have 5 gold teams and 5 blue teams (G1, ..., G5, B1, ..., B5)
+
+We will use a VERY SPECIFIC protocol on our noisy channel:
+
+**START THE CONNECTION**
+
+G1zzB1zzSYN
 
 
-## DO THE AMER VISUALIZATION THING
+B1zzG1zzSYNACK
+
+
+G1zzB1zzACK
+
+**Send 3 words**
+
+G1zzB1zz0zz3zzONCEzzUPONzzA
+
+**ACKnowledge the words you've received without any gaps**
+
+B1zzG1zzACKzz3
+
+**etc**
+
+B1zzG1zz3zz6zzTIMEzzTHEREzzWAS
+
+
+G1zzB1zzACKzz6
+
+
+G1zzB1zz6zz9zzAzzPETzzWEASEL
+
+
+## Live Demo
+
+Check out [this UD made demo where we can see how TCP handles failures interactively](https://media.pearsoncmg.com/aw/ecs_kurose_compnetwork_7/cw/content/interactiveanimations/go-back-n-protocol/index.html)
 
 ## EXAMINE THE WIRESHARK http.pcap
 
+OK now the counselors will do a live demo of packets between two servers as captures in a "pcap" file.
+
 ## PLAY BATTLESHIP
 
+Alright!  Let's play Battleship using TCP and the Minecraft beacon
+
 ## Do TERMINAL STUFF (ping, wget, and netcat)
+
+If we still have time do the following in [our TERMINAL](http://167.172.0.101/lesson/other/term/0/0) and let's look at 
+it from a networking perspective
+
+`ping google.com`
+
+`ping prof.ninja`
+
+`wget https://crypto.prof.ninja/dictionary.txt`
+
+`nc -zp 9090 localhost 1-1000 -v`
+
+(That is [NETCAT](https://floatingoctothorpe.uk/2017/netcat-tricks-and-tips.html) it's cool!)
+
 
 ## FUTURE IN CYBER
