@@ -1,8 +1,6 @@
 # Welcome to Learn to Code Camp!
 --------
 
-[Please take this survey to let us know what you thought](https://delaware.ca1.qualtrics.com/jfe/form/SV_0TGXAvRUCKuWJXn)
-
 ![everyonecancode](https://images.unsplash.com/photo-1526649661456-89c7ed4d00b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1171&q=80)
 
 We hope you all are excited for this week of camp! This week, we're going to learn how to:
