@@ -42,7 +42,7 @@ cat <filename> - displays the contents of a file
 
 ## First Exercise, getting familiar with bash
 
-First we will go to the online terminal Alice and Bob provided yesterday: <a href="http://157.230.203.138/term" target="_blank">TERMINAL</a>
+First we will go to the online terminal Alice and Bob provided yesterday: <a href="http://cslabs.app" target="_blank">TERMINAL</a>
 
 1. Use `pwd` and note what dir you are in 
 2. Use `whoami` to see what user you are 
