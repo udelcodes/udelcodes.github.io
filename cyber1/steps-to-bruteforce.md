@@ -2,6 +2,12 @@
 
 Go to the web terminal [here](https://cslabs.app/).
 
+## Login to CSLabs
+
+ - Sign into CyberSecLabs using a valid email address or a google account.
+ - Once signed in, on the top left select the LESSONS tab
+ - Select the "term" lesson to access the terminal for today.
+
 After you type a command, remember to press the *enter* key on your keyboard to run it. 
 
 To keep your files neat, make a new directory using the *mkdir* command. 
