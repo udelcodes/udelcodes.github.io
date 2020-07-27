@@ -1,6 +1,6 @@
 # Steps to extract and bruteforce a zip file
 
-Go to the web terminal [here](http://157.230.203.138/term).
+Go to the web terminal [here](https://cslabs.app/).
 
 After you type a command, remember to press the *enter* key on your keyboard to run it. 
 
