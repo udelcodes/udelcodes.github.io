@@ -34,7 +34,7 @@ Assembly Language is the original true low-level computer language with pure ins
 
 *To explain:*
 
-- There are languages that are considered **High-Level Programming Langauges**, these languages include Python, Java, Javascript, Scratch, ect. These programming languages are then broken down to a **Lower-level Programing Language**
+- There are languages that are considered **High-Level Programming Languages**, these languages include Python, Java, Javascript, Scratch, ect. These programming languages are then broken down to a **Lower-level Programing Language**
 
 - **Low-Level Programming Languages**, like Assembly and Machine Code, communicate more directly with the computer. Meaning they are more closely related to the computer's core language, like binary. (1's and 0's)
 
