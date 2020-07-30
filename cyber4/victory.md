@@ -54,7 +54,7 @@ Happy hacking!
 They are sorted by category and you definitely have the skills to try these out!  
  - This [XSS Game](https://xss-game.appspot.com/?utm_source=webopsweekly&utm_medium=email) is all about cross-site scripting (XSS). 
 They involve hacking sites to make them do things they were not intended to do.
- - The [Terminal](http://67.205.140.255:2223/ssh/host/67.205.140.255/5458/term) that we used this week is available for you to 
+ - The [Terminal](https://cslabs.app) that we used this week is available for you to 
 come back to and get more comfortable working in a terminal.
  - Here are 2 links about phishing ([link 1](https://www.pbs.org/wgbh/nova/labs/lab/cyber/) and [link 2](https://phishingquiz.withgoogle.com/)). 
 You may have had time to learn about phishing today, but if you didn't then you should definitely check out these links! 
