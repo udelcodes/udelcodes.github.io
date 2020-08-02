@@ -56,17 +56,6 @@ It was one of the first ciphers ever invented!
 
 <center><img src="https://cdn.britannica.com/s:700x500/11/196711-050-FA58D50D/Julius-Caesar-marble-sculpture-Andrea-di-Pietro.jpg" alt="Julius Caesar" width="250"/></center>
 
-### Caesar Wheel
-
-Before starting to learn about the Caesar Cipher, take some time to print and assemble this [Caesar Cipher wheel](https://fprint.net/wp-content/uploads/printable-cipher-wheel.pdf) or use the virtual Caesar Wheel embedded on this page.  
-In order to assemble the physical wheel, follow these steps:  
-- Cut out the two wheels from the pdf. 
-- *Carefully* poke a hole through the dot in the centre of each wheel.
-- Place the smaller circle over the larger circle so that the holes line up, and join them
-together using a paperclip.
-- The two circles should be able to rotate around this centre hole with respect to each
-other.
-
 ### What is the Caesar Cipher?
 
 - Essentially a shift
