@@ -77,7 +77,7 @@ Q3liZXJzZWN1cml0eSBpcyBhbGwgYXJvdW5kIHVz
 72 61 6e 64 6f 6d 6e 65 73 73 20 69 73 20 74 68 65 20 68 65 61 72 74 20 6f 66 20 63 72 79 
 70 74 6f 67 72 61 70 68 79
 
-#### Head to [this learnification module](https://learnification.fun/module/cyberchef) to get some more practice in CyberChef.
+### Head to [this learnification module](https://learnification.fun/module/cyberchef) to get some more practice in CyberChef.
 
 Now, as part of your STARS training, you can encode your own secret message in CyberChef using any method that we just learned. 
 Try changing a few characters here and there and use different methods.  
