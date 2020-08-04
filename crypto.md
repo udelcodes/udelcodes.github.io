@@ -48,10 +48,10 @@ Now that we've introduced ourselves, it's time to get down to the good stuff.
 Below, you will find the links to the each day's lesson.  
 
 [Day 1](https://udel.codes/crypto1) - Introduction to Ciphers  
-[Day 2](https://udel.codes/crypto2) - Introduction to Modern Crypto 
+[Day 2](https://udel.codes/crypto2) - Introductionon to Modern Crypto and Encryption  
  - [In-depth explanation of number systems](https://udel.codes/numbersystems) (supplemental)
  
-[Day 3](https://udel.codes/crypto3) -   
-[Day 4](https://udel.codes/crypto4) -  
+[Day 3](https://udel.codes/crypto3) - Introduction to Randomness  
+[Day 4](https://udel.codes/crypto4) - Putting it All Together
 
 Good luck!
