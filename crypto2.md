@@ -82,7 +82,7 @@ Q3liZXJzZWN1cml0eSBpcyBhbGwgYXJvdW5kIHVz
 Now, as part of your STARS training, you can encode your own secret message in CyberChef using any method that we just learned. 
 Try changing a few characters here and there and use different methods.  
 Once you’ve encoded your message, send it in the chat so we can all try to decode it.  
-Try to recognize which ciphers other people are using by comparing them to the examples 
+Try to recognize which encodings other people are using by comparing them to the examples 
 we did together and then try to decode the other messages.
 
 Now, you can write another secret message in CyberChef. 
