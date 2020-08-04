@@ -139,3 +139,7 @@ This method of hiding an image within an image is called *Steganography*.
 If you’re interested in learning more about Steganography, check out 
 [this lesson](https://zelinsky.github.io/CTF-Course/Classes/13.html) which was 
 written by other UD Cybersecurity Scholars!
+
+## Next Up - Randomness
+
+Now that you've learned all about encryption, the next lesson will be all about [randomness](https://udel.codes/crypto3).
