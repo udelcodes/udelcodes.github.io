@@ -150,5 +150,5 @@ Today we learned:
  - if secret messages are MIXED with random content then we have good encryption
    - but only if I can create the EXACT random content again
 
-Thanks for learning with us! You can head back to our [home page for crypto week](https://udel.codes/crypto), you can check out [tomorrow's lesson](https://udel.codes/crypto3), or you can learn more about [the different number systems](https://udel.codes/numbersystems) we explored at the beginning of the lesson.  
+Thanks for learning with us! You can head back to our [home page for crypto week](https://udel.codes/crypto), you can check out [tomorrow's lesson](https://udel.codes/crypto4), or you can learn more about [the different number systems](https://udel.codes/numbersystems) we explored at the beginning of the lesson.  
 See you tomorrow!
