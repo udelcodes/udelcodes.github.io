@@ -80,7 +80,7 @@ AES also comes in AES192 and AES256, which include even more keys and are even h
 ## Send Secret Messages Using DHE!
 
 To finish off the week, let's use the same python script from our AES learnification.fun module. 
-Head to the [CyberSecLabs Terminal](http://157.230.203.138/term) and 
+Head to the [CyberSecLabs Terminal](https://cslabs.app/) and 
 follow the instructions on the left sidebar to send secret messages to each other.
 
 ## Resources
@@ -91,7 +91,7 @@ Here is a list of resources that you can use to learn even more about crypto.
  - [Crypto Video Resources](https://gist.github.com/AndyNovo/b9f11430bf645ba8b870ac851985f8e3)
  - [Crypto Training Platform](http://cryptohack.org/)
  - [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa).  
- - [CyberSecLabs Terminal](http://157.230.203.138/term). 
+ - [CyberSecLabs Terminal](https://cslabs.app/). 
  
 And of course, you have earned this badge for your hard work this week:
 
