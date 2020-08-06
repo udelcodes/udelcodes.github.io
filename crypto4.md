@@ -80,9 +80,35 @@ AES also comes in AES192 and AES256, which include even more keys and are even h
 ## Send Secret Messages Using DHE!
 
 To finish off the week, let's use the same python script from our AES learnification.fun module. 
-Head to the [CyberSecLabs Terminal](https://cslabs.app/) and 
-follow the instructions on the left sidebar to send secret messages to each other.
+Head to the [CyberSecLabs Terminal](https://cslabs.app/) called *term* and 
+follow the instructions below to send secret messages to each other.
 
+### Phase 1: Getting a Shared Secret Key
+
+ 1. Type this command `wget https://prof.ninja/dhe.sh` to get the script that we will use.  
+ 2. Type `chmod +x dhe.sh` to make the script executable.  
+ 3. Type `./dhe.sh` to run our script and get your secret and public key. Save your secret key so that you will remember it because you will need it later, and send your public key in the chat.  
+ 4. Choose who you want to send a secret message to.  
+ 5. Now type this command `./dhe.sh <your_secret> <their_public>` into the terminal, substituting your super secret value for <your_secret> and the public value of the person you are messaging for <their_public>. The returned number is your shared secret phrase with that person. Store the shared secret phrase because you will need to use it later.  
+
+### Phase 2: Generating Pseudo-Random Hex
+
+ 6. Open up this [CSPRNG from AES](https://codepen.io/AndyNovo/full/yLezmvN) in a new tab. (CSPRNG stands for Cryptographically Secure Pseudo Random Number Generator)  
+ 7. Input your shared secret phrase into the text box on the left labelled *Secret Phrase*.  
+ 8. Generate a random IV number from the box in the middle labelled *IV*. Save this number, you will need it later.  
+ 9. Choose a number of bytes to enter in the text box on the right labelled *Number of Bytes*. This number should be close to the number of characters in your message. Save this number, you will need it later.  
+ 10. Press the Compute Bytes button in the rightmost box.  
+ 11. The pseudo-random secret hex value will appear in the bottom box. Save this hex value, you will need it later.  
+ 
+ ### Phase 3: Write the Secret Message
+ 
+ 12. Open up the [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa) in a new tab.  
+ 13. Input your pseudo-random secret hex value into the box on the left labelled *Input 1 in hex*.  
+ 14. Input the message you want to send in plaintext into the box on the right labelled *Input 2 in plain*.  
+ 15. You should see the encrypted message appear in hex in the bottom box!  
+ 16. If you think something is wrong, check to make sure that you inputted the values into the correct boxes.  
+ 17. Send your encrypted message in the chat, along with the IV number you used, the number of bytes you chose, and the intended recipient.
+ 
 ## Resources
 
 We hope that you learned a lot about crypto this week, and maybe you're interested in learning more.  
