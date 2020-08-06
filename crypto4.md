@@ -109,6 +109,14 @@ follow the instructions below to send secret messages to each other.
  16. If you think something is wrong, check to make sure that you inputted the values into the correct boxes.  
  17. Send your encrypted message in the chat, along with the IV number you used, the number of bytes you chose, and the intended recipient.
  
+ ## Phase 4: Read the Secret Message
+ 
+ 18. Open up the [XOR Playground](https://codepen.io/AndyNovo/full/dyGzGwa) in a new tab.  
+ 19. Input your pseudo-random secret hex value into the box on the left labelled *Input 1 in hex*.  
+ 20. Input the secret message into the box on the right labelled *Input 2 in hex*.  
+ 21. You should see the decrypted message appear in plaintext in the bottom box!
+ 22. If you think something is wrong, check to make sure that you inputted the values into the *Input in hex* boxes and NOT into the *Input in plain* boxes.
+ 
 ## Resources
 
 We hope that you learned a lot about crypto this week, and maybe you're interested in learning more.  
