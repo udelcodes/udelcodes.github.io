@@ -176,7 +176,7 @@ Next turn starts.
 
 ## Do TERMINAL STUFF (ping, wget, and netcat)
 
-If we still have time do the following in [our TERMINAL](http://167.172.0.101/lesson/other/term/0/0) and let's look at 
+If we still have time do the following in the <a href="http://cslabs.app" target="_blank">TERMINAL</a> and let's look at 
 it from a networking perspective
 
 `ping google.com`
