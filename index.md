@@ -60,3 +60,15 @@ Link for the Introduction To Cybersecurity homepage.
 - <a href="https://udel.codes/cyber" target="_blank">Introduction To Cybersecurity</a>
 
 
+### Week 3: Fun With Cryptography
+----------
+Link to the Fun With Cryptography homepage.
+
+- <a href="https://udel.codes/crypto" target="_blank">Fun With Cryptography</a>
+
+
+### Week 4: Networks And The Internet (Using Minecraft)
+----------
+Here is a link to the first day of Networks and the Internet homepage.
+
+- <a href="https://udel.codes/networks1" target="_blank">Networks and the Internet (Using Minecraft)</a>
