@@ -5,7 +5,7 @@ We are very excited to be working with you guys at Newark Center for Creative Le
 # First let's create a codepen account
 First thing we will do is create a codepen account. CodePen is an online community for creating programs for the whole world to see.
 We will create our own program in codepen today that you will be able to share with your friends and family!
-<a href="https://codepen.io">CodePen</a>.</span>
+<a href="https://codepen.io">CodePen</a>
 
 # Get ready to learn the basics
 Now that we've explored a bit of logic by using truth tables & and/or/not, we can apply these ideas to some actual code! For our purposes today, we'll be using a language called **JavaScript**. According to BusinessInsider, <a href="https://www.businessinsider.com/most-popular-programming-languages-github-2019-11" target="_blank">JavaScript was *the* most popular programming language in 2019</a>, due to its versatility and usefulness when coding websites.
