@@ -1,13 +1,13 @@
-# Welcome to University of Delaware's Virtual FieldTrips!
-We are very excited to be working with you guys today. Even though we wish we could meet with you in person, we have the ability to learn some new skills today over zoom!
+# Welcome to University of Delaware's Virtual Fieldtrips!
+We are very excited to be working with you guys at Newark Center for Creative Learning. Even though we wish we could meet with you in person, we have the ability to learn some new skills today over zoom!
+![UD](https://marvel-b1-cdn.bc0a.com/f00000000164722/www.udel.edu/content/dam/udelImages/main/photography/events/fina-AW_Mug_Night_Tents-047.jpg/_jcr_content/renditions/original)
 
-# Create a codepen account
+# First let's create a codepen account
 First thing we will do is create a codepen account. CodePen is an online community for creating programs for the whole world to see.
 We will create our own program in codepen today that you will be able to share with your friends and family!
 <a href="https://codepen.io">CodePen</a>.</span>
 
 # Get ready to learn the basics
------------
 Now that we've explored a bit of logic by using truth tables & and/or/not, we can apply these ideas to some actual code! For our purposes today, we'll be using a language called **JavaScript**. According to BusinessInsider, <a href="https://www.businessinsider.com/most-popular-programming-languages-github-2019-11" target="_blank">JavaScript was *the* most popular programming language in 2019</a>, due to its versatility and usefulness when coding websites.
 
 Although we'll be coding in JavaScript, the principles we'll be learning today can be applied to practically any programming language you can think of. Tomorrow, we'll look at some more JavaScript and add it to our website.
