@@ -1,5 +1,5 @@
 # Welcome to University of Delaware's Virtual Fieldtrips!
-We are very excited to be working with you guys at Newark Center for Creative Learning. Even though we wish we could meet with you in person, we have the ability to learn some new skills today over zoom!
+We are very excited to be working with you guys at Tarbiyah Academy. Even though we wish we could meet with you in person, we have the ability to learn some new skills today over zoom!
 ![UD](https://marvel-b1-cdn.bc0a.com/f00000000164722/www.udel.edu/content/dam/udelImages/main/photography/events/fina-AW_Mug_Night_Tents-047.jpg/_jcr_content/renditions/original)
 
 # First let's create a codepen account
@@ -51,7 +51,7 @@ JSONs are a great and well-organized way to transfer and store data. It's easy t
 
 ### What does a JSON Object look like in JavaScript?
 
-Great question! Below is what our meal example would look like (including the side salad we had for dinner).
+Great question! Below is what our chicken example might look like.
 
       "Animals": {
         "chicken" : {
