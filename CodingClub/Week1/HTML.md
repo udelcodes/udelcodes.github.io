@@ -34,7 +34,7 @@ Look through the HTML. See if you can find places where it says
 
 -li
 
-Once you've found some of those items, <a href="./introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
+Once you've found some of those items, <a href="https.udel.codes/LTC/introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
 
 Ready to write your own code? 
 
