@@ -26,13 +26,13 @@ Look through the HTML. See if you can find places where it says
 
 - div
 
--input
+- input
 
--class
+- class
 
--id
+- id
 
--li
+- li
 
 Once you've found some of those items, <a href="https://udel.codes/LTC/introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
 
