@@ -38,6 +38,13 @@ Once you've found some of those items, <a href="https://udel.codes/LTC/introtoht
 
 Ready to write your own code? 
 
+Head to <a href="https://codepen.io/" target="_blank" >codepen.io</a> and log into your account. 
+Start a brand new pen and you can use what we just learned to try to make your own websites! 
+Keep the HTML lesson tab open, and use it as a guide to create your own website. 
+Remember, computer scientists love to copy and paste, so feel free to do that with the HTML lesson tab. 
+Then, you can just change the parts of the code that you want to be different, and keep the formatting. 
+Try to add all of the below elements into your website, and check them off as you go.
+
 
 #### Things to add to YOUR index.html
 <div>
@@ -62,20 +69,6 @@ Ready to write your own code?
   <input type="checkbox" >
     <label><em>CHALLENGE TASK </em>Create a list of things you want to do this summer and add checkboxes next to each item! (Pssst look at this page's source code for a hint!)</label><br>  
 </div><br>
-
-
-Try these tasks:
-
-<input type="checkbox" >
-  <label>Change Background Color</label><br>
-<input type="checkbox" >
-  <label>Change Text Color</label><br>
-  <input type="checkbox" >
-<label>Change the font</label><br>
-  <input type="checkbox" >
-<label>Change Header Color</label><br>
-  <input type="checkbox" >
-<label><em>CHALLENGE TASK</em> Change the background to be a gradient (google "Gradient background CSS")</label><br>
 
 
 For resources on HTML, check out [our resource list here](https://udel.codes/LTC/HTMLResources)
