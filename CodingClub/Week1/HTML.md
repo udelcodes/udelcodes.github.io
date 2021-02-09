@@ -36,11 +36,12 @@ Look through the HTML. See if you can find places where it says
 
 Once you've found some of those items, <a href="https://udel.codes/LTC/introtohtml/index.html" target="_blank" >click here</a> to start learning how to write HTML code! 
 
-Ready to write your own code? 
+### Ready to write your own code? 
 
 Head to <a href="https://codepen.io/" target="_blank" >codepen.io</a> and log into your account. 
 Start a brand new pen and go to the section called "HTML" on the left of the screen! 
-Keep the HTML lesson tab open, and use it as a guide to create your own website.  
+Keep the HTML lesson tab open, and use it as a guide to create your own website.
+
 Remember, computer scientists love to copy and paste, so feel free to do that with the HTML lesson tab. 
 Then, you can just change the parts of the code that you want to be different, and keep the formatting. 
 Try to add all of the below elements into your website, and check them off as you go.
