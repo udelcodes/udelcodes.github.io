@@ -113,3 +113,53 @@ A really cool way that engineers represent these concepts are through diagrams c
 An example of an "OR" gate on [Logic.ly](https://logic.ly/demo)
 
 Now, let's learn about [JavaScript](./fundamentals.md)
+
+# MAD LIBS with friends!
+
+Now we'll have you make your own MAD LIBS stories that you can play with friends even across the internet.
+
+Take a look at these example MAD LIBS stories:
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="dianevinson" data-slug-hash="PoZGpoJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Mad Libs Engine">
+  <span>See the Pen <a href="https://codepen.io/dianevinson/pen/PoZGpoJ">
+  Mad Libs Engine</a> by dianevinson (<a href="https://codepen.io/dianevinson">@dianevinson</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+OR:
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="mariavanv" data-slug-hash="gOPwmOx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Mad Libs Engine">
+  <span>See the Pen <a href="https://codepen.io/mariavanv/pen/gOPwmOx">
+  Mad Libs Engine</a> by mariavanv (<a href="https://codepen.io/mariavanv">@mariavanv</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+OR: 
+
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="AndyNovo" data-slug-hash="eYJdvYo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Mad Libs Engine">
+  <span>See the Pen <a href="https://codepen.io/AndyNovo/pen/eYJdvYo">
+  Mad Libs Engine</a> by Andy Novocin (<a href="https://codepen.io/AndyNovo">@AndyNovo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+OK:
+
+## Step 1: FORK the pen
+
+Go to <a href="https://codepen.io/dianevinson/pen/PoZGpoJ" target="_blank">this sample MadLibs</a> and click "fork" in the bottom right to make your own copy (just like we've been doing).
+
+## Step 2: Edit yourMadLibStory
+
+Find where it says `let yourMadLibStory = ` and then edit that story to say whatever you like! When you're editing your story use the words you see in the `wordFinder` (NOUN,VERB,ADJECTIVE,ADVERB,PLURALNOUN,NUMBER,PROPERNAME,LOCATION,ANIMAL,ING-VERB,PLACE) whenever you want to ask people to make-up their own words in your story. Make sure that when you sub those words into your story that they're written in uppercase letters! 
+
+## Step 3: Edit yourMadLibTitle
+
+Make any title you want!
+
+## Step 4: Share your URL
+
+Now as people fill out your story it will show on your screen and vice-versa.  Once every answer has been filled out you can click "All Done" to show the answer then "Play Again?" to undo those answers.
+
