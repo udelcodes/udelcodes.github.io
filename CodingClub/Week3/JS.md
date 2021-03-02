@@ -112,7 +112,7 @@ A really cool way that engineers represent these concepts are through diagrams c
 
 An example of an "OR" gate on [Logic.ly](https://logic.ly/demo)
 
-Now, let's learn about [JavaScript](./fundamentals.md)
+Now, let's learn about [JavaScript](https://udel.codes/LTC/fundamentals)
 
 # MAD LIBS with friends!
 
