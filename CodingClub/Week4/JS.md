@@ -1,5 +1,4 @@
-<h1> Learn to Code Day 3</h1>
-<h2> Welcome back!</h2>
+<h1> Welcome back to Learn to Code!</h1>
 <h3>Getting Interactive</h3>
 
 ![techwomen](https://images.unsplash.com/photo-1452457750107-cd084dce177d?ixlib=rb-1.2.1&auto=format&fit=crop&w=991&q=80)
@@ -39,3 +38,29 @@ Now let's look at the source.
 When we're done today you'll understand how this game is designed, build your own creative story, and learn how to make websites truly interactive.
 
 ---------------------------
+
+# Sharing your creations on your website
+
+You all have made a creative alchemy game (back in November), a choose your own adventure game, a MAD LIBs story, and a website.  Now we encourage you to make a site to share with your friends and family that let's them find all of your cool creations in one easy place.
+
+## Pick your main page location
+
+Make a new pen, OR take the main one you made.  
+
+## Gather up your links
+
+Copy the URLs for each of your creations (and feel free to keep adding things) and add links to those URLs like this:
+
+`<a href="GAME_URL_HERE">Friendly Description of your creation here</a>`
+
+## Add a badge of accomplishment!
+
+We made you some badges to show-off your **Summer of Cyber** week 1 experience! Place these badges anywhere that you want on your website! 
+
+![Creative Coder Badge](https://udel.codes/images/creativecoder.svg)
+
+Just add this badge to your site with an `<img src="https://udel.codes/images/creativecoder.svg"/>` tag.
+
+![Future Cyberscholar Badge](https://udel.codes/images/cyberscholar.svg)
+
+Just add this badge to your site with an `<img src="https://udel.codes/images/cyberscholar.svg"/>` tag.
