@@ -32,7 +32,7 @@ It was one of the first ciphers ever invented!
 - Plaintext(Regular) alphabet and Cipher(Code) alphabet in alphabetical order
 - We'll try an example with a 19 letter shift
 
-![caesar example 1](udelcodes.github.io/images/caesar1.PNG)
+![caesar example 1](https://raw.githubusercontent.com/udelcodes/udelcodes.github.io/master/images/caesar1.PNG)
 
 - Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.
 
