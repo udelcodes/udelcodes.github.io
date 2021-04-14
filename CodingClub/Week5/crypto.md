@@ -1,6 +1,6 @@
 # Welcome Back to Coding Club!
 
-<center><img src="https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/Simpler-Cryptography_0.jpg?itok=HH5QoVrb" alt="Cryptography"/></center>
+<center><img src="https://miro.medium.com/max/760/1*zSPtMkp70YN9JDhFRaHHXA.jpeg" alt="Cryptography"/></center>
 
 ## What is Cryptography?
 
