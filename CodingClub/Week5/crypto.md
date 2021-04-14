@@ -42,7 +42,7 @@ Let's try and decode this Caesar Cipher. The answer will tell us something that 
 
 <iframe id="if1" width="120%" height="500" style="visibility:visible" src="https://inventwithpython.com/cipherwheel/"></iframe>
 
-Start by finding the first letter of the code, "Z", on your big circle. Then, write down the letter on the small circle that is lined up with the "V" on your outside circle. To give you a hint, the first letter should be an "S". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the secret message is. 
+Start by finding the first letter of the code, "Z", on your big circle. Then, write down the letter on the small circle that is lined up with the "Z" on your outside circle. To give you a hint, the first letter should be an "S". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the secret message is. 
 
 Now, you can try to crack this code on your own. The answer will tell you the name of another old cipher.
 
