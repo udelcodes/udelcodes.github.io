@@ -60,7 +60,7 @@ In order to use your Caesar wheel to crack codes, you need to know the size of t
   - Name or place that you know is in the cipher
 - Utilize letter frequency
 
-![letter frequency chart](https://raw.githubusercontent.com/udelcodes/udelcodes.github.io/master/images/caesar1.PNG)
+![letter frequency chart](https://raw.githubusercontent.com/udelcodes/udelcodes.github.io/master/images/letter_frequency.PNG)
 
 Remember, once you have 1 letter figured out, you can line it up on your wheel and you now have a key to decipher the whole code.
 
