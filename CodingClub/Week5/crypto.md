@@ -36,23 +36,23 @@ It was one of the first ciphers ever invented!
 
 - Line up the letter "A" on the inside circle (this represents your plain text alphabet) with the letter "T" on the outside circle (this represents your cipher alphabet.
 
-Let's try and decode this Caesar Cipher. The answer will tell us what the CRABs have been sending to eachother.
+Let's try and decode this Caesar Cipher. The answer will tell us something that is happening soon.
 
-**VKTUL YHK EBYX**
+**ZBTTLY PZ HSTVZA OLYL**
 
 <iframe id="if1" width="120%" height="500" style="visibility:visible" src="https://inventwithpython.com/cipherwheel/"></iframe>
 
-Start by finding the first letter of the code, "V", on your big circle. Then, write down the letter on the small circle that is lined up with the "V" on your outside circle. To give you a hint, the first letter should be a "C". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the crabs have been saying. 
+Start by finding the first letter of the code, "Z", on your big circle. Then, write down the letter on the small circle that is lined up with the "V" on your outside circle. To give you a hint, the first letter should be an "S". Now, all you have to do is keep repeating this for each letter of the message and then you will know what the secret message is. 
 
-Now, you can try to crack this code on your own. The answer should tell you what type of cryptography the CRABs are trying to get rid of first.
+Now, you can try to crack this code on your own. The answer will tell you the name of another old cipher.
 
-**WHPG PBMA MAX VTXLTK VBIAXK**
+**IHJVUPHU JPWOLY**
 
-Feel free to take a break here and practice writing your own codes using your wheel. You can practice writing your name, your school, your favorite ice cream flavor, or anything you want. If you're eager, try to teach a sibling, parent, or friend how to use your wheel to crack Caesar Ciphers and practice writing secret messages to each other!
+Feel free to take a break here and practice writing your own codes using the wheel. You can practice writing your name, your school, your favorite ice cream flavor, or anything you want. If you're eager, try to teach a sibling, parent, or friend how to use your wheel to crack Caesar Ciphers and practice writing secret messages to each other!
 
 ### How Do You Solve a Caesar Cipher?
 
-In order to use your Caesar wheel to crack codes, you need to know the size of the shift. Most of the time, you don't know the size of the shift. No worries, we can still solve these codes it just takes a little more thinking. Here are some helpful hints on how to crack Caesar Ciphers.  
+In order to use the Caesar wheel to crack codes, you need to know the size of the shift. Most of the time, you don't know the size of the shift. No worries, we can still solve these codes, it just takes a little more thinking. Here are some helpful hints on how to crack Caesar Ciphers:  
 - Look for a hint, like...
   - Single letter words (I & A)
   - Likely words you have most of the letters for
@@ -69,4 +69,6 @@ Remember, once you have 1 letter figured out, you can line it up on your wheel a
 Now that you've learned about Caesar Ciphers and how to decode them, head to [this link](https://learnification.fun/) for more practice.
 Log in using any eamil account you or your parents have to save your progress. 
 Then click on the menu button in the top left corner, and click on bathroom ciphers. 
-This will take you through a few examples of Caesar Ciphers, but once you get to a problem that asks about a different type of cipher, come back here to learn how to solve it.
+This will take you through a few examples of Caesar Ciphers, and you can stop once you get to a problem that asks about a different type of cipher.
+
+Or, if you don't want to make an account, the instructor can share screen and show you the Caesar Cipher examples.
