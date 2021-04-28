@@ -1,4 +1,9 @@
-# Introduction to Bash!
+# Coding Club - Introduction to Bash!
+
+We are about to start learning something completely different from what we've been doing. 
+Today we will learn an introduction to bash scripting! 
+Bash (also known as Bourne Again SHell) is another programming language that we use to communicate more directly with the computer. 
+It is mostly used for navigating through computer files efficiently, but you can also write files and code in bash!
 
 ![bash](https://www.eazylinux.com/wp-content/uploads/2016/09/bashshell.png)
 
@@ -42,7 +47,11 @@ cat <filename> - displays the contents of a file
 
 ## First Exercise, getting familiar with bash
 
-First we will go to the online terminal Alice and Bob provided yesterday: <a href="http://cslabs.app" target="_blank">TERMINAL</a>
+First we will go to this free online terminal: <a href="http://cslabs.app" target="_blank">TERMINAL</a>  
+Click on the link and sign up for a free account. Then, go to the "Lessons" tab and click on the one named "term" in the bottom right. 
+Then click "START". This will open up a new tab of a blank terminal. It should be a mostly black screen with some green text at the top and a blinking white box. 
+In the very bottom left corner, it should say "SSH CONNECTION ESTABLISHED" in a green box. 
+Now you're ready to start learning bash!
 
 1. Use `pwd` and note what dir you are in 
 2. Use `whoami` to see what user you are 
