@@ -139,6 +139,42 @@ There is a beacon in minecraft.  We're going to try to use it to send our Red, B
 
 ### Task 7: Play "CONCEPT" inside the tracks
 
+## WORD LIST
+
+Facebook
+Google
+Soda
+Coffee
+Golf
+Tennis
+Football
+Basketball
+Polar Bear
+Wolf
+Mountain Lion
+Great White Shark
+Flamingo
+Buffalo
+Guitar
+Piano
+Trumpet
+Drum
+Cleopatra
+Marco Polo
+Mark Twain
+Lawn Mower
+bicycle
+tricycle
+Helicopter
+Cricket
+Butterfly
+Grass hopper
+Grand Canyon
+South Pole
+Sahara Desert
+Volcano
+Nile River
+
 #### BLUE TRACK VERSION
 
 <iframe height="1291" style="width: 100%;" scrolling="no" title="Party Game - Blue Track" src="https://codepen.io/AndyNovo/embed/VweQRzN?height=1291&theme-id=light&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
