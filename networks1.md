@@ -6,8 +6,6 @@
 
 ## Our need to connect and feel important to someone is as strong as our need to breathe. 
 
-![Digital humanity](https://valuableandrare.com/wp-content/uploads/cache/images/human-connection_jpg/human-connection_jpg-602749881.jpg)
-
 ### When we have to communicate with technology, it is a natural extension of that ancient need.
 
 ### We as people will do all of the technological innovation in the world just to tell mom we love her.
